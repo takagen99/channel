@@ -1,0 +1,34 @@
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/hunan.png",湖南卫视
+http://39.134.216.5/live.cache.cmvideo.cn:8088/wd-hunanhd-2500/index.m3u8?&encrypt=1
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/zhejiang.png",浙江卫视
+http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/cctv/zhejianghd/2500/index.m3u8?&encrypt=1
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/jiangsu.png",江苏卫视
+http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/cctv/jiangsuhd/2500/index.m3u8?&encrypt=1
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/dongfang.png",东方卫视
+http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r4/dfl/dongfangwshd/3000/index.m3u8?&encrypt=1
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbfc.png",翡翠台
+http://cdn-v2.hkdtmb.com/hls/81/index.m3u8
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbj2.png",J2
+http://cdn-v2.hkdtmb.com/hls/82/index.m3u8
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbmz.png",明珠台
+http://cdn-v2.hkdtmb.com/hls/84/index.m3u8
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/viutv.png",ViuTV
+http://cdn-v2.hkdtmb.com/hls/99/index.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/viutv.png",ViuTV6
+http://cdn-v2.hkdtmb.com/hls/96/index.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/wxxw.png",无线新闻
+http://cdn-v2.hkdtmb.com/hls/83/index.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/afc.png",亚洲美食频道
+https://livecdn.fptplay.net/world/afchd_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png",NHKWorld
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png",NHK 华语
+https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
+
+
+
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tokyomx.png",NBC HD
+http://ipalytvru.russtv.net/iptv/8thz5iufork8wjip/1081/index.m3u8
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/logo/nippon.jpg",Nippon TV News 24
+https://n24-cdn-live.ntv.co.jp/ch01/high.m3u8
