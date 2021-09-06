@@ -9,25 +9,36 @@ http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/cctv/jiangsuhd/2500/index.m
 http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r4/dfl/dongfangwshd/3000/index.m3u8?&encrypt=1
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbfc.png",翡翠台
 http://198.16.106.62:8278/streams/d/Wlt/playlist.m3u8
-#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbj2.png",J2
-http://cdn-v2.hkdtmb.com/hls/82/index.m3u8
-#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbmz.png",明珠台
-http://cdn-v2.hkdtmb.com/hls/84/index.m3u8
-#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/viutv.png",ViuTV
-http://cdn-v2.hkdtmb.com/hls/99/index.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/viutv.png",ViuTV6
-http://cdn-v2.hkdtmb.com/hls/96/index.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/wxxw.png",无线新闻
-http://cdn-v2.hkdtmb.com/hls/83/index.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/afc.png",亚洲美食频道
 https://livecdn.fptplay.net/world/afchd_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FoodNetwork.png",FoodNetwork美食台
+http://198.16.106.62:8278/streams/d/asiafood_zero/playlist.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeo.png",国家地理频道
+https://livecdn.fptplay.net/foxlive/natgeohd_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeowild.png",国家地理野生频道
+http://50.7.161.82:8278/streams/d/Natgeowild//playlist.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/AnimalPlanet.png",动物星球
+http://50.7.161.82:8278/streams/d/AnimalPlanet/playlist.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_zonghehd.png",爱尔达综合
+http://198.16.106.62:8278/streams/d/eltazonghe_zero/playlist.m3u8
+#EXTINF:0 tvg-logo="https://i.imgur.com/vieGKqd.png",爱奇异
+http://50.7.161.82:8278/streams/d/iqiyi_pye/playlist.m3u8
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/hbo.png",HBO
+http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FOXHD.png",FOX
+https://livecdn.fptplay.net/foxlive/foxhd_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FOXMOVIES.png",FOXMOVIES
+https://livecdn.fptplay.net/foxlive/foxmovieshd_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HBOSignature.png",HBOSignature
+http://198.16.106.62:8278/streams/d/hbosignature_zero/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png",NHKWorld
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png",NHK 华语
 https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
-
-
-
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/xxx.png",天映频道
+http://50.7.161.82:8278/streams/d/Celestial/playlist.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/xxx.png",天映经典
+http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tokyomx.png",NBC HD
 http://ipalytvru.russtv.net/iptv/8thz5iufork8wjip/1081/index.m3u8
 #EXTINF:-1 tvg-logo="http://n.ysyz.top:99/logo/nippon.jpg",Nippon TV News 24
