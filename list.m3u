@@ -17,7 +17,7 @@ http://198.16.106.62:8278/streams/d/asiafood_zero/playlist.m3u8
 https://livecdn.fptplay.net/foxlive/natgeohd_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeowild.png" group-title="实时记录",国家地理野生频道
 http://50.7.161.82:8278/streams/d/Natgeowild//playlist.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/AnimalPlanet.png" group-title="实时记录",动物星球
+#EXTINF:0 tvg-logo="https://i.imgur.com/OFSfnbM.png" group-title="实时记录",动物星球
 http://50.7.161.82:8278/streams/d/AnimalPlanet/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_zonghehd.png" group-title="影视",爱尔达综合
 http://198.16.106.62:8278/streams/d/eltazonghe_zero/playlist.m3u8
