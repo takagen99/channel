@@ -30,7 +30,7 @@ http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8
 
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/hbo.png" group-title="影视",HBO
 http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FOXHD.png" group-title="影视",FOX
+#EXTINF:0 tvg-logo="https://i.imgur.com/jmhI7Hc.png" group-title="影视",FOX
 https://livecdn.fptplay.net/foxlive/foxhd_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/7R3haep.png" group-title="影视",FOXMOVIES
 https://livecdn.fptplay.net/foxlive/foxmovieshd_hls.smil/chunklist_b2500000.m3u8
