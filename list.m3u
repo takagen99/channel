@@ -1,17 +1,17 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/hunan.png",湖南卫视
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/hunan.png" group-title="卫视",湖南卫视
 http://39.134.216.5/live.cache.cmvideo.cn:8088/wd-hunanhd-2500/index.m3u8?&encrypt=1
-#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/zhejiang.png",浙江卫视
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/zhejiang.png" group-title="卫视",浙江卫视
 http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/cctv/zhejianghd/2500/index.m3u8?&encrypt=1
-#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/jiangsu.png",江苏卫视
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/jiangsu.png" group-title="卫视",江苏卫视
 http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/cctv/jiangsuhd/2500/index.m3u8?&encrypt=1
-#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/dongfang.png",东方卫视
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/dongfang.png" group-title="卫视",东方卫视
 http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r4/dfl/dongfangwshd/3000/index.m3u8?&encrypt=1
-#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbfc.png",翡翠台
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbfc.png" group-title="港澳台",翡翠台
 http://198.16.106.62:8278/streams/d/Wlt/playlist.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/afc.png",亚洲美食频道
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/afc.png" group-title="美食",亚洲美食频道
 https://livecdn.fptplay.net/world/afchd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FoodNetwork.png",FoodNetwork美食台
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FoodNetwork.png" group-title="美食",FoodNetwork美食台
 http://198.16.106.62:8278/streams/d/asiafood_zero/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeo.png",国家地理频道
 https://livecdn.fptplay.net/foxlive/natgeohd_hls.smil/chunklist_b2500000.m3u8
@@ -46,7 +46,7 @@ rtmp://161.202.204.248/sat/tv051
 rtmp://161.202.204.248/sat/tv721
 #EXTINF:-1 tvg-id="6095" tvg-name="纬来日本台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandJapanese.png" group-title="港澳台",纬来日本
 rtmp://161.202.204.248/sat/tv521
-#EXTINF:-1 tvg-id="6088" tvg-name="纬来育乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandMaxTV.png" group-title="港澳台",纬来育乐
+#EXTINF:-1 tvg-id="6088" tvg-name="纬来育乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandMaxTV.png" group-title="体育",纬来育乐
 rtmp://161.202.204.248/sat/tv701
 #EXTINF:-1 tvg-id="6042" tvg-name="MOMO亲子台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/MOMOkids.png" group-title="港澳台",MoMo综合
 rtmp://161.202.204.248/sat/tv761
@@ -56,11 +56,11 @@ rtmp://161.202.204.248:1935/sat/tv421
 rtmp://161.202.204.248/sat/tv571
 #EXTINF:-1 tvg-id="6051" tvg-name="东森超视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCSuper.png" group-title="港澳台",东森超视
 rtmp://161.202.204.248/sat/tv771
-#EXTINF:-1 tvg-id="7212" tvg-name="爱尔达体育1" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/eata_sports1.png" group-title="港澳台",爱尔达体育1
+#EXTINF:-1 tvg-id="7212" tvg-name="爱尔达体育1" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/eata_sports1.png" group-title="体育",爱尔达体育1
 rtmp://59.124.75.153:1935/sat/md011
-#EXTINF:-1 tvg-id="7212" tvg-name="爱尔达体育1" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/eata_sports1.png" group-title="港澳台",爱尔达体育1-1
+#EXTINF:-1 tvg-id="7212" tvg-name="爱尔达体育1" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/eata_sports1.png" group-title="体育",爱尔达体育1-1
 rtmp://59.124.75.153:1935/sat/md051
-#EXTINF:-1 tvg-id="7192" tvg-name="爱尔达体育2" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_sports2.png" group-title="港澳台",爱尔达体育2
+#EXTINF:-1 tvg-id="7192" tvg-name="爱尔达体育2" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_sports2.png" group-title="体育",爱尔达体育2
 rtmp://59.124.75.153:1935/sat/md021
 
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png",NHKWorld
