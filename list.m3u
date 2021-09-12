@@ -83,6 +83,12 @@ https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u
 https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
 
 
+#EXTINF:0 tvg-logo="https://i.imgur.com/gMzAWbr.png" group-title="新加坡",Channel5
+https://dlau142f16b92.cloudfront.net/hls/clr4ctv_ch5/master.m3u8
+#EXTINF:0 tvg-logo="https://i.imgur.com/0o581Oq.png" group-title="新加坡",Channel8
+https://d34e90s3s13i7n.cloudfront.net/hls/clr4ctv_ch8/master.m3u8
+#EXTINF:0 tvg-logo="https://i.imgur.com/XDY0cqi.png" group-title="新闻",CNA
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/9fwdCv9.png" group-title="港澳台",卫视电影台
 http://pullhls3948069e.live.126.net/live/5fcf916f157aebce55350949023fde79/playlist.m3u8
 #EXTINF:0 tvg-logo="" group-title="港澳台",viuTV
