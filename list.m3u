@@ -27,6 +27,8 @@ http://50.7.161.82:8278/streams/d/AnimalPlanet/playlist.m3u8
 http://198.16.106.62:8278/streams/d/eltazonghe_zero/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/vieGKqd.png" group-title="影视",爱奇异
 http://50.7.161.82:8278/streams/d/iqiyi_pye/playlist.m3u8
+#EXTINF:0 tvg-logo="https://zh.wikipedia.org/wiki/Astro%E6%AC%A2%E5%96%9C%E5%8F%B0#/media/File:Astro_HHD.png" group-title="影视",欢喜台
+http://198.16.106.62:8278/streams/d/Huahee/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/sCh2JpW.png" group-title="影视",天映频道
 http://50.7.161.82:8278/streams/d/Celestial/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/vx5WtwZ.png" group-title="影视",天映经典
@@ -67,6 +69,8 @@ rtmp://59.124.75.153:1935/sat/md051
 #EXTINF:-1 tvg-id="7192" tvg-name="爱尔达体育2" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_sports2.png" group-title="体育",爱尔达体育2
 rtmp://59.124.75.153:1935/sat/md021
 
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/ANIMAX.png" group-title="影视",Animax
+http://93.190.139.35:8278/streams/d/Animax/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="新闻",NHKWorld
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="新闻",NHK 华语
@@ -74,9 +78,9 @@ https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
 
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbfc.png" group-title="港澳台",翡翠台
 http://198.16.106.62:8278/streams/d/Wlt/playlist.m3u8
-#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbj2.png" group-title="港澳台",J2
-http://pullhls3948069e.live.126.net/live/7bdfe8e49a251e770417c4b04247a4ba/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/9fwdCv9.png" group-title="港澳台",卫视电影台
 http://pullhls3948069e.live.126.net/live/5fcf916f157aebce55350949023fde79/playlist.m3u8
+#EXTINF:0 tvg-logo="" group-title="港澳台",viuTV
+https://flv3948069e.live.126.net/live/32c8dd3ab907926bba22c763db8a56bc.flv
 #EXTINF:0 tvg-logo="" group-title="",Test
-http://198.16.106.62:8278/streams/d/Wlt/21091203003176.ts
+http://93.190.139.35:8278/streams/d/Axn/playlist.m3u8
