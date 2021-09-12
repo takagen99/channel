@@ -36,6 +36,8 @@ http://50.7.161.82:8278/streams/d/Celestial/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/vx5WtwZ.png" group-title="影视",天映经典
 http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8
 
+#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/axn.png" group-title="影视",AXN
+http://93.190.139.35:8278/streams/d/Axn/playlist.m3u8
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/hbo.png" group-title="影视",HBO
 http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HITS.png" group-title="影视",HITS
@@ -85,5 +87,3 @@ https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
 http://pullhls3948069e.live.126.net/live/5fcf916f157aebce55350949023fde79/playlist.m3u8
 #EXTINF:0 tvg-logo="" group-title="港澳台",viuTV
 https://flv3948069e.live.126.net/live/32c8dd3ab907926bba22c763db8a56bc.flv
-#EXTINF:0 tvg-logo="" group-title="",Test
-http://93.190.139.35:8278/streams/d/Axn/playlist.m3u8
