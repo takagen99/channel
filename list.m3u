@@ -11,6 +11,8 @@ http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r4/dfl/dongfangwshd/3000/index
 https://flv3948069e.live.126.net/live/c26b8c43c4d9e09eb5194e3d5a611f79.flv
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbj2.png" group-title="港澳台",J2
 https://flv3948069e.live.126.net/live/27af9abf592235dc3cb559b53aa38ba1.flv
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E6%98%8E%E7%8F%A0%E5%8F%B0.png" group-title="港澳台",明珠台
+https://flv3948069e.live.126.net/live/57e07a71a772f4b0604fda194e0f5947.flv
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/afc.png" group-title="美食",亚洲美食频道
 https://livecdn.fptplay.net/world/afchd_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/tLShSaO.png" group-title="美食",FoodNetwork美食台
@@ -44,11 +46,11 @@ rtmp://161.202.204.248/sat/tv112
 rtmp://161.202.204.248/sat/tv071
 #EXTINF:-1 tvg-id="7135" tvg-name="民视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/民视.png" group-title="港澳台",民视
 rtmp://161.202.204.248/sat/tv051
-#EXTINF:-1 tvg-id="6090" tvg-name="纬来体育台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandSportsHD.png" group-title="体育",纬来体育
+#EXTINF:-1 tvg-id="6090" tvg-name="纬来体育台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandSportsHD.png" group-title="港澳台",纬来体育
 rtmp://161.202.204.248/sat/tv721
 #EXTINF:-1 tvg-id="6095" tvg-name="纬来日本台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandJapanese.png" group-title="港澳台",纬来日本
 rtmp://161.202.204.248/sat/tv521
-#EXTINF:-1 tvg-id="6088" tvg-name="纬来育乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandMaxTV.png" group-title="港澳台",纬来育乐
+#EXTINF:-1 tvg-id="6088" tvg-name="纬来育乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandMaxTV.png" group-title="体育",纬来育乐
 rtmp://161.202.204.248/sat/tv701
 #EXTINF:-1 tvg-id="6042" tvg-name="MOMO亲子台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/MOMOkids.png" group-title="港澳台",MoMo综合
 rtmp://161.202.204.248/sat/tv761
@@ -76,3 +78,5 @@ http://198.16.106.62:8278/streams/d/Wlt/playlist.m3u8
 http://pullhls3948069e.live.126.net/live/7bdfe8e49a251e770417c4b04247a4ba/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/9fwdCv9.png" group-title="港澳台",卫视电影台
 http://pullhls3948069e.live.126.net/live/5fcf916f157aebce55350949023fde79/playlist.m3u8
+#EXTINF:0 tvg-logo="" group-title="",Test
+http://198.16.106.62:8278/streams/d/Wlt/21091203003176.ts
