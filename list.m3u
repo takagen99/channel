@@ -75,7 +75,7 @@ rtmp://59.124.75.153:1935/sat/md051
 #EXTINF:-1 tvg-id="7192" tvg-name="爱尔达体育2" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_sports2.png" group-title="体育",爱尔达体育2
 rtmp://59.124.75.153:1935/sat/md021
 
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/ANIMAX.png" group-title="影视",Animax
+#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Animax.png" group-title="影视",Animax
 http://93.190.139.35:8278/streams/d/Animax/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="新闻",NHKWorld
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8
