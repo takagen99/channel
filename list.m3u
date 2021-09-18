@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/hunan.png" group-title="卫视",湖南卫视
-http://39.134.216.5/live.cache.cmvideo.cn:8088/wd-hunanhd-2500/index.m3u8?&encrypt=1
+http://39.130.202.114:6610/gitv_live/HNWS-HD/HNWS-HD.m3u8
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/zhejiang.png" group-title="卫视",浙江卫视
 http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/cctv/zhejianghd/2500/index.m3u8?&encrypt=1
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/jiangsu.png" group-title="卫视",江苏卫视
