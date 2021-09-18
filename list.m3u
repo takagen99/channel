@@ -78,7 +78,11 @@ rtmp://59.124.75.153:1935/sat/md051
 rtmp://59.124.75.153:1935/sat/md021
 
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Animax.png" group-title="影视",Animax
-http://93.190.139.35:8278/streams/d/Animax/playlist.m3u8
+https://feed.play.mv/live/10005200/isU48qPZqV/master.m3u8
+#EXTINF:0 tvg-logo="https://www.at-x.com/favicon_android.png" group-title="影视",AT-X
+https://sub2.neetball.net/live/neet.m3u8
+#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Nippon_Television_Holdings_logo.svg/450px-Nippon_Television_Holdings_logo.svg.png" group-title="影视",Nippon TV
+https://ntv1.mov3.co/hls/ntv.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="新闻",NHKWorld
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="新闻",NHK 华语
@@ -93,5 +97,5 @@ https://d34e90s3s13i7n.cloudfront.net/hls/clr4ctv_ch8/master.m3u8
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/9fwdCv9.png" group-title="影视",卫视电影台
 http://158.69.25.22:25469/live/xxxxxz60v/xxxxxz60v/193.m3u8
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCMovies.png" group-title="影视",东森电影
-http://158.69.25.22:25469/live/xxxxxz60v/xxxxxz60v/214.m3u8
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCMovies.png" group-title="影视",test
+http://203.162.235.41:16908/
