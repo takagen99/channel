@@ -91,5 +91,7 @@ https://dlau142f16b92.cloudfront.net/hls/clr4ctv_ch5/master.m3u8
 https://d34e90s3s13i7n.cloudfront.net/hls/clr4ctv_ch8/master.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/XDY0cqi.png" group-title="新闻",CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/9fwdCv9.png" group-title="港澳台",卫视电影台
+#EXTINF:0 tvg-logo="https://i.imgur.com/9fwdCv9.png" group-title="影视",卫视电影台
 http://158.69.25.22:25469/live/xxxxxz60v/xxxxxz60v/193.m3u8
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCMovies.png" group-title="影视",东森电影
+http://158.69.25.22:25469/live/xxxxxz60v/xxxxxz60v/214.m3u8
