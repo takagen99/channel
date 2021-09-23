@@ -11,13 +11,14 @@ http://39.130.202.114:6610/gitv_live/DFWS-HD/DFWS-HD.m3u8
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbfc.png" group-title="港澳台",TVB华丽台
 http://198.16.106.62:8278/streams/d/Wlt/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/afc.png" group-title="美食",亚洲美食频道
-https://livecdn.fptplay.net/world/afchd_hls.smil/chunklist_b2500000.m3u8
+http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/100
+#https://livecdn.fptplay.net/world/afchd_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/tLShSaO.png" group-title="美食",FoodNetwork美食台
 http://198.16.106.62:8278/streams/d/asiafood_zero/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeo.png" group-title="实时记录",国家地理频道
 https://livecdn.fptplay.net/foxlive/natgeohd_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeowild.png" group-title="实时记录",国家地理野生频道
-http://50.7.161.82:8278/streams/d/Natgeowild//playlist.m3u8
+http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/95
 #EXTINF:0 tvg-logo="https://i.imgur.com/OFSfnbM.png" group-title="实时记录",动物星球
 http://50.7.161.82:8278/streams/d/AnimalPlanet/playlist.m3u8
 
