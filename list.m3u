@@ -16,7 +16,9 @@ http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/100
 #EXTINF:0 tvg-logo="https://i.imgur.com/tLShSaO.png" group-title="美食",FoodNetwork美食台
 http://198.16.106.62:8278/streams/d/asiafood_zero/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeo.png" group-title="实时记录",国家地理频道
-https://livecdn.fptplay.net/foxlive/natgeohd_hls.smil/chunklist_b2500000.m3u8
+http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/93
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeopeople.png" group-title="实时记录",国家地理悠人频道
+http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/94
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeowild.png" group-title="实时记录",国家地理野生频道
 http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/95
 #EXTINF:0 tvg-logo="https://i.imgur.com/OFSfnbM.png" group-title="实时记录",动物星球
@@ -29,11 +31,11 @@ http://198.16.106.62:8278/streams/d/Huahee/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/sCh2JpW.png" group-title="影视",天映频道
 http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/49
 #EXTINF:0 tvg-logo="https://i.imgur.com/vx5WtwZ.png" group-title="影视",天映经典
-http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8
+http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/50
 #EXTINF:0 tvg-logo="https://i.imgur.com/9fwdCv9.png" group-title="影视",卫视电影台
-http://107.167.5.66/mylive/102/2061/index.m3u8
+http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/53
 #EXTINF:0 tvg-logo="https://i.imgur.com/9fwdCv9.png" group-title="影视",卫视卡视
-http://93.190.139.35:8278/streams/d/Weishilegend/playlist.m3u8
+http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/52
 
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/axn.png" group-title="影视",AXN
 http://93.190.139.35:8278/streams/d/Axn/playlist.m3u8
@@ -42,9 +44,9 @@ http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HITS.png" group-title="影视",HITS
 http://93.190.139.35:8278/streams/d/Hits/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/jmhI7Hc.png" group-title="影视",FOX
-https://livecdn.fptplay.net/foxlive/foxhd_hls.smil/chunklist_b2500000.m3u8
+http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/83
 #EXTINF:0 tvg-logo="https://i.imgur.com/7R3haep.png" group-title="影视",FOXMOVIES
-https://livecdn.fptplay.net/foxlive/foxmovieshd_hls.smil/chunklist_b2500000.m3u8
+http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/58
 
 #EXTINF:-1 tvg-id="6028" tvg-name="中视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视.png" group-title="港澳台",中视
 rtmp://161.202.204.248/sat/tv091
@@ -80,6 +82,8 @@ rtmp://59.124.75.153:1935/sat/md021
 
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Animax.png" group-title="日本",Animax
 https://feed.play.mv/live/10005200/isU48qPZqV/master.m3u8
+#EXTINF:0 tvg-logo="https://i.imgur.com/aIRL59F.png	" group-title="日本",Aniplus
+http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/103
 #EXTINF:0 tvg-logo="https://www.at-x.com/favicon_android.png" group-title="日本",AT-X
 https://sub2.neetball.net/live/neet.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/lgnpkib.png" group-title="日本",Nippon TV
