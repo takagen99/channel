@@ -82,7 +82,7 @@ rtmp://59.124.75.153:1935/sat/md021
 
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Animax.png" group-title="日本",Animax
 https://feed.play.mv/live/10005200/isU48qPZqV/master.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/aIRL59F.png	" group-title="日本",Aniplus
+#EXTINF:0 tvg-logo="https://i.imgur.com/aIRL59F.png" group-title="日本",Aniplus
 http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/103
 #EXTINF:0 tvg-logo="https://www.at-x.com/favicon_android.png" group-title="日本",AT-X
 https://sub2.neetball.net/live/neet.m3u8
