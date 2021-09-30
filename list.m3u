@@ -8,7 +8,7 @@ http://39.130.202.114:6610/gitv_live/G_JIANGSU-HD/G_JIANGSU-HD.m3u8
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/dongfang.png" group-title="卫视",东方卫视
 http://39.130.202.114:6610/gitv_live/DFWS-HD/DFWS-HD.m3u8
 
-#EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbfc.png" group-title="港澳台",TVB华丽台
+#EXTINF:0 tvg-name="翡翠台" tvg-logo="http://n.ysyz.top:99/logo/tvbfc.png" group-title="港澳台",TVB华丽台
 http://198.16.106.62:8278/streams/d/Wlt/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/afc.png" group-title="美食",亚洲美食频道
 http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/100
