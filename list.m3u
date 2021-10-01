@@ -95,11 +95,11 @@ https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="日本",NHK 华语
 https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
 
-#EXTINF:0 tvg-logo="https://i.imgur.com/gMzAWbr.png" group-title="新加坡",Channel5
+#EXTINF:0 tvg-logo="https://i.imgur.com/gMzAWbr.png" group-title="新加坡",Channel 5
 https://dlau142f16b92.cloudfront.net/hls/clr4ctv_ch5/master.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/0o581Oq.png" group-title="新加坡",Channel8
+#EXTINF:0 tvg-logo="https://i.imgur.com/0o581Oq.png" group-title="新加坡",Channel 8
 https://d34e90s3s13i7n.cloudfront.net/hls/clr4ctv_ch8/master.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/jmXADA7.png" group-title="新加坡",ChannelU
+#EXTINF:0 tvg-logo="https://i.imgur.com/jmXADA7.png" group-title="新加坡",Channel U
 https://d3inlz9elsutjl.cloudfront.net/hls/clr4ctv_chu/master.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/XDY0cqi.png" group-title="新加坡",ChannelNewsAsia
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
