@@ -105,10 +105,10 @@ https://d3inlz9elsutjl.cloudfront.net/hls/clr4ctv_chu/master.m3u8
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbfc.png" group-title="港澳台",翡翠台
-http://185.207.176.189:8080/channels/tv-81/playlist.m3u8
+http://cdn-v2.hkdtmb.com/hls/81/index.m3u8
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbj2.png" group-title="港澳台",J2
-http://185.207.176.189:8080/channels/tv-82/playlist.m3u8
+http://cdn-v2.hkdtmb.com/hls/82/index.m3u8
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/viutv.png" group-title="港澳台",viuTV
-http://158.69.25.22:25469/live/xxxxxz60v/xxxxxz60v/57.m3u8
+http://cdn-v2.hkdtmb.com/hls/99/index.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E6%98%8E%E7%8F%A0%E5%8F%B0.png" group-title="港澳台",明珠台
-http://185.207.176.189:8080/channels/tv-84/playlist.m3u8
+http://cdn-v2.hkdtmb.com/hls/84/index.m3u8
