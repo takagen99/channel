@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="1" tvg-logo="",披荆斩棘的哥哥 8
+https://m8t.vboku.com/20211001/3ppIIEXi/hls/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="Squid Game" tvg-logo="",Squid Game 1
 https://europe.olemovienews.com/hlstimeofffmp4/20210917/HhddxJCy/mp4/HhddxJCy.mp4/index-v1-a1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="Squid Game" tvg-logo="",Squid Game 2
