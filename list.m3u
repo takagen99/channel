@@ -28,8 +28,10 @@ http://50.7.161.82:8278/streams/d/AnimalPlanet/playlist.m3u8
 http://50.7.161.82:8278/streams/d/iqiyi_pye/playlist.m3u8
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/61/Astro_HHD.png" group-title="影视",欢喜台
 http://198.16.106.62:8278/streams/d/Huahee/playlist.m3u8
+#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/Astro_AOD_%28s17%29.png" group-title="影视",Astro AOD
+http://198.16.106.62:8278/streams/d/AodHD/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/sCh2JpW.png" group-title="影视",天映频道
-http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/49
+http://50.7.161.82:8278/streams/d/Celestial/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/vx5WtwZ.png" group-title="影视",天映经典
 http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/50
 #EXTINF:0 tvg-logo="https://i.imgur.com/9fwdCv9.png" group-title="影视",卫视电影台
@@ -59,7 +61,7 @@ rtmp://161.202.204.248/sat/tv051
 
 #EXTINF:-1 tvg-id="6090" tvg-name="纬来体育台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandSportsHD.png" group-title="港澳台",纬来体育
 rtmp://161.202.204.248/sat/tv721
-#EXTINF:-1 tvg-id="6051" tvg-name="东森超视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandJapanese.png" group-title="港澳台",纬来日本
+#EXTINF:-1 tvg-id="6051" tvg-name="纬来日本" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandJapanese.png" group-title="港澳台",纬来日本
 rtmp://161.202.204.248/sat/tv771
 #EXTINF:-1 tvg-id="6088" tvg-name="纬来育乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandMaxTV.png" group-title="体育",纬来育乐
 rtmp://161.202.204.248/sat/tv701
