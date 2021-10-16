@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="1" tvg-logo="",披荆斩棘的哥哥10
-https://m8t.vboku.com/20211015/o01LWdvf/hls/index.m3u8
+https://europe.olemovienews.com/hlstimeofffmp4/20211014/CdnsoyDv/mp4/CdnsoyDv.mp4/index-v1-a1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-logo="",披荆斩棘的哥哥10+
+https://europe.olemovienews.com/hlstimeofffmp4/20211015/tgzjEqmc/mp4/tgzjEqmc.mp4/index-v1-a1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-logo="",怒火·重案
 https://vod8.wenshibaowenbei.com/20211001/8xakBw5s/1000kb/hls/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-logo="",Bright
