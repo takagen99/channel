@@ -9,7 +9,7 @@ http://39.130.202.114:6610/gitv_live/G_JIANGSU-HD/G_JIANGSU-HD.m3u8
 http://39.130.202.114:6610/gitv_live/DFWS-HD/DFWS-HD.m3u8
 
 #EXTINF:0 tvg-name="翡翠台" tvg-logo="http://n.ysyz.top:99/logo/tvbfc.png" group-title="港澳台",TVB华丽台
-http://198.16.106.62:8278/streams/d/Wlt/playlist.m3u8
+http://185.207.176.189:8080/channels/tv-81/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/afc.png" group-title="美食",亚洲美食频道
 http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/100
 #https://livecdn.fptplay.net/world/afchd_hls.smil/chunklist_b2500000.m3u8
@@ -20,7 +20,7 @@ http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/93
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeopeople.png" group-title="实时记录",国家地理悠人频道
 http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/94
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeowild.png" group-title="实时记录",国家地理野生频道
-http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/95
+http://50.7.161.82:8278/streams/d/Natgeowild/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/OFSfnbM.png" group-title="实时记录",动物星球
 http://50.7.161.82:8278/streams/d/AnimalPlanet/playlist.m3u8
 
@@ -29,11 +29,11 @@ http://50.7.161.82:8278/streams/d/iqiyi_pye/playlist.m3u8
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/61/Astro_HHD.png" group-title="影视",欢喜台
 http://198.16.106.62:8278/streams/d/Huahee/playlist.m3u8
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/Astro_AOD_%28s17%29.png" group-title="影视",Astro AOD
-http://198.16.106.62:8278/streams/d/AodHD/playlist.m3u8
+http://50.7.161.82:8277/streams/d/aod_pye/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/sCh2JpW.png" group-title="影视",天映频道
-http://50.7.161.82:8278/streams/d/Celestial/playlist.m3u8
+http://50.7.161.82:8278/streams/d/celestial_pye/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/vx5WtwZ.png" group-title="影视",天映经典
-http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/50
+http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/9fwdCv9.png" group-title="影视",卫视电影台
 http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/53
 #EXTINF:0 tvg-logo="https://i.imgur.com/9fwdCv9.png" group-title="影视",卫视卡视
@@ -51,36 +51,30 @@ http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/83
 http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/58
 
 #EXTINF:-1 tvg-id="6028" tvg-name="中视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视.png" group-title="港澳台",中视
-rtmp://161.202.204.248/sat/tv091
+http://50.7.61.148:30080/Entry/ctv
 #EXTINF:-1 tvg-id="6030" tvg-name="华视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CTS.png" group-title="港澳台",华视
-rtmp://59.124.75.136/sat/tv111
+http://50.7.61.147:30080/Entry/cts
 #EXTINF:-1 tvg-id="6026" tvg-name="台视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/台视.png" group-title="港澳台",台视
-rtmp://161.202.204.248/sat/tv071
+http://50.7.61.148:30080/Entry/ttv
 #EXTINF:-1 tvg-id="7135" tvg-name="民视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/民视.png" group-title="港澳台",民视
-rtmp://161.202.204.248/sat/tv051
+http://50.7.61.147:30080/Entry/ftv
 
 #EXTINF:-1 tvg-id="6090" tvg-name="纬来体育台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandSportsHD.png" group-title="港澳台",纬来体育
 rtmp://161.202.204.248/sat/tv721
 #EXTINF:-1 tvg-id="6051" tvg-name="纬来日本" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandJapanese.png" group-title="港澳台",纬来日本
-rtmp://161.202.204.248/sat/tv771
+http://50.7.61.147:30080/Entry/vljp
 #EXTINF:-1 tvg-id="6088" tvg-name="纬来育乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandMaxTV.png" group-title="体育",纬来育乐
 rtmp://161.202.204.248/sat/tv701
 #EXTINF:-1 tvg-id="6042" tvg-name="MOMO亲子台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/MOMOkids.png" group-title="港澳台",MoMo综合
-rtmp://161.202.204.248/sat/tv761
+http://58.99.33.16:1935/liveedge17/live_075_3.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="6060" tvg-name="TVBS欢乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS欢乐.png" group-title="港澳台",TVBS欢乐
 rtmp://161.202.204.248:1935/sat/tv421
-#EXTINF:-1 tvg-id="6075" tvg-name="东森财经新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCFinancialNews.png" group-title="港澳台",东森财经新闻
-rtmp://161.202.204.248/sat/tv571
+#EXTINF:-1 tvg-id="6075" tvg-name="JET综合" tvg-logo="" group-title="港澳台",JET综合
+http://50.7.61.147:30080/Entry/jet
 #EXTINF:-1 tvg-id="6095" tvg-name="东森超视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCSuper.png" group-title="港澳台",东森超视
 rtmp://161.202.204.248/sat/tv521
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_zonghehd.png" group-title="影视",爱尔达综合
 http://198.16.106.62:8278/streams/d/eltazonghe_zero/playlist.m3u8
-#EXTINF:-1 tvg-id="7212" tvg-name="爱尔达体育1" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/eata_sports1.png" group-title="体育",爱尔达体育1
-rtmp://59.124.75.153:1935/sat/md011
-#EXTINF:-1 tvg-id="7212" tvg-name="爱尔达体育1" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/eata_sports1.png" group-title="体育",爱尔达体育1-1
-rtmp://59.124.75.153:1935/sat/md051
-#EXTINF:-1 tvg-id="7192" tvg-name="爱尔达体育2" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_sports2.png" group-title="体育",爱尔达体育2
-rtmp://59.124.75.153:1935/sat/md021
 
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Animax.png" group-title="日本",Animax
 https://feed.play.mv/live/10005200/isU48qPZqV/master.m3u8
@@ -107,10 +101,10 @@ https://d3inlz9elsutjl.cloudfront.net/hls/clr4ctv_chu/master.m3u8
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbfc.png" group-title="港澳台",翡翠台
-http://cdn-v2.hkdtmb.com/hls/81/index.m3u8
+http://185.207.176.189:8080/channels/tv-81/playlist.m3u8
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/tvbj2.png" group-title="港澳台",J2
-http://cdn-v2.hkdtmb.com/hls/82/index.m3u8
+http://185.207.176.189:8080/channels/tv-82/playlist.m3u8
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/viutv.png" group-title="港澳台",viuTV
-http://cdn-v2.hkdtmb.com/hls/99/index.m3u8
+http://185.207.176.189:8080/channels/tv-99/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E6%98%8E%E7%8F%A0%E5%8F%B0.png" group-title="港澳台",明珠台
-http://cdn-v2.hkdtmb.com/hls/84/index.m3u8
+http://185.207.176.189:8080/channels/tv-84/playlist.m3u8
