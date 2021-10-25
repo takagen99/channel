@@ -16,7 +16,7 @@ http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/100
 #EXTINF:0 tvg-logo="https://i.imgur.com/tLShSaO.png" group-title="美食",FoodNetwork美食台
 http://198.16.106.62:8278/streams/d/asiafood_zero/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeo.png" group-title="实时记录",国家地理频道
-http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/93
+http://125.227.210.37:16408/VideoInput/play.ts
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeopeople.png" group-title="实时记录",国家地理悠人频道
 http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/94
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeowild.png" group-title="实时记录",国家地理野生频道
