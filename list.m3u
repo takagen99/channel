@@ -74,7 +74,7 @@ https://ntv1.mov3.co/hls/ntv.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/7Zz1bLO.png" group-title="日本",TBS
 https://tbs.mov3.co/hls/tbs.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHK.png" group-title="日本",NHK
-http://58.99.33.16:1935/liveedge17/live_108_3.stream/chunklist.m3u8
+#http://58.99.33.16:1935/liveedge17/live_108_3.stream/chunklist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="日本",NHKWorld
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8
 #EXTINF:0 tvg-name="NHK新聞資訊台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="日本",NHK 华语
