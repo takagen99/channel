@@ -47,15 +47,15 @@ https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u
 http://50.7.161.82:8277/streams/d/aod_pye/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/vieGKqd.png" group-title="新马",Astro 爱奇异
 http://50.7.161.82:8278/streams/d/iqiyi_pye/playlist.m3u8
-#EXTINF:0 tvg-logo="" group-title="新马",Astro 双星
+#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/Astro_SHX.png" group-title="新马",Astro 双星
 http://50.7.161.82:8278/streams/d/Shuangxing/playlist.m3u8
-#EXTINF:0 tvg-logo="" group-title="新马",Astro 全佳
+#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/Astro_Quan_Jia.png" group-title="新马",Astro 全佳
 http://50.7.161.82:8278/streams/d/Quanjia/playlist.m3u8
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/61/Astro_HHD.png" group-title="新马",Astro 欢喜台
 http://198.16.106.62:8278/streams/d/Huahee/playlist.m3u8
-#EXTINF:0 tvg-logo="" group-title="新马",Astro 小太阳
+#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/07/Astro_XTY.png" group-title="新马",Astro 小太阳
 http://50.7.161.82:8278/streams/d/Xiaotaiyang/playlist.m3u8
-#EXTINF:0 tvg-logo="" group-title="新马",BOO
+#EXTINF:0 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0d/404_300.png/revision/latest/scale-to-width-down/200?cb=20171225070136" group-title="新马",BOO
 http://50.7.161.82:8278/streams/d/Boo/playlist.m3u8
 
 
