@@ -11,6 +11,7 @@ http://39.130.202.114:6610/gitv_live/DFWS-HD/DFWS-HD.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视",北京卫视
 http://39.130.202.114:6610/gitv_live/BTV-1/BTV-1.m3u8
 
+
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E7%BF%A1%E7%BF%A0%E5%8F%B0.png" group-title="港澳台",翡翠台
 http://185.207.176.189:8080/channels/tv-81/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="港澳台",J2
@@ -92,9 +93,10 @@ http://50.7.61.147:30080/Entry/ftv
 
 
 #EXTINF:-1 tvg-id="6042" tvg-name="MAV Life" tvg-logo="" group-title="港澳台",Mav Life 美丽人生
-#http://58.99.33.16:1935/liveedge17/live_070_3.stream/chunklist.m3u8
+# http://58.99.33.16:1935/liveedge17/live_070_3.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="6042" tvg-name="MoMo综合" tvg-logo="" group-title="港澳台",MoMo综合
 #http://58.99.33.16:1935/liveedge17/live_075_3.stream/chunklist.m3u8
+
 
 #EXTINF:-1 tvg-id="6090" tvg-name="纬来体育台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandSportsHD.png" group-title="港澳台",纬来体育
 rtmp://161.202.204.248/sat/tv721
