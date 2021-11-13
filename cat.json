@@ -1,6 +1,7 @@
 { 
 	
 "spider":"https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true",
+"wallpaper":"https://raw.githubusercontent.com/Tangsan99999/Public/main/wallpapertip_hd-stock-wallpapers_143866.jpg",
 "sites": [
 
 {"key":"爬虫","name":"⇩⇩爬虫⇩⇩","type":0,"api":""},
