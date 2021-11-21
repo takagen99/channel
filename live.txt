@@ -17,13 +17,8 @@ viuTV,http://185.207.176.189:8080/channels/tv-99/playlist.m3u8
 民视,http://50.7.61.147:30080/Entry/ftv
 美丽人生,http://58.99.33.16:1935/liveedge17/live_070_3.stream/chunklist.m3u8
 MoMo综合,http://58.99.33.16:1935/liveedge17/live_075_3.stream/chunklist.m3u8
-test1,rtmp://161.202.204.248/sat/tv721
-test2,http://50.7.61.147:30080/Entry/vljp
-test3,rtmp://161.202.204.248/sat/tv701
-test4,rtmp://161.202.204.248:1935/sat/tv421
-test5,http://50.7.61.147:30080/Entry/jet
-test6,rtmp://161.202.204.248/sat/tv521
-test7,http://198.16.106.62:8278/streams/d/eltazonghe_zero/playlist.m3u8
+纬来日本,http://50.7.61.147:30080/Entry/vljp
+JET综合,http://50.7.61.147:30080/Entry/jet
 
 
 新马,#genre#
