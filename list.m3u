@@ -41,7 +41,8 @@ https://d34e90s3s13i7n.cloudfront.net/hls/clr4ctv_ch8/master.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/jmXADA7.png" group-title="新马",Channel U
 https://d3inlz9elsutjl.cloudfront.net/hls/clr4ctv_chu/master.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/XDY0cqi.png" group-title="新马",ChannelNewsAsia
-https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+#https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+http://edge.mediacorp.swiftserve.com/live/cna/amlst:cnai-pc/media_b1472000_qaGRjb3JlPTIuMTAuMyZnPVdTRkJOTUdORkRYVg==.abst/Seg1-Frag10907?als=12.68,12,1.78,4,1396,2852,25,5,0,74,f,27.31,69.47,t,u,WSFBNMGNFDXV,2.10.3,74&hdcore=2.10.3
 
 
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/Astro_AOD_%28s17%29.png" group-title="新马",Astro AOD
