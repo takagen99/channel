@@ -38,9 +38,6 @@ HBO,http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8
 HITS,http://93.190.139.35:8278/streams/d/Hits/playlist.m3u8
 天映频道,http://50.7.161.82:8278/streams/d/celestial_pye/playlist.m3u8
 天映经典,http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8
-动物星球,http://50.7.161.82:8278/streams/d/AnimalPlanet/playlist.m3u8
-国家地理野生频道,http://50.7.161.82:8278/streams/d/Natgeowild/playlist.m3u8
-
 
 
 日本,#genre#
@@ -55,7 +52,8 @@ NHK 华语,https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
 
 纪录片,#genre#
 Asian Food Network,http://iptv.tvmalaysia.cc:80/624850/624850/6693,http://iptv.tvmalaysia.cc:80/321456/321456/6693
-动物星球,http://50.7.161.82:8278/streams/d/AnimalPlanet/playlist.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/7077
+动物星球,http://50.7.161.82:8278/streams/d/AnimalPlanet/playlist.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/7077#http://iptv.tvmalaysia.cc:80/321456/321456/7077
+国家地理野生频道,http://50.7.161.82:8278/streams/d/Natgeowild/playlist.m3u8
 
 
 
