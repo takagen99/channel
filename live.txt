@@ -19,6 +19,7 @@ viuTV,http://185.207.176.189:8080/channels/tv-99/playlist.m3u8
 MoMo综合,http://58.99.33.16:1935/liveedge17/live_075_3.stream/chunklist.m3u8
 纬来日本,http://50.7.61.147:30080/Entry/vljp
 JET综合,http://50.7.61.147:30080/Entry/jet
+TLC,http://50.7.61.147:30080/Entry/tlc
 
 
 新马,#genre#
