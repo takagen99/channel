@@ -11,8 +11,7 @@
 J2,http://185.207.176.189:8080/channels/tv-82/playlist.m3u8
 viuTV,http://185.207.176.189:8080/channels/tv-99/playlist.m3u8
 明珠台,http://185.207.176.189:8080/channels/tv-84/playlist.m3u8
-中视,http://50.7.61.148:30080/Entry/ctv
-华视,http://50.7.61.148:30080/Entry/ctv
+中视,http://iptv2.phoves.com.cn/iptv/api/wotv.php?id=19#http://50.7.61.148:30080/Entry/ctv
 台视,http://50.7.61.148:30080/Entry/ttv
 民视,http://50.7.61.147:30080/Entry/ftv
 美丽人生,http://58.99.33.16:1935/liveedge17/live_070_3.stream/chunklist.m3u8
@@ -20,6 +19,13 @@ MoMo综合,http://58.99.33.16:1935/liveedge17/live_075_3.stream/chunklist.m3u8
 纬来日本,http://50.7.61.147:30080/Entry/vljp
 JET综合,http://50.7.61.147:30080/Entry/jet
 TLC,http://50.7.61.147:30080/Entry/tlc
+年代新聞,http://211.23.114.106:8517/http/60.251.39.91:8081/hls/67/809/ch27.m3u8
+東森新聞,http://211.23.114.106:8540/http/60.251.39.91:8081/hls/63/805/ch10.m3u8
+中天新聞,http://211.23.114.106:8541/http/60.251.39.91:8081/hls/78/80/ch63max.m3u8
+民視新聞,http://211.23.114.106:8542/http/60.251.39.91:8081/hls/73/815/ch51.m3u8
+三立新聞,http://211.23.114.106:8543/http/60.251.39.91:8081/hls/65/807/ch18.m3u8
+TVBS新聞,http://211.23.114.106:8546/http/116.50.42.19:8081/hls/64/806/ch16.m3u8
+TVBS,http://211.23.114.106:8545/http/116.50.42.19:8081/hls/64/806/ch15.m3u8
 
 
 新马,#genre#
@@ -34,8 +40,8 @@ Astro 全佳,http://50.7.161.82:8278/streams/d/Quanjia/playlist.m3u8
 Astro 欢喜台,http://198.16.106.62:8278/streams/d/Huahee/playlist.m3u8
 Astro 小太阳,http://50.7.161.82:8278/streams/d/Xiaotaiyang/playlist.m3u8
 BOO,http://50.7.161.82:8278/streams/d/Boo/playlist.m3u8#http://iptv.tvmalaysia.cc:80/321456/321456/8872#http://iptv.tvmalaysia.cc:80/624850/624850/8872
-AXN,http://93.190.139.35:8278/streams/d/Axn/playlist.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/7223#http://iptv.tvmalaysia.cc:80/321456/321456/7223
-HBO,http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8#http://50.7.61.148:30080/Entry/hbo
+AXN,http://211.23.114.106:8558/http/116.50.42.19:8081/hls/71/813/ch43.m3u8#http://93.190.139.35:8278/streams/d/Axn/playlist.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/7223#http://iptv.tvmalaysia.cc:80/321456/321456/7223
+HBO,http://211.23.114.106:8511/http/116.50.42.19:8081/hls/71/813/ch41.m3u8#http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8#http://50.7.61.148:30080/Entry/hbo
 HBO Hits,http://iptv.tvmalaysia.cc:80/321456/321456/7068#http://iptv.tvmalaysia.cc:80/624850/624850/7068
 HITS,http://93.190.139.35:8278/streams/d/Hits/playlist.m3u8#http://iptv.tvmalaysia.cc:80/321456/321456/7066#http://iptv.tvmalaysia.cc:80/624850/624850/7066
 天映频道,http://50.7.161.82:8278/streams/d/celestial_pye/playlist.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/7235#http://iptv.tvmalaysia.cc:80/321456/321456/7235
@@ -43,7 +49,7 @@ HITS,http://93.190.139.35:8278/streams/d/Hits/playlist.m3u8#http://iptv.tvmalays
 
 
 日本,#genre#
-Animax,https://feed.play.mv/live/10005200/isU48qPZqV/master.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/6696
+Animax,http://211.23.114.106:8516/http/61.221.81.94:8088/hls/70/812/ch39.m3u8#https://feed.play.mv/live/10005200/isU48qPZqV/master.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/6696
 AT-X,https://sub2.neetball.net/live/neet.m3u8
 Nippon TV,https://ntv1.mov3.co/hls/ntv.m3u8
 TBS,https://tbs.mov3.co/hls/tbs.m3u8
