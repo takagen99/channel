@@ -90,8 +90,8 @@ Channel 5,https://dlau142f16b92.cloudfront.net/hls/clr4ctv_ch5/master.m3u8
 Channel 8,https://d34e90s3s13i7n.cloudfront.net/hls/clr4ctv_ch8/master.m3u8
 Channel U,https://d3inlz9elsutjl.cloudfront.net/hls/clr4ctv_chu/master.m3u8
 CNA,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
-Astro AOD,http://50.7.161.82:8277/streams/d/aod_pye/playlist.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/6702#http://iptv.tvmalaysia.cc:80/321456/321456/6702
-Astro 爱奇异,http://50.7.161.82:8278/streams/d/iqiyi_pye/playlist.m3u8
+Astro AOD,mitv://ns2.hellotvvod.com:9906/55fa6310d30d45029c38c2848ffbcb85#http://50.7.161.82:8277/streams/d/aod_pye/playlist.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/6702#http://iptv.tvmalaysia.cc:80/321456/321456/6702
+Astro 爱奇异,mitv://ns2.hellotvvod.com:9906/68ef448264ff4275b99f322996e3469a#http://50.7.161.82:8278/streams/d/iqiyi_pye/playlist.m3u8
 Astro 双星,http://50.7.161.82:8278/streams/d/Shuangxing/playlist.m3u8
 Astro 全佳,http://50.7.161.82:8278/streams/d/Quanjia/playlist.m3u8
 Astro 欢喜台,http://198.16.106.62:8278/streams/d/Huahee/playlist.m3u8
@@ -101,12 +101,12 @@ AXN,http://211.23.114.106:8558/http/116.50.42.19:8081/hls/71/813/ch43.m3u8#http:
 HBO,http://211.23.114.106:8511/http/116.50.42.19:8081/hls/71/813/ch41.m3u8#http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8#http://50.7.61.148:30080/Entry/hbo
 HBO Hits,http://iptv.tvmalaysia.cc:80/321456/321456/7068#http://iptv.tvmalaysia.cc:80/624850/624850/7068
 HITS,http://93.190.139.35:8278/streams/d/Hits/playlist.m3u8#http://iptv.tvmalaysia.cc:80/321456/321456/7066#http://iptv.tvmalaysia.cc:80/624850/624850/7066
-天映频道,http://50.7.161.82:8278/streams/d/celestial_pye/playlist.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/7235#http://iptv.tvmalaysia.cc:80/321456/321456/7235
-天映经典,http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8#http://iptv.tvmalaysia.cc:80/321456/321456/7222#http://iptv.tvmalaysia.cc:80/624850/624850/7222
+天映频道,mitv://ns2.hellotvvod.com:9906/ec8466ba789143998fb9ed858b7c174e#http://50.7.161.82:8278/streams/d/celestial_pye/playlist.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/7235#http://iptv.tvmalaysia.cc:80/321456/321456/7235
+天映经典,mitv://ns2.hellotvvod.com:9906/4699a8c6571243a4b5387f6b3c639851#http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8#http://iptv.tvmalaysia.cc:80/321456/321456/7222#http://iptv.tvmalaysia.cc:80/624850/624850/7222
 
 
 日本,#genre#
-Animax,http://211.23.114.106:8516/http/61.221.81.94:8088/hls/70/812/ch39.m3u8#https://feed.play.mv/live/10005200/isU48qPZqV/master.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/6696
+Animax,mitv://ns2.hellotvvod.com:9906/10d8ae908a354513b09e38e7116b7b33#http://211.23.114.106:8516/http/61.221.81.94:8088/hls/70/812/ch39.m3u8#https://feed.play.mv/live/10005200/isU48qPZqV/master.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/6696
 AT-X,https://sub2.neetball.net/live/neet.m3u8
 Nippon TV,https://ntv1.mov3.co/hls/ntv.m3u8
 TBS,https://tbs.mov3.co/hls/tbs.m3u8
