@@ -1,4 +1,5 @@
 // https://bit.ly/3EMm8FA
+// https://bit.ly/cat_lite
 {
 "wallpaper":"https://raw.githubusercontent.com/takagen99/channel/master/CATVOD/cyber.jpg",
 //https://raw.githubusercontent.com/takagen99/channel/master/CATVOD/cyber.jpg
