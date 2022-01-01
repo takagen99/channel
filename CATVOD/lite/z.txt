@@ -44,13 +44,13 @@
 	  "filterable": 0,
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/lite/olevod.json"	},
     {
-      "key": "ysgc_spider",    // "key":"csp_Ysgc"
-      "name": "影视工厂-EXO",
+      "key": "ysgc_spider",
+      "name": "影视工厂(V0)",
       "type": 3,
       "api": "csp_Ysgc",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1    },
+      "filterable": 1},
     {
       "key": "cokemv_spider",
       "name": "Cokemv-Exo",
