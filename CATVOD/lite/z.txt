@@ -8,6 +8,8 @@
 //https://i.imgur.com/wOwHlyi.jpg    // city scape
 //https://i.imgur.com/VNWCVSd.jpg    // howl
 
+"spider": "https://github.com/takagen99/channel/blob/master/CATVOD/lite/20220101.txt?raw=true",
+
   "sites": [
 	{
 	  "key":"独播库",
@@ -706,6 +708,4 @@
     "qiu.xixiqiu.com",
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
-  ],
-  "spider": "https://github.com/takagen99/channel/blob/master/CATVOD/lite/20220101.txt?raw=true"
-}
+  ]}
