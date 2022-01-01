@@ -22,7 +22,7 @@
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/lite/Duboku.json"},
  	{
 	  "key": "csp_xpath_Onedian",
-      "name":"OLEVOD-EXO",
+	  "name":"OLEVOD-EXO",
 	  "type":3,
 	  "api":"csp_XPathMac",
 	  "searchable":1,
@@ -63,7 +63,7 @@
 	  "searchable":1,
 	  "quickSearch":1,
 	  "filterable":1,
-	  "ext":"https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Nfuxs.json"},
+	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/Nfuxs.json"},
 	{
 	  "key":"csp_appys_xiaogui_追剧达人",
 	  "name":"追剧达人-IJK",
@@ -81,7 +81,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-//	 "ext": "http://119.91.206.244/cat/json/yyds.json"},
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/yyds.json"},
 	{
 	  "key":"百度资源",
@@ -90,15 +89,6 @@
 	  "api":"https://api.apibdzy.com/api.php/provide/vod?ac=list",
 	  "playUrl":"",
 	  "categories":[] 	},
-//	{
-//	  "key":"Nfuxs",
-//	  "name":"南府-EXO",
-//	  "type":3,
-//	  "api": "csp_XPathFilter",
-//	  "searchable":1,
-//	  "quickSearch":1,
-//	  "filterable":1,
-//	  "ext": "https://cdn.jsdelivr.net/gh/Tangsan99999/cat@main/rewrite/xpath/Nfuxs.json"},
 	{
 	  "key":"csp_xpath_age",
 	  "name":"AGE动漫-EXO",
