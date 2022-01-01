@@ -39,6 +39,16 @@
       "quickSearch": 1,
       "filterable": 1    },
     {
+      "key": "rrm_spider",
+      "name": "人人迷-IJK",
+      "type": 3,
+      "api": "csp_Rrm",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "B9C8093A210EADA1"
+    },
+    {
       "key": "cokemv_spider",
       "name": "Cokemv-Exo",
       "type": 3,
