@@ -50,7 +50,7 @@
       "api": "csp_Ysgc",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1},
+      "filterable": 1 },
     {
       "key": "cokemv_spider",
       "name": "Cokemv-Exo",
