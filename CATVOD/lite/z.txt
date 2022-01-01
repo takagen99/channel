@@ -1,354 +1,170 @@
 // https://bit.ly/3EMm8FA
 {
   "sites": [
+	{
+	  "key":"独播库",
+	  "name":"独播库-系统",
+	  "type":3,
+	  "api":"csp_XPathMacFilter",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "filterable":1,
+	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/lite/Duboku.json"},
+ 	{
+	  "key": "csp_xpath_Onedian",
+      "name":"OLEVOD-EXO",
+	  "type":3,
+	  "api":"csp_XPathMac",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "filterable": 0,
+	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/lite/olevod.json"	},
     {
-      "key": "2345_spider",
-      "name": "2345影视(官源)",
-      "type": 3,
-      "api": "csp_YS2345",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1, 
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/2345.json"
-    },
-    {
-      "key": "sogou_spider",
-      "name": "搜狗影视(官源)",
-      "type": 3,
-      "api": "csp_YSSogou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/sogou.json"
-    },
-    {
-      "key": "360_spider",
-      "name": "360影视(官源)",
-      "type": 3,
-      "api": "csp_YS360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/360.json"
-    },
-    {
-      "key": "rrm_spider",
-      "name": "人人迷(免解)",
-      "type": 3,
-      "api": "csp_Rrm",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "B9C8093A210EADA1"
-    },
-    {
-      "key": "ikan_spider",
-      "name": "爱看(SP)",
-      "type": 3,
-      "api": "csp_IKan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "A9545C889B5D"
-    },
-    {
-      "key": "gdyy_spider",
-      "name": "孤单影视(FV0)",
-      "type": 3,
-      "api": "csp_Gdyy",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "00c8ce12-fece-5bd8-90d8-04ae99099644"
-    },
-    {
-      "key": "wgyy_spider",
-      "name": "乌龟影视(FV0)",
-      "type": 3,
-      "api": "csp_Wgyy",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "dfcd0b28-56b4-5313-9ce2-7e9f0857186f"
-    },
-    {
-      "key": "cokemv_spider",
-      "name": "Cokemv(V0)",
-      "type": 3,
-      "api": "csp_CokeApp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "dsx_spider",
-      "name": "大师兄影视(V0)",
-      "type": 3,
-      "api": "csp_Dsxys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "ysgc_spider",
-      "name": "影视工厂(V0)",
+      "key": "ysgc_spider",    // "key":"csp_Ysgc"
+      "name": "影视工厂-EXO",
       "type": 3,
       "api": "csp_Ysgc",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
-    },
+      "filterable": 1    },
     {
-      "key": "zjdr_spider",
-      "name": "追剧达人(V0)",
+      "key": "cokemv_spider",
+      "name": "Cokemv-Exo",
       "type": 3,
-      "api": "csp_Zjdr",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "epang_spider",
-      "name": "阿房App(SP)",
-      "type": 3,
-      "api": "csp_EPangApp",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "nfzjm_spider",
-      "name": "南府追剧(AT)",
-      "type": 3,
-      "api": "csp_Nfzjm",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "auete_spider",
-      "name": "Auete影视(SP)",
-      "type": 3,
-      "api": "csp_Auete",
+      "api": "csp_Cokemv",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/auete.json"
-    },
-    {
-      "key": "n0ys_spider",
-      "name": "90影视(SP)",
-      "type": 3,
-      "api": "csp_N0ys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/90ys.json"
-    },
-    {
-      "key": "adys_spider",
-      "name": "爱迪影视(SP)",
-      "type": 3,
-      "api": "csp_Aidi",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/aidi.json"
-    },
-    {
-      "key": "enlienli_spider",
-      "name": "嗯哩嗯哩(SP)",
-      "type": 3,
-      "api": "csp_Enlienli",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "jpys_spider",
-      "name": "极品影视(SP)",
-      "type": 3,
-      "api": "csp_Jpys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/jipin.json"
-    },
-    {
-      "key": "buka_spider",
-      "name": "真不卡(SP)",
-      "type": 3,
-      "api": "csp_Buka",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/buka.json"
-    },
-    {
-      "key": "ftys_spider",
-      "name": "饭团影视(SP)",
-      "type": 3,
-      "api": "csp_Ftys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/fantuan.json"
-    },
-    {
-      "key": "9ekk_spider",
-      "name": "9亿看看(SP)",
-      "type": 3,
-      "api": "csp_Nekk",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/9ekk.json"
-    },
-    {
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/lite/cokemv.json"},
+	{
+	  "key":"Gimy",
+	  "name":"Gimy-EXO",
+	  "type":3,
+	  "api": "csp_XPathMacFilter",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "filterable":1,
+	  "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/Gimy.json"},
+	{
+	  "key":"南府追剧",
+	  "name":"南府追剧-EXO",
+	  "type":3,
+	  "api":"csp_XPathMacFilter",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "filterable":1,
+	  "ext":"https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Nfuxs.json"},
+	{
+	  "key":"csp_appys_xiaogui_追剧达人",
+	  "name":"追剧达人-IJK",
+	  "type":3,
+	  "api":"csp_AppYs",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "filterable":1,
+	  "ext":"xiaogui_追剧达人"},
+   {
       "key": "csp_YydsAli1",
-      "name": "YYDS阿里(SP)",
+      "name": "YYDS-IJK",
       "type": 3,
       "api": "csp_YydsAli1",
       "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "csp_xpath_cjt",
-      "name": "CJT影视(XP)",
-      "type": 3,
-      "api": "csp_XPathMac",
-      "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/xpath/cjtys.json"
-    },
+      "filterable": 1,
+//	 "ext": "http://119.91.206.244/cat/json/yyds.json"},
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/yyds.json"},
+	{
+	  "key":"百度资源",
+	  "name":"百度资源-EXO",
+	  "type":1,
+	  "api":"https://api.apibdzy.com/api.php/provide/vod?ac=list",
+	  "playUrl":"",
+	  "categories":[] 	},
+//	{
+//	  "key":"Nfuxs",
+//	  "name":"南府-EXO",
+//	  "type":3,
+//	  "api": "csp_XPathFilter",
+//	  "searchable":1,
+//	  "quickSearch":1,
+//	  "filterable":1,
+//	  "ext": "https://cdn.jsdelivr.net/gh/Tangsan99999/cat@main/rewrite/xpath/Nfuxs.json"},
+	{
+	  "key":"csp_xpath_age",
+	  "name":"AGE动漫-EXO",
+	  "type":3,
+	  "api":"csp_XPathAge",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "filterable": 1,
+	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/agefans.json"	},
+	{
+	  "key":"csp_xpath_dm84",
+	  "name":"动漫巴士-EXO",
+	  "type":3,
+	  "api":"csp_XPath",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "filterable": 1,
+	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/dm84.json"	},
+ 
+{"key":"csp_appys_v1_蜗牛动漫","name":"蜗牛动漫-M","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_蜗牛动漫"},
+{"key":"csp_appys_v1_熊猫动漫","name":"熊猫动漫-M","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_熊猫动漫"}
+,
+ 
+ 
+{"key":"END","name":"END of LIST","type":0,"api":""}
+ 
+],
+ 
+// 直播配置，不懂也勿问。
+  "lives":[
     {
-      "key": "csp_xpath_saohuotv",
-      "name": "骚火电影(XP)",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/xpath/saohuotv2.json"
-    },
-    {
-      "key": "csp_xpath_subb",
-      "name": "素白白影视(XP)",
-      "type": 3,
-      "api": "csp_XPathSubb",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/xpath/subaibai.json"
-    },
-    {
-      "key": "csp_xpath_dm84",
-      "name": "动漫巴士(XP)",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/xpath/dm84.json"
-    },
-    {
-      "key": "csp_xpath_age",
-      "name": "AGE动漫(XP)",
-      "type": 3,
-      "api": "csp_XPathAge",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/xpath/agefans.json"
-    }
-  ],
-  "lives": [
-    {
-      "group": "NewTV",
-      "channels": [
-        {
-          "name": "NewTV爱情喜剧",
-          "urls": ["http://183.207.248.71:80/cntv/live1/n-aiqingxj/n-aiqingxj"]
-        },
-        {
-          "name": "NewTV潮妈辣婆",
-          "urls": ["http://183.207.248.71:80/cntv/live1/n-cmlapo/n-cmlapo"]
-        },
-        {
-          "name": "NewTV动作电影",
-          "urls": [
-            "http://183.207.248.71:80/cntv/live1/n-dongzuody/n-dongzuody"
-          ]
-        },
-        {
-          "name": "NewTV古装剧场",
-          "urls": [
-            "http://183.207.248.71:80/cntv/live1/n-guzhuangjc/n-guzhuangjc"
-          ]
-        },
-        {
-          "name": "NewTV黑莓电竞之夜",
-          "urls": ["http://183.207.248.71:80/cntv/live1/wmyx/wmyx"]
-        },
-        {
-          "name": "NewTV黑莓电影",
-          "urls": [
-            "http://183.207.248.71:80/cntv/live1/HD-8000k-1080P-Supermovie/HD-8000k-1080P-Supermovie"
-          ]
-        },
-        {
-          "name": "NewTV黑莓动画",
-          "urls": ["http://183.207.248.71:80/cntv/live1/donghuawg/donghuawg"]
-        },
-        {
-          "name": "NewTV家庭剧场",
-          "urls": [
-            "http://183.207.248.71:80/cntv/live1/n-jiatingjc/n-jiatingjc"
-          ]
-        },
-        {
-          "name": "NewTV金牌综艺",
-          "urls": ["http://183.207.248.71:80/cntv/live1/n-saishijx/n-saishijx"]
-        },
-        {
-          "name": "NewTV精品大剧",
-          "urls": ["http://183.207.248.71:80/cntv/live1/n-jdaju/n-jdaju"]
-        },
-        {
-          "name": "NewTV精品体育",
-          "urls": ["http://183.207.248.71:80/cntv/live1/n-jtiyu/n-jtiyu"]
-        },
-        {
-          "name": "NewTV精品综合",
-          "urls": [
-            "http://183.207.248.71:80/cntv/live1/n-mingxingdp/n-mingxingdp"
-          ]
-        },
-        {
-          "name": "NewTV军旅剧场",
-          "urls": ["http://183.207.248.71:80/cntv/live1/n-junlvjc/n-junlvjc"]
-        },
-        {
-          "name": "NewTV军事评论",
-          "urls": ["http://183.207.248.71:80/cntv/live1/n-junshipl/n-junshipl"]
-        },
-        {
-          "name": "NewTV农业致富",
-          "urls": ["http://183.207.248.71:80/cntv/live1/n-nongyezf/n-nongyezf"]
-        },
-        {
-          "name": "NewTV热播精选",
-          "urls": ["http://183.207.248.71:80/cntv/live1/n-xiqumd/n-xiqumd"]
-        },
-        {
-          "name": "NewTV中国功夫",
-          "urls": ["http://183.207.248.71:80/cntv/live1/n-gzkongfu/n-gzkongfu"]
-        }
-      ]
-    }
-  ],
+	 "group":"卫视",
+	 "channels":[
+ 
+	{"name":"湖南卫视","urls":["http://39.130.202.114:6610/gitv_live/HNWS-HD/HNWS-HD.m3u8"]},
+	{"name":"浙江卫视","urls":["http://39.130.202.114:6610/gitv_live/ZJWS-HD/ZJWS-HD.m3u8"]},
+	{"name":"江苏卫视","urls":["http://39.130.202.114:6610/gitv_live/G_JIANGSU-HD/G_JIANGSU-HD.m3u8"]},
+	{"name":"东方卫视","urls":["http://39.130.202.114:6610/gitv_live/DFWS-HD/DFWS-HD.m3u8"]},
+	{"name":"北京卫视","urls":["http://39.130.202.114:6610/gitv_live/BTV-1/BTV-1.m3u8"]}	 
+	]},
+ 
+	{
+     "group":"港澳台",
+	 "channels":[
+	{"name":"翡翠台","urls":["http://185.207.176.189:8080/channels/tv-81/playlist.m3u8"]},
+	{"name":"J2","urls":["http://185.207.176.189:8080/channels/tv-82/playlist.m3u8"]},
+	{"name":"viuTV","urls":["http://185.207.176.189:8080/channels/tv-99/playlist.m3u8"]},
+	{"name":"明珠台","urls":["http://185.207.176.189:8080/channels/tv-84/playlist.m3u8"]}
+	]},
+ 
+	{
+     "group":"新马",
+	 "channels":[
+	{"name":"Channel 5","urls":["https://dlau142f16b92.cloudfront.net/hls/clr4ctv_ch5/master.m3u8"]},
+	{"name":"Channel 8","urls":["https://d34e90s3s13i7n.cloudfront.net/hls/clr4ctv_ch8/master.m3u8"]},
+	{"name":"Channel U","urls":["https://d3inlz9elsutjl.cloudfront.net/hls/clr4ctv_chu/master.m3u8"]},
+	{"name":"CNA","urls":["https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8"]},
+	{"name":"Astro AOD","urls":["http://50.7.161.82:8277/streams/d/aod_pye/playlist.m3u8"]},
+	{"name":"Astro 爱奇异","urls":["http://50.7.161.82:8278/streams/d/iqiyi_pye/playlist.m3u8"]},
+	{"name":"Astro 双星","urls":["http://50.7.161.82:8278/streams/d/Shuangxing/playlist.m3u8"]},
+	{"name":"Astro 全佳","urls":["http://50.7.161.82:8278/streams/d/Quanjia/playlist.m3u8"]},
+	{"name":"Astro 欢喜台","urls":["http://198.16.106.62:8278/streams/d/Huahee/playlist.m3u8"]},
+	{"name":"Astro 小太阳","urls":["http://50.7.161.82:8278/streams/d/Xiaotaiyang/playlist.m3u8"]},
+	{"name":"BOO","urls":["http://50.7.161.82:8278/streams/d/Boo/playlist.m3u8"]}
+	]},
+ 
+	{
+     "group":"港澳台",
+	 "channels":[
+	{"name":"","urls":[""]},
+	{"name":"","urls":[""]}	
+	]}	
+ 
+	],
+  
+  
   "parses": [
     {
       "name": "Json并发",
@@ -883,5 +699,5 @@
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
   ],
-  "spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/main_spider.txt;md5;09f19f293f70bf16a4b266bb5c97ae46"
+  "spider": "https://github.com/takagen99/channel/blob/master/CATVOD/lite/20220101.txt?raw=true"
 }
