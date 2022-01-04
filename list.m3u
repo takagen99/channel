@@ -107,11 +107,11 @@ http://50.7.61.147:30080/Entry/vljp
 rtmp://161.202.204.248/sat/tv701
 
 #EXTINF:-1 tvg-id="6060" tvg-name="TVBS欢乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS欢乐.png" group-title="港澳台",TVBS欢乐
-rtmp://161.202.204.248:1935/sat/tv421
+http://211.23.114.106:8545/http/116.50.42.19:8081/hls/64/806/ch15.m3u8
 #EXTINF:-1 tvg-id="6075" tvg-name="JET综合" tvg-logo="" group-title="港澳台",JET综合
 http://50.7.61.147:30080/Entry/jet
 #EXTINF:-1 tvg-id="6095" tvg-name="东森超视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCSuper.png" group-title="港澳台",东森超视
-rtmp://161.202.204.248/sat/tv521
+http://211.23.114.106:8525/http/60.251.39.91:8081/hls/64/806/ch14.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_zonghehd.png" group-title="影视",爱尔达综合
 http://198.16.106.62:8278/streams/d/eltazonghe_zero/playlist.m3u8
 
