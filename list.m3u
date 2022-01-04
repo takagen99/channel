@@ -1,15 +1,15 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
 
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/1/15/HNSTV_logo.png" group-title="卫视",湖南卫视
-http://39.130.202.114:6610/gitv_live/HNWS-HD/HNWS-HD.m3u8
+http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225981/index.m3u8
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/6/66/ZTV_logo.png" group-title="卫视",浙江卫视
-http://39.130.202.114:6610/gitv_live/ZJWS-HD/ZJWS-HD.m3u8
+http://39.135.129.165/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225975/index.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="卫视",江苏卫视
-http://39.130.202.114:6610/gitv_live/G_JIANGSU-HD/G_JIANGSU-HD.m3u8
+http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225989/index.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" group-title="卫视",东方卫视
-http://39.130.202.114:6610/gitv_live/DFWS-HD/DFWS-HD.m3u8
+http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225976/index.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视",北京卫视
-http://39.130.202.114:6610/gitv_live/BTV-1/BTV-1.m3u8
+http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221226195/index.m3u8
 
 
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E7%BF%A1%E7%BF%A0%E5%8F%B0.png" group-title="港澳台",翡翠台
@@ -23,9 +23,9 @@ http://185.207.176.189:8080/channels/tv-84/playlist.m3u8
 
 
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/AXN.png" group-title="影视",AXN
-http://93.190.139.35:8278/streams/d/Axn/playlist.m3u8
+http://211.23.114.106:8558/http/116.50.42.19:8081/hls/71/813/ch43.m3u8
 #EXTINF:0 tvg-logo="http://n.ysyz.top:99/logo/hbo.png" group-title="影视",HBO
-http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8
+http://211.23.114.106:8511/http/116.50.42.19:8081/hls/71/813/ch41.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HITS.png" group-title="影视",HITS
 http://93.190.139.35:8278/streams/d/Hits/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/sCh2JpW.png" group-title="影视",天映频道
