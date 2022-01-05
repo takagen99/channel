@@ -12,7 +12,8 @@
 //"spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/main_spider.txt",
 //"spider": "https://github.com/Tangsan99999/cat/blob/main/official/jar/custom_spider.jar?raw=true",
 //"spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/main_spider.txt;md5;09f19f293f70bf16a4b266bb5c97ae46",
-"spider": "https://gitee.com/binbo1/maotv/raw/master/pglblb.txt",
+//"spider": "https://gitee.com/binbo1/maotv/raw/master/pglblb.txt",
+"spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider.jar",
 
 // 以下配置作为参考，有些我也没用过，只是测试过能用，若有问题自行解决。	
 "sites": [
