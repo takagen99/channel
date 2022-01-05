@@ -1,6 +1,6 @@
 // https://bit.ly/cat_main
 { 
-"wallpaper":"https://i.imgur.com/wOwHlyi.jpg",
+"wallpaper":"https://i.imgur.com/wOwHlyi.jpg", 
 //https://raw.githubusercontent.com/takagen99/channel/master/CATVOD/cyber.jpg
 //https://i.imgur.com/yiWKN0I.jpg    // greenery
 //https://i.imgur.com/pTgQ0GR.jpg    // temple
