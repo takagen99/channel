@@ -45,7 +45,7 @@
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/cokemv.json"},
     {
       "key": "人人迷",
-      "name": "人人迷-EXO",
+      "name": "人人迷-EXO", 
       "type": 1,
       "api": "https://kuu.renrenmi.cc/api.php/provide/vod/?ac=list",
       "playUrl": "https://jx.renrenmi.cc/?url=",
