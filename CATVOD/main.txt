@@ -1,13 +1,14 @@
 // https://bit.ly/cat_main
 // https://c1n.cn/KQeOj
 { 
-"wallpaper":"https://i.imgur.com/wOwHlyi.jpg", 
+"wallpaper":"https://i.imgur.com/cYd1MGR.png", 
 //https://raw.githubusercontent.com/takagen99/channel/master/CATVOD/cyber.jpg
 //https://i.imgur.com/yiWKN0I.jpg    // greenery
 //https://i.imgur.com/pTgQ0GR.jpg    // temple
 //https://i.imgur.com/qINVNPP.jpg    // fastfood
 //https://i.imgur.com/wOwHlyi.jpg    // city scape
 //https://i.imgur.com/VNWCVSd.jpg    // howl
+//https://i.imgur.com/cYd1MGR.png    // ff7
 	
 //"spider":"https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true",
 //"spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/main_spider.txt",
@@ -139,14 +140,13 @@
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/yyds.json"},
     {
       "key": "csp_xpath_saohuotv",
-      "name": "骚火电影(XP)",
+      "name": "骚火电影-EXO",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/xpath/saohuotv2.json"
-    },
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/saohuotv2.json"},
    {
       "key":"百度资源",
       "name":"百度资源-EXO",
@@ -164,7 +164,7 @@
 	  "searchable":1,
 	  "quickSearch":1,
 	  "filterable": 1,
-	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/agefans.json"	},
+	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/agefans.json"},
 	{
 	  "key":"csp_xpath_dm84",
 	  "name":"动漫巴士-EXO",
@@ -174,15 +174,9 @@
 	  "quickSearch":1,
 	  "filterable": 1,
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/dm84.json"	},
-
-{"key":"csp_appys_v1_蜗牛动漫","name":"蜗牛动漫-M","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_蜗牛动漫"},
-{"key":"csp_appys_v1_熊猫动漫","name":"熊猫动漫-M","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_熊猫动漫"}
-,
-
-
-{"key":"END","name":"END of LIST","type":0,"api":""}
-
-],
+	{"key":"csp_appys_v1_蜗牛动漫","name":"蜗牛动漫-M","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_蜗牛动漫"},
+	{"key":"csp_appys_v1_熊猫动漫","name":"熊猫动漫-M","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_熊猫动漫"},
+	{"key":"END","name":"END of LIST","type":0,"api":""}],
 
 // 直播配置，不懂也勿问。
   "lives":[
