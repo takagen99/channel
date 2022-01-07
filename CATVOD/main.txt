@@ -13,9 +13,9 @@
 //"spider":"https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true",
 //"spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/main_spider.txt",
 //"spider": "https://github.com/Tangsan99999/cat/blob/main/official/jar/custom_spider.jar?raw=true",
-//"spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/main_spider.txt;md5;09f19f293f70bf16a4b266bb5c97ae46",
 //"spider": "https://gitee.com/binbo1/maotv/raw/master/pglblb.txt",
-"spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider.jar",
+//"spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider.jar",
+"spider": "https://github.com/takagen99/channel/blob/master/CATVOD/20220107.jar?raw=true“，
 
 // 以下配置作为参考，有些我也没用过，只是测试过能用，若有问题自行解决。	
 "sites": [
@@ -36,14 +36,6 @@
 //      "quickSearch":1,
 //      "filterable":1,
 //      "ext":"xiaogui_影视工场"}, 
-    {
-      "key": "csp_Auete",
-      "name": "Auete-EXO",
-      "type": 3,
-      "api": "csp_Auete",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1},
     {
       "key": "cokemv_spider",
       "name": "Cokemv-Exo",
@@ -277,7 +269,22 @@
 {"name":"快云影音","type":1,"url":"http://mxjx.ptygx.com/mxjson.php/?url=","t":732,"i":"checkat2021-12-2018:43:31"},
 {"name":"麻瓜视频","type":1,"url":"https://www.t7g.cn/api/?key=11ZQE5nh363ZFdhrs9&url=","t":930,"i":"checkat2021-12-2018:43:40"},
 {"name":"林谷影视1","type":1,"url":"http://jf.lemiaoyun.cn/home/api?type=ys&uid=40190120&key=bklmnprxCJLOQSTVX0&url=","t":960,"i":"checkat2021-12-2018:44:10"},
-{"name":"影阅阁","type":1,"url":"http://api1.json.vin:4433/api/?key=WPDh6vf0aT0ahepWzW&url=","t":971,"i":"checkat2021-12-2018:43:52"}
+{"name":"影阅阁","type":1,"url":"http://api1.json.vin:4433/api/?key=WPDh6vf0aT0ahepWzW&url=","t":971,"i":"checkat2021-12-2018:43:52"},
+{"name":"1","url":"https://jx.zuixinyiqi.com/jiekou-3/?url="},
+{"name":"2","url":"https://dmku.dijiaxia.com/?url="},
+{"name":"3","url":"https://jx.ysgc.xyz/?url="},
+{"name":"4","url":"http://egwang186.gitee.io/?url="},
+{"name":"5","url":"https://jx.daidaitv.top:43810/?url="},
+{"name":"6","url":"https://okjx.cc/?url="},
+{"name":"7","url":"https://jx.ppflv.com/?url="},
+{"name":"8","url":"http://an61.com/jx/vip?v="},
+{"name":"9","url":"http://60jx.com/?url="},
+{"name":"10","url":"http://cache.languang.icu:88/didi.php?url="},
+{"name":"11","url":"https://play.tkys.tv/?url="},
+{"name":"12","url":"https://buaon.xyz/?url="},
+{"name":"13","url":"https://titan.mgtv.com.jumi.tv/player/?url="},
+{"name":"14","url":"https://jiexi.moeamv.com/?url="},
+{"name":"Json.VodJX","url":"https://www.vodjx.top/api/?key=XSQzk8KFK1I7FfPK5X&url=","type":1}
 ],
 
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili"],
