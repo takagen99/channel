@@ -10,7 +10,7 @@
     "homeVodName": "/@title",
     "homeVodId": "/@href",
     "homeVodIdR": "/voddetail/(\\w+).html",
-    "homeVodImg": "//div[@class='module-item-pic']/img/@data-src",
+    "homeVodImg": "/@data-src",
     "homeVodImgR": "\\S+(http\\S+)",
     "homeVodMark": "//div[@class='module-item-caption']/span[1]/text()",
     "cateUrl": "https://www.nfuxs.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
