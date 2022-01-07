@@ -102,7 +102,7 @@
      "searchable":1,
      "quickSearch":1,
      "filterable": 0,
-     "ext":"https://cdn.jsdelivr.net/gh/Tangsan99999/CatVodTVSpider@master/xpath/miniku.json" },      
+     "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/miniku.json" },      
    {
       "key":"Gimy",
       "name":"Gimy-EXO",
