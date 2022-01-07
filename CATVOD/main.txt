@@ -96,7 +96,7 @@
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/Duboku.json"	},
    {
      "key":"csp_xpath_miniku",
-     "name":"迷你库-Exo)",
+     "name":"迷你库-Exo",
      "type":3,
      "api":"csp_XPath",
      "searchable":1,
