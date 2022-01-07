@@ -15,7 +15,7 @@
 //"spider": "https://github.com/Tangsan99999/cat/blob/main/official/jar/custom_spider.jar?raw=true",
 //"spider": "https://gitee.com/binbo1/maotv/raw/master/pglblb.txt",
 //"spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider.jar",
-"spider": "https://github.com/takagen99/channel/blob/master/CATVOD/20220107.jar?raw=true“，
+"spider": "https://github.com/takagen99/channel/blob/master/CATVOD/20220107.jar?raw=true"
 
 // 以下配置作为参考，有些我也没用过，只是测试过能用，若有问题自行解决。	
 "sites": [
