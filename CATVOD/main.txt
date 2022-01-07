@@ -3,7 +3,7 @@
 { 
 "wallpaper":"https://i.imgur.com/pJHD9M5.jpg", 
 //https://raw.githubusercontent.com/takagen99/channel/master/CATVOD/cyber.jpg
-//https://i.imgur.com/yiWKN0I.jpg    // greenery
+//https://i.imgur.com/yiWKN0I.jpg    // greenery 
 //https://i.imgur.com/pTgQ0GR.jpg    // temple
 //https://i.imgur.com/qINVNPP.jpg    // fastfood
 //https://i.imgur.com/wOwHlyi.jpg    // city scape
