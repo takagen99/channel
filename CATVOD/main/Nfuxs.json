@@ -9,7 +9,7 @@
     "homeVodNode": "//div[@class='module-item']",
     "homeVodName": "//div[@class='module-item-pic']/a/@title",
     "homeVodId": "//div[@class='module-item-pic']/a/@href",
-    "homeVodIdR": "/voddetail/(\\w+).html",
+    "homeVodIdR": "/voddetail/(\\w+).html", 
     "homeVodImg": "//div[@class='module-item-pic']/img/@data-src",
     "homeVodImgR": "\\S+(http\\S+)",
     "homeVodMark": "//div[@class='module-item-caption']/span[1]/text()",
