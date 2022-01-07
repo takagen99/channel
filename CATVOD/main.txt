@@ -37,6 +37,14 @@
 //      "filterable":1,
 //      "ext":"xiaogui_影视工场"}, 
     {
+      "key": "csp_Auete",
+      "name": "Auete-EXO",
+      "type": 3,
+      "api": "csp_Auete",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1},
+    {
       "key": "cokemv_spider",
       "name": "Cokemv-Exo",
       "type": 3,
