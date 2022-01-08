@@ -185,6 +185,17 @@
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/dm84.json"	},
 	{"key":"csp_appys_v1_蜗牛动漫","name":"蜗牛动漫-M","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_蜗牛动漫"},
 	{"key":"csp_appys_v1_熊猫动漫","name":"熊猫动漫-M","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_熊猫动漫"},
+	
+	{
+	  "key":"csp_xpath_niba",
+	  "name":"NIBA-Test",
+	  "type":3,
+	  "api":"csp_XPath",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "filterable": 1,
+	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/niba.json"	},
+	
 	{"key":"END","name":"END of LIST","type":0,"api":""}],
 
 // 直播配置，不懂也勿问。
