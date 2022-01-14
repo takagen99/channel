@@ -22,7 +22,7 @@
 "sites": [
     {
       "key": "ysgc_spider",    // "key":"csp_Ysgc"
-      "name": "影视工厂-EXO",
+      "name": "影视工厂",
       "type": 3,
       "api": "csp_Ysgc",
       "searchable": 1,
@@ -39,7 +39,7 @@
 //      "ext":"xiaogui_影视工场"}, 
     {
       "key": "cokemv_spider",
-      "name": "Cokemv-Exo",
+      "name": "Cokemv",
       "type": 3,
       "api": "csp_Cokemv",
       "searchable": 1,
@@ -48,7 +48,7 @@
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/cokemv.json"},
 //    {
 //      "key": "人人迷",
-//      "name": "人人迷-EXO", 
+//      "name": "人人迷", 
 //      "type": 1,
 //      "api": "https://zy.renrenmi.cc/api.php/provide/vod/?ac=list",
 //      "playUrl": "https://zy.renrenmi.cc/?url=",
@@ -97,7 +97,7 @@
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/Duboku.json"	},
    {
      "key":"csp_xpath_miniku",
-     "name":"迷你库-EXP",
+     "name":"迷你库",
      "type":3,
      "api":"csp_XPath",
      "searchable":1,
@@ -106,7 +106,7 @@
      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/miniku.json" },      
    {
       "key":"Gimy",
-      "name":"Gimy-EXO",
+      "name":"Gimy",
       "type":3,
       "api": "csp_XPathMacFilter",
       "searchable":1,
@@ -115,7 +115,7 @@
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/Gimy.json"},
 //   {
 //      "key":"南府追剧",
-//      "name":"南府追剧-EXO",
+//      "name":"南府追剧",
 //      "type":3,
 //      "api":"csp_XPathMacFilter",
 //      "searchable":1,
@@ -124,7 +124,7 @@
 //      "ext":"https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Nfuxs.json"},
     {
       "key": "csp_Auete",
-      "name": "Auete-IJK",
+      "name": "Auete",
       "type": 3,
       "api": "csp_Auete",
       "searchable": 1,
@@ -132,7 +132,7 @@
       "filterable": 1},
     {
       "key":"csp_appys_xiaogui_追剧达人",
-      "name":"追剧达人-IJK",
+      "name":"追剧达人",
       "type":3,
       "api":"csp_AppYs",
       "searchable":1,
@@ -141,7 +141,7 @@
       "ext":"xiaogui_追剧达人"},
    {
       "key": "csp_YydsAli1",
-      "name": "YYDS-IJK",
+      "name": "YYDS",
       "type": 3,
       "api": "csp_YydsAli1",
       "searchable": 1,
@@ -150,7 +150,7 @@
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/yyds.json"},
     {
       "key": "csp_xpath_saohuotv",
-      "name": "骚火电影-EXO",
+      "name": "骚火电影O",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
@@ -159,14 +159,14 @@
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/saohuotv2.json"},
    {
       "key":"百度资源",
-      "name":"百度资源-EXO",
+      "name":"百度资源",
       "type":1,
       "api":"https://api.apibdzy.com/api.php/provide/vod?ac=list",
       "playUrl":"",
       "categories":[] 	},
    {
       "key":"csp_xpath_pianba",
-      "name":"片吧(XPath)",
+      "name":"片吧",
       "type":3,
       "api":"csp_XPath",
       "searchable":1,
@@ -177,7 +177,7 @@
 // 动漫
 	{
 	  "key":"csp_xpath_age",
-	  "name":"AGE动漫-EXO",
+	  "name":"AGE动漫",
 	  "type":3,
 	  "api":"csp_XPath",    // "api":"csp_XPathAge",
 	  "searchable":1,
@@ -186,7 +186,7 @@
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/agefans.json"},
 	{
 	  "key":"csp_xpath_dm84",
-	  "name":"动漫巴士-EXO",
+	  "name":"动漫巴士",
 	  "type":3,
 	  "api":"csp_XPath",
 	  "searchable":1,
