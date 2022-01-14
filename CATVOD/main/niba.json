@@ -4,9 +4,9 @@
     "dcVipFlag": "true",
     "dcPlayUrl": "true",
   "cateManual": {
-    "电影": "class.html?channelId=1",
-    "电视剧": "class.html?channelId=2",
-    "综艺": "class.html?channelId=3",
+    "电影": "/class.html?channelId=1",
+    "电视剧": "/class.html?channelId=2",
+    "综艺": "/class.html?channelId=3",
   },
     "homeVodNode": "//ul[contains(@class,'qy-mod-ul')]/li/div/a",
     "homeVodName": "/@title",
