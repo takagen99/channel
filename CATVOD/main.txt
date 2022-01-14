@@ -302,7 +302,7 @@
 "parses":[
 {"name":"Json并发","type":2,"url":"Parallel"},
 {"name":"Json轮询","type":2,"url":"Sequence"},
-{"name": "json影视工厂","type": 1,"url": "http://jiexi.ysgc.xyz/home/api?type=ys&uid=29893&key=dfhiopvzBDJUYZ0246&url="},
+{"name":"json影视工厂","type": 1,"url": "http://jiexi.ysgc.xyz/?url="},
 {"name":"雨果影视","type":1,"url":"http://103.40.246.5:6881/ijsonononxxt/?url=","t":124,"i":"checkat2021-12-2018:43:03"},
 {"name":"555TV","type":1,"url":"https://api.parwix.com:4433/analysis/json/?uid=1752&my=fhlwyABGHJLNRX1489&url=","t":139,"i":"checkat2021-12-2018:44:14"},
 {"name":"绿箭影视","type":1,"url":"https://json.pangujiexi.com:12345/json.php?url=","t":151,"i":"checkat2021-12-2018:44:11"},
