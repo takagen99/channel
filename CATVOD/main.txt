@@ -150,7 +150,7 @@
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/yyds.json"},
     {
       "key": "csp_xpath_saohuotv",
-      "name": "骚火电影O",
+      "name": "骚火电影",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
