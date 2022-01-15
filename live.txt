@@ -9,11 +9,11 @@
 
 
 香港,#genre#
-翡翠台,http://185.207.176.189:8080/channels/tv-81/playlist.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH3/3
-J2,http://185.207.176.189:8080/channels/tv-82/playlist.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH4/4
-viuTV,http://185.207.176.189:8080/channels/tv-99/playlist.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH16/16
+翡翠台,http://iptv.tvfix.org/hls/jade.m3u8#http://185.207.176.189:8080/channels/tv-81/playlist.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH3/3
+J2,http://iptv.tvfix.org/hls/j2.m3u8#http://185.207.176.189:8080/channels/tv-82/playlist.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH4/4
+viuTV,http://iptv.tvfix.org/hls/viutv.m3u8#http://185.207.176.189:8080/channels/tv-99/playlist.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH16/16
 viu6,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH17/17
-明珠台,http://185.207.176.189:8080/channels/tv-84/playlist.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH5/5
+明珠台,http://iptv.tvfix.org/hls/pearl.m3u8#http://185.207.176.189:8080/channels/tv-84/playlist.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH5/5
 
 
 台湾,#genre#
@@ -73,12 +73,6 @@ TVBS,http://211.23.114.106:8545/http/116.50.42.19:8081/hls/64/806/ch15.m3u8
 東森財經,http://211.23.114.106:8546/http/116.50.42.19:8081/hls/63/805/ch11.m3u8
 寰宇新聞,http://211.23.114.106:8547/http/116.50.42.19:8081/hls/76/818/ch62.m3u8
 壹新聞,http://211.23.114.106:8548/http/116.50.42.19:8081/hls/66/808/ch24.m3u8
-衛視電影,http://211.23.114.106:8553/http/116.50.42.19:8081/hls/62/804/ch07.m3u8
-好萊塢電影,http://211.23.114.106:8554/http/116.50.42.19:8081/hls/74/816/ch55.m3u8
-緯來電影,http://211.23.114.106:8555/http/116.50.42.19:8081/hls/69/811/ch35.m3u8
-龍華電影,http://211.23.114.106:8556/http/116.50.42.19:8066/hls/210/10014/cstv14.m3u8
-
-
 
 新马,#genre#
 Channel 5,https://dlau142f16b92.cloudfront.net/hls/clr4ctv_ch5/master.m3u8
@@ -99,7 +93,6 @@ HITS,http://93.190.139.35:8278/streams/d/Hits/playlist.m3u8#http://iptv.tvmalays
 天映频道,mitv://ns2.hellotvvod.com:9906/ec8466ba789143998fb9ed858b7c174e#http://50.7.161.82:8278/streams/d/celestial_pye/playlist.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/7235#http://iptv.tvmalaysia.cc:80/321456/321456/7235
 天映经典,mitv://ns2.hellotvvod.com:9906/4699a8c6571243a4b5387f6b3c639851#http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8#http://iptv.tvmalaysia.cc:80/321456/321456/7222#http://iptv.tvmalaysia.cc:80/624850/624850/7222
 
-
 日本,#genre#
 Animax,mitv://ns2.hellotvvod.com:9906/10d8ae908a354513b09e38e7116b7b33#http://211.23.114.106:8516/http/61.221.81.94:8088/hls/70/812/ch39.m3u8#https://feed.play.mv/live/10005200/isU48qPZqV/master.m3u8#http://iptv.tvmalaysia.cc:80/624850/624850/6696
 AT-X,https://sub2.neetball.net/live/neet.m3u8
@@ -112,28 +105,32 @@ NHK 华语,https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
 WAKUWAKU JAPAN,http://211.23.114.106:8538/http/60.251.39.91:8081/hls/61/803/ch03.m3u8
 
 影视,#genre#
-AXN,http://211.23.114.106:8558/http/116.50.42.19:8081/hls/71/813/ch43.m3u8
+AXN,http://211.23.114.106:8558/http/116.50.42.19:8081/hls/71/813/ch43.m3u8#http://50.7.61.148:30080/Entry/axn
 Cinemax,http://211.23.114.106:8559/http/116.50.42.19:8081/hls/71/813/ch42.m3u8
 FOX MOVIES,http://211.23.114.106:8560/http/116.50.42.19:8081/hls/62/804/ch08.m3u8
 FOX頻道,http://211.23.114.106:8561/http/116.50.42.19:8081/hls/61/803/ch02.m3u8
-HBO,http://211.23.114.106:8511/http/116.50.42.19:8081/hls/71/813/ch41.m3u8
+HBO,http://211.23.114.106:8511/http/116.50.42.19:8081/hls/71/813/ch41.m3u8#http://50.7.61.148:30080/Entry/hbo
+卫视电影台,http://211.23.114.106:8553/http/116.50.42.19:8081/hls/62/804/ch07.m3u8 
+好莱坞电影,http://211.23.114.106:8554/http/116.50.42.19:8081/hls/74/816/ch55.m3u8 
+纬来电影台,http://211.23.114.106:8555/http/116.50.42.19:8081/hls/69/811/ch35.m3u8 
+龙华电影台,http://211.23.114.106:8556/http/116.50.42.19:8066/hls/210/10014/cstv14.m3u8 
 
 纪录片,#genre#
-國家地理,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH99/99#http://211.23.114.106:8509/http/61.221.81.94:8088/hls/61/803/ch01.m3u8
+國家地理,http://211.23.114.106:8509/http/61.221.81.94:8088/hls/61/803/ch01.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH99/99
 國家地理台灣,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH100/100
 國家地理野生,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH101/101
-動物星球,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH102/102#http://211.23.114.106:8512/http/61.221.81.94:8088/hls/70/812/ch37.m3u8
+動物星球,http://211.23.114.106:8512/http/61.221.81.94:8088/hls/70/812/ch37.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH102/102
 DMAX,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH103/103
 探索科學,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH104/104
-探索亞洲,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH105/105#http://211.23.114.106:8510/http/61.221.81.94:8088/hls/71/813/ch44.m3u8
+探索亞洲,http://211.23.114.106:8510/http/61.221.81.94:8088/hls/71/813/ch44.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH105/105
 History,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH107/107
-亞洲旅遊,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH108/108#http://211.23.114.106:8513/http/61.221.81.94:8088/hls/76/818/ch61.m3u8
+亞洲旅遊,http://211.23.114.106:8513/http/61.221.81.94:8088/hls/76/818/ch61.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH108/108
 Discovery,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH109/109
 亞洲旅遊,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH111/111
 FASHIONTV,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH112/112
 TLC韓字,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH110/110
-TLC,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH113/113#http://50.7.61.147:30080/Entry/tlc
-
+TLC,http://50.7.61.147:30080/Entry/tlc#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH113/113
+Asian Food Network HD,http://iptv.tvmalaysia.cc:80/kl570/kl570/6693
 
 
 
