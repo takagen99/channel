@@ -9,10 +9,11 @@
 
 
 香港,#genre#
-翡翠台,http://iptv.tvfix.org/hls/jade.m3u8#http://185.207.176.189:8080/channels/tv-81/playlist.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH3/3
+翡翠台,http://iptv.tvfix.org/hls/jade.m3u8#http://iptv.tvfix.org/hls/jade2.m3u8#http://185.207.176.189:8080/channels/tv-81/playlist.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH3/3
+翡翠华丽台,http://iptv.tvfix.org/hls/jadenhk.m3u8
 J2,http://iptv.tvfix.org/hls/j2.m3u8#http://185.207.176.189:8080/channels/tv-82/playlist.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH4/4
 viuTV,http://iptv.tvfix.org/hls/viutv.m3u8#http://185.207.176.189:8080/channels/tv-99/playlist.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH16/16
-viu6,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH17/17
+viu6,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH17/17#http://185.207.176.189:8080/channels/tv-96/playlist.m3u8
 明珠台,http://iptv.tvfix.org/hls/pearl.m3u8#http://185.207.176.189:8080/channels/tv-84/playlist.m3u8#rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH5/5
 
 
