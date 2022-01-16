@@ -29,7 +29,7 @@
       "quickSearch": 1,
       "filterable": 1},
     {
-      "key":"csp_xpath_ysjc",
+      "key":"csp_xpath_ysgc",
       "name": "影视工厂2",
       "type":3,
       "api":"csp_XPath",
