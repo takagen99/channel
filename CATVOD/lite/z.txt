@@ -11,7 +11,6 @@
 	
 "spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/custom_spider.txt",
 
-// 以下配置作为参考，有些我也没用过，只是测试过能用，若有问题自行解决。	
 {
   "key": "csp_Ysgc",
   "name": "影视工厂(爬虫)",
