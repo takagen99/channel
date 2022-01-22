@@ -4,7 +4,7 @@
     "dcVipFlag": "true",
     "dcPlayUrl": "true",
   "cateNode": "//ul[contains(@class,'myui-header__menu nav-menu')]/li[contains(@class, 'dropdown-hover')]//div/ul/li/a[contains(@href, 'vodtype') and not(contains(@href,'label'))]",
-  "cateName": "/text()",
+  "cateName": "ABC",
   "cateId": "/@href",
   "cateIdR": "/class.html?channelId=1",
   "cateManual": {},
