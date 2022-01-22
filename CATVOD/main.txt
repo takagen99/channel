@@ -16,8 +16,8 @@
 //"spider": "https://github.com/Tangsan99999/cat/blob/main/official/jar/custom_spider.jar?raw=true",
 //"spider": "https://gitee.com/binbo1/maotv/raw/master/pglblb.txt",
 //"spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider.jar",
-//"spider": "https://github.com/takagen99/channel/blob/master/CATVOD/20220107.jar?raw=true",
-"spider":"https://mo-xiao.coding.net/p/c/d/c/git/raw/master/jar/custom_spider.jar",
+"spider": "https://github.com/takagen99/channel/blob/master/CATVOD/20220122.jar?raw=true",
+//"spider":"https://mo-xiao.coding.net/p/c/d/c/git/raw/master/jar/custom_spider.jar",
 
 // 以下配置作为参考，有些我也没用过，只是测试过能用，若有问题自行解决。	
 "sites": [
@@ -79,7 +79,7 @@
 //        "动漫"      ] },
     {
       "key": "csp_xpath_Onedian",
-      "name":"OLEVOD-EXO",
+      "name":"Olevod-EXO",
       "type":3,
       "api":"csp_XPathMacFilter",
       "searchable":1,
@@ -123,18 +123,6 @@
       "quickSearch":1,
       "filterable":1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/Gimy.json"},
-//   {
-//      "key":"南府追剧",
-//      "name":"南府追剧",
-//      "type":3,
-//      "api":"csp_XPathMacFilter",
-//      "searchable":1,
-//      "quickSearch":1,
-//      "filterable":1,
-//      "ext":"https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Nfuxs.json"},
-{
-"key":"csp_appys_南府追剧", "name":"南府追剧(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://iapp.nfuxs.club/dnmb.php/v1.vod"},
-
     {
       "key": "csp_Auete",
       "name": "Auete",
@@ -186,7 +174,15 @@
       "quickSearch":1,
       "filterable":0,
       "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/pianba.json"},
-      
+   {
+      "key":"csp_appys_南府追剧",
+      "name":"南府追剧(M)",
+      "type":3,
+      "api":"csp_AppYs",
+      "searchable":1,
+      "quickSearch":0,
+      "filterable":1,
+      "ext":"http://iapp.nfuxs.club/dnmb.php/v1.vod"},
 // 动漫
 	{
 	  "key":"csp_xpath_age",
@@ -235,7 +231,6 @@
   {"key":"csp_appys_U5影视", "name":"U5影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://appx.uy07.com/api.php/v1.vod"},
   {"key":"csp_appys_VIPMV", "name":"VIPMV(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://vipmv.tv/xgapp.php/v1/"},
   {"key":"csp_appys_筋斗云", "name":"筋斗云(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://tv.jindcloud.com/api.php/v1.vod"},
-	
 	
 	{"key":"END","name":"END of LIST","type":0,"api":""}],
 
