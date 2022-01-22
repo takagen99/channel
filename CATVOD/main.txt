@@ -33,10 +33,11 @@
       "key":"csp_xpath_ysgc",
       "name": "影视工厂2",
       "type":3,
-      "api":"csp_XPath",
+//      "api":"csp_XPath",
+      "api": "csp_XPathMacFilter",      
       "searchable":1,
       "quickSearch":1,
-      "filterable":0,
+      "filterable":1,
       "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/ysgc.json"}, 
 //    { 
 //      "key":"csp_appys_xiaogui_影视工场",
