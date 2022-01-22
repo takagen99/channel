@@ -12,8 +12,6 @@
 //https://i.imgur.com/SNo46YX.jpg    // cyber-2 
 	
 //"spider":"https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true",
-//"spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/main_spider.txt",
-//"spider": "https://github.com/Tangsan99999/cat/blob/main/official/jar/custom_spider.jar?raw=true",
 //"spider": "https://gitee.com/binbo1/maotv/raw/master/pglblb.txt",
 //"spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider.jar",
 "spider": "https://github.com/takagen99/channel/blob/master/CATVOD/20220122.jar?raw=true",
