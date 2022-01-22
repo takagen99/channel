@@ -15,7 +15,7 @@
     "homeVodImg": "/@data-original",
     "homeVodImgR": "\\S+(http\\S+)",
     "homeVodMark": "//span[contains(@class,'pic-text')]/text()",
-    "cateUrl": "https://www.nbyy.tv/{cateId}",
+    "cateUrl": "https://www.nbyy.tv/class.html?channelId=1",
     "cateVodNode": "//ul[contains(@class,'qy-mod-ul')]/li/div/a",
     "cateVodName": "/@title",
     "cateVodId": "/@href",
