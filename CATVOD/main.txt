@@ -272,7 +272,7 @@
 	        "http://117.148.179.24/PLTV/88888888/224/3221230035/index.m3u8",
 		"http://117.148.179.140/PLTV/88888888/224/3221229352/index.m3u8",
 		"http://117.148.179.136/PLTV/88888888/224/3221231567/index.m3u8",
-		"http://117.148.179.37/PLTV/88888888/224/3221228837/index.m3u8"
+		"http://117.148.179.37/PLTV/88888888/224/3221228837/index.m3u8",
 		"http://39.135.129.165/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225975/index.m3u8",
 		"http://223.110.246.73/ott.js.chinamobile.com/PLTV/4/224/3221227692/index.m3u8$4M1080P",
 		"http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225798/index.m3u8$3M1080P",
@@ -329,7 +329,7 @@
 	{"name":"Channel 8","urls":["https://d34e90s3s13i7n.cloudfront.net/hls/clr4ctv_ch8/master.m3u8"]},
 	{"name":"Channel U","urls":["https://d3inlz9elsutjl.cloudfront.net/hls/clr4ctv_chu/master.m3u8"]},
 	{"name":"CNA","urls":["https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8"]},
-	{"name":"Astro AOD","urls":["http://50.7.161.82:8277/streams/d/aod_pye/playlist.m3u8"]},
+	{"name":"Astro AOD","urls":["http://iptv.tvmalaysia.cc:80/kl570/kl570/6706"]},
 	{"name":"Astro 爱奇异","urls":["http://50.7.161.82:8278/streams/d/iqiyi_pye/playlist.m3u8"]},
 	{"name":"Astro 双星","urls":["http://50.7.161.82:8278/streams/d/Shuangxing/playlist.m3u8"]},
 	{"name":"Astro 全佳","urls":["http://50.7.161.82:8278/streams/d/Quanjia/playlist.m3u8"]},
