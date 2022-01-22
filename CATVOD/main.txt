@@ -74,7 +74,7 @@
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/cokemv.json"},
    {
       "key":"Gimy",
-      "name":"Gimy",
+      "name":"Gimy剧迷",
       "type":3,
       "api": "csp_XPathMacFilter",
       "searchable":1,
