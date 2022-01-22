@@ -1,7 +1,7 @@
 // https://bit.ly/cat_main
 // https://c1n.cn/KQeOj
 { 
-"wallpaper":"https://i.imgur.com/SNo46YX.jpg",
+"wallpaper":"https://i.imgur.com/K6CZ5l2.jpg",
 //https://i.imgur.com/K6CZ5l2.jpg    // cyber
 //https://i.imgur.com/yiWKN0I.jpg    // greenery 
 //https://i.imgur.com/pTgQ0GR.jpg    // temple
@@ -101,7 +101,7 @@
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/saohuotv2.json"},
    {
       "key": "csp_appys_1080P影视",
-      "name": "1080P影视(M)",
+      "name": "1080P影视",
       "type": 3,
       "api": "csp_AppYs",
       "searchable": 1,
@@ -196,7 +196,7 @@
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/dm84.json"	},
 	{
 	  "key":"csp_appys_蜗牛动漫",
-	  "name":"蜗牛动漫(M)",
+	  "name":"蜗牛动漫",
 	  "type":3,
 	  "api":"csp_AppYs",
 	  "searchable":1,
@@ -205,7 +205,7 @@
 	  "ext":"http://woniudm.woniu.cyou:20000/mogai_api.php/v1.vod"},	  
 	{
 	  "key":"csp_appys_熊猫动漫",
-	  "name":"熊猫动漫(M)",
+	  "name":"熊猫动漫",
 	  "type":3,
 	  "api":"csp_AppYs",
 	  "searchable":1,
@@ -214,10 +214,11 @@
 	  "ext":"http://dongman.k8aa.com/mogai_api.php/v1.vod"},
 //	{"key":"csp_appys_v1_蜗牛动漫","name":"蜗牛动漫-M","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_蜗牛动漫"},
 //	{"key":"csp_appys_v1_熊猫动漫","name":"熊猫动漫-M","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"v1_熊猫动漫"},
-	
-  {"key":"csp_appys_樱花动漫", "name":"樱花动漫(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.dmwu.cc/api.php/v1.vod"},
-  {"key":"csp_appys_皮皮动漫", "name":"皮皮动漫(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://dm.muying.me/mogai_api.php/v1.vod"},
-  {"key":"csp_appys_污妖动漫", "name":"污妖动漫(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.wyydm.com/api.php/app/"},
+
+  {"key":"csp_appys_污妖动漫", "name":"污妖动漫", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.wyydm.com/api.php/app/"},
+  {"key":"csp_appys_樱花动漫", "name":"樱花动漫", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.dmwu.cc/api.php/v1.vod"},
+  {"key":"csp_appys_皮皮动漫", "name":"皮皮动漫", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://dm.muying.me/mogai_api.php/v1.vod"},
+
 
 //////////////////////////////// 测试 /////////////////////////////////////
 	{
