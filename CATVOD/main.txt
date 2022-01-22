@@ -252,7 +252,12 @@
 	 "group":"卫视",
 	 "channels":[
 	 
-	{"name":"湖南卫视","urls":["http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225981/index.m3u8",
+	{"name":"湖南卫视","urls":[
+	        "http://117.148.179.172/PLTV/88888888/224/3221231729/index.m3u8",
+	        "http://117.148.179.135/PLTV/88888888/224/3221230206/index.m3u8",
+	        "http://117.148.179.148/PLTV/88888888/224/3221230824/index.m3u8",
+	        "http://117.148.179.37/PLTV/88888888/224/3221228824/index.m3u8",
+	        "http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225981/index.m3u8",
 		"http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221227698/index.m3u8$4M1080P",
 		"http://223.110.244.133:6610/gitv/live1/G_HUNAN-CQ/G_HUNAN-CQ/",
 		"http://111.40.196.9/PLTV/88888888/224/3221225554/index.m3u8",
@@ -263,12 +268,20 @@
 		"http://39.134.135.126/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226509/1.m3u8",
 		"http://111.40.196.9/PLTV/88888888/224/3221225519/index.m3u8",
 		"http://111.40.196.9/PLTV/88888888/224/3221225594/index.m3u8"]},
-	{"name":"浙江卫视","urls":["http://39.135.129.165/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225975/index.m3u8",
+	{"name":"浙江卫视","urls":[
+	        "http://117.148.179.24/PLTV/88888888/224/3221230035/index.m3u8",
+		"http://117.148.179.140/PLTV/88888888/224/3221229352/index.m3u8",
+		"http://117.148.179.136/PLTV/88888888/224/3221231567/index.m3u8",
+		"http://117.148.179.37/PLTV/88888888/224/3221228837/index.m3u8"
+		"http://39.135.129.165/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225975/index.m3u8",
 		"http://223.110.246.73/ott.js.chinamobile.com/PLTV/4/224/3221227692/index.m3u8$4M1080P",
 		"http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225798/index.m3u8$3M1080P",
 		"http://39.134.67.2:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225612/1.m3u8",
 		"http://111.40.196.9/PLTV/88888888/224/3221225538/index.m3u8"]},
-	{"name":"江苏卫视","urls":["http://39.135.129.162/PLTV/88888888/224/3221226638/1.m3u8",
+	{"name":"江苏卫视","urls":[
+	        "http://117.148.179.175/PLTV/88888888/224/3221231447/index.m3u8",
+	        "http://117.148.179.37/PLTV/88888888/224/3221228821/index.m3u8"
+	        "http://39.135.129.162/PLTV/88888888/224/3221226638/1.m3u8",
 		"http://223.110.246.82/ott.js.chinamobile.com/PLTV/4/224/3221227689/index.m3u8",
 		"http://223.110.242.158:6610/gitv/live1/G_JIANGSU-CQ/G_JIANGSU-CQ/",
 		"http://111.40.196.9/PLTV/88888888/224/3221225596/index.m3u8",
@@ -276,7 +289,10 @@
 		"http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225800/index.m3u8$3M1080P",
 		"http://117.148.179.160/PLTV/88888888/224/3221231447/index.m3u8",
 		"http://111.40.196.9/PLTV/88888888/224/3221225578/index.m3u8"]},
-	{"name":"东方卫视","urls":["http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225976/index.m3u8",
+	{"name":"东方卫视","urls":[
+	        "http://117.148.179.160/PLTV/88888888/224/3221231738/index.m3u8",
+	        "http://117.148.179.167/PLTV/88888888/224/3221231450/index.m3u8"
+	        "http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225976/index.m3u8",
 		"http://223.110.243.142/ott.js.chinamobile.com/PLTV/3/224/3221227597/index.m3u8",
 		"http://223.110.242.152:6610/gitv/live1/G_DONGFANG-CQ/G_DONGFANG-CQ/",
 		"http://39.135.138.59:18890/PLTV/88888910/224/3221225658/index.m3u8",
@@ -285,7 +301,10 @@
 		"http://39.135.138.59:18890/PLTV/88888910/224/3221225659/index.m3u8",
 		"http://219.151.31.43/liveplay-kk.rtxapp.com/live/program/live/hddfws/2300000/mnf.m3u8",
 		"http://111.40.196.9/PLTV/88888888/224/3221225542/index.m3u8"]},
-	{"name":"北京卫视","urls":["http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221226195/index.m3u8",
+	{"name":"北京卫视","urls":[
+	        "http://117.148.179.168/PLTV/88888888/224/3221231732/index.m3u8",
+		"http://117.148.179.37/PLTV/88888888/224/3221228828/index.m3u8"
+		"http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221226195/index.m3u8",
 		"http://223.110.246.72/ott.js.chinamobile.com/PLTV/4/224/3221227694/index.m3u8$4M1080P",
 		"http://223.110.246.72/ott.js.chinamobile.com/PLTV/4/224/3221227694/index.m3u8",
 		"http://223.110.244.200:6610/gitv/live1/G_BEIJING-CQ/G_BEIJING-CQ/",
@@ -322,7 +341,9 @@
 	{
      "group":"日本",
 	 "channels":[
-	{"name":"Animax","urls":["http://211.23.114.106:8516/http/61.221.81.94:8088/hls/70/812/ch39.m3u8"]},
+	{"name":"Animax","urls":[
+	        "http://211.23.114.106:8516/http/61.221.81.94:8088/hls/70/812/ch39.m3u8",
+		"http://iptv.tvfix.org/hls/animax.m3u8"]},
 	{"name":"AT-X","urls":["https://sub2.neetball.net/live/neet.m3u8"]},
 	{"name":"Nippon TV","urls":["https://ntv1.mov3.co/hls/ntv.m3u8"]},
 	{"name":"TBS","urls":["https://tbs.mov3.co/hls/tbs.m3u8"]},		
