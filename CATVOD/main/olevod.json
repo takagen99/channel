@@ -18,7 +18,7 @@
   "homeVodImg": "/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[contains(@class,'text_dy') and contains(@class,'style')]/text()",
-  "cateUrl": "https://olevod.com/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+  "cateUrl": "https://olevod.com/index.php/vod/show{area}/id/{cateId}/page/{catePg}{year}.html",
   "cateVodNode": "//ul[contains(@class,'vodlist vodlist_wi list_v12 clearfix')]//li//a[contains(@class,'vodlist_thumb')]",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
