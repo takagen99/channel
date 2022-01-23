@@ -2,17 +2,17 @@
     "ua": "", 
     "homeUrl": "https://www.nbyy.tv/",
     "cateManual": {
-      "电影"  : "/class.html?channelId=1",
-      "电视剧": "/class.html?channelId=2"
+      "电影"  : "1",
+      "电视剧": "2"
     },
     "homeVodNode": "//ul[contains(@class,'qy-mod-ul')]/li/div/a",
     "homeVodName": "/@title",
     "homeVodId": "/@href",
-    "homeVodIdR": "/(\\w+)",
+    "homeVodIdR": "/detail.html?showIdCode=(\\w+)",
     "homeVodImg": "/@data-original",
     "homeVodImgR": "\\S+(http\\S+)",
     "homeVodMark": "//span[contains(@class,'pic-text')]/text()",
-    "cateUrl": "https://www.nbyy.tv/{catePg}{cateId}",
+    "cateUrl": "https://www.nbyy.tv/class.html?channelId={catePg}{cateId}",
     "cateVodNode": "//ul[contains(@class,'qy-mod-ul')]/li/div/a",
     "cateVodName": "/@title",
     "cateVodId": "/@href",
