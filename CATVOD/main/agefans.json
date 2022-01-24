@@ -48,7 +48,7 @@
   "scVodMark": "/span[@class='newname']/text()",
   
     "filter": {
-      "中国": [
+      "-中国-all-all": [
         {
           "key": "CateType",
           "name": "版本",
