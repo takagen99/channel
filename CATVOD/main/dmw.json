@@ -39,13 +39,13 @@
   "playUrl": "http://www.88dmw.com/play/{playUrl}",
   "playUa": "",
   
-  "searchUrl": "http://www.88dmw.com/search?query={wd}&page=1",
-  "scVodNode": "//div[@class='blockcontent1']/div/a",
-  "scVodName": "/img/@alt",
-  "scVodId": "/@href",
-  "scVodIdR": "/detail/(\\w+)",
-  "scVodImg": "/img/@src",
-  "scVodMark": "/span[@class='newname']/text()",
+  "searchUrl": "http://www.88dmw.com/index.php?m=vod-search-wd-{wd}",
+  "scVodNode": "//div[@class='list3_cn_box']/div[@class='cn_box2']",
+  "scVodName": "/div/div/a/@title",
+  "scVodId": "/div/div/a/@href",
+  "scVodIdR": "/detail/(\\w+).html",
+  "scVodImg": "/div/div/a/img/@src",
+  "scVodMark": "/ul[@class='list_20']/li[2]/span/font/text()",
   
     "filter": {
       "1": [
