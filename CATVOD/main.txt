@@ -180,7 +180,7 @@
 	  "key":"csp_xpath_age",
 	  "name":"AGE动漫",
 	  "type":3,
-	  "api":"csp_XPathMacFilter", 
+	  "api":"csp_XPathFilter", 
 	  // "api":"csp_XPath",    // "api":"csp_XPathAge",
 	  "searchable":1,
 	  "quickSearch":1,
