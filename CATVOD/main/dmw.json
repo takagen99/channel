@@ -20,7 +20,8 @@
   "cateVodId": "/div[@class='cn_box3'/div/a/@href",
   "cateVodIdR": "/detail/(\\w+).html",
   "cateVodImg": "/div[@class='cn_box3'/div/a/img/@src",
-  "cateVodMark": "/ul/li/span/text()",
+  "cateVodMark": "",
+  
   "dtUrl": "http://www.88dmw.com/detail/{vid}",
   "dtNode": "//div[@id='container']",
   "dtName": "//div[@class='div_left']/div[@class='baseblock'][1]/div[@class='blockcontent']/img/@alt",
@@ -40,7 +41,8 @@
   "dtUrlName": "/text()",
   "playUrl": "http://www.88dmw.com/play/{playUrl}",
   "playUa": "",
-  "searchUrl": "https://www.agefans.live/search?query={wd}&page=1",
+  
+  "searchUrl": "http://www.88dmw.com/search?query={wd}&page=1",
   "scVodNode": "//div[@class='blockcontent1']/div/a",
   "scVodName": "/img/@alt",
   "scVodId": "/@href",
