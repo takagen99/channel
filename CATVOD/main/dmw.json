@@ -7,6 +7,8 @@
     "热门国漫": "4",
     "剧场动漫": "16"
   },
+  
+// Home Summary ================================================  
   "homeVodNode": "//div[@class='cn2_l']/div[@class='c2_contact']/div[@class='c1_l_wap_contact']/ul",
   "homeVodName": "/li/a/@title",
   "homeVodId": "/li/a/@href",
@@ -14,6 +16,7 @@
   "homeVodImg": "/li/a/img/@src",
   "homeVodMark": "/li/p[@class='time']/font/text()",
   
+// Category Summary ================================================  
   "cateUrl": "http://www.88dmw.com/vod-list-id-{cateId}-pg-{catePg}-order--by--class--year-{year}-letter--area--lang-.html",
   "cateVodNode": "//div[@class='list3_cn_box']/div[@class='cn_box2']",
   "cateVodName": "/div/div/a/@title",
@@ -21,7 +24,8 @@
   "cateVodIdR": "/detail/(\\w+).html",
   "cateVodImg": "/div/div/a/img/@src",
   "cateVodMark": "/ul[@class='list_20']/li[2]/span/font/text()", //??? to fix
-  
+
+// Category Details ================================================    
   "dtUrl": "http://www.88dmw.com/detail/{vid}.html",
   "dtNode": "//div[contains(@class,'warp')]",
   "dtName": "//div[contains(@class,'info-title']/h1/text()",
@@ -39,6 +43,7 @@
   "playUrl": "http://www.88dmw.com/play/{playUrl}",
   "playUa": "",
   
+// Search Results ================================================     
   "searchUrl": "http://www.88dmw.com/index.php?m=vod-search-wd-{wd}",
   "scVodNode": "//div[@class='list3_cn_box']/div[@class='cn_box2']",
   "scVodName": "/div/div/a/@title",
@@ -47,6 +52,7 @@
   "scVodImg": "/div/div/a/img/@src",
   "scVodMark": "/ul[@class='list_20']/li[2]/span/font/text()",
   
+// Filters =======================================================
     "filter": {
       "1": [
         {
