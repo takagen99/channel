@@ -51,7 +51,7 @@
     "filter": {
       "-中国-all-all": [
         {
-          "key": "area",
+          "key": "area", 
           "name": "版本",
           "value": [
             {"n": "全部","v": "all"},
