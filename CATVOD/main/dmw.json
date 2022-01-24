@@ -16,10 +16,10 @@
   
   "cateUrl": "http://www.88dmw.com/vod-list-id-{cateId}-pg-{catePg}-order--by--class--year-{year}-letter--area--lang-.html",
   "cateVodNode": "//div[@class='list3_cn_box']/div[@class='cn_box2']",
-  "cateVodName": "/div[@class='cn_box3'/div/a/@title",
-  "cateVodId": "/div[@class='cn_box3'/div/a/@href",
+  "cateVodName": "/div/div/a/@title",
+  "cateVodId": "/div/div/a/@href",
   "cateVodIdR": "/detail/(\\w+).html",
-  "cateVodImg": "/div[@class='cn_box3'/div/a/img/@src",
+  "cateVodImg": "/div/div/a/img/@src",
   "cateVodMark": "",
   
   "dtUrl": "http://www.88dmw.com/detail/{vid}",
