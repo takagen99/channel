@@ -2,10 +2,10 @@
   "ua": "",
   "homeUrl": "https://www.agefans.live/update",
   "cateManual": {
-    "全部": "",
-    "中国": "-中国-all-all",
+ //   "全部": "",
     "日本": "-日本-all-all",
-    "欧美": "-欧美-all-all"
+    "欧美": "-欧美-all-all",
+    "中国": "-中国-all-all"
   },
   "homeVodNode": "//div[@class='blockcontent']//ul[@class='ul_li_a6']/li",
   "homeVodName": "/h4[@class='anime_icon2_name']/a/text()",
