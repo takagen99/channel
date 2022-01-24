@@ -13,7 +13,7 @@
   "homeVodIdR": "/detail/(\\w+)",
   "homeVodImg": "//img/@src",
   "homeVodMark": "//img/@title",
-  "cateUrl": "https://www.agefans.live/catalog/{area}-{year}-all-all-all-time-{catePg}{cateId}",
+  "cateUrl": "https://agefans.live/catalog/{area}-{year}-all-all-all-time-{catePg}{cateId}",
   "cateVodNode": "//div[@class='blockcontent1']/div/a",
   "cateVodName": "/img/@alt",
   "cateVodId": "/@href",
