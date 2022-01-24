@@ -2,7 +2,7 @@
   "ua": "",
   "homeUrl": "https://www.agefans.live/update",
   "cateManual": {
- //   "全部": "", 
+    "全部": "", 
     "日本": "-日本-all-all",
     "欧美": "-欧美-all-all",
     "中国": "-中国-all-all"
@@ -13,7 +13,7 @@
   "homeVodIdR": "/detail/(\\w+)",
   "homeVodImg": "//img/@src",
   "homeVodMark": "//img/@title",
-  "cateUrl": "https://agemys.com/catalog/all-{year}-all-all-all-time-{catePg}{cateId}",
+  "cateUrl": "https://agemys.com/catalog/{area}-{year}-all-all-all-time-{catePg}{cateId}",
   "cateVodNode": "//div[@class='blockcontent1']/div/a",
   "cateVodName": "/img/@alt",
   "cateVodId": "/@href",
