@@ -7,7 +7,7 @@
     "热门国漫": "4",
     "剧场动漫": "16"
   },
-  "homeVodNode": "//div[@class='cn2_1']/div[@class='c2_contact']/div[@class='c1_l_wap_contact']/ul",
+  "homeVodNode": "//div[@class='cn2_l']/div[@class='c2_contact']/div[@class='c1_l_wap_contact']/ul",
   "homeVodName": "/li/a/@title",
   "homeVodId": "/li/a/@href",
   "homeVodIdR": "/detail/(\\w+).html",
