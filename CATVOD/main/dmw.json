@@ -23,9 +23,9 @@
   "cateVodMark": "/ul/li/span/text()",
   
   "dtUrl": "http://www.88dmw.com/detail/{vid}.html",
-  "dtNode": "//div[contains(@class,'o_r_t_wap')]",
-  "dtName": "div/h1[@class='info-title']/text()",
-  "dtImg": "/div[@class='cover']/img/@src",
+  "dtNode": "//div[contains(@class,'wap')]",
+  "dtName": "/div[@class='o_r_t_wap']/div/h1[@class='info-title']/text()",
+  "dtImg": "/div[@class='o_r_t_wap']/div[@class='info-box']/div/div/img/@src",
   "dtFromNode": "//ul[contains(@class,'play_from')]/label",
   "dtFromName": "/text()",
   "dtUrlNode": "//ul[contains(@class,'play_list')]",
