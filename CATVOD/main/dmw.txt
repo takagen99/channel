@@ -1,0 +1,206 @@
+{
+  "ua": "",
+  "homeUrl": "http://www.88dmw.com/",
+  "cateManual": {
+    "新番连载": "1", 
+    "完结日漫": "3",
+    "热门国漫": "4",
+    "剧场动漫": "16"
+  },
+  "homeVodNode": "//div[@class='blockcontent']//ul[@class='ul_li_a6']/li",
+  "homeVodName": "/h4[@class='anime_icon2_name']/a/text()",
+  "homeVodId": "/h4[@class='anime_icon2_name']/a/@href",
+  "homeVodIdR": "/detail/(\\w+)",
+  "homeVodImg": "//img/@src",
+  "homeVodMark": "//img/@title",
+  
+  "cateUrl": "http://www.88dmw.com/vod-list-id-{cateId}-pg-{catePg}-order--by--class--year-{year}-letter--area--lang-.html",
+  "cateVodNode": "//div[@class='list3_cn_box']/div[@class='cn_box2']",
+  "cateVodName": "/div[@class='cn_box3'/div/a/@title",
+  "cateVodId": "/div[@class='cn_box3'/div/a/@href",
+  "cateVodIdR": "/detail/(\\w+).html",
+  "cateVodImg": "/div[@class='cn_box3'/div/a/img/@src",
+  "cateVodMark": "/ul/li/span/text()",
+  "dtUrl": "http://www.88dmw.com/detail/{vid}",
+  "dtNode": "//div[@id='container']",
+  "dtName": "//div[@class='div_left']/div[@class='baseblock'][1]/div[@class='blockcontent']/img/@alt",
+  "dtImg": "//div[@class='div_left']/div[@class='baseblock'][1]/div[@class='blockcontent']/img/@src",
+  "dtCate": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '剧情类型')]/following-sibling::*/text()",
+  "dtYear": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '首播时间')]/following-sibling::*/text()",
+  "dtArea": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '地区')]/following-sibling::*/text()",
+  "dtMark": "",
+  "dtDirector": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '制作公司')]/following-sibling::*/text()",
+  "dtDesc": "//div[@class='div_right']/div[@class='baseblock'][2]//p/text()",
+  "dtFromNode": "//div[contains(@class,'from-tabs')]/li",
+  "dtFromName": "/text()",
+  "dtUrlNode": "//ul[contains(@class,'current-tab')]/div/a",
+  "dtUrlSubNode": "/li/a",
+  "dtUrlId": "@href",
+  "dtUrlIdR": "/p/(\\S+).html",
+  "dtUrlName": "/text()",
+  "playUrl": "http://www.88dmw.com/play/{playUrl}",
+  "playUa": "",
+  "searchUrl": "https://www.agefans.live/search?query={wd}&page=1",
+  "scVodNode": "//div[@class='blockcontent1']/div/a",
+  "scVodName": "/img/@alt",
+  "scVodId": "/@href",
+  "scVodIdR": "/detail/(\\w+)",
+  "scVodImg": "/img/@src",
+  "scVodMark": "/span[@class='newname']/text()",
+  
+    "filter": {
+      "1": [
+        {
+          "key": "area",
+          "name": "版本",
+          "value": [         
+            {"n": "全部","v": ""},
+            {"n": "TV","v": "TV"},
+            {"n": "剧场版","v": "剧场版"},
+            {"n": "OVA","v": "OVA"}
+          ]
+        },
+        {
+          "key": "year",
+          "name": "年份",
+          "value": [           
+            {"n": "全部","v": ""},
+            {"n": "2022","v": "2022"},
+            {"n": "2021","v": "2021"},
+            {"n": "2020","v": "2020"},
+            {"n": "2019","v": "2019"},
+            {"n": "2018","v": "2018"},
+            {"n": "2017","v": "2017"},
+            {"n": "2016","v": "2016"},
+            {"n": "2015","v": "2015"},
+            {"n": "2014","v": "2014"},
+            {"n": "2013","v": "2013"},
+            {"n": "2012","v": "2012"},
+            {"n": "2011","v": "2011"},
+            {"n": "2010","v": "2010"},
+            {"n": "2009","v": "2009"},
+            {"n": "2008","v": "2008"},
+            {"n": "2007","v": "2007"},
+            {"n": "2006","v": "2006"},
+            {"n": "2005","v": "2005"},            
+            {"n": "2004","v": "2004"}
+          ]
+        }
+      ],      
+      "3": [
+        {
+          "key": "area", 
+          "name": "版本",
+          "value": [               
+            {"n": "全部","v": ""},
+            {"n": "TV","v": "TV"},
+            {"n": "剧场版","v": "剧场版"},
+            {"n": "OVA","v": "OVA"}
+          ]
+        },
+        {
+          "key": "year",
+          "name": "年份",
+          "value": [           
+            {"n": "全部","v": ""},
+            {"n": "2022","v": "2022"},              
+            {"n": "2021","v": "2021"},
+            {"n": "2020","v": "2020"},
+            {"n": "2019","v": "2019"},
+            {"n": "2018","v": "2018"},
+            {"n": "2017","v": "2017"},
+            {"n": "2016","v": "2016"},
+            {"n": "2015","v": "2015"},
+            {"n": "2014","v": "2014"},
+            {"n": "2013","v": "2013"},
+            {"n": "2012","v": "2012"},
+            {"n": "2011","v": "2011"},
+            {"n": "2010","v": "2010"},
+            {"n": "2009","v": "2009"},
+            {"n": "2008","v": "2008"},
+            {"n": "2007","v": "2007"},
+            {"n": "2006","v": "2006"},
+            {"n": "2005","v": "2005"},            
+            {"n": "2004","v": "2004"}
+          ]
+        }
+      ],
+      "4": [
+        {
+          "key": "area",
+          "name": "版本",
+          "value": [               
+            {"n": "全部","v": ""},
+            {"n": "TV","v": "TV"},
+            {"n": "剧场版","v": "剧场版"},
+            {"n": "OVA","v": "OVA"}
+          ]
+        },
+        {
+          "key": "year",
+          "name": "年份",
+          "value": [            
+            {"n": "全部","v": ""},
+            {"n": "2022","v": "2022"},              
+            {"n": "2021","v": "2021"},
+            {"n": "2020","v": "2020"},
+            {"n": "2019","v": "2019"},
+            {"n": "2018","v": "2018"},
+            {"n": "2017","v": "2017"},
+            {"n": "2016","v": "2016"},
+            {"n": "2015","v": "2015"},
+            {"n": "2014","v": "2014"},
+            {"n": "2013","v": "2013"},
+            {"n": "2012","v": "2012"},
+            {"n": "2011","v": "2011"},
+            {"n": "2010","v": "2010"},
+            {"n": "2009","v": "2009"},
+            {"n": "2008","v": "2008"},
+            {"n": "2007","v": "2007"},
+            {"n": "2006","v": "2006"},
+            {"n": "2005","v": "2005"},            
+            {"n": "2004","v": "2004"}
+          ]
+        }
+      ],
+      "16": [
+        {
+          "key": "area",
+          "name": "版本",
+          "value": [
+            {"n": "全部","v": ""},
+            {"n": "TV","v": "TV"},
+            {"n": "剧场版","v": "剧场版"},
+            {"n": "OVA","v": "OVA"}
+          ]
+        },
+        {
+          "key": "year",
+          "name": "年份",
+          "value": [        
+            {"n": "全部","v": ""},
+            {"n": "2022","v": "2022"},              
+            {"n": "2021","v": "2021"},
+            {"n": "2020","v": "2020"},
+            {"n": "2019","v": "2019"},
+            {"n": "2018","v": "2018"},
+            {"n": "2017","v": "2017"},
+            {"n": "2016","v": "2016"},
+            {"n": "2015","v": "2015"},
+            {"n": "2014","v": "2014"},
+            {"n": "2013","v": "2013"},
+            {"n": "2012","v": "2012"},
+            {"n": "2011","v": "2011"},
+            {"n": "2010","v": "2010"},
+            {"n": "2009","v": "2009"},
+            {"n": "2008","v": "2008"},
+            {"n": "2007","v": "2007"},
+            {"n": "2006","v": "2006"},
+            {"n": "2005","v": "2005"},            
+            {"n": "2004","v": "2004"}
+          ]
+        }
+      ]
+    }
+  
+}
