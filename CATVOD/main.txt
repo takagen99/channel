@@ -196,6 +196,15 @@
 	  "filterable": 1,
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/dm84.json"	},
 	{
+	  "key":"csp_xpath_dmw",
+	  "name":"动漫test",
+	  "type":3,
+	  "api":"csp_XPath",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "filterable": 1,
+	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/dmw.json"	},	  
+	{
 	  "key":"csp_appys_蜗牛动漫",
 	  "name":"蜗牛动漫",
 	  "type":3,
