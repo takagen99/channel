@@ -20,7 +20,7 @@
   "cateVodId": "/div/div/a/@href",
   "cateVodIdR": "/detail/(\\w+).html",
   "cateVodImg": "/div/div/a/img/@src",
-  "cateVodMark": "/ul/li/span/text()", //??? to fix
+  "cateVodMark": "/ul[@class='list_20']/li/span[@class='style']/font/text()", //??? to fix
   
   "dtUrl": "http://www.88dmw.com/detail/{vid}.html",
   "dtNode": "//div[contains(@class,'warp')]",
