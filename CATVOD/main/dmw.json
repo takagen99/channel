@@ -9,12 +9,12 @@
   },
   
 // Home Summary ================================================  
-  "homeVodNode": "//div[@class='cn2_l']/div[@class='c2_contact']/div[@class='c1_l_wap_contact']/ul",
-  "homeVodName": "/li/a/@title",
-  "homeVodId": "/li/a/@href",
+  "homeVodNode": "//div[@class='cn2_l']/div[@class='c2_contact']/div[@class='c1_l_wap_contact']/ul/li",
+  "homeVodName": "/a/@title",
+  "homeVodId": "/a/@href",
   "homeVodIdR": "/detail/(\\w+).html",
-  "homeVodImg": "/li/a/img/@src",
-  "homeVodMark": "/li/p[@class='time']/font/text()",
+  "homeVodImg": "/a/img/@src",
+  "homeVodMark": "/p[@class='time']/font/text()",
   
 // Category Summary ================================================  
   "cateUrl": "http://www.88dmw.com/vod-list-id-{cateId}-pg-{catePg}-order--by--class--year-{year}-letter--area--lang-.html",
