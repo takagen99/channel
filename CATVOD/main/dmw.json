@@ -20,12 +20,12 @@
   "cateVodId": "/div/div/a/@href",
   "cateVodIdR": "/detail/(\\w+).html",
   "cateVodImg": "/div/div/a/img/@src",
-  "cateVodMark": "/ul[@class='list_20']/li/span[@class='style']/font/text()", //??? to fix
+  "cateVodMark": "/ul[@class='list_20']/li[2]/span[@class='style']/font/text()", //??? to fix
   
   "dtUrl": "http://www.88dmw.com/detail/{vid}.html",
   "dtNode": "//div[contains(@class,'warp')]",
-  "dtName": "/div[@class='o_r_t_wap']/div/h1[@class='info-title']/text()",
-  "dtImg": "/div[@class='o_r_t_wap']/div[@class='info-box']/div/div/img/@src",
+  "dtName": "//div[@class='o_r_t_wap']/div[@class='info-title']/h1/text()",
+  "dtImg": "//div[@class='o_r_t_wap']/div[@class='info-box']/div[@class='o_list']/div[@class='o_big_img_bg_b']/img/@src",
   "dtFromNode": "//div[contains(@class,'from-tabs')]/label",
   "dtFromName": "/text()",
   "dtUrlNode": "//div[contains(@class,'current-tab')]/div/ul",
