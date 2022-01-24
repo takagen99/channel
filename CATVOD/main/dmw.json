@@ -20,15 +20,15 @@
   "cateVodId": "/div/div/a/@href",
   "cateVodIdR": "/detail/(\\w+).html",
   "cateVodImg": "/div/div/a/img/@src",
-  "cateVodMark": "/ul/li/span/text()",
+  "cateVodMark": "/ul/li/span/text()", //??? to fix
   
   "dtUrl": "http://www.88dmw.com/detail/{vid}.html",
   "dtNode": "//div[contains(@class,'warp')]",
   "dtName": "/div[@class='o_r_t_wap']/div/h1[@class='info-title']/text()",
   "dtImg": "/div[@class='o_r_t_wap']/div[@class='info-box']/div/div/img/@src",
-  "dtFromNode": "//ul[contains(@class,'play_from')]/label",
+  "dtFromNode": "//div[contains(@class,'from-tabs')]/label",
   "dtFromName": "/text()",
-  "dtUrlNode": "//ul[contains(@class,'play_list')]",
+  "dtUrlNode": "//div[contains(@class,'current-tab')]/div/ul",
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/play/(\\S+).html",
