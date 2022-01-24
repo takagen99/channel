@@ -23,7 +23,7 @@
   "cateVodMark": "/ul/li/span/text()",
   
   "dtUrl": "http://www.88dmw.com/detail/{vid}.html",
-  "dtNode": "//div[contains(@class,'wap')]",
+  "dtNode": "//div[contains(@class,'warp')]",
   "dtName": "/div[@class='o_r_t_wap']/div/h1[@class='info-title']/text()",
   "dtImg": "/div[@class='o_r_t_wap']/div[@class='info-box']/div/div/img/@src",
   "dtFromNode": "//ul[contains(@class,'play_from')]/label",
@@ -31,7 +31,7 @@
   "dtUrlNode": "//ul[contains(@class,'play_list')]",
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "@href",
-  "dtUrlIdR": "/p/(\\S+).html",
+  "dtUrlIdR": "/play/(\\S+).html",
   "dtUrlName": "/text()",
   "playUrl": "http://www.88dmw.com/play/{playUrl}",
   "playUa": "",
