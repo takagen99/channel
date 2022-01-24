@@ -45,10 +45,10 @@
   "scVodId": "/@href",
   "scVodIdR": "/detail/(\\w+)",
   "scVodImg": "/img/@src",
-  "scVodMark": "/span[@class='newname']/text()"
+  "scVodMark": "/span[@class='newname']/text()",
   
     "filter": {
-      "-中国-all-all": [
+      "中国": [
         {
           "key": "area",
           "name": "地区",
