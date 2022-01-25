@@ -39,8 +39,8 @@
   "dtDesc": "",
 
   
-  "dtFromNode": "//div[contains(@class,'from-tabs')]/label",
-  "dtFromName": "/text()",
+  "dtFromNode": "//div[contains(@class,'from-tabs')]",
+  "dtFromName": "/label/text()",
   "dtUrlNode": "//div[contains(@class,'current-tab')]/div/ul",
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "@href",
