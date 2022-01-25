@@ -1,7 +1,7 @@
 //www.dm55.cc
 {
   "ua": "",
-  "homeUrl": "http://www.88dmw.com/",  
+  "homeUrl": "http://www.88dmw.com",
   "cateManual": {
     "新番连载": "1", 
     "完结日漫": "3",
@@ -41,7 +41,7 @@
 
 // Playlist =====================================================     
 //  "dtFromNode": "//div[contains(@class,'from-tabs')]/label[contains(text(),'线路') or contains(text(),'云')]",  
-  "dtFromNode": "//div[contains(@class,'from-tabs')]/label,
+  "dtFromNode": "//div[contains(@class,'from-tabs')]/label",
   "dtFromName": "/text()",
   "dtFromNameR": "",
 //  "dtUrlNode": "//div[contains(@class,'current-tab')]",
