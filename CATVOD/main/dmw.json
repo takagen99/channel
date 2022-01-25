@@ -31,11 +31,12 @@
   "dtName": "//div[@class='info-title']/h1/text()",
   "dtImg": "//div[@class='info-box']/div[@class='o_list']/div[@class='o_big_img_bg_b']/img/@src",
   "dtCate": "//div[@class='o_r_contact']/ul/li[8]/label/font[1]/text()",
-  "dtYear": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '首播时间')]/following-sibling::*/text()",
-  "dtArea": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '地区')]/following-sibling::*/text()",
-  "dtMark": "",
-  "dtDirector": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '制作公司')]/following-sibling::*/text()",
-  "dtDesc": "//div[@class='div_right']/div[@class='baseblock'][2]//p/text()",
+  "dtYear": "//div[@class='o_r_contact']/ul/li[6]/label/font[1]/text()",
+  "dtArea": "//div[@class='o_r_contact']/ul/li[4]/label/font[1]/text()",
+  "dtActor": "//div[@class='o_r_contact']/ul/li[3]/label/font[1]/text()",  
+  "dtMark": "//div[@class='o_r_contact']/ul/li[7]/label/font[1]/text()", 
+  "dtDirector": "//div[@class='o_r_contact']/ul/li[2]/label/font[1]/text()",
+  "dtDesc": "",
 
   
   "dtFromNode": "//div[contains(@class,'from-tabs')]/label",
