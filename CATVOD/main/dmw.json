@@ -38,15 +38,15 @@
   "dtDirector": "//div[@class='o_r_contact']/ul/li[2]/span/text()",
   "dtDesc": "",
 
-  
-  "dtFromNode": "//div[contains(@class,'from-tabs')]",
-  "dtFromName": "/label/text()",
+// Playlist =====================================================     
+  "dtFromNode": "//div[contains(@class,'from-tabs')]/label",
+  "dtFromName": "/text()",
   "dtUrlNode": "//div[contains(@class,'current-tab')]/div/ul",
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/play/(\\S+).html",
   "dtUrlName": "/text()",
-  "playUrl": "http://www.88dmw.com/play/{playUrl}",
+  "playUrl": "http://www.88dmw.com/play/{playUrl}.html",
   "playUa": "",
   
 // Search Results ================================================     
