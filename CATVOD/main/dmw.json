@@ -23,7 +23,7 @@
   "cateVodId": "/div/div/a/@href",
   "cateVodIdR": "/detail/(\\w+).html",
   "cateVodImg": "/div/div/a/img/@src",
-  "cateVodMark": "/ul[@class='list_20']/li[2]/span/font/text()", //??? to fix
+  "cateVodMark": "/ul[@class='list_20']/li[2]/span/font/text()",
 
 // Category Details ================================================    
   "dtUrl": "http://www.88dmw.com/detail/{vid}.html",
