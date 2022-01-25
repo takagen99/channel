@@ -199,7 +199,7 @@
 	  "key":"csp_xpath_dmw",
 	  "name":"动漫岛",
 	  "type":3,
-	  "api":"csp_XPath",
+	  "api":"csp_XPathMacFilter",
 	  "searchable":1,
 	  "quickSearch":1,
 	  "filterable": 1,
