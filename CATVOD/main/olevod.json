@@ -10,14 +10,18 @@
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/index.php/vod/type/id/(\\d+).html",
-  "cateManual": {},    
-  "homeVodNode": "//div[contains(@class, 'pannel')]//ul[contains(@class,'vodlist vodlist_wi list_v12 clearfix')]/li//a[contains(@class,'vodlist_thumb')]",
+  "cateManual": {},
+  
+// Home Summary ================================================  
+  "homeVodNode": "//div[contains(@class, 'pannel')]//ul[contains(@class,'vodlist vodlist_wi list_v12 clearfix')]/li/a[contains(@class,'vodlist_thumb')]",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
-  "homeVodIdR": "/index.php/vod/type/id/(\\w+).html",
+  "homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
   "homeVodImg": "/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
-  "homeVodMark": "/span[contains(@class,'text_dy') and contains(@class,'style')]/text()",
+  "homeVodMark": "/span[@class='pic_text text_right']/em/text()",
+  
+// Category Summary ================================================    
   "cateUrl": "https://olevod.com/index.php/vod/show{area}/id/{cateId}/page/{catePg}{year}.html",
   "cateVodNode": "//ul[contains(@class,'vodlist vodlist_wi')]//li//a[contains(@class,'vodlist_thumb')]",
   "cateVodName": "/@title",
@@ -25,7 +29,9 @@
   "cateVodIdR": "/index.php/vod/detail/id/(\\w+).html",
   "cateVodImg": "/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
-  "cateVodMark": "/span[contains(@class,'text_dy') and contains(@class,'style')]/text()",
+  "cateVodMark": "/span[@class='pic_text text_right']/em/text()",
+  
+// Category Details ================================================   
   "dtUrl": "https://olevod.com/index.php/vod/detail/id/{vid}.html",
   "dtNode": "//div[contains(@class,'hot_banner')]",
   "dtName": "//div[@class='content_box clearfix']/div/a/@title",
@@ -46,6 +52,8 @@
   "dtDirectorR": "",
   "dtDesc": "///div[contains(@class,'content_detail')]//span[contains(@class,'left text_muted') and contains(text(), '简介')]/parent::text()",
   "dtDescR": "",
+  
+// Playlist =====================================================
   "dtFromNode": "//div[contains(@class,'play_source_tab')]/a",
   "dtFromName": "/@alt",
   "dtFromNameR": "",
@@ -57,6 +65,8 @@
   "dtUrlNameR": "",
   "playUrl": "https://olevod.com/index.php/vod/play/id/{playUrl}.html",
   "playUa": "",
+  
+// Search Results ================================================   
   "searchUrl": "https://olevod.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
   "scVodName": "name",
@@ -65,6 +75,7 @@
   "scVodImg": "pic",
   "scVodMark": "",
   
+// Filters =======================================================
     "filter": {
       "1": [
         {
