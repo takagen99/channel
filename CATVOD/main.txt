@@ -242,7 +242,7 @@
 //////////////////////////////// 测试 /////////////////////////////////////
 	{
 	  "key":"csp_xpath_niba",
-	  "name":"NIBA-Test",
+	  "name":"=====NIBA-Test=====",
 	  "type":3,
 	  "api":"csp_XPathMac",
 	  "searchable":1,
