@@ -197,7 +197,7 @@
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/dm84.json"	},
 	{
 	  "key":"csp_xpath_dmw",
-	  "name":"动漫test",
+	  "name":"动漫岛",
 	  "type":3,
 	  "api":"csp_XPath",
 	  "searchable":1,
