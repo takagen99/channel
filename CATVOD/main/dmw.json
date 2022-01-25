@@ -30,9 +30,14 @@
   "dtNode": "//div[(@class='warp')]",
   "dtName": "//div[@class='info-title']/h1/text()",
   "dtImg": "//div[@class='info-box']/div[@class='o_list']/div[@class='o_big_img_bg_b']/img/@src",
-//  "dtName": "//div[@class='o_r_t_wap']/div[@class='info-title']/h1/text()",
-//  "dtImg": "//div[@class='o_r_t_wap']/div[@class='info-box']/div[@class='o_list']/div[@class='o_big_img_bg_b']/img/@src",
+  "dtCate": "//div[@class='o_r_contact']/ul/li[8]/label/font[1]/text()",
+  "dtYear": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '首播时间')]/following-sibling::*/text()",
+  "dtArea": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '地区')]/following-sibling::*/text()",
+  "dtMark": "",
+  "dtDirector": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '制作公司')]/following-sibling::*/text()",
+  "dtDesc": "//div[@class='div_right']/div[@class='baseblock'][2]//p/text()",
 
+  
   "dtFromNode": "//div[contains(@class,'from-tabs')]/label",
   "dtFromName": "/text()",
   "dtUrlNode": "//div[contains(@class,'current-tab')]/div/ul",
