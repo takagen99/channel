@@ -82,6 +82,15 @@
       "filterable":1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/Gimy.json"},
    {
+      "key":"csp_xpath_libv",
+      "name":"Libvio",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable": 1,
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/libv.json"	},       
+   {
       "key":"csp_appys_南府追剧",
       "name":"南府追剧-NA",
       "type":3,
@@ -204,15 +213,6 @@
 	  "quickSearch":1,
 	  "filterable": 1,
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/dmw.json"	},
-	{
-	  "key":"csp_xpath_libv",
-	  "name":"Libvio",
-	  "type":3,
-	  "api":"csp_XPathMacFilter",
-	  "searchable":1,
-	  "quickSearch":1,
-	  "filterable": 1,
-	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/libv.json"	}, 
 	{
 	  "key":"csp_appys_蜗牛动漫",
 	  "name":"蜗牛动漫",
