@@ -31,7 +31,7 @@
   "dtUrl": "https://www.libvio.com/detail/{vid}.html",
   "dtNode": "//div[(@class='stui-pannel__bd')]",
   "dtName": "//div[(@class='stui-content__thumb')]/a/@title",
-  "dtImg": "//div[@class='stui-content__thumb']/a/@data-original",
+  "dtImg": "//div[@class='stui-content__thumb']/a/img/@data-original",    //display in watch recent
   "dtCate": "",
   "dtYear": "",
   "dtArea": "",
