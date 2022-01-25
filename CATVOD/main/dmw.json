@@ -35,7 +35,7 @@
   "dtArea": "//div[@class='o_r_contact']/ul/li[4]/label/text()",
   "dtActor": "//div[@class='o_r_contact']/ul/li[3]/span/text()",  
   "dtMark": "//div[@class='o_r_contact']/ul/li[7]/label/font[1]/text()", 
-  "dtDirector": "//div[@class='o_r_contact']/ul/li[2]/label/font[1]/text()",
+  "dtDirector": "//div[@class='o_r_contact']/ul/li[2]/span/text()",
   "dtDesc": "",
 
   
