@@ -39,7 +39,7 @@
   "dtDesc": "",
 
 // Playlist =====================================================     
-  "dtFromNode": "//div[contains(@class,'from-tabs')]/label[contains(text(),'线路')]",
+  "dtFromNode": "//div[contains(@class,'from-tabs')]/label[contains(text(),'线路') or contains(text(),'云')]",
   "dtFromName": "/text()",
   "dtFromNameR": "",
   "dtUrlNode": "//div[contains(@class,'current-tab')]",
