@@ -9,6 +9,8 @@
     "cateId": "/@href",
     "cateIdR": "/vodtype/(\\w+).html",
     "cateManual": {},
+    
+// Home Summary ================================================      
     "homeVodNode": "//ul[contains(@class,'myui-vodlist')]/li/div/a",
     "homeVodName": "/@title",
     "homeVodId": "/@href",
@@ -16,6 +18,8 @@
     "homeVodImg": "/@data-original",
     "homeVodImgR": "\\S+(http\\S+)",
     "homeVodMark": "//span[contains(@class,'pic-text')]/text()",
+    
+// Category Summary ================================================      
     "cateUrl": "https://www.duboku.tv/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
     "cateVodNode": "//ul[contains(@class,'myui-vodlist')]/li/div/a",
     "cateVodName": "/@title",
@@ -24,6 +28,8 @@
     "cateVodImg": "/@data-original",
     "cateVodImgR": "\\S+(http\\S+)",
     "cateVodMark": "//span[contains(@class,'pic-text')]/text()",
+    
+// Category Details ================================================        
     "dtUrl": "https://my.duboku.vip/voddetail/{vid}.html",
     "dtNode": "//body",
     "dtName": "//div[contains(@class,'myui-content__thumb')]/a/@title",
@@ -37,6 +43,8 @@
     "dtDirector": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '导演')]/following-sibling::a/text()",
     "dtActor": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '主演')]/following-sibling::a/text()",
     "dtDesc": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '简介')]/following-sibling::a/text()",
+    
+// Playlist =====================================================       
     "dtFromNode": "//ul[contains(@class,'nav-tabs')]/li/a",
     "dtFromName": "/text()",
     "dtFromNameR": "",
@@ -48,6 +56,8 @@
     "dtUrlNameR": "",
     "playUrl": "https://my.duboku.vip/vodplay/{playUrl}.html",
     "playUa": "",
+    
+// Search Results ================================================         
     "searchUrl": "https://my.duboku.vip/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
     "scVodNode": "json:list",
     "scVodName": "name",
@@ -55,6 +65,8 @@
     "scVodIdR": "",
     "scVodImg": "pic",
     "scVodMark": "",
+    
+// Filters =======================================================    
     "filter": {
       "2": [
         {
@@ -74,14 +86,14 @@
           "name": "地区",
           "value": [
             {"n": "全部","v": ""},
+            {"n": "内地","v": "内地"},
+            {"n": "日本","v": "日本"},
+            {"n": "韩国","v": "韩国"},
             {"n": "美国","v": "美国"},
             {"n": "英国","v": "英国"},
-            {"n": "内地","v": "内地"},
+            {"n": "台湾","v": "台湾"},
             {"n": "泰国","v": "泰国"},
-            {"n": "韩国","v": "韩国"},
-            {"n": "香港","v": "香港"},
-            {"n": "日本","v": "日本"},
-            {"n": "台湾","v": "台湾"}
+            {"n": "香港","v": "香港"}
           ]
         },
         {
@@ -128,9 +140,7 @@
             {"n": "2022","v": "2022"},              
             {"n": "2021","v": "2021"},
             {"n": "2020","v": "2020"},
-            {"n": "2019","v": "2019"},
-            {"n": "2018","v": "2018"},
-            {"n": "2017","v": "2017"}
+            {"n": "2019","v": "2019"}
           ]
         },
         {
