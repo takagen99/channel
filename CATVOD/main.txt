@@ -128,7 +128,7 @@
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/yyds.json"},
     {
       "key":"csp_appys_xiaogui_追剧达人",
-      "name":"追剧达人-NA",
+      "name":"追剧达人",
       "type":3,
       "api":"csp_AppYs",
       "searchable":1,
