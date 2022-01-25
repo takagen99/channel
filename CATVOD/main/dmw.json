@@ -40,7 +40,7 @@
 
 // Playlist =====================================================     
   "dtFromNode": "//div[contains(@class,'from-tabs')]",
-  "dtFromName": "/label/em[1]/text()",
+  "dtFromName": "/label[2]/text()",
   "dtUrlNode": "//div[contains(@class,'current-tab')]",
   "dtUrlSubNode": "/div/ul/li/a",
   "dtUrlId": "@href",
