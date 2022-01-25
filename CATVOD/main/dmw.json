@@ -27,7 +27,7 @@
 
 // Category Details ================================================    
   "dtUrl": "http://www.88dmw.com/detail/{vid}.html",
-  "dtNode": "//div[contains(@class,'warp')]",
+  "dtNode": "//div[(@class='warp')]",
   "dtName": "//div[contains(@class,'info-title']/h1/text()",
   "dtImg": "//div[contains(@class,'info-box']/div[@class='o_list']/div[@class='o_big_img_bg_b']/img/@src",
 //  "dtName": "//div[@class='o_r_t_wap']/div[@class='info-title']/h1/text()",
