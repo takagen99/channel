@@ -259,6 +259,7 @@
 	  "filterable": 1,
 	  "ext":"https://pastebin.com/raw/LR84aD8a"	},    	  
 
+{"key":"csp_appys_xiaogui_双十电影", "name":"双十电影(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"xiaogui_双十电影"},
 {"key":"csp_appys_555电影", "name":"555电影(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://w7tv.com/xgapp.php/v1/"},
   {"key":"csp_appys_LIBVIO", "name":"LIBVIO(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.mkys.me/api.php/app/"},
   {"key":"csp_appys_爱迪影视", "name":"爱迪影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://aidi.fun/xgapp.php/v1/"},
