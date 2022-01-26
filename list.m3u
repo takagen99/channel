@@ -120,15 +120,20 @@ http://50.7.161.82:8278/streams/d/Boo/playlist.m3u8
 
 
 /////// 实 时 ////////////////////////////////////////////////////////
+#EXTINF:0 tvg-logo="https://i.imgur.com/OFSfnbM.png" group-title="实时记录",Discovery
+http://iptv.tvfix.org/hls/discovery.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/OFSfnbM.png" group-title="实时记录",动物星球
-http://50.7.161.82:8278/streams/d/AnimalPlanet/playlist.m3u8
+http://iptv.tvfix.org/hls/animal.m3u8
+//http://50.7.161.82:8278/streams/d/AnimalPlanet/playlist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeowild.png" group-title="实时记录",国家地理野生频道
-http://50.7.161.82:8278/streams/d/Natgeowild/playlist.m3u8
+http://iptv.tvfix.org/hls/natlgeo.m3u8
+//http://50.7.161.82:8278/streams/d/Natgeowild/playlist.m3u8
 
 
 /////// 日 本 ////////////////////////////////////////////////////////
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Animax.png" group-title="日本",Animax
-http://211.23.114.106:8516/http/61.221.81.94:8088/hls/70/812/ch39.m3u8
+http://iptv.tvfix.org/hls/animax.m3u8
+//http://211.23.114.106:8516/http/61.221.81.94:8088/hls/70/812/ch39.m3u8
 #EXTINF:0 tvg-logo="https://www.at-x.com/favicon_android.png" group-title="日本",AT-X
 https://sub2.neetball.net/live/neet.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/lgnpkib.png" group-title="日本",Nippon TV
@@ -136,11 +141,13 @@ https://ntv1.mov3.co/hls/ntv.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/7Zz1bLO.png" group-title="日本",TBS
 https://tbs.mov3.co/hls/tbs.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHK.png" group-title="日本",NHK
-#http://58.99.33.16:1935/liveedge17/live_108_3.stream/chunklist.m3u8
+http://58.99.33.16:1935/liveedge17/live_108_3.stream/chunklist.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="日本",NHKWorld
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8
 #EXTINF:0 tvg-name="NHK新聞資訊台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="日本",NHK 华语
 https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
+
+
 #EXTINF:-1 tvg-id="6090" tvg-name="纬来体育台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandSportsHD.png" group-title="日本",纬来体育
 rtmp://161.202.204.248/sat/tv721
 
