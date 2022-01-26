@@ -447,7 +447,7 @@
 {"name":"Json.VodJX","url":"https://www.vodjx.top/api/?key=XSQzk8KFK1I7FfPK5X&url=","type":1}
 ],
 
-"flags":["duoduozy","youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili"],
+"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili"],
 
 "ijk":[
 {"group":"软解码","options":[
