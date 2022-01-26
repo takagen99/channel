@@ -54,6 +54,8 @@ http://iptv.tvfix.org/hls/tvbkf.m3u8
 http://iptv.tvfix.org/hls/tvbs.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="台湾",TVBS新闻台
 http://iptv.tvfix.org/hls/tvbsnews.m3u8
+#EXTINF:-1 tvg-id="6060" tvg-name="TVBS欢乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS欢乐.png" group-title="台湾",TVBS欢乐
+http://211.23.114.106:8545/http/116.50.42.19:8081/hls/64/806/ch15.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="台湾",中天新闻
 http://iptv.tvfix.org/hls/ztxw.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="台湾",东森新闻
@@ -66,10 +68,14 @@ http://211.23.114.106:8503/http/61.221.81.94:8088/hls/72/814/ch48.m3u8
 http://211.23.114.106:8502/http/61.221.81.94:8088/hls/72/814/ch46.m3u8
 #EXTINF:-1 tvg-id="7135" tvg-name="民视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/民视.png" group-title="台湾",民视
 http://211.23.114.106:8504/http/61.221.81.94:8088/hls/73/815/ch49.m3u8
-#EXTINF:-1 tvg-id="6042" tvg-name="MAV Life" tvg-logo="" group-title="港澳台",Mav Life 美丽人生
+#EXTINF:-1 tvg-id="6042" tvg-name="MAV Life" tvg-logo="" group-title="台湾",Mav Life 美丽人生
 http://58.99.33.16:1935/liveedge17/live_070_3.stream/chunklist.m3u8
-#EXTINF:-1 tvg-id="6042" tvg-name="MoMo综合" tvg-logo="" group-title="港澳台",MoMo综合
+#EXTINF:-1 tvg-id="6042" tvg-name="MoMo综合" tvg-logo="" group-title="台湾",MoMo综合
 http://58.99.33.16:1935/liveedge17/live_075_3.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="6095" tvg-name="东森超视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCSuper.png" group-title="台湾",东森超视
+http://211.23.114.106:8525/http/60.251.39.91:8081/hls/64/806/ch14.m3u8
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_zonghehd.png" group-title="台湾",爱尔达综合
+http://198.16.106.62:8278/streams/d/eltazonghe_zero/playlist.m3u8
 
 
 /////// 影 视 ////////////////////////////////////////////////////////
@@ -146,32 +152,16 @@ http://58.99.33.16:1935/liveedge17/live_108_3.stream/chunklist.m3u8
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8
 #EXTINF:0 tvg-name="NHK新聞資訊台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="日本",NHK 华语
 https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
-
-
-#EXTINF:-1 tvg-id="6090" tvg-name="纬来体育台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandSportsHD.png" group-title="日本",纬来体育
-rtmp://161.202.204.248/sat/tv721
-
-
-
 #EXTINF:-1 tvg-id="6051" tvg-name="纬来日本" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandJapanese.png" group-title="港澳台",纬来日本
 http://50.7.61.147:30080/Entry/vljp
-#EXTINF:-1 tvg-id="6088" tvg-name="纬来育乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandMaxTV.png" group-title="体育",纬来育乐
-rtmp://161.202.204.248/sat/tv701
-
-#EXTINF:-1 tvg-id="6060" tvg-name="TVBS欢乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS欢乐.png" group-title="港澳台",TVBS欢乐
-http://211.23.114.106:8545/http/116.50.42.19:8081/hls/64/806/ch15.m3u8
 #EXTINF:-1 tvg-id="6075" tvg-name="JET综合" tvg-logo="" group-title="港澳台",JET综合
 http://50.7.61.147:30080/Entry/jet
-#EXTINF:-1 tvg-id="6095" tvg-name="东森超视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCSuper.png" group-title="港澳台",东森超视
-http://211.23.114.106:8525/http/60.251.39.91:8081/hls/64/806/ch14.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_zonghehd.png" group-title="影视",爱尔达综合
-http://198.16.106.62:8278/streams/d/eltazonghe_zero/playlist.m3u8
 
  
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/afc.png" group-title="美食",亚洲美食频道
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/afc.png" group-title="test",test1
 http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/100
 #https://livecdn.fptplay.net/world/afchd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/tLShSaO.png" group-title="美食",FoodNetwork美食台
+#EXTINF:0 tvg-logo="https://i.imgur.com/tLShSaO.png" group-title="test",test2
 http://198.16.106.62:8278/streams/d/asiafood_zero/playlist.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeopeople.png" group-title="实时记录",国家地理悠人频道
+#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeopeople.png" group-title="test",test3
 http://iptv.tvmalaysia.cc:80/624850/624850/7067
