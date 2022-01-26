@@ -21,10 +21,10 @@ http://iptv.tvfix.org/hls/brtv1hd.m3u8
 
 
 /////// 香 港 ////////////////////////////////////////////////////////
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E7%BF%A1%E7%BF%A0%E5%8F%B0.png" group-title="香港",翡翠台
+#EXTINF:0 tvg-logo="https://i.imgur.com/21SDGZM.png" group-title="香港",翡翠台
 http://iptv.tvfix.org/hls/jade2.m3u8
 //http://185.207.176.189:8080/channels/tv-81/playlist.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E7%BF%A1%E7%BF%A0%E5%8F%B0.png" group-title="香港",翡翠台海外
+#EXTINF:0 tvg-logo="https://i.imgur.com/eRNzNj9.png" group-title="香港",翡翠台海外
 http://iptv.tvfix.org/hls/jadenhk2.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="香港",J2
 http://iptv.tvfix.org/hls/j2.m3u8
@@ -32,25 +32,25 @@ http://iptv.tvfix.org/hls/j2.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/viutv.png" group-title="香港",viuTV
 http://iptv.tvfix.org/hls/viutv.m3u8
 //http://185.207.176.189:8080/channels/tv-99/playlist.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/viutv6.png" group-title="香港",viuTV6
+#EXTINF:0 tvg-logo="https://i.imgur.com/CWbBzPM.png" group-title="香港",viuTV6
 http://iptv.tvfix.org/hls/viutv6.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E6%98%8E%E7%8F%A0%E5%8F%B0.png" group-title="香港",明珠台
 http://iptv.tvfix.org/hls/pearl.m3u8
 //http://185.207.176.189:8080/channels/tv-84/playlist.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="香港",无线新闻台
+#EXTINF:0 tvg-logo="https://i.imgur.com/E7aZYUy.png" group-title="香港",无线新闻台
 http://iptv.tvfix.org/hls/inews.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="香港",TVB经典台
+#EXTINF:0 tvg-logo="https://i.imgur.com/2qp61l6.png" group-title="香港",TVB经典台
 http://iptv.tvfix.org/hls/tvbjd.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="香港",TVB为食台
+#EXTINF:0 tvg-logo="https://i.imgur.com/lplFFhB.png" group-title="香港",TVB为食台
 http://iptv.tvfix.org/hls/tvbws.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="香港",TVB星河
+#EXTINF:0 tvg-logo="https://i.imgur.com/M1IYyUD.png" group-title="香港",TVB星河
 http://iptv.tvfix.org/hls/tvbxh.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="香港",TVB功夫台
+#EXTINF:0 tvg-logo="https://i.imgur.com/rvNKbfl.png" group-title="香港",TVB功夫台
 http://iptv.tvfix.org/hls/tvbkf.m3u8
 
 
 /////// 台 湾 ////////////////////////////////////////////////////////
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="台湾",TVBS亚洲台
+#EXTINF:0 tvg-logo="https://i.imgur.com/Rjci8g4.png" group-title="台湾",TVBS亚洲台
 http://iptv.tvfix.org/hls/tvbs.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="台湾",TVBS新闻台
 http://iptv.tvfix.org/hls/tvbsnews.m3u8
