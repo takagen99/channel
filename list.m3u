@@ -29,7 +29,7 @@ http://iptv.tvfix.org/hls/jadenhk2.m3u8
 #EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="香港",J2
 http://iptv.tvfix.org/hls/j2.m3u8
 //http://185.207.176.189:8080/channels/tv-82/playlist.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/viutv.png" group-title="香港",viuTV
+#EXTINF:0 tvg-logo="https://i.imgur.com/rZctO1p.png" group-title="香港",viuTV
 http://iptv.tvfix.org/hls/viutv.m3u8
 //http://185.207.176.189:8080/channels/tv-99/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/CWbBzPM.png" group-title="香港",viuTV6
@@ -91,11 +91,11 @@ http://iptv.tvfix.org/hls/typd.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/vx5WtwZ.png" group-title="影视",天映经典
 http://iptv.tvfix.org/hls/tyjd.m3u8
 //http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/vx5WtwZ.png" group-title="影视",美亚电影台
+#EXTINF:0 tvg-logo="https://i.imgur.com/CmjmLrv.png" group-title="影视",美亚电影台
 http://iptv.tvfix.org/hls/mydy.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/vx5WtwZ.png" group-title="影视",Thrill
+#EXTINF:0 tvg-logo="https://i.imgur.com/xOeYbiZ.png" group-title="影视",Thrill
 http://iptv.tvfix.org/hls/thrill.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/vx5WtwZ.png" group-title="影视",星空卫视
+#EXTINF:0 tvg-logo="https://i.imgur.com/tAghVHL.png" group-title="影视",星空卫视
 http://iptv.tvfix.org/hls/startv.m3u8
 
 
@@ -121,17 +121,17 @@ http://50.7.161.82:8278/streams/d/Quanjia/playlist.m3u8
 http://198.16.106.62:8278/streams/d/Huahee/playlist.m3u8
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/07/Astro_XTY.png" group-title="新马",Astro 小太阳
 http://50.7.161.82:8278/streams/d/Xiaotaiyang/playlist.m3u8
-#EXTINF:0 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0d/404_300.png/revision/latest/scale-to-width-down/200?cb=20171225070136" group-title="新马",BOO
+#EXTINF:0 tvg-logo="https://i.imgur.com/6jftmzA.png" group-title="新马",BOO
 http://50.7.161.82:8278/streams/d/Boo/playlist.m3u8
 
 
 /////// 实 时 ////////////////////////////////////////////////////////
-#EXTINF:0 tvg-logo="https://i.imgur.com/OFSfnbM.png" group-title="实时记录",Discovery
+#EXTINF:0 tvg-logo="https://i.imgur.com/kBn8EkN.png" group-title="实时记录",Discovery
 http://iptv.tvfix.org/hls/discovery.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/OFSfnbM.png" group-title="实时记录",动物星球
 http://iptv.tvfix.org/hls/animal.m3u8
 //http://50.7.161.82:8278/streams/d/AnimalPlanet/playlist.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeowild.png" group-title="实时记录",国家地理野生频道
+#EXTINF:0 tvg-logo="https://i.imgur.com/wswE6mS.jpg" group-title="实时记录",国家地理野生频道
 http://iptv.tvfix.org/hls/natlgeo.m3u8
 //http://50.7.161.82:8278/streams/d/Natgeowild/playlist.m3u8
 
@@ -152,9 +152,9 @@ http://58.99.33.16:1935/liveedge17/live_108_3.stream/chunklist.m3u8
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8
 #EXTINF:0 tvg-name="NHK新聞資訊台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="日本",NHK 华语
 https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
-#EXTINF:-1 tvg-id="6051" tvg-name="纬来日本" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandJapanese.png" group-title="港澳台",纬来日本
+#EXTINF:-1 tvg-id="6051" tvg-name="纬来日本" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandJapanese.png" group-title="日本",纬来日本
 http://50.7.61.147:30080/Entry/vljp
-#EXTINF:-1 tvg-id="6075" tvg-name="JET综合" tvg-logo="" group-title="港澳台",JET综合
+#EXTINF:-1 tvg-id="6075" tvg-name="JET综合" tvg-logo="" group-title="日本",JET综合
 http://50.7.61.147:30080/Entry/jet
 
  
