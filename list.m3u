@@ -52,13 +52,13 @@ http://iptv.tvfix.org/hls/tvbkf.m3u8
 /////// 台 湾 ////////////////////////////////////////////////////////
 #EXTINF:0 tvg-logo="https://i.imgur.com/Rjci8g4.png" group-title="台湾",TVBS亚洲台
 http://iptv.tvfix.org/hls/tvbs.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="台湾",TVBS新闻台
+#EXTINF:0 tvg-logo="https://i.imgur.com/5RXRkPW.png" group-title="台湾",TVBS新闻台
 http://iptv.tvfix.org/hls/tvbsnews.m3u8
-#EXTINF:-1 tvg-id="6060" tvg-name="TVBS欢乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS欢乐.png" group-title="台湾",TVBS欢乐
+#EXTINF:-1 tvg-id="6060" tvg-name="TVBS欢乐台" tvg-logo="https://i.imgur.com/TLUnUPG.png" group-title="台湾",TVBS欢乐
 http://211.23.114.106:8545/http/116.50.42.19:8081/hls/64/806/ch15.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="台湾",中天新闻
+#EXTINF:0 tvg-logo="https://i.imgur.com/okfKWKl.png" group-title="台湾",中天新闻
 http://iptv.tvfix.org/hls/ztxw.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="台湾",东森新闻
+#EXTINF:0 tvg-logo="https://i.imgur.com/rcVHQHn.png" group-title="台湾",东森新闻
 http://iptv.tvfix.org/hls/dsxw.m3u8
 #EXTINF:-1 tvg-id="6028" tvg-name="中视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视.png" group-title="台湾",中视
 http://211.23.114.106:8502/http/61.221.81.94:8088/hls/72/814/ch47.m3u8
