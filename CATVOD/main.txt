@@ -172,7 +172,7 @@
      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/miniku.json" },    
    {
       "key":"csp_xpath_pianba",
-      "name":"片吧",
+      "name":"===片吧===",
       "type":3,
       "api":"csp_XPath",
       "searchable":1,
