@@ -55,6 +55,15 @@
       "quickSearch":1,
       "filterable":1,
       "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/ysgc.json"},
+   {
+      "key": "csp_appys_1080P影视",
+      "name": "1080P影视",
+      "type": 3,
+      "api": "csp_AppYs",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://1080p.tv/api.php/v1.vod"},
     {
       "key": "csp_Auete",
       "name": "Auete影视",
@@ -117,15 +126,6 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/saohuotv2.json"},
-   {
-      "key": "csp_appys_1080P影视",
-      "name": "1080P影视",
-      "type": 3,
-      "api": "csp_AppYs",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://1080p.tv/api.php/v1.vod"},
    {
       "key": "csp_YydsAli1",
       "name": "YYDS",
