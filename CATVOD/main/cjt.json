@@ -1,0 +1,220 @@
+{
+  "ua": "",
+  "homeUrl": "https://cjt521.com",
+  "dcVipFlag": "true",
+  "dcPlayUrl": "true",
+  "dcShow2Vip": {},
+  "cateManual": {
+    "电影": "1", 
+    "剧集": "2",
+    "综艺": "3",
+    "动漫": "4"
+  },
+
+// Home Summary ================================================  
+  "homeVodNode": "//div[contains(@class,'top20')]//h2[contains(@class,'title-name')and(/span[contains(text(),'最新')])]/parent::*/parent::*/div[contains(@class,'vodlist') and not(contains(@style,'display:none'))]//a[contains(@class,'aplus-exp')]",
+  "homeVodName": "/@title",
+  "homeVodId": "/@href",
+  "homeVodIdR": "/index.php/vod/play/id/(\\w+)/sid/.+",
+  "homeVodImg": "/div[contains(@class, 'eclazy')]/@data-original",
+  "homeVodMark": "/span[contains(@class, 'pack-prb')]/text()",
+
+// Category Summary ================================================  
+  "cateUrl": "https://cjt521.com/index.php/vod/show{area}/id/{cateId}/page/{catePg}{year}.html",
+  "cateVodNode": "//div[contains(@class, 'vodlist')]//a[contains(@class,'aplus-exp')]",
+  "cateVodName": "/@title",
+  "cateVodId": "/@href",
+  "cateVodIdR": "/index.php/vod/play/id/(\\w+)/sid/.+",
+  "cateVodImg": "/div[contains(@class, 'eclazy')]/@data-original",
+  "cateVodMark": "/span[contains(@class, 'pack-prb')]/text()",
+
+// Category Details ================================================    
+  "dtUrl": "https://cjt521.com/index.php/vod/detail/id/{vid}.html",
+  "dtNode": "//div[@class='vod-detail']",
+  "dtName": "//div[contains(@class,'s-top-right')]/div[contains(@class,'s-top-info-title')]/h1/text()",
+  "dtImg": "//a[contains(@class,'s-cover-img')]/img/@src",
+  "dtCate": "//div[contains(@class,'s-top-info-detail')]/p[contains(@class,'item') and contains(/span/text(),'类型')]/span/following-sibling::*/text()",
+  "dtArea": "//div[contains(@class,'s-top-info-detail')]/p[contains(@class,'item') and contains(/span/text(),'地区')]/span/following-sibling::*/text()",
+  "dtYear": "//div[contains(@class,'s-top-info-detail')]/p[contains(@class,'item') and contains(/span/text(),'年代')]/span/following-sibling::*/text()",
+  "dtActor": "//div[contains(@class,'s-top-info-detail')]/p[contains(@class,'item') and contains(/span/text(),'演员')]/span/following-sibling::*/text()",
+  "dtDirector": "//div[contains(@class,'s-top-info-detail')]/p[contains(@class,'item') and contains(/span/text(),'导演')]/span/following-sibling::*/text()",
+  "dtDesc": "//div[contains(@class,'s-top-info-detail')]/p[contains(@class,'item-desc')]/span/following-sibling::*/text()",
+
+// Playlist =====================================================     
+  "dtFromNode": "//div[contains(@class, 'play_source')]/div[contains(@class,'play_source_tab')]/div/a",
+  "dtFromName": "/text()",
+  "dtFromNameR": "(.+)\\(",
+  "dtUrlNode": "//div[contains(@class, 'play_source')]//div[contains(@class, 'play_list_box')]//ul",
+  "dtUrlSubNode": "/li/a",
+  "dtUrlId": "@href",
+  "dtUrlIdR": "/index.php/vod/play/(\\S+).html",
+  "dtUrlName": "/text()",
+  "dtUrlNameR": "",
+  "playUrl": "https://cjt521.com/index.php/vod/play/{playUrl}.html",
+  "playUa": "",
+
+// Search Results ================================================         
+  "searchUrl": "https://cjt521.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
+  "scVodNode": "json:list",
+  "scVodName": "name",
+  "scVodId": "id",
+  "scVodIdR": "",
+  "scVodImg": "pic",
+  "scVodMark": "",
+
+// Filters =======================================================    
+    "filter": {
+      "1": [
+        {
+          "key": "area",
+          "name": "地区",
+          "value": [
+            {"n": "全部","v": ""},
+            {"n": "中国","v": "/area/大陆"},
+            {"n": "香港","v": "/area/香港"},
+            {"n": "台湾","v": "/area/台湾"},
+            {"n": "美国","v": "/area/美国"},
+            {"n": "英国","v": "/area/英国"},
+            {"n": "日本","v": "/area/日本"},
+            {"n": "韩国","v": "/area/韩国"},
+            {"n": "泰国","v": "/area/泰国"},
+            {"n": "其他","v": "/area/其它"}
+          ]
+        },
+        {
+          "key": "year",
+          "name": "年份",
+          "value": [
+            {"n": "全部","v": ""},
+            {"n": "2022","v": "/year/2022"},
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"}
+          ]
+        }
+      ],
+      "2": [
+        {
+          "key": "area",
+          "name": "地区",
+          "value": [
+            {"n": "全部","v": ""},
+            {"n": "中国","v": "/area/大陆"},
+            {"n": "香港","v": "/area/香港"},
+            {"n": "台湾","v": "/area/台湾"},
+            {"n": "美国","v": "/area/美国"},
+            {"n": "英国","v": "/area/英国"},
+            {"n": "日本","v": "/area/日本"},
+            {"n": "韩国","v": "/area/韩国"},
+            {"n": "泰国","v": "/area/泰国"},
+            {"n": "其他","v": "/area/其他"}
+          ]
+        },
+        {
+          "key": "year",
+          "name": "年份",
+          "value": [
+            {"n": "全部","v": ""},
+            {"n": "2022","v": "/year/2022"},
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"}
+          ]
+        }
+      ],
+      "4": [
+        {
+          "key": "area",
+          "name": "地区",
+          "value": [
+            {"n": "全部","v": ""},
+            {"n": "日本","v": "/area/日本"},
+            {"n": "中国","v": "/area/大陆"},
+            {"n": "欧美","v": "/area/欧美"},
+            {"n": "其他","v": "/area/其他"}
+          ]
+        },
+        {
+          "key": "year",
+          "name": "年份",
+          "value": [
+            {"n": "全部","v": ""},
+            {"n": "2022","v": "/year/2022"},
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"}
+          ]
+        }
+      ],
+      "3": [
+        {
+          "key": "area",
+          "name": "地区",
+          "value": [
+            {"n": "全部","v": ""},
+            {"n": "中国","v": "/area/大陆"},
+            {"n": "香港","v": "/area/香港"},
+            {"n": "台湾","v": "/area/台湾"},
+            {"n": "美国","v": "/area/美国"},
+            {"n": "韩国","v": "/area/韩国"},
+            {"n": "其他","v": "/area/其他"}
+          ]
+        },
+        {
+          "key": "year",
+          "name": "年份",
+          "value": [
+            {"n": "全部","v": ""},
+            {"n": "2022","v": "/year/2022"},
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"}
+          ]
+        }
+      ]
+    }
+  }
