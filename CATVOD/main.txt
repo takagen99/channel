@@ -232,7 +232,7 @@
 	  "filterable": 1,
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/dmw.json"	},
 	{
-	  "key":"csp_xpath_dmw",
+	  "key":"csp_xpath_yh",
 	  "name":"樱花动漫",
 	  "type":3,
 	  "api":"csp_XPathMacFilter",
