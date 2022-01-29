@@ -107,7 +107,16 @@
       "searchable":1,
       "quickSearch":1,
       "filterable": 1,
-      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/libv.json"	},       
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/libv.json"	},    
+   {
+      "key":"csp_xpath_lezhu",
+      "name":"乐猪TV",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/lezhu.json"	},    
    {
       "key":"csp_appys_南府追剧",
       "name":"南府追剧-NA",
@@ -222,6 +231,15 @@
 	  "quickSearch":1,
 	  "filterable": 1,
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/dmw.json"	},
+	{
+	  "key":"csp_xpath_dmw",
+	  "name":"樱花动漫",
+	  "type":3,
+	  "api":"csp_XPathMacFilter",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "filterable": 1,
+	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/sakura.json"	},
 	{
 	  "key":"csp_appys_蜗牛动漫",
 	  "name":"蜗牛动漫",
