@@ -21,7 +21,7 @@
 "sites": [
     {
       "key": "csp_xpath_Onedian",
-      "name":"Olevod-EXO",
+      "name":"欧乐影院-Exo",
       "type":3,
       "api":"csp_XPathMacFilter",
       "searchable":1,
