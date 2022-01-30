@@ -36,7 +36,7 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":1,
-      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/Duboku.json"	},
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/duboku.json"	},
 //    {
 //      "key": "ysgc_spider",    // "key":"csp_Ysgc"
 //      "name": "影视工厂",
@@ -98,7 +98,7 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":1,
-      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/Gimy.json"},
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/gimy.json"},
    {
       "key":"csp_xpath_libv",
       "name":"Libvio",
