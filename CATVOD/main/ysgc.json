@@ -5,7 +5,19 @@
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/vodtype/(\\w+).html",
-  "cateManual": {},
+  "cateManual": {
+    "电影": "1",
+    "国产剧": "13",
+    "港台剧": "14",	
+    "欧美剧": "16",
+    "日韩剧": "15",
+    "综艺": "3",
+    "日漫": "26",
+    "国漫": "27",
+    "动漫": "4"
+  },
+
+// Home Summary ====================================================
   "homeVodNode": "//div[contains(@class, 'padding-0')]//ul[contains(@class,'myui-vodlist')]/li//a[contains(@class,'myui-vodlist__thumb')]",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
@@ -13,7 +25,9 @@
   "homeVodImg": "/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
-  "cateUrl": "https://www.ysgc.cc/vodshow/{cateId}-{area}----------{year}.html",
+
+// Category Summary ================================================
+  "cateUrl": "https://www.ysgc.cc/vodshow/{cateId}-{area}--{type}-----{catePg}---{year}.html",
 //  "cateUrl": "https://www.ysgc.cc/vodshow/{cateId}--------{catePg}---2022.html",  
   "cateVodNode": "//ul[contains(@class,'myui-vodlist')]//li//a[contains(@class,'myui-vodlist__thumb')]",
   "cateVodName": "/@title",
@@ -22,6 +36,8 @@
   "cateVodImg": "/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "/span[contains(@class,'pic-text')]/text()",
+
+// Category Details ================================================
   "dtUrl": "https://www.ysgc.cc/voddetail/{vid}.html",
   "dtNode": "//div[contains(@class,'col-lg-wide-75')]",
   "dtName": "//div[@class='myui-content__thumb']/a[contains(@class,'myui-vodlist__thumb')]/@title",
@@ -42,6 +58,8 @@
   "dtDirectorR": "",
   "dtDesc": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '简介')]/parent::text()",
   "dtDescR": "",
+  
+// Playlist ========================================================
   "dtFromNode": "//a[@data-toggle='tab' and contains(@href, 'playlist')]",
   "dtFromName": "/text()",
   "dtFromNameR": "",
@@ -53,16 +71,32 @@
   "dtUrlNameR": "",
   "playUrl": "https://www.ysgc.cc/vodplay/{playUrl}.html",
   "playUa": "",
+
+// Search Results ==================================================
   "searchUrl": "https://www.ysgc.cc/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
   "scVodName": "name",
   "scVodId": "id",
   "scVodIdR": "",
   "scVodImg": "pic",
-  "scVodMark": ""
- ,
+  "scVodMark": "",
+
+// Filters =======================================================
     "filter": {
-      "1": [
+      "1": [         // 电影
+        {
+          "key": "type",
+          "name": "类型",
+          "value": [
+            {"n": "全部","v": ""},
+            {"n": "动作","v": "动作"},
+            {"n": "科幻","v": "科幻"},
+            {"n": "喜剧","v": "喜剧"},        
+            {"n": "爱情","v": "爱情"},
+            {"n": "恐怖","v": "恐怖"},
+            {"n": "动画","v": "动画"}
+          ]
+        },
         {
           "key": "area",
           "name": "地区",
@@ -100,7 +134,7 @@
           ]
         }
       ],
-      "13": [
+      "13": [         // 国产剧
         {
           "key": "year",
           "name": "年份",
@@ -122,7 +156,7 @@
           ]
         }
       ],
-      "14": [
+      "14": [         // 港台剧
         {
           "key": "year",
           "name": "年份",
@@ -144,7 +178,16 @@
           ]
         }
       ],
-      "15": [
+      "15": [         // 日韩剧
+        {
+          "key": "area",
+          "name": "地区",
+          "value": [
+            {"n": "全部","v": ""},
+            {"n": "日本","v": "日本"},
+            {"n": "韩国","v": "韩国"}
+          ]
+        },
         {
           "key": "year",
           "name": "年份",
@@ -166,7 +209,7 @@
           ]
         }
       ],
-      "16": [
+      "16": [         // 欧美剧
         {
           "key": "year",
           "name": "年份",
@@ -188,7 +231,7 @@
           ]
         }
       ],
-      "26": [
+      "26": [         // 日漫
         {
           "key": "year",
           "name": "年份",
@@ -210,7 +253,7 @@
           ]
         }
       ],
-      "27": [
+      "27": [         // 国漫
         {
           "key": "year",
           "name": "年份",
@@ -232,7 +275,7 @@
           ]
         }
       ],
-      "3": [
+      "3": [         // 综艺
         {
           "key": "area",
           "name": "地区",
@@ -264,10 +307,39 @@
             {"n": "2010","v": "2010"}
           ]
         }
+      ],
+      "4": [         // 动漫
+        {
+          "key": "area",
+          "name": "地区",
+          "value": [
+            {"n": "全部","v": ""},
+            {"n": "国产","v": "国产"},
+            {"n": "日本","v": "日本"},
+            {"n": "欧美","v": "欧美"},
+            {"n": "其他","v": "其他"}
+          ]
+        },        
+        {
+          "key": "year",
+          "name": "年份",
+          "value": [
+            {"n": "全部","v": ""},
+            {"n": "2022","v": "2022"},              
+            {"n": "2021","v": "2021"},
+            {"n": "2020","v": "2020"},
+            {"n": "2019","v": "2019"},
+            {"n": "2018","v": "2018"},
+            {"n": "2017","v": "2017"},
+            {"n": "2016","v": "2016"},
+            {"n": "2015","v": "2015"},
+            {"n": "2014","v": "2014"},
+            {"n": "2013","v": "2013"},
+            {"n": "2012","v": "2012"},
+            {"n": "2011","v": "2011"},
+            {"n": "2010","v": "2010"}
+          ]
+        }
       ]
-      
-      
     }
-  
-  
   }
