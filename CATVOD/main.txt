@@ -1,7 +1,7 @@
 // https://bit.ly/cat_main
 // https://c1n.cn/KQeOj
 { 
-"wallpaper":"https://i.imgur.com/K6CZ5l2.jpg",
+"wallpaper":"https://i.imgur.com/NutnENr.jpg",
 //https://i.imgur.com/K6CZ5l2.jpg    // cyber
 //https://i.imgur.com/yiWKN0I.jpg    // greenery 
 //https://i.imgur.com/pTgQ0GR.jpg    // temple
