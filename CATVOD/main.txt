@@ -11,11 +11,17 @@
 //https://i.imgur.com/pJHD9M5.jpg    // ff7
 //https://i.imgur.com/SNo46YX.jpg    // cyber-2 
 	
+//////////////// OFFICIAL ////////////////	
 //"spider":"https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true",
-//"spider": "https://gitee.com/binbo1/maotv/raw/master/pglblb.txt",
-//"spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider.jar",
-"spider": "https://github.com/takagen99/channel/blob/master/CATVOD/20220122.jar?raw=true",
 //"spider":"https://mo-xiao.coding.net/p/c/d/c/git/raw/master/jar/custom_spider.jar",
+
+//////////////// SHARERTV ////////////////
+//"spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider.jar",
+"spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider003.jar",
+
+//"spider": "https://github.com/takagen99/channel/blob/master/CATVOD/20220122.jar?raw=true",
+//"spider": "https://gitee.com/binbo1/maotv/raw/master/pglblb.txt",
+
 
 //////////////////////////////// 影视 /////////////////////////////////////	
 "sites": [
