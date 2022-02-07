@@ -144,6 +144,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/yyds.json"},
+   {
+      "key":"csp_xpath_test",
+      "name":"test2",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable": 1,
+       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/zxzj.json"},  	      
     {
       "key":"csp_appys_xiaogui_追剧达人",
       "name":"追剧达人",
@@ -275,7 +284,6 @@
 
 {"key":"csp_appys_555电影", "name":"555电影(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://w7tv.com/xgapp.php/v1/"},
   {"key":"csp_appys_LIBVIO", "name":"LIBVIO(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.mkys.me/api.php/app/"},
-  {"key":"csp_appys_爱迪影视", "name":"爱迪影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://aidi.fun/xgapp.php/v1/"},
   {"key":"csp_appys_苍蓝资源", "name":"苍蓝资源(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://vip.ruifenglb.com:4433/api.php/app/"},
   {"key":"csp_appys_饭团影院", "name":"饭团影院(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://television.wkfile.com/api.php/app/"},
   {"key":"csp_appys_影视工场", "name":"影视工场(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.ysgc.cc/xgapp.php/v1/"},
