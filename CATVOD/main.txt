@@ -145,8 +145,8 @@
       "filterable": 1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/yyds.json"},
    {
-      "key":"csp_xpath_test",
-      "name":"test2",
+      "key":"csp_xpath_zxzj",
+      "name":"在线之家",
       "type":3,
       "api":"csp_XPathMacFilter",
       "searchable":1,
