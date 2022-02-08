@@ -37,25 +37,18 @@
 
 // Category Details ================================================
   "dtUrl": "https://cokemv.me/voddetail/{vid}.html",
-  "dtNode": "//div[@class='myui-content__thumb']",				// must be unique
+  "dtNode": "//div[@class='col-xs-1'][2]",    // "//div[@class='myui-content__thumb']",				// must be unique
   "dtName": "//div[@class='myui-content__thumb']/a/@title",
   "dtNameR": "",
   "dtImg": "//div[@class='myui-content__thumb']/a/img/@data-original",
   "dtImgR": "\\S+(http\\S+)",
-  "dtCate": "//p[@class='data']/span[contains(text(), '分類')]/following-sibling::*/text()",
-  "dtCateR": "",
-  "dtYear": "//p[@class='data']/span[contains(text(), '年份')]/following-sibling::*/text()",
-  "dtYearR": "",
-  "dtArea": "",
-  "dtAreaR": "",
-  "dtMark": "//p[@class='data']/span[contains(text(), '更新')]/following-sibling::*/text()",
-  "dtMarkR": "",
-  "dtActor": "//p[@class='data']/span[contains(text(), '主演')]/following-sibling::*/text()",
-  "dtActorR": "",
-  "dtDirector": "//p[@class='data']/span[contains(text(), '導演')]/following-sibling::*/text()",
-  "dtDirectorR": "",
-  "dtDesc": "//div[contains(@class,'col-pd')]/p/text()",
-  "dtDescR": "",
+  "dtCate": "//p[@class='data'][1]/a[1]/text()",
+  "dtYear": "//p[@class='data'][1]/a[3]/text()",
+  "dtArea": "//p[@class='data'][1]/a[2]/text()",
+  "dtMark": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '更新')]/following-sibling::a/text()",
+  "dtDirector": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '导演')]/following-sibling::a/text()",
+  "dtActor": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '主演')]/following-sibling::a/text()",
+  "dtDesc": "//p[@class='data hidden-xs'][1]/text()",
 
 // Playlist ========================================================
   "dtFromNode": "//div[@class='myui-panel_hd']/div/ul/li/a[contains(text(),'路')]",
