@@ -78,14 +78,14 @@
       "quickSearch": 0,
       "filterable": 1},      
     {
-      "key": "cokemv_spider",
+      "key": "csp_xpath_cokemv",
       "name": "Cokemv",
       "type": 3,
-      "api": "csp_Cokemv",
+      "api": "csp_XPathMacFilter",   // "csp_Cokemv",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/cokemv.json"},
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/cokem.json"},
     {
       "key": "csp_xpath_cjt",
       "name": "CJT影视",
