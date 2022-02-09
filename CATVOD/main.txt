@@ -138,7 +138,7 @@
       "api": "csp_XPath",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 0,      // no filter from website
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/saohuotv2.json"},
    {
       "key": "csp_YydsAli1",
@@ -252,7 +252,7 @@
 	  "api":"csp_XPathMacFilter",
 	  "searchable":1,
 	  "quickSearch":1,
-	  "filterable": 1,
+	  "filterable": 1,	// no filter format from website
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/sakura.json"	},
 	{
 	  "key":"csp_appys_蜗牛动漫",
