@@ -288,7 +288,7 @@
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/niba.json"	},
 	{
 	  "key":"csp_xpath_test",
-	  "name":"test2",
+	  "name":"===Test===",
 	  "type":3,
 	  "api":"csp_XPathMacFilter",
 	  "searchable":1,
@@ -297,7 +297,6 @@
 	  "ext":"https://pastebin.com/raw/LR84aD8a"	},    	  
 
 {"key":"csp_appys_555电影", "name":"555电影(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://w7tv.com/xgapp.php/v1/"},
-  {"key":"csp_appys_8090", "name":"8090(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://zy.yilans.net:8090/api.php/provide/vod/at/xml/"},
   {"key":"csp_appys_LIBVIO", "name":"LIBVIO(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.mkys.me/api.php/app/"},
   {"key":"csp_appys_饭团影院", "name":"饭团影院(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://television.wkfile.com/api.php/app/"},
   {"key":"csp_appys_影视工场", "name":"影视工场(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.ysgc.cc/xgapp.php/v1/"},
