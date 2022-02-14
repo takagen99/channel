@@ -73,7 +73,7 @@
       "ext": "https://1080p.tv/api.php/v1.vod"},
     {
       "key": "csp_xpath_aidi",
-      "name": "Aidi影视",
+      "name": "爱迪影视",
       "type": 3,
       "api": "csp_XPathMac",  
       "searchable": 1,
