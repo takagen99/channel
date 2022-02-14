@@ -459,7 +459,7 @@
 {"name":"21","type":1,"url":" https://json.pangujiexi.com:12345/json.php?url="},
 {"name":"22","type":1,"url":"https://jx.jisujiexi.vip/home/api?type=ys&uid=266535&key=chjmvwxADHIKLR2568&url="},
 {"name":"23","type":1,"url":" http://admin.vodjx.top/json.php?url="},
-{"name":"24","type":1,"url":"https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="}],
+{"name":"24","type":1,"url":"https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="},
 {"name":"Json.VodJX","url":"https://www.vodjx.top/api/?key=XSQzk8KFK1I7FfPK5X&url=","type":1},
 {"name":"雨果影视","type":1,"url":"http://103.40.246.5:6881/ijsonononxxt/?url=","t":124,"i":"checkat2021-12-2018:43:03"},
 {"name":"555TV","type":1,"url":"https://api.parwix.com:4433/analysis/json/?uid=1752&my=fhlwyABGHJLNRX1489&url=","t":139,"i":"checkat2021-12-2018:44:14"},
