@@ -159,7 +159,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,      // no filter from website
-      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/saohuotv2.json"},
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/saohuotv.json"},
    {
       "key": "csp_YydsAli1",
       "name": "YYDS-NA",
