@@ -187,7 +187,7 @@
       "quickSearch":1,
       "filterable":1,
 //    "ext":"xiaogui_追剧达人"},
-      "ext":"http://vipmv.tv/xgapp.php/v1/"},   
+      "ext":"http://vipmv.cc/api.php"},   
    {
       "key":"百度资源",
       "name":"百度资源",
