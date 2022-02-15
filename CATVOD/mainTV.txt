@@ -89,31 +89,84 @@
       {
         "name": "翡翠台",
         "urls": [
-          "http://185.207.176.189:8080/channels/tv-81/playlist.m3u8"
+          "http://iptv.tvfix.org/hls/jade2.m3u8"
         ]
       },
       {
         "name": "J2",
         "urls": [
-          "http://185.207.176.189:8080/channels/tv-82/playlist.m3u8"
+          "http://iptv.tvfix.org/hls/j2.m3u8"
         ]
       },
       {
         "name": "viuTV",
         "urls": [
-          "http://185.207.176.189:8080/channels/tv-99/playlist.m3u8"
+          "http://iptv.tvfix.org/hls/viutv.m3u8"
         ]
       },
       {
+        "name": "viuTV6",
+        "urls": [
+          "http://iptv.tvfix.org/hls/viutv6.m3u8"
+        ]
+      },      
+      {
         "name": "明珠台",
         "urls": [
-          "http://185.207.176.189:8080/channels/tv-84/playlist.m3u8"
+          "http://iptv.tvfix.org/hls/pearl.m3u8"
         ]
       }
     ]
   },
   {
-    "group": "新马",
+    "group": "台湾",
+    "channels": [
+      {
+        "name": "TVBS亚洲台",
+        "urls": [
+          "http://iptv.tvfix.org/hls/tvbs.m3u8"
+        ]
+      },
+      {
+        "name": "中天新闻",
+        "urls": [
+          "http://iptv.tvfix.org/hls/ztxw.m3u8"
+        ]
+      },
+      {
+        "name": "东森新闻",
+        "urls": [
+          "http://iptv.tvfix.org/hls/dsxw.m3u8"
+        ]
+      },
+      {
+        "name": "Discovery",
+        "urls": [
+          "http://iptv.tvfix.org/hls/discovery.m3u8"
+        ]
+      },
+      {
+        "name": "Animal Planet",
+        "urls": [
+          "http://iptv.tvfix.org/hls/animal.m3u8"
+        ]
+      },
+      {
+        "name": "NatGeo",
+        "urls": [
+          "http://iptv.tvfix.org/hls/natlgeo.m3u8"
+        ]
+      },      
+      {
+        "name": "Test",
+        "urls": [
+          "http://50.7.61.147:30080/Entry/vljp"
+        ]
+      }
+    ]
+  },  
+  {
+    "group": "新加坡",
     "channels": [
       {
         "name": "Channel 5",
@@ -140,45 +193,27 @@
         ]
       },
       {
-        "name": "Astro AOD",
+        "name": "AXN",
         "urls": [
-          "http://iptv.tvmalaysia.cc:80/kl570/kl570/6706"
+          "http://211.23.114.106:8558/http/116.50.42.19:8081/hls/71/813/ch43.m3u8"
         ]
       },
       {
-        "name": "Astro 爱奇异",
+        "name": "HBO",
         "urls": [
-          "http://50.7.161.82:8278/streams/d/iqiyi_pye/playlist.m3u8"
+          "http://211.23.114.106:8511/http/116.50.42.19:8081/hls/71/813/ch41.m3u8"
         ]
-      },
+      },      
       {
-        "name": "Astro 双星",
+        "name": "Thrill",
         "urls": [
-          "http://50.7.161.82:8278/streams/d/Shuangxing/playlist.m3u8"
+          "http://iptv.tvfix.org/hls/thrill.m3u8"
         ]
-      },
+      },      
       {
-        "name": "Astro 全佳",
+        "name": "天映频道",
         "urls": [
-          "http://50.7.161.82:8278/streams/d/Quanjia/playlist.m3u8"
-        ]
-      },
-      {
-        "name": "Astro 欢喜台",
-        "urls": [
-          "http://198.16.106.62:8278/streams/d/Huahee/playlist.m3u8"
-        ]
-      },
-      {
-        "name": "Astro 小太阳",
-        "urls": [
-          "http://50.7.161.82:8278/streams/d/Xiaotaiyang/playlist.m3u8"
-        ]
-      },
-      {
-        "name": "BOO",
-        "urls": [
-          "http://50.7.161.82:8278/streams/d/Boo/playlist.m3u8"
+          "http://iptv.tvfix.org/hls/typd.m3u8"
         ]
       }
     ]
