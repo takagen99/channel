@@ -307,14 +307,8 @@
 	  "filterable": 1,
 	  "ext":"https://pastebin.com/raw/LR84aD8a"	},    	  
 
-{"key":"csp_appys_555电影", "name":"555电影(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://w7tv.com/xgapp.php/v1/"},
-  {"key":"csp_appys_LIBVIO", "name":"LIBVIO(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.mkys.me/api.php/app/"},
-  {"key":"csp_appys_饭团影院", "name":"饭团影院(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://television.wkfile.com/api.php/app/"},
-  {"key":"csp_appys_影视工场", "name":"影视工场(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.ysgc.cc/xgapp.php/v1/"},
   {"key":"csp_appys_剧迷视频", "name":"剧迷视频(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://pan.hzafw.com/api.php/v1.vod"},
   {"key":"csp_appys_U5影视", "name":"U5影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://appx.uy07.com/api.php/v1.vod"},
-  {"key":"csp_appys_VIPMV", "name":"VIPMV(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://vipmv.tv/xgapp.php/v1/"},
-  {"key":"csp_appys_筋斗云", "name":"筋斗云(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://tv.jindcloud.com/api.php/v1.vod"},
   {"key":"csp_appys_皮皮动漫", "name":"皮皮动漫", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://dm.muying.me/mogai_api.php/v1.vod"},
 
 //////////////////////////////// 最后 /////////////////////////////////////	
