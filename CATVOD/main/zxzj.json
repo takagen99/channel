@@ -40,8 +40,10 @@
   "dtDesc": "//span[@class='detail-sketch']/text()",
     
 // Playlist =====================================================     
-  "dtFromNode": "//div[@class='stui-vodlist__head' and not(contains(text(),'猜你喜欢'))]",
-  "dtFromName": "//h3",                                                     // number must match
+//  "dtFromNode": "//div[@class='stui-vodlist__head' and not(contains(text(),'猜你喜欢'))]",
+//  "dtFromName": "//h3",    												// number must match
+  "dtFromNode": "//h3",
+  "dtFromName": "[substring-before(text(),'(')]", 
   "dtFromNameR": "(.+) \\(\\S+",
   "dtUrlNode": "//ul[contains(@class,'stui-content__playlist clearfix')]",  // number must match
   "dtUrlSubNode": "/li/a",
