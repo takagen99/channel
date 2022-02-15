@@ -1,0 +1,81 @@
+[
+  {
+    "group": "NewTV",
+    "channels": [
+      {
+        "name": "NewTV爱情喜剧",
+        "urls": ["http://183.207.248.71:80/cntv/live1/n-aiqingxj/n-aiqingxj"]
+      },
+      {
+        "name": "NewTV潮妈辣婆",
+        "urls": ["http://183.207.248.71:80/cntv/live1/n-cmlapo/n-cmlapo"]
+      },
+      {
+        "name": "NewTV动作电影",
+        "urls": ["http://183.207.248.71:80/cntv/live1/n-dongzuody/n-dongzuody"]
+      },
+      {
+        "name": "NewTV古装剧场",
+        "urls": [
+          "http://183.207.248.71:80/cntv/live1/n-guzhuangjc/n-guzhuangjc"
+        ]
+      },
+      {
+        "name": "NewTV黑莓电竞之夜",
+        "urls": ["http://183.207.248.71:80/cntv/live1/wmyx/wmyx"]
+      },
+      {
+        "name": "NewTV黑莓电影",
+        "urls": [
+          "http://183.207.248.71:80/cntv/live1/HD-8000k-1080P-Supermovie/HD-8000k-1080P-Supermovie"
+        ]
+      },
+      {
+        "name": "NewTV黑莓动画",
+        "urls": ["http://183.207.248.71:80/cntv/live1/donghuawg/donghuawg"]
+      },
+      {
+        "name": "NewTV家庭剧场",
+        "urls": ["http://183.207.248.71:80/cntv/live1/n-jiatingjc/n-jiatingjc"]
+      },
+      {
+        "name": "NewTV金牌综艺",
+        "urls": ["http://183.207.248.71:80/cntv/live1/n-saishijx/n-saishijx"]
+      },
+      {
+        "name": "NewTV精品大剧",
+        "urls": ["http://183.207.248.71:80/cntv/live1/n-jdaju/n-jdaju"]
+      },
+      {
+        "name": "NewTV精品体育",
+        "urls": ["http://183.207.248.71:80/cntv/live1/n-jtiyu/n-jtiyu"]
+      },
+      {
+        "name": "NewTV精品综合",
+        "urls": [
+          "http://183.207.248.71:80/cntv/live1/n-mingxingdp/n-mingxingdp"
+        ]
+      },
+      {
+        "name": "NewTV军旅剧场",
+        "urls": ["http://183.207.248.71:80/cntv/live1/n-junlvjc/n-junlvjc"]
+      },
+      {
+        "name": "NewTV军事评论",
+        "urls": ["http://183.207.248.71:80/cntv/live1/n-junshipl/n-junshipl"]
+      },
+      {
+        "name": "NewTV农业致富",
+        "urls": ["http://183.207.248.71:80/cntv/live1/n-nongyezf/n-nongyezf"]
+      },
+      {
+        "name": "NewTV热播精选",
+        "urls": ["http://183.207.248.71:80/cntv/live1/n-xiqumd/n-xiqumd"]
+      },
+      {
+        "name": "NewTV中国功夫",
+        "urls": ["http://183.207.248.71:80/cntv/live1/n-gzkongfu/n-gzkongfu"]
+      }
+    ]
+  }
+]
