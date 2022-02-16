@@ -23,9 +23,9 @@
       {
         "name": "江苏卫视",
         "urls": [
-          "http://223.110.236.14/ott.js.chinamobile.com/PLTV/4/224/3221227792/index.m3u8",
+          "http://223.110.236.8/ott.js.chinamobile.com/PLTV/4/224/3221227689/index.m3u8",
           "http://223.110.236.12/ott.js.chinamobile.com/PLTV/4/224/3221227765/index.m3u8",
-          "http://223.110.236.14/ott.js.chinamobile.com/PLTV/4/224/3221227739/index.m3u8",
+          "http://223.110.236.14/ott.js.chinamobile.com/PLTV/4/224/3221227552/index.m3u8",
           "http://223.110.236.4/ott.js.chinamobile.com/PLTV/4/224/3221227561/index.m3u8"
         ]
       },
