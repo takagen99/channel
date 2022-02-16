@@ -20,7 +20,7 @@
 //////////////// SHARERTV ////////////////
 //"spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider.jar",
 
-"spider": "https://github.com/takagen99/channel/blob/master/CATVOD/20220122.jar?raw=true",
+"spider": "https://github.com/takagen99/channel/blob/master/CATVOD/20220216.jar?raw=true",
 //"spider": "https://gitee.com/binbo1/maotv/raw/master/pglblb.txt",
 
 
