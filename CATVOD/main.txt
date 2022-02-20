@@ -299,7 +299,7 @@
 	  "key":"csp_xpath_test",
 	  "name":"===Test===",
 	  "type":3,
-	  "api":"csp_XPathMacFilter",
+	  "api":"csp_Auete",  // "api":"csp_XPathMacFilter",
 	  "searchable":1,
 	  "quickSearch":1,
 	  "filterable": 1,
