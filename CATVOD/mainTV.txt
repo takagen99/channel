@@ -5,46 +5,43 @@
       {
         "name": "湖南卫视",
         "urls": [
-          "http://223.110.236.18/ott.js.chinamobile.com/PLTV/4/224/3221227404/index.m3u8",
-          "http://223.110.236.10/ott.js.chinamobile.com/PLTV/4/224/3221227191/index.m3u8",
-          "http://223.110.236.12/ott.js.chinamobile.com/PLTV/4/224/3221227320/index.m3u8",
-          "http://223.110.236.16/ott.js.chinamobile.com/PLTV/4/224/3221227220/index.m3u8"
+          "http://117.148.179.135/PLTV/88888888/224/3221230206/index.m3u8",
+          "http://117.148.179.148/PLTV/88888888/224/3221230824/index.m3u8",
+          "http://117.148.179.37/PLTV/88888888/224/3221228824/index.m3u8",
+          "http://iptv.tvfix.org/hls/hunanhd.m3u8"
         ]
       },
       {
         "name": "浙江卫视",
         "urls": [
-          "http://223.110.236.20/ott.js.chinamobile.com/PLTV/4/224/3221228147/index.m3u8",
-          "http://223.110.236.4/ott.js.chinamobile.com/PLTV/4/224/3221227491/index.m3u8",
-          "http://223.110.236.3/ott.js.chinamobile.com/PLTV/4/224/3221227393/index.m3u8",
-          "http://223.110.236.6/ott.js.chinamobile.com/PLTV/4/224/3221227215/index.m3u8"
+          "http://117.148.179.24/PLTV/88888888/224/3221230035/index.m3u8",
+          "http://117.148.179.140/PLTV/88888888/224/3221229352/index.m3u8",
+          "http://117.148.179.136/PLTV/88888888/224/3221231567/index.m3u8",
+          "http://iptv.tvfix.org/hls/zjhd.m3u8"
         ]
       },
       {
         "name": "江苏卫视",
         "urls": [
-          "http://223.110.236.8/ott.js.chinamobile.com/PLTV/4/224/3221227689/index.m3u8",
-          "http://223.110.236.12/ott.js.chinamobile.com/PLTV/4/224/3221227765/index.m3u8",
-          "http://223.110.236.14/ott.js.chinamobile.com/PLTV/4/224/3221227552/index.m3u8",
-          "http://223.110.236.4/ott.js.chinamobile.com/PLTV/4/224/3221227561/index.m3u8"
+          "http://117.148.179.175/PLTV/88888888/224/3221231447/index.m3u8",
+          "http://117.148.179.37/PLTV/88888888/224/3221228821/index.m3u8",
+          "http://iptv.tvfix.org/hls/jshd.m3u8"
         ]
       },
       {
         "name": "东方卫视",
         "urls": [
-          "http://223.110.236.24/ott.js.chinamobile.com/PLTV/4/224/3221227597/index.m3u8",
-          "http://223.110.236.12/ott.js.chinamobile.com/PLTV/4/224/3221227396/index.m3u8",
-          "http://223.110.236.14/ott.js.chinamobile.com/PLTV/4/224/3221227511/index.m3u8",
-          "http://223.110.243.142/ott.js.chinamobile.com/PLTV/3/224/3221227597/index.m3u8"
+          "http://117.148.179.160/PLTV/88888888/224/3221231738/index.m3u8",
+          "http://117.148.179.167/PLTV/88888888/224/3221231450/index.m3u8",
+          "http://iptv.tvfix.org/hls/dfhd.m3u8"
         ]
       },
       {
         "name": "北京卫视",
         "urls": [
-          "http://223.110.236.4/ott.js.chinamobile.com/PLTV/4/224/3221228115/index.m3u8",
-          "http://223.110.236.12/ott.js.chinamobile.com/PLTV/4/224/3221227508/index.m3u8",
-          "http://223.110.236.6/ott.js.chinamobile.com/PLTV/4/224/3221227246/index.m3u8",
-          "http://223.110.236.8/ott.js.chinamobile.com/PLTV/4/224/3221227694/index.m3u8"
+          "http://117.148.179.168/PLTV/88888888/224/3221231732/index.m3u8",
+          "http://117.148.179.37/PLTV/88888888/224/3221228828/index.m3u8",
+          "http://iptv.tvfix.org/hls/brtv1hd.m3u8"
         ]
       }
     ]
