@@ -81,6 +81,15 @@
       "filterable": 1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/aidi.json"},
     {
+      "key": "csp_xpath_axx",
+      "name": "爱西西影视",
+      "type": 3,
+      "api": "csp_XPathMacFilter",  //"csp_Auete",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/axx.json"},
+    {
       "key": "csp_xpath_auete",
       "name": "Auete影视",
       "type": 3,
