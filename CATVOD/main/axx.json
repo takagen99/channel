@@ -52,7 +52,7 @@
   "scVodNode": "//div[contains(@class,'mo-main-info')]",
   "scVodName": "//div/div/div/dl/dd/h1/a/text()",
   "scVodId": "//div/div/div/dl/dd/h1/a/@href",
-  "scVodImg": "pic",
+  "scVodImg": "//div/div/div/dl/dt/a/@data-original",
   "scVodMark": "",
     
 // Filters =======================================================    
