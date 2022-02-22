@@ -84,7 +84,7 @@
       "key": "csp_xpath_axx",
       "name": "爱西西影视",
       "type": 3,
-      "api": "csp_XPathMacFilter",  //"csp_Auete",
+      "api": "csp_XPathMacFilter",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
