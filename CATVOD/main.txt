@@ -154,7 +154,7 @@
       "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/lezhu.json"	},    
    {
       "key":"csp_appys_南府追剧",
-      "name":"南府追剧-NA",
+      "name":"南府追剧",
       "type":3,
       "api":"csp_AppYs",
       "searchable":1,
@@ -304,15 +304,15 @@
 
 
 //////////////////////////////// 测试 /////////////////////////////////////
-	{
-	  "key":"csp_xpath_niba",
-	  "name":"===NIBA-Test===",
-	  "type":3,
-	  "api":"csp_XPathMac",
-	  "searchable":1,
-	  "quickSearch":1,
-	  "filterable": 1,
-	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/niba.json"	},
+//	{
+//	  "key":"csp_xpath_niba",
+//	  "name":"===NIBA-Test===",
+//	  "type":3,
+//	  "api":"csp_XPathMac",
+//	  "searchable":1,
+//	  "quickSearch":1,
+//	  "filterable": 1,
+//	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/niba.json"	},
 	{
 	  "key":"csp_xpath_test",
 	  "name":"===Test===",
