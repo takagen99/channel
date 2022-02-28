@@ -325,7 +325,7 @@
 	  "key":"csp_ysgc",
 	  "name":"===Test2===",
 	  "type":3,
-	  "api":"csp_ysgc",
+	  "api":"csp_Ysgc",
 	  "searchable":1,
 	  "quickSearch":1,
 	  "filterable": 1},   
