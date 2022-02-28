@@ -15,7 +15,7 @@
   "homeVodNode": "//div[contains(@class,'top20')]//h2[contains(@class,'title-name')and(/span[contains(text(),'最新')])]/parent::*/parent::*/div[contains(@class,'vodlist') and not(contains(@style,'display:none'))]//a[contains(@class,'aplus-exp')]",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
-  "homeVodIdR": "/index.php/vod/play/id/(\\w+)/sid/.+",
+  "homeVodIdR": "/vodplay/(\\w+)-1-1.html",
   "homeVodImg": "/div[contains(@class, 'eclazy')]/@data-original",
   "homeVodMark": "/span[contains(@class, 'pack-prb')]/text()",
 
@@ -24,12 +24,12 @@
   "cateVodNode": "//div[contains(@class, 'vodlist')]//a[contains(@class,'aplus-exp')]",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
-  "cateVodIdR": "/vodplay/(\\w+).html",
+  "cateVodIdR": "/vodplay/(\\w+)-1-1.html",
   "cateVodImg": "/div[contains(@class, 'eclazy')]/@data-original",
   "cateVodMark": "/span[contains(@class, 'pack-prb')]/text()",
 
 // Category Details ================================================    
-  "dtUrl": "https://cjt521.com/vodplay/{vid}.html",
+  "dtUrl": "https://cjt521.com/voddetail/{vid}.html",
   "dtNode": "//div[@class='vod-detail']",
   "dtName": "//div[contains(@class,'s-top-right')]/div[contains(@class,'s-top-info-title')]/h1/text()",
   "dtImg": "//a[contains(@class,'s-cover-img')]/img/@src",
@@ -47,10 +47,10 @@
   "dtUrlNode": "//div[contains(@class, 'play_source')]//div[contains(@class, 'play_list_box')]//ul",
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "@href",
-  "dtUrlIdR": "/index.php/vod/play/(\\S+).html",
+  "dtUrlIdR": "/vodplay/(\\S+).html",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
-  "playUrl": "https://cjt521.com/index.php/vod/play/{playUrl}.html",
+  "playUrl": "https://cjt521.com/vodplay/{playUrl}.html",
   "playUa": "",
 
 // Search Results ================================================         
