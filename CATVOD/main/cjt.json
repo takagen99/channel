@@ -24,12 +24,12 @@
   "cateVodNode": "//div[contains(@class, 'vodlist')]//a[contains(@class,'aplus-exp')]",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
-  "cateVodIdR": "/index.php/vod/play/id/(\\w+)/sid/.+",
+  "cateVodIdR": "/vodplay/(\\w+).html",
   "cateVodImg": "/div[contains(@class, 'eclazy')]/@data-original",
   "cateVodMark": "/span[contains(@class, 'pack-prb')]/text()",
 
 // Category Details ================================================    
-  "dtUrl": "https://cjt521.com/index.php/vod/detail/id/{vid}.html",
+  "dtUrl": "https://cjt521.com/vodplay/{vid}.html",
   "dtNode": "//div[@class='vod-detail']",
   "dtName": "//div[contains(@class,'s-top-right')]/div[contains(@class,'s-top-info-title')]/h1/text()",
   "dtImg": "//a[contains(@class,'s-cover-img')]/img/@src",
