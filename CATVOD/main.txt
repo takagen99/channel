@@ -321,7 +321,14 @@
 	  "quickSearch":1,
 	  "filterable": 1,
 	  "ext":"https://pastebin.com/raw/LR84aD8a"	},    	  
-	  
+	{
+	  "key":"csp_ysgc",
+	  "name":"===Test2===",
+	  "type":3,
+	  "api":"csp_ysgc",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "filterable": 1},   
   {"key":"csp_appys_U5影视", "name":"U5影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://appx.uy07.com/api.php/v1.vod"},
   {"key":"csp_appys_皮皮动漫", "name":"皮皮动漫", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://dm.muying.me/mogai_api.php/v1.vod"},
 
