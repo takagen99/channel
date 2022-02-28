@@ -20,7 +20,7 @@
   "homeVodMark": "/span[contains(@class, 'pack-prb')]/text()",
 
 // Category Summary ================================================  
-  "cateUrl": "https://cjt521.com/index.php/vod/show{area}/id/{cateId}/page/{catePg}{year}.html",
+  "cateUrl": "https://cjt521.com/vodshow{area}/id/{cateId}/page/{catePg}{year}.html",
   "cateVodNode": "//div[contains(@class, 'vodlist')]//a[contains(@class,'aplus-exp')]",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
