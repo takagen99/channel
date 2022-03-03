@@ -54,7 +54,7 @@
   "playUa": "",
 
 // Search Results ================================================         
-  "searchUrl": "https://cjt521.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
+  "searchUrl": "https://www.cjt521.com/vodsearch.html?wd={wd}",
   "scVodNode": "json:list",
   "scVodName": "name",
   "scVodId": "id",
