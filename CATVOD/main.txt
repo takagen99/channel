@@ -322,10 +322,10 @@
 	  "filterable": 1,
 	  "ext":"https://pastebin.com/raw/LR84aD8a"	},    	  
 	{
-	  "key":"csp_ysgc",
+	  "key":"test2",
 	  "name":"===Test2===",
-	  "type":3,
-	  "api":"csp_Ysgc",
+	  "type":0,
+	  "api":"https://demo.if101.tv/api.php/provide/art/?ac=list",
 	  "searchable":1,
 	  "quickSearch":1,
 	  "filterable": 1},   
