@@ -281,18 +281,6 @@
 	  "quickSearch":1,
 	  "filterable": 1,	// no filter format from website
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/sakura.json"	},
-	{
-	  "key":"csp_appys_蜗牛动漫",
-	  "name":"蜗牛动漫",
-	  "type":3,
-	  "api":"csp_AppYs",
-	  "searchable":1,
-	  "quickSearch":0,
-	  "filterable":1,
-	  "ext":"http://woniudm.woniu.cyou:20000/mogai_api.php/v1.vod"},	  
-
-  {"key":"csp_appys_污妖动漫", "name":"污妖动漫", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.wyydm.com/api.php/app/"},
-
 
 //////////////////////////////// 测试 /////////////////////////////////////
 //	{
@@ -342,6 +330,7 @@
 	  
 // 解析地址配置，不懂请参考官方Github。	  
 "parses":[
+{"name":"解析聚合","type":3,"url":"Demo"},
 {"name":"Json并发","type":2,"url":"Parallel"},
 {"name":"Json轮询","type":2,"url":"Sequence"},
 {"name":"01","type":1,"url":"https://jx.zuixinyiqi.com/jiekou-3/?url="},
@@ -410,7 +399,7 @@
 {"name":"影阅阁","type":1,"url":"http://api1.json.vin:4433/api/?key=WPDh6vf0aT0ahepWzW&url=","t":971,"i":"checkat2021-12-2018:43:52"}
 ],
 
-"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","duoduozy","renrenmi"],
+"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","duoduozy","longteng","renrenmi","优酷","芒果","腾讯","爱奇艺","奇艺","ltnb","rx","xueren","xfyun","ziqie","wuduzy","CL4K","xuanfeng","1920l"],
 
 "ijk":[
 {"group":"软解码","options":[
