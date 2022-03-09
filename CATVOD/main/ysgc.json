@@ -65,7 +65,7 @@
   "dtFromNameR": "",
   "dtUrlNode": "//div[contains(@class,'tab-content')]/div[contains(@id, 'playlist')]",
   "dtUrlSubNode": "//li/a",
-  "dtUrlId": "@href",
+  "dtUrlId": "/@href",
   "dtUrlIdR": "/vodplay/(\\S+).html",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
