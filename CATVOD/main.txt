@@ -62,15 +62,15 @@
       "quickSearch":1,
       "filterable":1,
       "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/ysgc.json"},
-   {
-      "key": "csp_appys_1080P影视",
-      "name": "1080P影视",
-      "type": 3,
-      "api": "csp_AppYs",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://1080p.tv/api.php/v1.vod"},
+//    {
+//       "key": "csp_appys_1080P影视",
+//       "name": "1080P影视",
+//       "type": 3,
+//       "api": "csp_AppYs",
+//       "searchable": 1,
+//       "quickSearch": 0,
+//       "filterable": 1,
+//       "ext": "https://1080p.tv/api.php/v1.vod"},
     {
       "key": "csp_xpath_aidi",
       "name": "爱迪影视",
@@ -98,15 +98,6 @@
       "quickSearch": 0,
       "filterable": 1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/auete.json"},
-    {
-      "key":"csp_appys_苍蓝资源",
-      "name":"苍蓝资源",
-      "type":3,
-      "api":"csp_AppYs"
-      ,"searchable":1,
-      "quickSearch":0,
-      "filterable":1,
-      "ext":"https://vip.ruifenglb.com:4433/api.php/app/"},
     {
       "key": "csp_xpath_cokemv",
       "name": "Cokemv",
