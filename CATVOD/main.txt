@@ -61,8 +61,8 @@
       "quickSearch":1,
       "filterable":0},
    {
-      "key":"if101-XP",
-      "name":"if101_XP",
+      "key":"if101_XP",
+      "name":"if101-泥巴",
       "type":3,
       "api":"csp_XPathMacFilter",
       "searchable":1,
