@@ -44,14 +44,15 @@
       "quickSearch":1,
       "filterable":1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/duboku.json"	},
-//    {
-//      "key": "ysgc_spider",    // "key":"csp_Ysgc"
-//      "name": "影视工厂",
-//      "type": 3,
-//      "api": "csp_Ysgc",
-//      "searchable": 1,
-//      "quickSearch": 1,
-//      "filterable": 1},
+   {
+      "key":""csp_xpath_hcyy",
+      "name":"汉城影院",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/hancheng.json"},
    {
       "key":"if101资源",
       "name":"if101资源",
@@ -62,13 +63,13 @@
       "filterable":0},
    {
       "key":"if101_XP",
-      "name":"if101-泥巴",
+      "name":"if101-XP",
       "type":3,
       "api":"csp_XPathMacFilter",
       "searchable":1,
       "quickSearch":1,
       "filterable":1,
-      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/if101.json"},     
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/if101.json"},
 {
       "key":"csp_xpath_ysgc",
       "name": "影视工厂",
