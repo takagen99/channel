@@ -45,7 +45,7 @@
       "filterable":1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/duboku.json"	},
    {
-      "key":""csp_xpath_hcyy",
+      "key":"csp_xpath_hcyy",
       "name":"汉城影院",
       "type":3,
       "api":"csp_XPathMacFilter",
