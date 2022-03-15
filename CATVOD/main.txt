@@ -16,18 +16,18 @@
 //////////////// OFFICIAL ////////////////	
 //"spider":"https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true",
 //"spider":"https://mo-xiao.coding.net/p/c/d/c/git/raw/master/jar/custom_spider.jar",
-"spider":"http://118.190.244.195/gengduoziyuansouweixingongzhonghaobktx123/2/custom_spider.jar",
+//"spider":"http://118.190.244.195/gengduoziyuansouweixingongzhonghaobktx123/2/custom_spider.jar",
 
 //////////////// SHARERTV ////////////////
 //"spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider.jar",
 
-//"spider": "https://github.com/takagen99/channel/blob/master/CATVOD/20220227.jar?raw=true",
+"spider": "https://github.com/takagen99/channel/blob/master/CATVOD/20220315.jar?raw=true",
 
 
 //////////////////////////////// 影视 /////////////////////////////////////	
 "sites": [
     {
-      "key": "csp_xpath_Onedian",
+      "key": "csp_xpath_olevod",
       "name":"欧乐影院-Exo",
       "type":3,
       "api":"csp_XPathMacFilter",
@@ -80,15 +80,6 @@
       "quickSearch":1,
       "filterable":1,
       "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/ysgc.json"},
-//    {
-//       "key": "csp_appys_1080P影视",
-//       "name": "1080P影视",
-//       "type": 3,
-//       "api": "csp_AppYs",
-//       "searchable": 1,
-//       "quickSearch": 0,
-//       "filterable": 1,
-//       "ext": "https://1080p.tv/api.php/v1.vod"},
     {
       "key": "csp_xpath_aidi",
       "name": "爱迪影视",
@@ -230,7 +221,14 @@
       "quickSearch":1,
       "filterable":0,
       "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/pianba.json"},
-      
+    {
+      "key":"rrm",
+      "name":"人人迷",
+      "type":0,
+      "api":"https://video.yingworld.vip/api.php/provide/vod/from/renrenmi/at/xml",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1},
 //    {
 //      "key": "人人迷",
 //      "name": "人人迷", 
@@ -293,15 +291,6 @@
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/sakura.json"	},
 
 //////////////////////////////// 测试 /////////////////////////////////////
-//	{
-//	  "key":"csp_xpath_niba",
-//	  "name":"===NIBA-Test===",
-//	  "type":3,
-//	  "api":"csp_XPathMac",
-//	  "searchable":1,
-//	  "quickSearch":1,
-//	  "filterable": 1,
-//	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/niba.json"	},
 	{
 	  "key":"csp_xpath_test",
 	  "name":"===Test===",
@@ -313,9 +302,9 @@
 	  "ext":"https://pastebin.com/raw/LR84aD8a"	},    	  
 
 {"key":"csp_appysv2_大熊","name":"大熊(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://dxys2233.com/mogai_api.php/v1.vod"},
-{"key":"csp_appysv2_流星","name":"流星(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://fkxs2233.com/mogai_api.php/v1.vod"},
-  {"key":"csp_appys_U5影视", "name":"U5影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://appx.uy07.com/api.php/v1.vod"},
-  {"key":"csp_appys_皮皮动漫", "name":"皮皮动漫", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://dm.muying.me/mogai_api.php/v1.vod"},
+{"key":"csp_appysv2_流星","name":"流星(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://fkxs2233.com/mogai_api.php/v1.vod"}, 
+{"key":"csp_appys_U5影视", "name":"U5影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://appx.uy07.com/api.php/v1.vod"},
+{"key":"csp_appys_皮皮动漫", "name":"皮皮动漫", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://dm.muying.me/mogai_api.php/v1.vod"},
 {
 "key": "test_ysgc",
 "name": "毒蛇爬虫",
