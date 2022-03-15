@@ -396,7 +396,7 @@
 {"name":"58","type":1,"url":"http://jx.yinliub.cn/home/api?type=ys&uid=512130&key=dinstuwBGJRTUY0369&url=","ext":{"flag":["ltnb","qq","腾讯","qiyi","爱奇艺","奇艺","letv","乐视","rx","youku","优酷","mgtv","芒果"]}},
 {"name":"59","type":1,"url":"http://jf.tcspvip.com:246/api/?key=Yz4WsVTuG4PaM07i0f&url=","ext":{"flag":["1920l","qiyi","爱奇艺","奇艺"]}},
 {"name":"60","type":1,"url":"https://www.aiaine.com/api/?key=e4keFpymfY5keNsavC&url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","pptv","PPTV","mgtv","芒果","youku","优酷"]}},
-{"name":"61","type":1,"url":"https://www.6080kan.cc/app.php?url=","ext":{"flag":["duoduozy","qq","腾讯","mgtv","芒果"]}},
+{"name":"61","type":1,"url":"https://www.6080kan.cc/app.php?url=","ext":{"flag":["duoduozy","qq","腾讯","mgtv","芒果"]}}
 ],
 
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","duoduozy","longteng","renrenmi","优酷","芒果","腾讯","爱奇艺","奇艺","ltnb","rx","xueren","xfyun","ziqie","wuduzy","CL4K","xuanfeng","1920l"],
