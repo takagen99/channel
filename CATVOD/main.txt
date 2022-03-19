@@ -160,6 +160,16 @@
       "quickSearch":1,
       "filterable":1,
       "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/lezhu.json"	},    
+    {
+      "key":"rrm",
+      "name":"人人迷",
+      "type":0,
+      "api":"https://video.yingworld.vip/api.php/provide/vod/from/renrenmi/at/xml",
+      "playUrl":"json:https://apis.jxcxin.cn/api/jx?url=",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "categories":["电影","连续剧","综艺","动漫"] 	},
    {
       "key":"csp_appys_南府追剧",
       "name":"南府追剧",
@@ -214,27 +224,7 @@
       
 {"key":"csp_appysv2_流星","name":"流星(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://fkxs2233.com/mogai_api.php/v1.vod"},
 {"key":"csp_appysv2_大熊","name":"大熊(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://dxys2233.com/mogai_api.php/v1.vod"},    
-
-    {
-      "key":"rrm",
-      "name":"人人迷",
-      "type":0,
-      "api":"https://koko.renrenmi.cc/api.php/provide/vod/",
-      "playUrl":"http://rx.mxb668.com/?url=",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1,
-      "categories":[] 	},
-    {
-      "key":"yxj",
-      "name":"影世界",
-      "type":0,
-      "api":"https://video.yingworld.vip/api.php/provide/vod/from/renrenmi/at/xml",
-      "playUrl":"json:https://apis.jxcxin.cn/api/jx?url=",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1,
-      "categories":["电影","连续剧","综艺","动漫"] 	},  
+  
 //   {
 //     "key":"csp_xpath_miniku",
 //     "name":"迷你库-NA",
