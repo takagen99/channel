@@ -17,9 +17,9 @@
     "US": "201",
     "Movies": "1",
     "Varieties": "3",
-    "JP Ani": "401",
-    "CN Ani": "402",
-    "US Ani": "403"
+    "JP Anime": "401",
+    "CN Anime": "402",
+    "US Anime": "403"
   },
   
 // Home Summary ================================================  
