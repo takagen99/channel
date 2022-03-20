@@ -12,9 +12,9 @@
     "US": "16",
     "Movies": "1",
     "Varieties": "3",    
-    "Document": "24",
-    "JP Ani": "26",
-    "CN Ani": "27"
+    "Documentary": "24",
+    "JP Anime": "26",
+    "CN Anime": "27"
   },
 
 // Home Summary ====================================================
