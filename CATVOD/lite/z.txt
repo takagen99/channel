@@ -15,28 +15,25 @@
 //      "quickSearch":1,
 //      "filterable":1,
 //      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/lite/ysgc.json"},
-   {
-      "key":"XP_if101",
-      "name":"Source-A",
-      "type":3,
-      "api":"csp_XPathMacFilter",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1,
-      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/lite/if101.json"},
     {
       "key": "XP_olevod",
-      "name":"Source-B",
+      "name":"Source-A",
       "type":3,
       "api":"csp_XPathMacFilter",
       "searchable":1,
       "quickSearch":1,
       "filterable": 1,
       "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/lite/olevod.json"},
+   {
+      "key":"XP_if101",
+      "name":"Source-B",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/lite/if101.json"}],
 
-//////////////////////////////// 最后 /////////////////////////////////////	
-    {"key":"END","name":"END of LIST","type":0,"api":""}],
-	
 
 //////////////////////////////// 直播 /////////////////////////////////////
 "lives": [
