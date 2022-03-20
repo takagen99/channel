@@ -7,9 +7,9 @@
   "cateIdR": "/vodtype/(\\w+).html",
   "cateManual": {
     "CN": "13",
-    "HK": "14",	
+    "HK/TW": "14",
+    "JP/KR": "15",    
     "US": "16",
-    "JP": "15",
     "Movies": "1",
     "Varieties": "3",    
     "Document": "24",
