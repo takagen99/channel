@@ -46,8 +46,8 @@
   "playUa": "",
     
 // Search Results ================================================         
-  "searchUrl": "https://www.zxzj.fun/search/-------------.html?wd={wd}&submit=",
-  "scVodNode": "//div[@class='stui-vodlist__box']",
+  "searchUrl": "https://demo.if101.tv/index.php/vod/search.html?wd={wd}&submit=",
+  "scVodNode": "//li[@class='clearfix']/h3[@class='title']",
   "scVodName": "/a/@title",
   "scVodId": "/a/@href",
   "scVodIdR": "/detail/(\\w+).html",
