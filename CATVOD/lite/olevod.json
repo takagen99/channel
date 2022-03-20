@@ -10,22 +10,38 @@
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/index.php/vod/type/id/(\\d+).html",
-  "cateManual": {},    
-  "homeVodNode": "//div[contains(@class, 'pannel')]//ul[contains(@class,'vodlist vodlist_wi list_v12 clearfix')]/li//a[contains(@class,'vodlist_thumb')]",
+  "cateManual": {
+    "CN": "202",
+    "HK/TW": "203",	
+    "JP/KR": "204",    
+    "US": "201",
+    "Movies": "1",
+    "Varieties": "3",
+    "JP Ani": "401",
+    "CN Ani": "402",
+    "US Ani": "403"
+  },
+  
+// Home Summary ================================================  
+  "homeVodNode": "//div[contains(@class, 'pannel')]//ul[contains(@class,'vodlist vodlist_wi list_v12 clearfix')]/li/a[contains(@class,'vodlist_thumb')]",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
-  "homeVodIdR": "/index.php/vod/type/id/(\\w+).html",
+  "homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
   "homeVodImg": "/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
-  "homeVodMark": "/span[contains(@class,'text_dy') and contains(@class,'style')]/text()",
-  "cateUrl": "https://olevod.com/index.php/vod/type/id/{cateId}/page/{catePg}.html",
-  "cateVodNode": "//ul[contains(@class,'vodlist vodlist_wi list_v12 clearfix')]//li//a[contains(@class,'vodlist_thumb')]",
+  "homeVodMark": "/span[@class='pic_text text_right']/em/text()",
+  
+// Category Summary ================================================    
+  "cateUrl": "https://olevod.com/index.php/vod/show{area}/id/{cateId}/page/{catePg}{year}.html",
+  "cateVodNode": "//ul[contains(@class,'vodlist vodlist_wi')]//li//a[contains(@class,'vodlist_thumb')]",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
   "cateVodIdR": "/index.php/vod/detail/id/(\\w+).html",
   "cateVodImg": "/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
-  "cateVodMark": "/span[contains(@class,'text_dy') and contains(@class,'style')]/text()",
+  "cateVodMark": "/span[@class='pic_text text_right']/em/text()",
+  
+// Category Details ================================================   
   "dtUrl": "https://olevod.com/index.php/vod/detail/id/{vid}.html",
   "dtNode": "//div[contains(@class,'hot_banner')]",
   "dtName": "//div[@class='content_box clearfix']/div/a/@title",
@@ -46,6 +62,8 @@
   "dtDirectorR": "",
   "dtDesc": "///div[contains(@class,'content_detail')]//span[contains(@class,'left text_muted') and contains(text(), '简介')]/parent::text()",
   "dtDescR": "",
+  
+// Playlist =====================================================
   "dtFromNode": "//div[contains(@class,'play_source_tab')]/a",
   "dtFromName": "/@alt",
   "dtFromNameR": "",
@@ -57,11 +75,325 @@
   "dtUrlNameR": "",
   "playUrl": "https://olevod.com/index.php/vod/play/id/{playUrl}.html",
   "playUa": "",
+  
+// Search Results ================================================   
   "searchUrl": "https://olevod.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
   "scVodName": "name",
   "scVodId": "id",
   "scVodIdR": "",
   "scVodImg": "pic",
-  "scVodMark": ""
+  "scVodMark": "",
+  
+// Filters =======================================================
+    "filter": {
+      "1": [
+        {
+          "key": "year",
+          "name": "Year",
+          "value": [
+            {"n": "All","v": ""},
+            {"n": "2022","v": "/year/2022"},              
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"},
+            {"n": "2007","v": "/year/2007"},
+            {"n": "2006","v": "/year/2006"},
+            {"n": "2005","v": "/year/2005"},            
+            {"n": "2004","v": "/year/2004"}
+          ]
+        }
+      ],
+      "2": [
+        {
+          "key": "year",
+          "name": "Year",
+          "value": [
+            {"n": "All","v": ""},
+            {"n": "2022","v": "/year/2022"},              
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"},
+            {"n": "2007","v": "/year/2007"},
+            {"n": "2006","v": "/year/2006"},
+            {"n": "2005","v": "/year/2005"},            
+            {"n": "2004","v": "/year/2004"}
+          ]
+        }
+      ],
+      "202": [
+        {
+          "key": "year",
+          "name": "Year",
+          "value": [
+            {"n": "All","v": ""},
+            {"n": "2022","v": "/year/2022"},              
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"},
+            {"n": "2007","v": "/year/2007"},
+            {"n": "2006","v": "/year/2006"},
+            {"n": "2005","v": "/year/2005"},            
+            {"n": "2004","v": "/year/2004"}
+          ]
+        }
+      ],
+      "203": [
+        {
+          "key": "year",
+          "name": "Year",
+          "value": [
+            {"n": "All","v": ""},
+            {"n": "2022","v": "/year/2022"},              
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"},
+            {"n": "2007","v": "/year/2007"},
+            {"n": "2006","v": "/year/2006"},
+            {"n": "2005","v": "/year/2005"},            
+            {"n": "2004","v": "/year/2004"}
+          ]
+        }
+      ],
+      "201": [
+        {
+          "key": "year",
+          "name": "Year",
+          "value": [
+            {"n": "All","v": ""},
+            {"n": "2022","v": "/year/2022"},              
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"},
+            {"n": "2007","v": "/year/2007"},
+            {"n": "2006","v": "/year/2006"},
+            {"n": "2005","v": "/year/2005"},            
+            {"n": "2004","v": "/year/2004"}
+          ]
+        }
+      ],
+      "204": [
+        {
+          "key": "year",
+          "name": "Year",
+          "value": [
+            {"n": "All","v": ""},
+            {"n": "2022","v": "/year/2022"},              
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"},
+            {"n": "2007","v": "/year/2007"},
+            {"n": "2006","v": "/year/2006"},
+            {"n": "2005","v": "/year/2005"},            
+            {"n": "2004","v": "/year/2004"}
+          ]
+        }
+      ],
+      "3": [
+        {
+          "key": "year",
+          "name": "Year",
+          "value": [
+            {"n": "All","v": ""},
+            {"n": "2022","v": "/year/2022"},              
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"},
+            {"n": "2007","v": "/year/2007"},
+            {"n": "2006","v": "/year/2006"},
+            {"n": "2005","v": "/year/2005"},            
+            {"n": "2004","v": "/year/2004"}
+          ]
+        }
+      ],
+      "401": [
+        {
+          "key": "year",
+          "name": "Year",
+          "value": [
+            {"n": "All","v": ""},
+            {"n": "2022","v": "/year/2022"},              
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"},
+            {"n": "2007","v": "/year/2007"},
+            {"n": "2006","v": "/year/2006"},
+            {"n": "2005","v": "/year/2005"},            
+            {"n": "2004","v": "/year/2004"}
+          ]
+        }
+      ],
+      "402": [
+        {
+          "key": "year",
+          "name": "Year",
+          "value": [
+            {"n": "All","v": ""},
+            {"n": "2022","v": "/year/2022"},              
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"},
+            {"n": "2007","v": "/year/2007"},
+            {"n": "2006","v": "/year/2006"},
+            {"n": "2005","v": "/year/2005"},            
+            {"n": "2004","v": "/year/2004"}
+          ]
+        }
+      ],
+      "403": [
+        {
+          "key": "year",
+          "name": "Year",
+          "value": [
+            {"n": "All","v": ""},
+            {"n": "2022","v": "/year/2022"},              
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"},
+            {"n": "2007","v": "/year/2007"},
+            {"n": "2006","v": "/year/2006"},
+            {"n": "2005","v": "/year/2005"},            
+            {"n": "2004","v": "/year/2004"}
+          ]
+        }
+      ],
+      "4": [
+        {
+          "key": "year",
+          "name": "Year",
+          "value": [
+            {"n": "All","v": ""},
+            {"n": "2022","v": "/year/2022"},              
+            {"n": "2021","v": "/year/2021"},
+            {"n": "2020","v": "/year/2020"},
+            {"n": "2019","v": "/year/2019"},
+            {"n": "2018","v": "/year/2018"},
+            {"n": "2017","v": "/year/2017"},
+            {"n": "2016","v": "/year/2016"},
+            {"n": "2015","v": "/year/2015"},
+            {"n": "2014","v": "/year/2014"},
+            {"n": "2013","v": "/year/2013"},
+            {"n": "2012","v": "/year/2012"},
+            {"n": "2011","v": "/year/2011"},
+            {"n": "2010","v": "/year/2010"},
+            {"n": "2009","v": "/year/2009"},
+            {"n": "2008","v": "/year/2008"},
+            {"n": "2007","v": "/year/2007"},
+            {"n": "2006","v": "/year/2006"},
+            {"n": "2005","v": "/year/2005"},            
+            {"n": "2004","v": "/year/2004"}
+          ]
+        }
+      ]
+    }
 }
