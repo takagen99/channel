@@ -6,15 +6,15 @@
   "cateId": "/@href",
   "cateIdR": "/vodtype/(\\w+).html",
   "cateManual": {
+    "CN": "13",
+    "HK": "14",	
+    "US": "16",
+    "JP": "15",
     "Movies": "1",
-    "CN Drama": "13",
-    "HK Drama": "14",	
-    "US Drama": "16",
-    "JP Drama": "15",
-    "Documentary": "24",
-    "Varieties": "3",
-    "JP Anime": "26",
-    "CN Anime": "27"
+    "Varieties": "3",    
+    "Document": "24",
+    "JP Ani": "26",
+    "CN Ani": "27"
   },
 
 // Home Summary ====================================================
