@@ -23,7 +23,7 @@
   },
   
 // Home Summary ================================================  
-  "homeVodNode": "//div[contains(@class, 'pannel')]//ul[contains(@class,'vodlist vodlist_wi list_v12 clearfix')]/li/a[contains(@class,'vodlist_thumb-xx')]",
+  "homeVodNode": "//div[contains(@class, 'pannel')]//ul[contains(@class,'vodlist vodlist_wi list_v12 clearfix')]/li/a[contains(@class,'vodlist_thumb')]",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
   "homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
