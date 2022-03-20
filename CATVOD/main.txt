@@ -327,7 +327,8 @@
         {
           "name": "redirect",
           "urls": [
-            "https://github.com/takagen99/channel/raw/master/CATVOD/mainTV.txt"
+//            "https://github.com/takagen99/channel/raw/master/CATVOD/mainTV.txt"
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9iaXQubHkvZGl5cF9saXZl"
           ]
         }
       ]
