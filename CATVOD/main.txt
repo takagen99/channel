@@ -115,6 +115,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/cokem.json"},
+   {
+      "key":"csp_xpath_ctv",
+      "name":"冲tmTV",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable": 1,
+       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/chongtmtv.json"},
 //    {
 //      "key": "csp_xpath_cjt",
 //      "name": "CJT影视",
