@@ -143,7 +143,16 @@
       "filterable":1,
       "ext":"https://www.cjt521.com/api.php/v1.vod"},
    {
-      "key":"Gimy",
+      "key":"csp_xpath_dgg",
+      "name":"达达龟",
+      "type":3,
+      "api": "csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/dgg.json"},
+   {
+      "key":"csp_xpath_gimy",
       "name":"Gimy剧迷",
       "type":3,
       "api": "csp_XPathMacFilter",
