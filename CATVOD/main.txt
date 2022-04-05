@@ -161,6 +161,15 @@
       "filterable":1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/gimy.json"},
    {
+      "key":"csp_xpath_jbb",
+      "name":"剧白白",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable": 1,
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/jbb.json"	},          
+   {
       "key":"csp_xpath_libv",
       "name":"Libvio",
       "type":3,
@@ -197,6 +206,15 @@
       "quickSearch":0,
       "filterable":1,
       "ext":"http://iapp.nfuxs.club/dnmb.php/v1.vod"},
+   {
+      "key":"csp_xpath_nfm",
+      "name":"Netflix MOM",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable": 1,
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/nfm.json"	},    
     {
       "key": "csp_xpath_saohuotv",
       "name": "骚火电影",
