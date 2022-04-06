@@ -1,7 +1,7 @@
 // https://bit.ly/cat_main
 // https://c1n.cn/KQeOj
 { 
-"wallpaper":"https://i.imgur.com/RT4feCv.jpg",
+"wallpaper":"https://i.imgur.com/MUVjmmO.jpg",
 //https://i.imgur.com/n5M9OEc.jpg
 //https://i.imgur.com/NutnENr.jpg
 //https://i.imgur.com/K6CZ5l2.jpg    // cyber
