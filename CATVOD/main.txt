@@ -1,5 +1,3 @@
-// https://bit.ly/cat_main
-// https://c1n.cn/KQeOj
 { 
 "wallpaper":"https://i.imgur.com/MUVjmmO.jpg",
 //https://i.imgur.com/n5M9OEc.jpg
