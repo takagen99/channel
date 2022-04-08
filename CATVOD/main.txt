@@ -239,7 +239,7 @@
       "searchable":1,
       "quickSearch":1,
       "filterable": 1,
-       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/zxzj.json"},       
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/zxzj.json"},       
     {
       "key":"zjdr",
       "name":"追剧达人",
@@ -255,6 +255,15 @@
       "api":"https://api.apibdzy.com/api.php/provide/vod?ac=list",
       "playUrl":"",
       "categories":[] 	},
+   {
+      "key":"csp_xpath_qnkk8",
+      "name":"全能影视",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/wip-qnkk8.json"},
       
 {"key":"csp_appysv2_流星","name":"流星(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://fkxs2233.com/mogai_api.php/v1.vod"},
 {"key":"csp_appysv2_大熊","name":"大熊(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://dxys2233.com/mogai_api.php/v1.vod"},    
