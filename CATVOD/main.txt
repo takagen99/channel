@@ -356,8 +356,8 @@
 
 //////////////////////////////// 测试 /////////////////////////////////////
 	{
-	  "key":"csp_xpath_test",
-	  "name":"====Test====",
+	  "key":"csp_xpath_test1",
+	  "name":"====Test1====",
 	  "type":3,
 	  "api":"csp_XPathMacFilter",
 	  "searchable":1,
