@@ -13,7 +13,7 @@
   "homeVodIdR": "/v/(\\w+).html",
   "homeVodImg": "/a/@data-bg",
   "homeVodMark": "/span[@class='desc']/text()",
-  "cateUrl": "https://dm84.tv/show-{cateId}--{by}-{catelog}--{year}-{catePg}.html",
+  "cateUrl": "https://dm84.tv/list-{cateId}-{catePg}.html", //"https://dm84.tv/show-{cateId}--{by}-{catelog}--{year}-{catePg}.html",
   "cateVodNode": "//ul[@class='v_list']/li/div[@class='item']",
   "cateVodName": "/a[@class='title']/@title",
   "cateVodId": "/a[@class='title']/@href",
