@@ -1,3 +1,11 @@
+// New Interface (Simple Black)
+// https://i.imgur.com/71RkM0u.jpg
+// https://i.imgur.com/bdTzXtd.jpg
+
+// Sample Logo
+// https://i.imgur.com/dXWi9gd.png - v1
+// https://i.imgur.com/laArUXs.png - v2
+
 { 
 "wallpaper":"https://i.imgur.com/MUVjmmO.jpg",
 //https://i.imgur.com/n5M9OEc.jpg
@@ -14,7 +22,6 @@
 //////////////// OFFICIAL ////////////////	
 //"spider":"https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true",
 //"spider":"https://mo-xiao.coding.net/p/c/d/c/git/raw/master/jar/custom_spider.jar",
-//"spider":"http://118.190.244.195/gengduoziyuansouweixingongzhonghaobktx123/2/custom_spider.jar",
 
 //////////////// SHARERTV ////////////////
 //"spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider.jar",
