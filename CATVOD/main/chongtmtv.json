@@ -10,7 +10,7 @@
     "电影": "1",
     "国产剧": "30",
     "香港剧": "31",
-	"台湾剧": "51",
+    "台湾剧": "51",
     "欧美剧": "33",
     "日剧": "32",
     "韩剧": "50",
@@ -22,7 +22,7 @@
   },
   
 // Home Summary ================================================  
-  "homeVodNode": "//div[contains(@class,'pack-ykpack')]/div[contains(@class,'pack-packcover')]",
+  "homeVodNode": "//div[contains(@class,'vodlist hotgrow size listdh')]/div[contains(@class,'pack-ykpack')]/div[contains(@class,'pack-packcover')]",
   "homeVodName": "//a[contains(@class,'aplus-exp')]/@title",
   "homeVodId": "//a[contains(@class,'aplus-exp')]/@href",
   "homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
