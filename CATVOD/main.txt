@@ -219,6 +219,15 @@
       "quickSearch": 1,
       "filterable": 0,      // no filter from website
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/saohuotv.json"},
+    {
+      "key":"csp_xpath_ttsp",
+      "name":"天天视频",
+      "type": 3,
+      "api":"csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/ttsp.json"},
 //   {
 //      "key": "csp_YydsAli1",
 //      "name": "YYDS-NA",
@@ -353,7 +362,7 @@
 	  "searchable":1,
 	  "quickSearch":1,
 	  "filterable": 1,
-	  "ext":"https://pastebin.com/raw/LR84aD8a"	},    	
+	  "ext":"https://pastebin.com/raw/LR84aD8a"	},
 	{
 	  "key":"csp_xpath_test2",
 	  "name":"====Test2====",
