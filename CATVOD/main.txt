@@ -7,17 +7,7 @@
 // https://i.imgur.com/laArUXs.png - v2
 
 { 
-"wallpaper":"https://i.imgur.com/MUVjmmO.jpg",
-//https://i.imgur.com/n5M9OEc.jpg
-//https://i.imgur.com/NutnENr.jpg
-//https://i.imgur.com/K6CZ5l2.jpg    // cyber
-//https://i.imgur.com/yiWKN0I.jpg    // greenery 
-//https://i.imgur.com/pTgQ0GR.jpg    // temple
-//https://i.imgur.com/qINVNPP.jpg    // fastfood
-//https://i.imgur.com/wOwHlyi.jpg    // city scape
-//https://i.imgur.com/VNWCVSd.jpg    // howl
-//https://i.imgur.com/pJHD9M5.jpg    // ff7
-//https://i.imgur.com/SNo46YX.jpg    // cyber-2 
+"wallpaper":"https://i.imgur.com/HzqfqJ8.jpg",
 	
 //////////////// OFFICIAL ////////////////	
 //"spider":"https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true",
