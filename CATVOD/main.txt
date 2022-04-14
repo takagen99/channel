@@ -7,7 +7,7 @@
 // https://i.imgur.com/laArUXs.png - v2
 
 { 
-"wallpaper":"https://i.imgur.com/HzqfqJ8.jpg",
+"wallpaper":"https://i.imgur.com/jnta6b7.jpg",
 	
 //////////////// OFFICIAL ////////////////	
 //"spider":"https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true",
