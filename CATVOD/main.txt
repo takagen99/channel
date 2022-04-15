@@ -163,7 +163,16 @@
       "searchable":1,
       "quickSearch":1,
       "filterable": 1,
-      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/jbb.json"	},          
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/jbb.json"},
+   {
+      "key":"csp_xpath_jh",
+      "name":"剧荒",
+      "type":3,
+      "api":"csp_XPathMac",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable": 0,
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/juhuang.json"},
    {
       "key":"csp_xpath_libv",
       "name":"Libvio",
@@ -172,7 +181,7 @@
       "searchable":1,
       "quickSearch":1,
       "filterable": 1,
-      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/libv.json"	},    
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/libv.json"},    
    {
       "key":"csp_xpath_lezhu",
       "name":"乐猪TV",
