@@ -34,7 +34,7 @@
       "key":"独播库",
       "name":"独播库-系统",
       "type":3,
-      "api": "csp_XPathMacFilter",
+      "api": "csp_XPathDbk",
       "searchable":1,
       "quickSearch":1,
       "filterable":1,
