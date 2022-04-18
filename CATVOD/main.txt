@@ -32,7 +32,7 @@
       "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/olevod.json"},
    {
       "key":"独播库",
-      "name":"独播库-系统",
+      "name":"独播库",
       "type":3,
       "api": "csp_XPathDbk",
       "searchable":1,
