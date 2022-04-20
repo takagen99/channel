@@ -1,5 +1,5 @@
 {
-  "ua": "",
+  "ua": "Mozilla/5.0 (Android 12; Mobile; rv:68.0) Gecko/68.0 Firefox/99.0",
   "homeUrl": "https://saohuo.vip",
   "cateNode": "//ul[contains(@class,'type_list')]/li/a[contains(@href, '.html')]",
   "cateName": "/text()",
