@@ -381,7 +381,7 @@
 	  "quickSearch":1,
 	  "filterable": 1,
 	  "ext":"https://pastebin.com/raw/LR84aD8a"	},    	  
-
+	{"key":"push_agent","name":"推送","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0}
 //////////////////////////////// 最后 /////////////////////////////////////	
 	{"key":"END","name":"END of LIST","type":0,"api":""}],
 	
