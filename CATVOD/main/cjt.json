@@ -5,56 +5,55 @@
   "dcPlayUrl": "true",
   "dcShow2Vip": {},
   "cateManual": {
-    "电影": "1", 
-    "剧集": "2",
-    "综艺": "3",
-    "动漫": "4"
+    "电影": "SCCCCS", 
+    "剧集": "qCCCCS",
+    "综艺": "xCCCCS",
+    "动漫": "ICCCCS"
   },
 
 // Home Summary ================================================  
-  "homeVodNode": "//div[contains(@class,'top20')]//h2[contains(@class,'title-name')and(/span[contains(text(),'最新')])]/parent::*/parent::*/div[contains(@class,'vodlist') and not(contains(@style,'display:none'))]//a[contains(@class,'aplus-exp')]",
+  "homeVodNode": "//div[contains(@class,'lists-content')]/ul/li/a",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
-  "homeVodIdR": "/vodplay/(\\w+)-1-1.html",
-  "homeVodImg": "/div[contains(@class, 'eclazy')]/@data-original",
-  "homeVodMark": "/span[contains(@class, 'pack-prb')]/text()",
+  "homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
+  "homeVodImg": "/@data-original",
+  "homeVodMark": "/span/text()",
 
 // Category Summary ================================================  
-  "cateUrl": "https://cjt521.com/vodshow{area}/id/{cateId}/page/{catePg}{year}.html",
-  "cateVodNode": "//div[contains(@class, 'box_con')]/ul/li/a",
+  "cateUrl": "https://cjt521.com/index.php/vod/show{area}/id/{cateId}/page/{catePg}{year}.html",
+  "cateVodNode": "//div[contains(@class,'lists-content')]/ul/li/a",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
-  "cateVodIdR": "/voddetail/(\\w+).html",
-  "cateVodImg": "/img/@src",
-  "cateVodMark": "/i/text()",
+  "cateVodIdR": "/index.php/vod/detail/id/(\\w+).html",
+  "cateVodImg": "/@data-original",
+  "cateVodMark": "/div/span/text()",
 
 // Category Details ================================================    
-  "dtUrl": "https://cjt521.com/voddetail/{vid}.html",
-  "dtNode": "//div[@class='detail-cols fn-clear']",
-  "dtName": "//div[contains(@class,'detail-pic fn-left')]/img/@alt",
-  "dtImg": "//div[contains(@class,'detail-pic fn-left')]/img/@src",
-  "dtCate": "//div[contains(@class,'info fn-clear')]/dl[8]/dd/a/text()",
-  "dtArea": "//div[contains(@class,'info fn-clear')]/dl[5]/dd/a/text()",
-  "dtYear": "//div[contains(@class,'info fn-clear')]/dl[7]/dd/a/text()",
-  "dtActor": "//div[contains(@class,'info fn-clear')]/dl[1]/dd/a/text()",
-  "dtDirector": "//div[contains(@class,'info fn-clear')]/dl[3]/dd/a/text()",
-  "dtDesc": "//div[contains(@class,'info fn-clear')]/dl[10]/dd/text()",
+  "dtUrl": "https://cjt521.com/index.php/vod/detail/id/{vid}.html",
+  "dtNode": "//header[@class='product-header']",
+  "dtName": "//img[contains(@referrerpolicy,'no-referrer')]/@alt",
+  "dtImg": "//img[contains(@referrerpolicy,'no-referrer')]/@src",
+  "dtCate": "",
+  "dtArea": "",
+  "dtYear": "",
+  "dtActor": "",
+  "dtDirector": "",
+  "dtDesc": "",
 
 // Playlist =====================================================     
-  "dtFromNode": "//div[contains(@class, 'down-title')]/h2",
-  "dtFromName": "[substring-before(text(),'-')]",   //   "/text()",
-  "dtFromNameR": "(.+)\\(",
-  "dtUrlNode": "//div[contains(@class, 'video_list fn-clear')]",
-  "dtUrlSubNode": "/a",
+  "dtFromNode": "//div[contains(@class, 'playlists')]/header/dl/dt",
+  "dtFromName": "/text()",
+  "dtUrlNode": "//div[contains(@class, 'playlist clearfix')]/ul",
+  "dtUrlSubNode": "/li/a",
   "dtUrlId": "@href",
-  "dtUrlIdR": "/vodplay/(\\S+).html",
+  "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
-  "playUrl": "https://cjt521.com/vodplay/{playUrl}.html",
+  "playUrl": "https://cjt521.com/index.php/vod/play/id/{playUrl}.html",
   "playUa": "",
 
 // Search Results ================================================         
-  "searchUrl": "https://www.cjt521.com/vodsearch.html?wd={wd}",
+  "searchUrl": "https://cjt521.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
   "scVodName": "name",
   "scVodId": "id",
@@ -64,7 +63,7 @@
 
 // Filters =======================================================    
     "filter": {
-      "1": [
+      "SCCCCS": [
         {
           "key": "area",
           "name": "地区",
@@ -104,7 +103,7 @@
           ]
         }
       ],
-      "2": [
+      "qCCCCS": [
         {
           "key": "area",
           "name": "地区",
@@ -144,7 +143,7 @@
           ]
         }
       ],
-      "4": [
+      "ICCCCS": [
         {
           "key": "area",
           "name": "地区",
@@ -179,7 +178,7 @@
           ]
         }
       ],
-      "3": [
+      "xCCCCS": [
         {
           "key": "area",
           "name": "地区",
