@@ -29,7 +29,7 @@
       "filterable": 1,
       "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/olevod.json"},
    {
-      "key":"独播库",
+      "key":"csp_xpath_dbk",
       "name":"独播库",
       "type":3,
       "api": "csp_XPathDbk",
@@ -117,24 +117,15 @@
       "quickSearch":1,
       "filterable": 1,
        "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/chongtmtv.json"},
-//    {
-//      "key": "csp_xpath_cjt",
-//      "name": "CJT影视",
-//      "type": 3,
-//      "api": "csp_XPathMacFilter",
-//      "searchable": 1,
-//      "quickSearch": 1,
-//      "filterable": 1,
-//      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/cjt.json"},
     {
-      "key":"csp_appysv2_CJT",
-      "name":"CJT影院",
-      "type":3,
-      "api":"csp_AppYsV2",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1,
-      "ext":"https://www.cjt521.com/api.php/v1.vod"},
+      "key": "csp_xpath_cjt",
+      "name": "CJT影视",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/cjt.json"},
    {
       "key":"csp_xpath_dgg",
       "name":"达达龟",
@@ -199,15 +190,15 @@
       "quickSearch":1,
       "filterable":1,
       "categories":["电影","连续剧","综艺","动漫"] 	},
-   {
-      "key":"csp_appys_南府追剧",
-      "name":"南府追剧",
-      "type":3,
-      "api":"csp_AppYs",
-      "searchable":1,
-      "quickSearch":0,
-      "filterable":1,
-      "ext":"http://iapp.nfuxs.club/dnmb.php/v1.vod"},
+//   {
+//      "key":"csp_appys_南府追剧",
+//      "name":"南府追剧",
+//      "type":3,
+//      "api":"csp_AppYs",
+//      "searchable":1,
+//      "quickSearch":0,
+//      "filterable":1,
+//      "ext":"http://iapp.nfuxs.club/dnmb.php/v1.vod"},
    {
       "key":"csp_xpath_nfm",
       "name":"Netflix MOM",
@@ -379,8 +370,8 @@
 	  "quickSearch":1,
 	  "filterable": 1,
 	  "ext":"https://pastebin.com/raw/LR84aD8a"	},    	  
+//////////////////////////////// 最后 /////////////////////////////////////
 	{"key":"push_agent","name":"推送","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0},
-//////////////////////////////// 最后 /////////////////////////////////////	
 	{"key":"END","name":"END of LIST","type":0,"api":""}],
 	
 
