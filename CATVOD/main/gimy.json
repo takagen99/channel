@@ -49,8 +49,8 @@
   "dtDesc": "//div[contains(@class,'col-pd')]/p/text()",
   
 // Playlist =========================================================
-  "dtFromNode": "//div[@class='myui-panel_hd']/div/h3[contains(text(),'線路')]",
-  "dtFromName": "/text()",
+  "dtFromNode": "//div[@class='myui-panel_hd']/div/h3",
+  "dtFromName": "substring-before(.,'線路')",
   "dtUrlNode": "//ul[contains(@class,'myui-content__list')]",
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "@href",
