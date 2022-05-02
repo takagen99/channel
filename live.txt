@@ -35,9 +35,11 @@ J2,http://185.207.176.189:8080/channels/tv-82/playlist.m3u8
 viuTV,https://cdn.hklive.tv/hls/99/index.m3u8
 viuTV,http://iptv.tvfix.org/hls/viutv.m3u8
 viuTV,http://iptv.tvfix.org/hls/viutv2.m3u8
+viu6,https://cdn.hklive.tv/hls/96/index.m3u8
 viu6,http://iptv.tvfix.org/hls/viutv6.m3u8
 viu6,http://185.207.176.189:8080/channels/tv-96/playlist.m3u8
 viu6,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH17/17
+明珠台,https://cdn.hklive.tv/hls/84/index.m3u8
 明珠台,http://iptv.tvfix.org/hls/pearl.m3u8
 明珠台,http://iptv.tvfix.org/hls/pearl2.m3u8
 台湾,#genre#
