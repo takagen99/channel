@@ -22,7 +22,8 @@ http://iptv.tvfix.org/hls/brtv1hd.m3u8
 
 /////// 香 港 ////////////////////////////////////////////////////////
 #EXTINF:0 tvg-logo="https://i.imgur.com/21SDGZM.png" group-title="香港",翡翠台
-http://iptv.tvfix.org/hls/jade2.m3u8
+http://live.tvfix.org/hls/jadehk.m3u8
+//http://iptv.tvfix.org/hls/jade2.m3u8
 //http://185.207.176.189:8080/channels/tv-81/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/eRNzNj9.png" group-title="香港",翡翠台海外
 http://iptv.tvfix.org/hls/jadenhk2.m3u8
