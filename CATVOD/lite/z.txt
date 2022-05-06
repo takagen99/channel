@@ -2,22 +2,22 @@
 // https://bit.ly/cat_lite : English Menu
 { 
 "wallpaper":"https://i.imgur.com/JRa3NmR.jpg",
-"spider": "https://github.com/takagen99/channel/blob/master/CATVOD/20220315.jar?raw=true",
+"spider": "https://github.com/takagen99/channel/blob/master/CATVOD/20220424.jar?raw=true",
 
 //////////////////////////////// 影视 /////////////////////////////////////	
 "sites": [
-//    {
-//      "key":"XP_ysgc",
-//      "name": "Search",
-//      "type":3,
-//      "api": "csp_XPathMacFilter",
-//      "searchable":1,
-//      "quickSearch":1,
-//      "filterable":1,
-//      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/lite/ysgc.json"},
+   {
+      "key":"csp_xpath_dbk",
+      "name":"Source-A",
+      "type":3,
+      "api": "csp_XPathDbk",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/duboku.json"	},
     {
       "key": "XP_olevod",
-      "name":"Source-A",
+      "name":"Source-B",
       "type":3,
       "api":"csp_XPathMacFilter",
       "searchable":1,
@@ -26,7 +26,7 @@
       "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/lite/olevod.json"},
    {
       "key":"XP_if101",
-      "name":"Source-B",
+      "name":"Source-C",
       "type":3,
       "api":"csp_XPathMacFilter",
       "searchable":1,
