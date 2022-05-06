@@ -14,7 +14,7 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":1,
-      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/duboku.json"	},
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/lite/duboku.json"	},
     {
       "key": "XP_olevod",
       "name":"Source-B",
