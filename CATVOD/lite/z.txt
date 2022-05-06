@@ -7,7 +7,7 @@
 //////////////////////////////// 影视 /////////////////////////////////////	
 "sites": [
    {
-      "key":"csp_xpath_dbk",
+      "key":"XP_dbk",
       "name":"Source-A",
       "type":3,
       "api": "csp_XPathDbk",
