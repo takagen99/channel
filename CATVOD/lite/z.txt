@@ -15,15 +15,15 @@
       "quickSearch":1,
       "filterable":1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/lite/duboku.json"	},
-    {
-      "key": "XP_olevod",
+   {
+      "key":"XP_ho",
       "name":"Source-B",
       "type":3,
-      "api":"csp_XPathMacFilter",
+      "api":"csp_XPathFilter",
       "searchable":1,
       "quickSearch":1,
       "filterable": 1,
-      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/lite/olevod.json"},
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/lite/hoho.json"	},
    {
       "key":"XP_if101",
       "name":"Source-C",
@@ -33,7 +33,15 @@
       "quickSearch":1,
       "filterable":1,
       "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/lite/if101.json"}],
-
+    {
+      "key": "XP_olevod",
+      "name":"Source-D",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable": 1,
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/lite/olevod.json"}],
 
 //////////////////////////////// 直播 /////////////////////////////////////
 "lives": [
