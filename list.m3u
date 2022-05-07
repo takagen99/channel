@@ -167,4 +167,4 @@ http://198.16.106.62:8278/streams/d/asiafood_zero/playlist.m3u8
 #EXTINF:0 tvg-logo="" group-title="test",test3
 http://iptv.tvmalaysia.cc:80/624850/624850/7067
 #EXTINF:0 tvg-logo="" group-title="test",test5
-http://live.tvfix.org/hls/thrill.m3u8|User-Agent="Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4"&Referer=http://live.tvfix.org/
+http://live.tvfix.org/hls/thrill.m3u8|User-Agent="Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4"&Referer=http://live.tvfix.org/play/thrill
