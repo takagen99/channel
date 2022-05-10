@@ -106,7 +106,7 @@ https://dlau142f16b92.cloudfront.net/hls/clr4ctv_ch5/master.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/0o581Oq.png" group-title="新马",Channel 8
 https://d34e90s3s13i7n.cloudfront.net/hls/clr4ctv_ch8/master.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/jmXADA7.png" group-title="新马",Channel U
-https://d3inlz9elsutjl.cloudfront.net/hls/clr4ctv_chu/master.m3u8|User-Agent="Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Mobile Safari/537.36"&Referer=https://www.mewatch.sg/
+https://d3inlz9elsutjl.cloudfront.net/hls/clr4ctv_chu/master.m3u8|Referer=https://www.mewatch.sg/
 #EXTINF:0 tvg-logo="https://i.imgur.com/XDY0cqi.png" group-title="新马",ChannelNewsAsia
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 
