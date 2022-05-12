@@ -5,7 +5,7 @@
     "国漫": "china", 
     "日本": "japan",
     "美国": "american"
-//    "电影": "movie"
+    "电影": "movie"
   },
 
 // Home Summary ====================================================
@@ -22,7 +22,7 @@
 // Category Summary ================================================
   "cateUrl": "http://www.yinghuacd.com/{cateId}/{catePg}.html",
   "cateVodNode": "//div[@class='lpic']/ul/li",
-  "cateVodName": "/a/@alt",
+  "cateVodName": "/h2/a/text()",
   "cateVodId": "/a/@href",
   "cateVodIdR": "/show/(\\w+).html",
   "cateVodImg": "/a/img/@src",
