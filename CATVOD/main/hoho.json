@@ -10,7 +10,16 @@
   "cateName": "/span/text()",
   "cateId": "/@href",
   "cateIdR": "/vod/type/id/(\\S+).html",
-  "cateManual": {},
+  "cateManual": {
+    "电影": "1",	
+    "国产剧": "13",
+    "港台剧": "14",
+    "欧美剧": "16",
+    "日韩剧": "15",
+    "综艺": "3",
+    "动漫": "4",
+    "纪录片": "20"
+    },
   
 // Home Summary =====================================================
   "homeVodNode": "//div[@class='module-item-cover']",
