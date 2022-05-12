@@ -63,6 +63,15 @@
       "quickSearch":1,
       "filterable":1,
       "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/if101.json"},
+   {
+      "key":"csp_xpath_hh",
+      "name":"HOHO TV",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/hoho.json"},
 //{
 //      "key":"csp_xpath_ysgc",
 //      "name": "影视工厂",
