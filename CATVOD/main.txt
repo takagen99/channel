@@ -359,7 +359,15 @@
 	  "quickSearch":1,
 	  "filterable": 1,	// no filter format from website
 	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/sakura.json"	},
-
+	{
+	  "key":"csp_xpath_ysj",
+	  "name":"异世界动漫",
+	  "type":3,
+	  "api":"csp_XPathMacFilter",
+	  "searchable":1,
+	  "quickSearch":1,
+	  "filterable": 1,
+	  "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/ysj.json"	},
 //////////////////////////////// 测试 /////////////////////////////////////
 	{
 	  "key":"csp_xpath_test1",
