@@ -19,6 +19,15 @@
 
 //////////////////////////////// 影视 /////////////////////////////////////	
 "sites": [
+    {
+      "key": "csp_xpath_olevod",
+      "name":"欧乐影院-Exo",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable": 1,
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/lite/olevod.json"},
    {
       "key":"csp_xpath_dbk",
       "name":"独播库",
@@ -28,15 +37,6 @@
       "quickSearch":1,
       "filterable":1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/duboku.json"	},
-    {
-      "key": "csp_xpath_olevod",
-      "name":"欧乐影院-Exo",
-      "type":3,
-      "api":"csp_XPathMacFilter",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable": 1,
-      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/olevod.json"},
    {
       "key":"csp_xpath_hcyy",
       "name":"汉城影院",
