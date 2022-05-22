@@ -1,6 +1,6 @@
 {
   "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
-  "homeUrl": "https://demo.if101.tv/",   
+  "homeUrl": "",   
   "dcVipFlag": "true",
   "pCfgJs": "https://olevod.com/static/js/playerconfig.js",
   "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
@@ -21,11 +21,7 @@
   },
   
 // Home Summary ================================================  
-  "homeVodNode": "//li[@class='clearfix'][1]/h3[@class='title']",
-  "homeVodName": "/a/text()",
-  "homeVodId": "/a/@href",
-  "homeVodImg": "/a/@data-original",
-  "homeVodMark": "/a/span[@class='pic-text text-right']/text()",
+//
   
 // Category Summary ================================================    
   "cateUrl": "https://olevod.com/index.php/vod/show{area}/id/{cateId}/page/{catePg}{year}.html",
