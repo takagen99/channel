@@ -36,6 +36,11 @@
   "dtNode": "//div[contains(@class,'hot_banner')]",
   "dtName": "//div[@class='content_box clearfix']/div/a/@title",
   "dtImg": "//div[@class='content_box clearfix']/div/a/@data-original",
+  "dtYear": "//div[contains(@class,'content_detail')]//span[contains(@class,'text_muted hidden_xs') and contains(text(), '年份')]/following-sibling::*/text()",
+  "dtArea": "//div[contains(@class,'content_detail')]//span[contains(@class,'text_muted hidden_xs') and contains(text(), '地区')]/following-sibling::*/text()",
+  "dtActor": "//div[contains(@class,'content_detail')]//span[contains(text(), '主演')]/following-sibling::*/text()",
+  "dtDirector": "//div[contains(@class,'content_detail')]//span[contains(text(), '导演')]/following-sibling::*/text()",
+  "dtDesc": "///div[contains(@class,'content_detail')]//span[contains(@class,'left text_muted') and contains(text(), '简介')]/parent::text()",
   
 // Playlist =====================================================
   "dtFromNode": "//div[contains(@class,'play_source_tab')]/a",
