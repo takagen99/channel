@@ -24,7 +24,6 @@
   "homeVodNode": "//div[contains(@class, 'pannel')]//ul[contains(@class,'vodlist vodlist_wi list_v12 clearfix')]/li/a[contains(@class,'vodlist_thumb')]",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
-  "homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
   "homeVodImg": "/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[@class='pic_text text_right']/em/text()",
