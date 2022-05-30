@@ -24,7 +24,6 @@
   "homeVodNode": "//li[contains(@class, 'vodlist_item')]",
   "homeVodName": "/div[@class='vodlist_titbox']/p[@class='vodlist_title']/a/@title",
   "homeVodId": "/div[@class='vodlist_titbox']/p[@class='vodlist_title']/a/@href",
-  "homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
   "homeVodImg": "/a/@data-original",
   
 // Category Summary ================================================    
