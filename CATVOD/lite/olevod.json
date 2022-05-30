@@ -1,11 +1,11 @@
 {
-  "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
-  "homeUrl": "https://olevod.com",
-  "dcVipFlag": "true",
-  "pCfgJs": "https://olevod.com/static/js/playerconfig.js",
-  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
-  "dcShow2Vip": {},
-  "dcPlayUrl": "true",
+  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36",
+  "homeUrl": "https://www.olevod.com/index.php/vod/show/id/2.html",
+//  "dcVipFlag": "true",
+//  "pCfgJs": "https://olevod.com/static/js/playerconfig.js",
+//  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+//  "dcShow2Vip": {},
+//  "dcPlayUrl": "true",
   
 // Manual Category ================================================  
   "cateManual": {
@@ -21,12 +21,11 @@
   },
   
 // Home Summary ================================================  
-  "homeVodNode": "//div[contains(@class, 'pannel')]//ul[contains(@class,'vodlist vodlist_wi list_v12 clearfix')]/li/a[contains(@class,'vodlist_thumb')]",
-  "homeVodName": "/@title",
-  "homeVodId": "/@href",
-  "homeVodImg": "/@data-original",
-  "homeVodImgR": "\\S+(http\\S+)",
-  "homeVodMark": "/span[@class='pic_text text_right']/em/text()",
+  "homeVodNode": "//li[contains(@class, 'vodlist_item')]",
+  "homeVodName": "/div[@class='vodlist_titbox']/p[@class='vodlist_title']/a/@title",
+  "homeVodId": "/div[@class='vodlist_titbox']/p[@class='vodlist_title']/a/@href",
+  "homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
+  "homeVodImg": "/a/@data-original",
   
 // Category Summary ================================================    
   "cateUrl": "https://olevod.com/index.php/vod/show{area}/id/{cateId}/page/{catePg}{year}.html",
