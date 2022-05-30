@@ -1,11 +1,11 @@
 {
   "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36",
   "homeUrl": "https://www.olevod.com/index.php/vod/show/id/2.html",
-//  "dcVipFlag": "true",
-//  "pCfgJs": "https://olevod.com/static/js/playerconfig.js",
-//  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
-//  "dcShow2Vip": {},
-//  "dcPlayUrl": "true",
+  "dcVipFlag": "true",
+  "pCfgJs": "https://olevod.com/static/js/playerconfig.js",
+  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+  "dcShow2Vip": {},
+  "dcPlayUrl": "true",
   
 // Manual Category ================================================  
   "cateManual": {
