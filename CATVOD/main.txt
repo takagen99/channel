@@ -20,6 +20,15 @@
 //////////////////////////////// 影视 /////////////////////////////////////	
 "sites": [
     {
+      "key": "csp_xpath_czspp",
+      "name":"厂长资源",
+      "type":3,
+      "api":"csp_XPath",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable": 0,
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/czspp.json"},
+    {
       "key": "csp_xpath_olevod",
       "name":"欧乐影院-Exo",
       "type":3,
