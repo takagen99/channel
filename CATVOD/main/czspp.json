@@ -66,14 +66,14 @@
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
   "playUrl": "https://www.czspp.com/v_play/{playUrl}.html",
-  "playUa": "",
+  "playUa": ""
   
 // Search Results ===================================================
-  "searchUrl": "https://www.czspp.com/xssearch?q={wd}",
-  "scVodNode": "//div[@class='bt_img mi_ne_kd search_list']/ul/li/a",
-  "scVodName": "/img/@alt",
-  "scVodId": "/@href",
-  "scVodIdR": "/movie/(\\w+).html",
-  "scVodImg": "/img/@src",
-  "scVodMark": "/div[@class='jidi']/span/text()"
+//  "searchUrl": "https://www.czspp.com/xssearch?q={wd}",
+//  "scVodNode": "//div[@class='bt_img mi_ne_kd search_list']/ul/li/a",
+//  "scVodName": "/img/@alt",
+//  "scVodId": "/@href",
+//  "scVodIdR": "/movie/(\\w+).html",
+//  "scVodImg": "/img/@src",
+//  "scVodMark": "/div[@class='jidi']/span/text()"
 }
