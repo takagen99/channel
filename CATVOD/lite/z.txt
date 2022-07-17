@@ -23,7 +23,7 @@
       "searchable":1,
       "quickSearch":1,
       "filterable": 1,
-      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/lite/hoho.json"	},
+      "ext": "https://pastebin.com/raw/LR84aD8a"	},
    {
       "key":"XP_if101",
       "name":"Source-C",
