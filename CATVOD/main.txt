@@ -7,7 +7,7 @@
 // https://i.imgur.com/laArUXs.png - v2
 
 { 
-"wallpaper":"https://takagen99.github.io/wallpapers",
+"wallpaper":"https://takagen99.github.io/wallpapers/",
 	
 //////////////// OFFICIAL ////////////////	
 //"spider":"https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true",
