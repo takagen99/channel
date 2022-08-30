@@ -1,15 +1,9 @@
-// New Interface (Simple Black)
-// https://i.imgur.com/71RkM0u.jpg
-// https://i.imgur.com/bdTzXtd.jpg
-
-// Sample Logo
-// https://i.imgur.com/dXWi9gd.png - v1
-// https://i.imgur.com/laArUXs.png - v2
+// Old Proof of Concept : https://i.imgur.com/71RkM0u.jpg , https://i.imgur.com/bdTzXtd.jpg
+// Old Logo             : https://i.imgur.com/dXWi9gd.png , https://i.imgur.com/laArUXs.png - v2
 
 { 
 "wallpaper":"https://takagen-wallpaper.herokuapp.com",
 "spider": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/20220424.jar?raw=true",
-
 
 //////////////////////////////// 影视 /////////////////////////////////////	
 "sites": [
