@@ -50,7 +50,7 @@
       "searchable":1,
       "quickSearch":1,
       "filterable": 0,
-      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/czspp.json"}],      
+      "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/czspp.json"}],
 
 //////////////////////////////// 直播 /////////////////////////////////////
 "lives": [
