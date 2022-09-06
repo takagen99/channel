@@ -309,6 +309,16 @@
          "ext":""
       },
       {
+         "key":"bb_555",                 // ok
+         "name":"555电影",
+         "type":3,
+         "api":"csp_XBiubiu",
+         "searchable":1,
+         "quickSearch":1,
+         "filterable":0,
+         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/555.json"
+      },
+      {
          "key":"bb_oulevod",                 // ok
          "name":"欧乐影院",
          "type":3,
