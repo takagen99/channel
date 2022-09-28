@@ -11,17 +11,17 @@
   "cateId": "/@href",
   "cateIdR": "/vod/type/id/(\\S+).html",
   "cateManual": {
-    "电影": "1",	
-    "国产剧": "13",
-    "港台剧": "14",
-    "欧美剧": "16",
-    "日韩剧": "15",
-    "综艺": "3",
-    "动漫": "4",
-    "纪录片": "20"
-    },
-  
-// Home Summary =====================================================
+    "CN": "13",
+    "HK/TW": "14",
+    "US": "16",
+    "JP/KR": "15",
+    "Movies": "1",
+    "Varieties": "3",
+    "Anime": "4",
+    "Documentaries": "20"
+  },
+
+  // Home Summary =====================================================
   "homeVodNode": "//div[@class='module-item-cover']",
   "homeVodName": "/div[@class='module-item-pic']/a/@title",
   "homeVodId": "/div[@class='module-item-pic']/a/@href",
@@ -29,8 +29,8 @@
   "homeVodImg": "/div[@class='module-item-pic']/img/@data-src",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "//div[@class='module-item-caption']/span/text()",
-  
-// Category Summary =================================================
+
+  // Category Summary =================================================
   "cateUrl": "https://www.hoho.tv/vod/show/{cateId}/area/{area}/class/{class}/year/{year}/by/{by}/page/{catePg}.html",
   "cateVodNode": "//div[@class='module-item-cover']",
   "cateVodName": "/div[@class='module-item-pic']/a/@title",
@@ -39,8 +39,8 @@
   "cateVodImg": "/div[@class='module-item-pic']/img/@data-src",
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "//div[@class='module-item-caption']/span/text()",
-  
-// Category Details =================================================
+
+  // Category Details =================================================
   "dtUrl": "https://www.hoho.tv/vod/detail/id/{vid}.html",
   "dtNode": "//body",
   "dtName": "//h1[@class='page-title']/text()",
@@ -61,8 +61,8 @@
   "dtDirectorR": "",
   "dtDesc": "//div[contains(@class,'vod_content')]/text()",
   "dtDescR": "",
-  
-// Playlist =========================================================
+
+  // Playlist =========================================================
   "dtFromNode": "//div[contains(@class,'module-tab-content')]/div/span",
   "dtFromName": "/text()",
   "dtFromNameR": "",
@@ -74,8 +74,8 @@
   "dtUrlNameR": "",
   "playUrl": "https://www.hoho.tv/vod/play/id/{playUrl}.html",
   "playUa": "",
-  
-// Search Results ===================================================
+
+  // Search Results ===================================================
   "searchUrl": "https://www.hoho.tv/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
   "scVodName": "name",
@@ -83,8 +83,8 @@
   "scVodIdR": "",
   "scVodImg": "pic",
   "scVodMark": "",
-  
-// Filters ==========================================================
+
+  // Filters ==========================================================
   "filter": {
     "1": [
       {
