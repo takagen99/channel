@@ -1,7 +1,7 @@
 // https://bit.ly/3EMm8FA
 // https://bit.ly/cat_lite : English Menu
 { 
-"wallpaper":"http://takagen.rf.gd/",
+"wallpaper":"http://takagen.rf.gd",
 "spider": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/20220424.jar?raw=true",
 
 //////////////////////////////// 影视 /////////////////////////////////////	
