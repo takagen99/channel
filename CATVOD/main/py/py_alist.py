@@ -177,7 +177,7 @@ class Spider(Spider):  # 元类 默认的元类 type
                 img = vod['thumb']
             if len(img) == 0:
                 if vod['type'] == 1:
-                    img = "http://img1.3png.com/281e284a670865a71d91515866552b5f172b.png"
+                    img = "https://i.imgur.com/mcaqaZ9.png"
             if pat != '':
                 aid = pat + '/'
             else:
