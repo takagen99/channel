@@ -2,7 +2,7 @@
 // Old Logo             : https://i.imgur.com/dXWi9gd.png , https://i.imgur.com/laArUXs.png - v2
 
 {
-   "wallpaper":"http://takagen.rf.gd",
+   "wallpaper":"https://takagen-wallpaper.herokuapp.com",
    "spider":"https://github.com/takagen99/channel/blob/master/CATVOD/jar/20220820.jar?raw=true",
 
    "sites":[
@@ -475,6 +475,16 @@
          "filterable":1
       },
       /////////////////////////// T E S T I N G ///////////////////////////
+      {
+         "key": "py_alist",
+   		 "name": "Alist",
+   		 "type": 3,
+   		 "api": "py_alist",
+   	 	 "searchable": 1,
+   	 	 "quickSearch": 1,
+   		 "filterable": 0,
+   		 "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/py/py_alist.py"
+      },
       {
          "key":"xp_test1",
          "name":"====Test1====",
