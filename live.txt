@@ -1,11 +1,17 @@
 #https://bit.ly/diyp_live
 
 卫视,#genre#
+湖南卫视,http://125.40.191.58:9901/tsfile/live/0128_1.m3u8?blog.ntnas.top
+湖南卫视,http://111.13.42.235/PLTV/88888888/224/3221226509/1.m3u8?blog.ntnas.top
+湖南卫视,http://111.20.33.93/PLTV/88888893/224/3221226211/index.m3u8
+湖南卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225745/index.m3u8
 湖南卫视,http://117.148.179.172/PLTV/88888888/224/3221231729/index.m3u8
 湖南卫视,http://117.148.179.148/PLTV/88888888/224/3221230824/index.m3u8
 湖南卫视,http://111.40.196.28/PLTV/88888888/224/3221225519/index.m3u8
 湖南卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225745/index.m3u8
-浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
+浙江卫视,http://125.40.191.58:9901/tsfile/live/0124_1.m3u8?blog.ntnas.top
+浙江卫视,http://111.13.42.235/PLTV/88888888/224/3221226365/1.m3u8?blog.ntnas.top
+浙江卫视,http://111.20.33.93/PLTV/88888893/224/3221226199/index.m3u8
 浙江卫视,http://117.148.179.140/PLTV/88888888/224/3221229352/index.m3u8
 浙江卫视,http://111.40.196.25/PLTV/88888888/224/3221225510/index.m3u8
 浙江卫视,http://39.134.66.66/PLTV/88888888/224/3221225514/index.m3u8
@@ -22,6 +28,9 @@
 北京卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225673/index.m3u8
 
 香港,#genre#
+翡翠台,http://120.84.96.62:808/hls/25/index.m3u8?blog.ntnas.top
+翡翠台,http://23.237.10.66:16106
+翡翠台,http://120.84.96.55:808/hls/25/index.m3u8?blog.ntnas.top
 翡翠台,https://cdn.hklive.tv/hls/81/index.m3u8
 翡翠台,http://iptv.tvfix.org/hls/jade.m3u8
 翡翠台,http://live.tvfix.org/hls/jadehk.m3u8
@@ -42,6 +51,7 @@ viu6,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH17/17
 明珠台,https://cdn.hklive.tv/hls/84/index.m3u8
 明珠台,http://iptv.tvfix.org/hls/pearl.m3u8
 明珠台,http://iptv.tvfix.org/hls/pearl2.m3u8
+
 台湾,#genre#
 民視,rtmp://59.124.75.157/sat/tv051
 台視,rtmp://59.124.75.157/sat/tv071
@@ -49,10 +59,40 @@ viu6,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH17/17
 華視,rtmp://59.124.75.157/sat/tv111
 年代新闻,P2p://ns2.hellotvvod.com:9906/0dfd916cb908440b9b5b5b63937ab71c.ts
 东森新闻台,P2p://ns2.hellotvvod.com:9906/f3c4a637dc624604b55aa845bc6c4a74.ts
-中天新闻台,P2p://ns2.hellotvvod.com:9906/d7b448374c7e40898a515421389f97d4.ts
-民视新闻台,P2p://ns2.hellotvvod.com:9906/0b0cb3a6e5534a4c8c32eada573dcbd7.ts
+中天新闻台,http://60.251.39.247:8504/http/192.168.77.24:8081/hls/78/80/ch63max.m3u8?blog.ntnas.top
+民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
+民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
+民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
+民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
+民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8?blog.ntnas.top
 三立新闻台,P2p://ns2.hellotvvod.com:9906/f5d15422e1544fbba550e25d5406ed0b.ts
-TVBS新闻台,P2p://ns2.hellotvvod.com:9906/e0ceb76e8d45451c9d51d1fa9756cebf.ts
+TVBS新闻台,http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
+TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8
+TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
+TVBS新闻台,http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
+TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8
+TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
+TVBS新闻台,http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8?blog.ntnas.top
+东森电影台,http://120.84.96.62:808/hls/32/index.m3u8?blog.ntnas.top
+东森电影台,http://120.84.96.55:808/hls/32/index.m3u8?blog.ntnas.top
+东森电影台,http://198.16.64.10:8278/ettvmovie/playlist.m3u8?tid=MDED1943740419437404&ct=19225&tsum=120834a4218c4b5c3bb19efb8116f859
+东森洋片HD,http://120.84.96.62:808/hls/33/index.m3u8?blog.ntnas.top
+东森洋片HD,http://120.84.96.55:808/hls/33/index.m3u8?blog.ntnas.top
+东森洋片HD,http://198.16.64.10:8278/ettvwestern/playlist.m3u8?tid=MC2C7134276471342764&ct=19225&tsum=4889d0c08d077336bd5066b912891aee
+动物星球,http://198.16.64.10:8278/animalplanet_twn/playlist.m3u8?tid=ME1E7303496773034967&ct=19225&tsum=07b0edc521a4edcb7a00d7e943b8aa72
+国家地理,http://198.16.64.10:8278/natgeohd_twn/playlist.m3u8?tid=ME0E9332119893321198&ct=19225&tsum=86a42e161c519916f498348c3c672787
+国家地理,https://livecdn.fptplay.net/hda2/natgeohd_vhls.smil/chunklist_b5000000.m3u8
+国家地理野生,http://198.16.64.10:8278/natgeowild_twn/playlist.m3u8?tid=ME7E6122598161225981&ct=19225&tsum=c88897efa30d472128421acf3d4b62c8
+探索亚洲,http://198.16.64.10:8278/discoverytwn_twn/playlist.m3u8?tid=MCEC2689621926896219&ct=19225&tsum=1739c52807970a89c1c15d7afea86b26
+探索动力,http://198.16.64.10:8278/discoveryturbo_twn/playlist.m3u8?tid=MD5D5964869459648694&ct=19225&tsum=a21251b62069dff5c52601a3e4bc4a6d
+探索科学,http://198.16.64.10:8278/discoverysc_twn/playlist.m3u8?tid=MA9A4194864841948648&ct=19225&tsum=d87ede28c5152d8a730038fd5fb8207f
+探索频道,http://198.16.64.10:8278/discoveryhd_twn/playlist.m3u8?tid=ME6E2405719624057196&ct=19225&tsum=57a7c421c65e00c1b8f68f67c30141dc
+探索频道,https://livecdn.fptplay.net/hda2/discovery_vhls.smil/chunklist_b5000000.m3u8
+美食星球,http://198.16.64.10:8278/foodplanet_twn/playlist.m3u8?tid=MCCC8639507586395075&ct=19226&tsum=69f5a90ff21aa5f4f58667bcdd713353
+亚洲美食,https://livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b5000000.m3u8
+HBO综合,http://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b5000000.m3u8
+TLC旅游生活,https://vips-livecdn.fptplay.net/hda2/travelliving_vhls.smil/chunklist_b5000000.m3u8
+MTV音乐频道,http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master_2400.m3u8
 
 新马,#genre#
 Channel 5,https://dlau142f16b92.cloudfront.net/hls/clr4ctv_ch5/master.m3u8
@@ -60,8 +100,10 @@ Channel 8,https://d34e90s3s13i7n.cloudfront.net/hls/clr4ctv_ch8/master.m3u8
 Channel U,https://d3inlz9elsutjl.cloudfront.net/hls/clr4ctv_chu/master.m3u8
 CNA,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 CNA,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+八度空间,http://51.79.82.208:16005
 
 日本,#genre#
+Animax,https://livecdn.fptplay.net/hda3/animaxport_2000.stream/.m3u8?zgangd
 Animax,http://iptv.tvfix.org/hls/animax.m3u8
 Animax,http://iptv.tvfix.org/hls/animax2.m3u8
 Animax,2p://ns2.hellotvvod.com:9906/cef0f0c485bd4cf7a7f101a971dff095.ts
@@ -78,6 +120,7 @@ WAKUWAKU JAPAN,http://211.23.114.106:8538/http/60.251.39.91:8081/hls/61/803/ch03
 
 影视,#genre#
 AXN,P2p://ns2.hellotvvod.com:9906/b7285b85f2e040bfab9ef86c89e1e357.ts
+BOO,http://23.237.10.66:16420
 BOO,P2p://ns2.hellotvvod.com:9906/e5031f7bada04e3e963515d2fabbff67.ts
 HBO,P2p://ns2.hellotvvod.com:9906/94b11544b21e46efa1c31abd6f7c7d01.ts
 HBO Hits,P2p://ns2.hellotvvod.com:9906/041b53b8ec0c4ca1906af705429e25c7.ts
