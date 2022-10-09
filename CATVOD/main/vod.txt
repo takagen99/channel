@@ -486,6 +486,13 @@
    		 "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/py/py_alist.py"
       },
       {
+         "key": "Local",
+         "name": "本地视频",
+         "type": 3,
+         "api": "csp_LocalFile",
+         "jar":"https://github.com/takagen99/channel/blob/master/CATVOD/jar/20220928.jar?raw=true"
+      },
+      {
          "key":"xp_test1",
          "name":"====Test1====",
          "type":3,
