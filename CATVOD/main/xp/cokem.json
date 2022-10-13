@@ -4,21 +4,20 @@
   "dcVipFlag": "true",
   "dcPlayUrl": "true",
   "dcShow2Vip": {},
-//  "pCfgJs": "https://cokemv.me/static/js/playerconfig.js",
-//  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+  //  "pCfgJs": "https://cokemv.me/static/js/playerconfig.js",
+  //  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
   "cateManual": {
-    "抖音电影": "5",
-    "电影": "1",
-    "国产剧": "13",
-    "香港剧": "14",
-    "欧美剧": "16",
-    "日本剧": "20",
-    "韩国剧": "15",
-    "综艺": "3",
-    "动漫": "4"
+    "CN": "13",
+    "HK": "16",
+    "JP": "15",
+    "KR": "14",
+    "US": "32",
+    "Movies": "1",
+    "Varieties": "29",
+    "Anime": "3"
   },
 
-// Home Summary ====================================================
+  // Home Summary ====================================================
   "homeVodNode": "//div[@class='module-main scroll-box']/div/a",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
@@ -26,17 +25,17 @@
   "homeVodImg": "/div[1]/div[2]/img/@data-original",
   "homeVodMark": "/div[1]/div[1]/text()",
 
-// Category Summary ================================================
-  "cateUrl": "https://cokemv.me/vodshow/{cateId}-{area}---{lang}----{catePg}---{year}.html",
-  "cateVodNode": "//div[contains(@class,'module-main module-page')]/div[contains(@class,'module-items')]/a",
+  // Category Summary ================================================
+  "cateUrl": "https://cokemv.me/index.php/vod/show/id/{cateId}.html",
+  "cateVodNode": "//a[@class='module-poster-item module-item']",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
-  "cateVodIdR": "/voddetail/(\\w+).html",
+  "cateVodIdR": "/index.php/vod/detail/id/(\\w+).html",
   "cateVodImg": "/div[1]/div[2]/img/@data-original",
   "cateVodMark": "/div[1]/div[1]/text()",
 
-// Category Details ================================================
-  "dtUrl": "https://cokemv.me/voddetail/{vid}.html",
+  // Category Details ================================================
+  "dtUrl": "https://cokemv.me//index.php/vod/detail/id/{vid}.html",
   "dtNode": "//div[@class='module module-info']",    // must be unique
   "dtName": "//div/h1/text()",
   "dtNameR": "",
@@ -48,19 +47,18 @@
   "dtActor": "//div[@class='module-info-item'][3]/div/a/text()",
   "dtDesc": "//div[@class='module-info-introduction-content']/p/text()",
 
-// Playlist ========================================================
+  // Playlist ========================================================
   "dtFromNode": "//div[@class='module-tab-items-box hisSwiper']/div/span",
   "dtFromName": "/text()",
   "dtUrlNode": "//div[@class='module-list sort-list tab-list his-tab-list']/div/div",
   "dtUrlSubNode": "/a",
   "dtUrlId": "/@href",
-  "dtUrlIdR": "/vodplay/(\\S+).html",
   "dtUrlName": "/span/text()",
   "dtUrlNameR": "",
-  "playUrl": "https://cokemv.me/vodplay/{playUrl}.html",
+  "playUrl": "https://cokemv.me/{playUrl}.html",
   "playUa": "",
 
-// Search Results ==================================================
+  // Search Results ==================================================
   "searchUrl": "https://cokemv.me/vodsearch/{wd}-------------.html",
   "scVodNode": "//a[contains(@class,'myui-vodlist__thumb')]",
   "scVodName": "/@title",
@@ -69,7 +67,7 @@
   "scVodImg": "/@data-original",
   "scVodMark": "",
 
-// Filters =======================================================
+  // Filters =======================================================
   "filter": {
     "5": [      // 抖音电影
       {
@@ -93,7 +91,7 @@
         "name": "年份",
         "value": [
           { "n": "全部", "v": "" },
-          { "n": "2022", "v": "2022" },          
+          { "n": "2022", "v": "2022" },
           { "n": "2021", "v": "2021" },
           { "n": "2020", "v": "2020" },
           { "n": "2019", "v": "2019" },
@@ -153,7 +151,7 @@
         "name": "年份",
         "value": [
           { "n": "全部", "v": "" },
-          { "n": "2022", "v": "2022" },           
+          { "n": "2022", "v": "2022" },
           { "n": "2021", "v": "2021" },
           { "n": "2020", "v": "2020" },
           { "n": "2019", "v": "2019" },
@@ -175,7 +173,7 @@
         "name": "年份",
         "value": [
           { "n": "全部", "v": "" },
-          { "n": "2022", "v": "2022" },          
+          { "n": "2022", "v": "2022" },
           { "n": "2021", "v": "2021" },
           { "n": "2020", "v": "2020" },
           { "n": "2019", "v": "2019" },
@@ -203,7 +201,7 @@
         "name": "年份",
         "value": [
           { "n": "全部", "v": "" },
-          { "n": "2022", "v": "2022" },          
+          { "n": "2022", "v": "2022" },
           { "n": "2021", "v": "2021" },
           { "n": "2020", "v": "2020" },
           { "n": "2019", "v": "2019" },
@@ -231,7 +229,7 @@
         "name": "年份",
         "value": [
           { "n": "全部", "v": "" },
-          { "n": "2022", "v": "2022" },          
+          { "n": "2022", "v": "2022" },
           { "n": "2021", "v": "2021" },
           { "n": "2020", "v": "2020" },
           { "n": "2019", "v": "2019" },
@@ -259,7 +257,7 @@
         "name": "年份",
         "value": [
           { "n": "全部", "v": "" },
-          { "n": "2022", "v": "2022" },          
+          { "n": "2022", "v": "2022" },
           { "n": "2021", "v": "2021" },
           { "n": "2020", "v": "2020" },
           { "n": "2019", "v": "2019" },
@@ -287,7 +285,7 @@
         "name": "年份",
         "value": [
           { "n": "全部", "v": "" },
-          { "n": "2022", "v": "2022" },          
+          { "n": "2022", "v": "2022" },
           { "n": "2021", "v": "2021" },
           { "n": "2020", "v": "2020" },
           { "n": "2019", "v": "2019" },
@@ -324,7 +322,7 @@
         "name": "年份",
         "value": [
           { "n": "全部", "v": "" },
-          { "n": "2022", "v": "2022" },           
+          { "n": "2022", "v": "2022" },
           { "n": "2021", "v": "2021" },
           { "n": "2020", "v": "2020" },
           { "n": "2019", "v": "2019" },
@@ -362,7 +360,7 @@
         "name": "年份",
         "value": [
           { "n": "全部", "v": "" },
-          { "n": "2022", "v": "2022" },           
+          { "n": "2022", "v": "2022" },
           { "n": "2021", "v": "2021" },
           { "n": "2020", "v": "2020" },
           { "n": "2019", "v": "2019" },

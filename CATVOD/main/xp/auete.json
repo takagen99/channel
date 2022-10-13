@@ -24,7 +24,7 @@
   "homeVodMark": "/a/button/text()",
   
 // Category Summary ================================================    
-  "cateUrl": "https://auete.com/{cateId}/index{catePg}.html",
+  "cateUrl": "https://auete.com/{cateId}/index.html",
   "cateVodNode": "//div[contains(@class,'picture_list_container')]/ul/li",
   "cateVodName": "/a/img/@title",
   "cateVodId": "/h2/a/@href",
