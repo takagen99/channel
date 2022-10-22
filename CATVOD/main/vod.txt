@@ -3,7 +3,7 @@
 
 {
    "wallpaper":"https://takagen-wallpaper.herokuapp.com",
-   "spider":"https://github.com/takagen99/channel/blob/master/CATVOD/jar/20220820.jar?raw=true",
+   "spider":"https://github.com/takagen99/channel/blob/master/CATVOD/jar/20221013.jar?raw=true",
 
    "sites":[
       /////////////////////////// 1. Category XP ///////////////////////////
@@ -46,7 +46,7 @@
          "searchable":1,
          "quickSearch":1,
          "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/oulevod.json"
+         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/hoho.json"
       },
       {
          "key":"xp_jbb",                 // ok
@@ -62,7 +62,7 @@
          "key":"if101资源",                 // ok
          "name":"if101资源",
          "type":0,
-         "api":"https://demo.if101.tv/api.php/provide/vod/at/xml",
+         "api":"https://haiwaikan.com/api.php/provide/vod/at/xml/",
          "searchable":1,
          "quickSearch":1,
          "filterable":0
@@ -75,7 +75,7 @@
          "searchable":1,
          "quickSearch":1,
          "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/if101.json"
+         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/haiwaikan.json"
       },
       {
          "key":"xp_auete",                 // to fix
@@ -474,6 +474,25 @@
          "quickSearch":1,
          "filterable":1
       },
+      {
+         "key":"sp_Alist",
+         "name":"Alist",
+         "type":3,
+         "api":"csp_Alist",
+         "searchable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/sp/alist.json"
+      },
+      {
+         "key":"sp_LocalFile",
+         "name":"LocalFile",
+         "type":3,
+         "api":"csp_LocalFile",
+         "searchable":1,
+         "quickSearch":1,
+         "filterable":1
+      },
       /////////////////////////// T E S T I N G ///////////////////////////
       {
          "key": "py_alist",
@@ -484,13 +503,6 @@
    	 	 "quickSearch": 1,
    		 "filterable": 0,
    		 "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/py/py_alist.py"
-      },
-      {
-         "key": "Local",
-         "name": "本地视频",
-         "type": 3,
-         "api": "csp_LocalFile",
-         "jar":"https://github.com/takagen99/channel/blob/master/CATVOD/jar/20220928.jar?raw=true"
       },
       {
          "key":"xp_test1",
