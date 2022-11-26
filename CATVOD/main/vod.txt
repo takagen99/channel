@@ -74,7 +74,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar"
+      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar?raw=true"
     },
     {
       "key": "xp_jbb",         // website down
@@ -485,7 +485,7 @@
       "playerType": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar"
+      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar?raw=true"
     },
     {
       "key": "yunsou",
@@ -497,7 +497,7 @@
       "playerType": 1,
       "filterable": 0,
       "ext": "token;asc",
-      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar"
+      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar?raw=true"
     },
     {
       "key": "yisou",
@@ -508,7 +508,7 @@
       "quickSearch": 1,
       "playerType": 1,
       "filterable": 0,
-      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar"
+      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar?raw=true"
     },
     {
       "key": "AliPS",
@@ -520,7 +520,7 @@
       "filterable": 1,
       "playerType": 1,
       "ext": "27b06d5221a24199b15f2e573d847430",
-      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar"
+      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar?raw=true"
     },
     {
       "key": "push_agent",
@@ -531,7 +531,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "27b06d5221a24199b15f2e573d847430",
-      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar"
+      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar?raw=true"
     },
     /////////////////////////// T E S T I N G ///////////////////////////
     {
