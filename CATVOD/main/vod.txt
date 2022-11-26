@@ -6,16 +6,6 @@
   "spider": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/20221013.jar?raw=true",
   "sites": [
     {
-      "key": "js_douban",
-      "name": "豆瓣热播",
-      "type": 3,
-      "api": "https://github.com/takagen99/channel/raw/master/CATVOD/main/dr/影魔.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/dr/js/豆瓣.js"
-    },
-    {
       "key": "sp_LocalFile",
       "name": "LocalFile",
       "type": 3,
