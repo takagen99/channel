@@ -2,945 +2,1056 @@
 // Old Logo             : https://i.imgur.com/dXWi9gd.png , https://i.imgur.com/laArUXs.png - v2
 
 {
-   "wallpaper":"https://takagen-wallpaper.herokuapp.com",
-   "spider":"https://github.com/takagen99/channel/blob/master/CATVOD/jar/20221013.jar?raw=true",
+  "wallpaper": "https://takagen-wallpaper.herokuapp.com",
+  "spider": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/20221013.jar?raw=true",
+  "sites": [
+    {
+      "key": "js_douban",
+      "name": "豆瓣热播",
+      "type": 3,
+      "api": "https://github.com/takagen99/channel/raw/master/CATVOD/main/dr/影魔.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/dr/js/豆瓣.js"
+    },
+    {
+      "key": "sp_LocalFile",
+      "name": "LocalFile",
+      "type": 3,
+      "api": "csp_LocalFile",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    /////////////////////////// 1. Category XP ///////////////////////////
+    {
+      "key": "Type1",
+      "name": "///// Category XP /////",
+      "type": 3,
+      "api": "",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": ""
+    },
+    {
+      "key": "xp_czspp",      // ok
+      "name": "厂长资源",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/czspp.json"
+    },
+    {
+      "key": "xp_olevod",      // ok
+      "name": "欧乐影院-Exo",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/olevod.json",
+      "playerType": 2
+    },
+    {
+      "key": "xp_oulevod",      // ok
+      "name": "欧乐影院",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/oulevod.json"
+    },
+    {
+      "key": "xp_hoho",         // ok
+      "name": "HoHoTv",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/hoho.json"
+    },
+    {
+      "key": "nbys",
+      "name": "泥巴",
+      "type": 3,
+      "api": "csp_Nbys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar"
+    },
+    {
+      "key": "xp_jbb",         // website down
+      "name": "剧白白",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/jbb.json"
+    },
+    {
+      "key": "if101资源",      // ok
+      "name": "if101资源",
+      "type": 0,
+      "api": "https://haiwaikan.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "xp_if101",      // ok
+      "name": "if101-XP",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/haiwaikan.json"
+    },
+    {
+      "key": "xp_auete",      // to fix
+      "name": "Auete影视",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/auete.json"
+    },
+    {
+      "key": "xp_ctv",      // ok
+      "name": "冲tmTV",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/chongtmtv.json"
+    },
+    {
+      "key": "xp_cokemv",      // to fix
+      "name": "Cokemv",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/cokem.json"
+    },
+    {
+      "key": "xp_dgg",      // ok
+      "name": "达达龟",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/ddg.json"
+    },
+    {
+      "key": "xp_dbk",      // ok
+      "name": "独播库",
+      "type": 3,
+      "api": "csp_XPathDbk",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/duboku.json",
+      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/20220424.jar?raw=true"
+    },
+    {
+      "key": "xp_gimy",      // ok
+      "name": "Gimy剧迷",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/gimy.json"
+    },
+    {
+      "key": "xp_jh",      // to fix
+      "name": "剧荒",
+      "type": 3,
+      "api": "csp_XPathMac",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/juhuangXPFG.json"
+    },
+    {
+      "key": "xp_lezhu",      // ok
+      "name": "乐猪TV",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/lezhu.json"
+    },
+    {
+      "key": "xp_libv",      // ok
+      "name": "Libvio",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/libv.json"
+    },
+    {
+      "key": "xp_mjc",      // ok
+      "name": "美剧虫",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/meijuchong.json"
+    },
+    {
+      "key": "xp_nfm",      // to fix -
+      "name": "Netflix MOM",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/nfm.json"
+    },
+    {
+      "key": "xp_saohuotv",      // ok
+      "name": "骚火电影",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/saohuotv.json"
+    },
+    {
+      "key": "xp_ttsp",      // ok
+      "name": "天天视频",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/ttsp.json"
+    },
+    {
+      "key": "xp_yinfan",
+      "name": "音范丝",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/yinfans.json"
+    },
+    {
+      "key": "xp_zxzj",      // to fix - https://zxzj.vip/
+      "name": "在线之家",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/zxzj.json"
+    },
+    {
+      "key": "zjdr",      // ok, but need jx
+      "name": "追剧达人",
+      "type": 0,
+      "api": "http://vipmv.cc/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "百度资源",      // ok
+      "name": "百度资源",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "playUrl": "",
+      "categories": [
+      ]
+    },
+    {
+      "key": "xp_pianba",      // site down
+      "name": "片吧",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/pianba.json"
+    },
+    //////////////////////// 1. Category XP - Anime ////////////////////////
+    {
+      "key": "xp_age",      // ok
+      "name": "AGE动漫",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/agefans.json"
+    },
+    {
+      "key": "xp_dm84",      // to fix
+      "name": "动漫巴士",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/dm84.json"
+    },
+    {
+      "key": "xp_dmw",      // ok
+      "name": "动漫岛",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/dmw.json"
+    },
+    {
+      "key": "xp_yh",      // to fix
+      "name": "樱花动漫",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/sakura.json"
+    },
+    /////////////////////////// 2. Category XB ///////////////////////////
+    {
+      "key": "Type2",
+      "name": "///// Category XB /////",
+      "type": 3,
+      "api": "",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": ""
+    },
+    {
+      "key": "bb_555",      // ok
+      "name": "555电影",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/555.json"
+    },
+    {
+      "key": "bb_oulevod",      // ok
+      "name": "欧乐影院",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/oulevod.json"
+    },
+    {
+      "key": "bb_cokemv",      // ok
+      "name": "Cokemv",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/cokemv.json"
+    },
+    {
+      "key": "bb_jbb",      // ok
+      "name": "剧白白",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/jubaibai.json"
+    },
+    {
+      "key": "bb_lezhu",
+      "name": "乐猪影视",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/lezhu.json"
+    },
+    {
+      "key": "bb_libvio",
+      "name": "Libvio",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/libvio.json"
+    },
+    {
+      "key": "bb_xiaoheimi",
+      "name": "小宝影院",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/xiaobao.json"
+    },
+    {
+      "key": "bb_zxzj",
+      "name": "在线之家",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/zxzj.json"
+    },
+    //////////////////////// 2. Category XB - Anime ////////////////////////
+    {
+      "key": "bb_fc",
+      "name": "风车动漫",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/fengche.json"
+    },
+    /////////////////////////// 3. Category SP ///////////////////////////
+    {
+      "key": "Type3",
+      "name": "///// Category SP /////",
+      "type": 3,
+      "api": "",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": ""
+    },
+    {
+      "key": "sp_auete",
+      "name": "Auete",
+      "type": 3,
+      "api": "csp_Auete",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "sp_liteapple",
+      "name": "小苹果",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "sp_Alist",
+      "name": "Alist",
+      "type": 3,
+      "api": "csp_Alist",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/sp/alist.json"
+    },
+    {
+      "key": "py_alist",
+      "name": "Alist-PY",
+      "type": 3,
+      "api": "py_alist",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/py/py_alist.py"
+    },
+    {
+      "key": "找资源",
+      "name": "找资源",
+      "type": 3,
+      "api": "csp_Zhaozy",
+      "searchable": 1,
+      "playerType": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar"
+    },
+    {
+      "key": "yunsou",
+      "name": "Up云搜",
+      "type": 3,
+      "api": "csp_Upyunso",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 1,
+      "filterable": 0,
+      "ext": "token;asc",
+      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar"
+    },
+    {
+      "key": "yisou",
+      "name": "宜搜",
+      "type": 3,
+      "api": "csp_Yisou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 1,
+      "filterable": 0,
+      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar"
+    },
+    {
+      "key": "AliPS",
+      "name": "盘搜",
+      "type": 3,
+      "api": "csp_AliPS",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1,
+      "ext": "27b06d5221a24199b15f2e573d847430",
+      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar"
+    },
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_PushAgent",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "27b06d5221a24199b15f2e573d847430",
+      "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/nbys.jar"
+    },
+    /////////////////////////// T E S T I N G ///////////////////////////
+    {
+      "key": "xp_test1",
+      "name": "====Test1====",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://pastebin.com/raw/ShDA18sd"
+    },
+    {
+      "key": "xp_test2",
+      "name": "====Test2====",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://pastebin.com/raw/ShDA18sd"
+    }
 
-   "sites":[
-      /////////////////////////// 1. Category XP ///////////////////////////
-      {
-         "key":"Type1",
-         "name":"///// Category XP /////",
-         "type":3,
-         "api":"",
-         "searchable":0,
-         "quickSearch":0,
-         "filterable":0,
-         "ext":""
-      },
-      {
-         "key":"xp_czspp",                 // ok
-         "name":"厂长资源",
-         "type":3,
-         "api":"csp_XPath",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/czspp.json"
-      },
-      {
-         "key":"xp_olevod",                 // ok
-         "name":"欧乐影院-Exo",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/olevod.json",
-         "playerType":2
-      },
-      {
-         "key":"xp_oulevod",                 // ok
-         "name":"欧乐影院",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/hoho.json"
-      },
-      {
-         "key":"xp_jbb",                 // ok
-         "name":"剧白白",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/jbb.json"
-      },
-      {
-         "key":"if101资源",                 // ok
-         "name":"if101资源",
-         "type":0,
-         "api":"https://haiwaikan.com/api.php/provide/vod/at/xml/",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0
-      },
-      {
-         "key":"xp_if101",                 // ok
-         "name":"if101-XP",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/haiwaikan.json"
-      },
-      {
-         "key":"xp_auete",                 // to fix
-         "name":"Auete影视",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":0,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/auete.json"
-      },
-      {
-         "key":"xp_ctv",                 // ok
-         "name":"冲tmTV",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/chongtmtv.json"
-      },
-      {
-         "key":"xp_cokemv",                 // ok
-         "name":"Cokemv",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/cokem.json"
-      },
-      {
-         "key":"xp_dgg",                 // ok
-         "name":"达达龟",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/ddg.json"
-      },
-      {
-         "key":"xp_dbk",                 // ok
-         "name":"独播库",
-         "type":3,
-         "api":"csp_XPathDbk",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/duboku.json",
-         "jar":"https://github.com/takagen99/channel/blob/master/CATVOD/jar/20220424.jar?raw=true"
-      },
-      {
-         "key":"xp_gimy",                 // ok
-         "name":"Gimy剧迷",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/gimy.json"
-      },
-      {
-         "key":"xp_jh",    // to fix
-         "name":"剧荒",
-         "type":3,
-         "api":"csp_XPathMac",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/juhuangXPFG.json"
-      },
-      {
-         "key":"xp_lezhu",                 // ok
-         "name":"乐猪TV",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/lezhu.json"
-      },
-      {
-         "key":"xp_libv",                 // ok
-         "name":"Libvio",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/libv.json"
-      },
-      {
-         "key":"xp_mjc",                 // ok
-         "name":"美剧虫",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/meijuchong.json"
-      },
-      {
-         "key":"xp_nfm",   // to fix - 
-         "name":"Netflix MOM",
-         "type":3,
-         "api":"csp_XPathFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/nfm.json"
-      },
-      {
-         "key":"xp_saohuotv",                 // ok
-         "name":"骚火电影",
-         "type":3,
-         "api":"csp_XPath",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/saohuotv.json"
-      },
-      {
-         "key":"xp_ttsp",                 // ok
-         "name":"天天视频",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/ttsp.json"
-      },
-      {
-         "key":"xp_yinfan",
-         "name":"音范丝",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/yinfans.json"
-      },
-      {
-         "key":"xp_zxzj", // to fix - https://zxzj.vip/
-         "name":"在线之家",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/zxzj.json"
-      },
-      {
-         "key":"zjdr",                 // ok, but need jx
-         "name":"追剧达人",
-         "type":0,
-         "api":"http://vipmv.cc/api.php/provide/vod/at/xml",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0
-      },
-      {
-         "key":"百度资源",                 // ok
-         "name":"百度资源",
-         "type":1,
-         "api":"https://api.apibdzy.com/api.php/provide/vod?ac=list",
-         "playUrl":"",
-         "categories":[
-            
-         ]
-      },
-      {
-         "key":"xp_pianba",                 // site down
-         "name":"片吧",
-         "type":3,
-         "api":"csp_XPath",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/pianba.json"
-      },
-      //////////////////////// 1. Category XP - Anime ////////////////////////
-      {
-         "key":"xp_age",                 // ok
-         "name":"AGE动漫",
-         "type":3,
-         "api":"csp_XPathFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/agefans.json"
-      },
-      {
-         "key":"xp_dm84",                 // to fix
-         "name":"动漫巴士",
-         "type":3,
-         "api":"csp_XPath",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/dm84.json"
-      },
-      {
-         "key":"xp_dmw",                 // ok
-         "name":"动漫岛",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/dmw.json"
-      },
-      {
-         "key":"xp_yh",                 // to fix
-         "name":"樱花动漫",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/sakura.json"
-      },
-      /////////////////////////// 2. Category XB ///////////////////////////
-      {
-         "key":"Type2",
-         "name":"///// Category XB /////",
-         "type":3,
-         "api":"",
-         "searchable":0,
-         "quickSearch":0,
-         "filterable":0,
-         "ext":""
-      },
-      {
-         "key":"bb_555",                 // ok
-         "name":"555电影",
-         "type":3,
-         "api":"csp_XBiubiu",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/555.json"
-      },
-      {
-         "key":"bb_oulevod",                 // ok
-         "name":"欧乐影院",
-         "type":3,
-         "api":"csp_XBiubiu",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/oulevod.json"
-      },
-      {
-         "key":"bb_cokemv",                 // ok
-         "name":"Cokemv",
-         "type":3,
-         "api":"csp_XBiubiu",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/cokemv.json"
-      },
-      {
-         "key":"bb_jbb",                 // ok
-         "name":"剧白白",
-         "type":3,
-         "api":"csp_XBiubiu",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/jubaibai.json"
-      },
-      {
-         "key":"bb_lezhu",
-         "name":"乐猪影视",
-         "type":3,
-         "api":"csp_XBiubiu",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/lezhu.json"
-      },
-      {
-         "key":"bb_libvio",
-         "name":"Libvio",
-         "type":3,
-         "api":"csp_XBiubiu",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/libvio.json"
-      },
-      {
-         "key":"bb_xiaoheimi",
-         "name":"小宝影院",
-         "type":3,
-         "api":"csp_XBiubiu",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/xiaobao.json"
-      },
-      {
-         "key":"bb_zxzj",
-         "name":"在线之家",
-         "type":3,
-         "api":"csp_XBiubiu",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/zxzj.json"
-      },
-      //////////////////////// 2. Category XB - Anime ////////////////////////
-      {
-         "key":"bb_fc",
-         "name":"风车动漫",
-         "type":3,
-         "api":"csp_XBiubiu",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/xb/fengche.json"
-      },
-      /////////////////////////// 3. Category SP ///////////////////////////
-      {
-         "key":"Type3",
-         "name":"///// Category SP /////",
-         "type":3,
-         "api":"",
-         "searchable":0,
-         "quickSearch":0,
-         "filterable":0,
-         "ext":""
-      },
-      {
-         "key":"sp_czsapp",
-         "name":"厂长影视",
-         "type":3,
-         "api":"csp_Czsapp",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1
-      },
-      {
-         "key":"sp_olevod",
-         "name":"Olevod",
-         "type":3,
-         "api":"csp_Olevod",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1
-      },
-      {
-         "key":"sp_auete",
-         "name":"Auete",
-         "type":3,
-         "api":"csp_Auete",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1
-      },
-      {
-         "key":"sp_cokemv",
-         "name":"Cokemv",
-         "type":3,
-         "api":"csp_Cokemv",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1
-      },
-      {
-         "key":"sp_libvio",
-         "name":"Libvio",
-         "type":3,
-         "api":"csp_Lib",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1
-      },
-      {
-         "key":"sp_liteapple",
-         "name":"小苹果",
-         "type":3,
-         "api":"csp_LiteApple",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1
-      },
-      {
-         "key":"sp_zxzj",
-         "name":"在线之家",
-         "type":3,
-         "api":"csp_Zxzj",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1
-      },
-      {
-         "key":"sp_Alist",
-         "name":"Alist",
-         "type":3,
-         "api":"csp_Alist",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://github.com/takagen99/channel/raw/master/CATVOD/main/sp/alist.json"
-      },
-      {
-         "key":"sp_LocalFile",
-         "name":"LocalFile",
-         "type":3,
-         "api":"csp_LocalFile",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1
-      },
-      /////////////////////////// T E S T I N G ///////////////////////////
-      {
-         "key": "py_alist",
-   		 "name": "Alist",
-   		 "type": 3,
-   		 "api": "py_alist",
-   	 	 "searchable": 1,
-   	 	 "quickSearch": 1,
-   		 "filterable": 0,
-   		 "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/py/py_alist.py"
-      },
-      {
-         "key":"xp_test1",
-         "name":"====Test1====",
-         "type":3,
-         "api":"csp_XPathMacFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://pastebin.com/raw/ShDA18sd"
-      },
-      {
-         "key":"xp_test2",
-         "name":"====Test2====",
-         "type":3,
-         "api":"csp_XPathFilter",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"https://pastebin.com/raw/ShDA18sd"
-      },
-      {
-         "key":"AliPS",
-         "name":"盘搜",
-         "type":3,
-         "api":"csp_AliPS",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "ext":"27b06d5221a24199b15f2e573d847430"
-      },
-      {
-         "key":"push_agent",
-         "name":"推送",
-         "type":3,
-         "api":"csp_PushAgent",
-         "searchable":0,
-         "quickSearch":0,
-         "filterable":0,
-         "ext":"27b06d5221a24199b15f2e573d847430"
+  ],
+  "lives": [
+    {
+      "group": "redirect",
+      "channels": [
+        {
+          "name": "redirect",
+          "urls": [
+            // "https://github.com/takagen99/channel/raw/master/CATVOD/mainTV.txt"
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9iaXQubHkvZGl5cF9saXZl"
+          ]
+        }
+      ]
+    }
+  ],
+  "parses": [
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "xmflv",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "freejson",
+      "type": 0,
+      "url": "https://h5.freejson.xyz/player/?url="
+    },
+    {
+      "name": "365",
+      "type": 0,
+      "url": "https://chaxun.truechat365.com/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "iqiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
       }
-   ],
-   "lives":[
-      {
-         "group":"redirect",
-         "channels":[
-            {
-               "name":"redirect",
-               "urls":[
-                  // "https://github.com/takagen99/channel/raw/master/CATVOD/mainTV.txt"
-				  "proxy://do=live&type=txt&ext=aHR0cHM6Ly9iaXQubHkvZGl5cF9saXZl"
-               ]
-            }
-         ]
+    },
+    {
+      "name": "parwix稳定",
+      "type": 0,
+      "url": "https://jx.bozrc.com:4433/player/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "iqiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
       }
-   ],
-
-   "parses":[
-      {
-         "name":"解析聚合",
-         "type":3,
-         "url":"Demo"
-      },
-      {
-         "name":"Json并发",
-         "type":2,
-         "url":"Parallel"
-      },
-      {
-         "name":"Json轮询",
-         "type":2,
-         "url":"Sequence"
-      },
-      {
-         "name":"fuqi",
-         "type":1,
-         "url":"https://play.fuqizhishi.com/maotv/API.php?appkey=QQ172598364&url="
-      },
-      {
-         "name":"9",
-         "type":1,
-         "url":"http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url="
-      },
-      {
-         "name":"11",
-         "type":1,
-         "url":"http://124.222.68.182/jiexi/4kJX.php/?url="
-      },
-      {
-         "name":"虾米",
-         "type":1,
-         "url":"https://jx.xmflv.com/?url="
-      },
-      {
-         "name":"293",
-         "type":1,
-         "url":"http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url=",
-         "ext":{
-            "flag":[
-               "qq",
-               "qiyi",
-               "mgtv",
-               "youku",
-               "letv",
-               "sohu",
-               "xigua",
-               "1905"
-            ],
-            "header":{
-               "User-Agent":"Dart/2.14 (dart:io)"
-            }
-         }
-      },
-      {
-         "name":"LTRX",
-         "type":1,
-         "url":"https://svip.spchat.top/api/?type=ys&key=bKemW41JnxmQb4l67h&url=",
-         "ext":{
-            "flag":[
-               "rx"
-            ]
-         }
-      },
-      {
-         "name":"江湖",
-         "type":1,
-         "url":"https://jhjx.kuanjv.com/newky/?url=",
-         "ext":{
-            "flag":[
-               "qiyi",
-               "youku",
-               "mgtv",
-               "qq",
-               "sohu",
-               "bilibili",
-               "xigua",
-               "1905"
-            ]
-         }
-      },
-      {
-         "name":"parwix1",
-         "type":0,
-         "url":"https://jx.parwix.com:4433/player/?url=",
-         "ext":{
-            "flag":[
-               "qq",
-               "腾讯",
-               "qiyi",
-               "爱奇艺",
-               "奇艺",
-               "youku",
-               "优酷",
-               "mgtv",
-               "芒果",
-               "letv",
-               "乐视",
-               "pptv",
-               "PPTV",
-               "sohu",
-               "bilibili",
-               "哔哩哔哩",
-               "哔哩"
-            ]
-         }
+    },
+    {
+      "name": "parwix1",
+      "type": 0,
+      "url": "https://jx.parwix.com:4433/player/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "iqiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
       }
-   ],
-   "flags":[
-      "youku",
-      "qq",
-      "iqiyi",
-      "qiyi",
-      "letv",
-      "sohu",
-      "letv",
-      "tudou",
-      "pptv",
-      "mgtv",
-      "wasu",
-      "bilibili",
-      "leduo",
-      "fq3",
-      "fq4",
-      "xueren",
-      "duoduo",
-      "duoduozy",
-      "miaoparty",
-      "miaoparty2",
-      "miaoparty3",
-      "renrenmi",
-      "优酷",
-      "芒果",
-      "腾讯",
-      "爱奇艺",
-      "奇艺",
-      "ltnb",
-      "rx",
-      "CL4K",
-      "xfyun",
-      "wuduzy",
-      "xigua",
-      "dmplay",
-      "duoduozy"
-   ],
-
-   "flags":[
-      "youku",
-      "qq",
-      "iqiyi",
-      "qiyi",
-      "letv",
-      "sohu",
-      "tudou",
-      "pptv",
-      "mgtv",
-      "wasu",
-      "bilibili",
-      "renrenmi"
-   ],
-   "ijk":[
-      {
-         "group":"软解码",
-         "options":[
-            {
-               "category":4,
-               "name":"opensles",
-               "value":"0"
-            },
-            {
-               "category":4,
-               "name":"overlay-format",
-               "value":"842225234"
-            },
-            {
-               "category":4,
-               "name":"framedrop",
-               "value":"1"
-            },
-            {
-               "category":4,
-               "name":"soundtouch",
-               "value":"1"
-            },
-            {
-               "category":4,
-               "name":"start-on-prepared",
-               "value":"1"
-            },
-            {
-               "category":1,
-               "name":"http-detect-range-support",
-               "value":"0"
-            },
-            {
-               "category":1,
-               "name":"fflags",
-               "value":"fastseek"
-            },
-            {
-               "category":2,
-               "name":"skip_loop_filter",
-               "value":"48"
-            },
-            {
-               "category":4,
-               "name":"reconnect",
-               "value":"1"
-            },
-            {
-               "category":4,
-               "name":"enable-accurate-seek",
-               "value":"0"
-            },
-            {
-               "category":4,
-               "name":"mediacodec",
-               "value":"0"
-            },
-            {
-               "category":4,
-               "name":"mediacodec-auto-rotate",
-               "value":"0"
-            },
-            {
-               "category":4,
-               "name":"mediacodec-handle-resolution-change",
-               "value":"0"
-            },
-            {
-               "category":4,
-               "name":"mediacodec-hevc",
-               "value":"0"
-            },
-            {
-               "category":1,
-               "name":"dns_cache_timeout",
-               "value":"600000000"
-            }
-         ]
-      },
-      {
-         "group":"硬解码",
-         "options":[
-            {
-               "category":4,
-               "name":"opensles",
-               "value":"0"
-            },
-            {
-               "category":4,
-               "name":"overlay-format",
-               "value":"842225234"
-            },
-            {
-               "category":4,
-               "name":"framedrop",
-               "value":"1"
-            },
-            {
-               "category":4,
-               "name":"soundtouch",
-               "value":"1"
-            },
-            {
-               "category":4,
-               "name":"start-on-prepared",
-               "value":"1"
-            },
-            {
-               "category":1,
-               "name":"http-detect-range-support",
-               "value":"0"
-            },
-            {
-               "category":1,
-               "name":"fflags",
-               "value":"fastseek"
-            },
-            {
-               "category":2,
-               "name":"skip_loop_filter",
-               "value":"48"
-            },
-            {
-               "category":4,
-               "name":"reconnect",
-               "value":"1"
-            },
-            {
-               "category":4,
-               "name":"enable-accurate-seek",
-               "value":"0"
-            },
-            {
-               "category":4,
-               "name":"mediacodec",
-               "value":"1"
-            },
-            {
-               "category":4,
-               "name":"mediacodec-auto-rotate",
-               "value":"1"
-            },
-            {
-               "category":4,
-               "name":"mediacodec-handle-resolution-change",
-               "value":"1"
-            },
-            {
-               "category":4,
-               "name":"mediacodec-hevc",
-               "value":"1"
-            },
-            {
-               "category":1,
-               "name":"dns_cache_timeout",
-               "value":"600000000"
-            }
-         ]
+    },
+    {
+      "name": "parwix2",
+      "type": 0,
+      "url": "https://jx.parwix.com:4433/player/analysis.php?v=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "iqiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
       }
-   ],
-   "ads":[
-      "mimg.0c1q0l.cn",
-      "www.googletagmanager.com",
-      "www.google-analytics.com",
-      "mc.usihnbcq.cn",
-      "mg.g1mm3d.cn",
-      "mscs.svaeuzh.cn",
-      "cnzz.hhttm.top",
-      "tp.vinuxhome.com",
-      "cnzz.mmstat.com",
-      "www.baihuillq.com",
-      "s23.cnzz.com",
-      "z3.cnzz.com",
-      "c.cnzz.com",
-      "stj.v1vo.top",
-      "z12.cnzz.com",
-      "img.mosflower.cn",
-      "tips.gamevvip.com",
-      "ehwe.yhdtns.com",
-      "xdn.cqqc3.com",
-      "www.jixunkyy.cn",
-      "sp.chemacid.cn",
-      "hm.baidu.com",
-      "s9.cnzz.com",
-      "z6.cnzz.com",
-      "um.cavuc.com",
-      "mav.mavuz.com",
-      "wofwk.aoidf3.com",
-      "z5.cnzz.com",
-      "xc.hubeijieshikj.cn",
-      "tj.tianwenhu.com",
-      "xg.gars57.cn",
-      "k.jinxiuzhilv.com",
-      "cdn.bootcss.com",
-      "ppl.xunzhuo123.com",
-      "xomk.jiangjunmh.top",
-      "img.xunzhuo123.com",
-      "z1.cnzz.com",
-      "s13.cnzz.com",
-      "xg.huataisangao.cn",
-      "z7.cnzz.com",
-      "xg.huataisangao.cn",
-      "z2.cnzz.com",
-      "s96.cnzz.com",
-      "q11.cnzz.com",
-      "thy.dacedsfa.cn",
-      "xg.whsbpw.cn",
-      "s19.cnzz.com",
-      "z8.cnzz.com",
-      "s4.cnzz.com",
-      "f5w.as12df.top",
-      "ae01.alicdn.com",
-      "www.92424.cn",
-      "k.wudejia.com",
-      "vivovip.mmszxc.top",
-      "qiu.xixiqiu.com",
-      "cdnjs.hnfenxun.com",
-      "cms.qdwght.com"
-   ]
+    },
+    {
+      "name": "夜幕",
+      "type": 0,
+      "url": "https://www.yemu.xyz/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "iqiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "8090",
+      "url": "https://www.8090g.cn/?url="
+    },
+    {
+      "name": "油果",
+      "type": 1,
+      "url": "http://json.youguo520.top/fufeng/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "iqiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "header": {
+          "User-Agent": "Dart/2.14 (dart:io)"
+        }
+      }
+    },
+    {
+      "name": "懒懒1",
+      "type": 1,
+      "url": "http://123.57.56.94:9931/lanlan/?url="
+    },
+    {
+      "name": "EXO",
+      "type": 0,
+      "url": "https://rx.69mj.com/?url=",
+      "ext": {
+        "flag": [
+          "rx",
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果"
+        ]
+      }
+    },
+    {
+      "name": "懒懒2",
+      "type": 1,
+      "url": "http://lanlan.ckflv.cn/?url=",
+      "ext": {
+        "flag": [
+          "qiyi",
+          "qq",
+          "letv",
+          "sohu",
+          "youku",
+          "mgtv",
+          "bilibili",
+          "wasu",
+          "xigua",
+          "1905"
+        ]
+      }
+    },
+    {
+      "name": "parwix",
+      "type": 0,
+      "url": "https://jx.parwix.com:4433/player/?url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "bilibili",
+    "renrenmi"
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "mimg.0c1q0l.cn",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "mc.usihnbcq.cn",
+    "mg.g1mm3d.cn",
+    "mscs.svaeuzh.cn",
+    "cnzz.hhttm.top",
+    "tp.vinuxhome.com",
+    "cnzz.mmstat.com",
+    "www.baihuillq.com",
+    "s23.cnzz.com",
+    "z3.cnzz.com",
+    "c.cnzz.com",
+    "stj.v1vo.top",
+    "z12.cnzz.com",
+    "img.mosflower.cn",
+    "tips.gamevvip.com",
+    "ehwe.yhdtns.com",
+    "xdn.cqqc3.com",
+    "www.jixunkyy.cn",
+    "sp.chemacid.cn",
+    "hm.baidu.com",
+    "s9.cnzz.com",
+    "z6.cnzz.com",
+    "um.cavuc.com",
+    "mav.mavuz.com",
+    "wofwk.aoidf3.com",
+    "z5.cnzz.com",
+    "xc.hubeijieshikj.cn",
+    "tj.tianwenhu.com",
+    "xg.gars57.cn",
+    "k.jinxiuzhilv.com",
+    "cdn.bootcss.com",
+    "ppl.xunzhuo123.com",
+    "xomk.jiangjunmh.top",
+    "img.xunzhuo123.com",
+    "z1.cnzz.com",
+    "s13.cnzz.com",
+    "xg.huataisangao.cn",
+    "z7.cnzz.com",
+    "xg.huataisangao.cn",
+    "z2.cnzz.com",
+    "s96.cnzz.com",
+    "q11.cnzz.com",
+    "thy.dacedsfa.cn",
+    "xg.whsbpw.cn",
+    "s19.cnzz.com",
+    "z8.cnzz.com",
+    "s4.cnzz.com",
+    "f5w.as12df.top",
+    "ae01.alicdn.com",
+    "www.92424.cn",
+    "k.wudejia.com",
+    "vivovip.mmszxc.top",
+    "qiu.xixiqiu.com",
+    "cdnjs.hnfenxun.com",
+    "cms.qdwght.com"
+  ]
 }
