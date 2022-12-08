@@ -14,6 +14,26 @@
       "quickSearch": 1,
       "filterable": 1
     },
+    {
+      "key": "sp_Alist",
+      "name": "Alist",
+      "type": 3,
+      "api": "csp_Alist",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/sp/alist.json"
+    },
+    {
+      "key": "py_alist",
+      "name": "Alist-PY",
+      "type": 3,
+      "api": "py_alist",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/py/py_alist.py"
+    },
     /////////////////////////// 1. Category XP ///////////////////////////
     {
       "key": "Type1",
@@ -455,26 +475,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "sp_Alist",
-      "name": "Alist",
-      "type": 3,
-      "api": "csp_Alist",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/sp/alist.json"
-    },
-    {
-      "key": "py_alist",
-      "name": "Alist-PY",
-      "type": 3,
-      "api": "py_alist",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/py/py_alist.py"
     },
     {
       "key": "找资源",
