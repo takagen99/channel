@@ -1,170 +1,106 @@
 // TiviMate = https://bit.ly/3yNvRIO
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
 
-
-/////// 卫 视 ////////////////////////////////////////////////////////
-#EXTINF:0 tvg-logo="https://i.imgur.com/Mnz66Pj.png" group-title="卫视",湖南卫视
-http://iptv.tvfix.org/hls/hunanhd.m3u8
-//http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225981/index.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/aAdwaM5.png" group-title="卫视",浙江卫视
-http://iptv.tvfix.org/hls/zjhd.m3u8
-//http://39.135.129.165/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225975/index.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/1L9M4Ol.png" group-title="卫视",江苏卫视
-http://iptv.tvfix.org/hls/jshd.m3u8
-//http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225989/index.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/ngZJkK9.png" group-title="卫视",东方卫视
-http://iptv.tvfix.org/hls/dfhd.m3u8
-//http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225976/index.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/5wUh9K0.png" group-title="卫视",北京卫视
-http://iptv.tvfix.org/hls/brtv1hd.m3u8
-//http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221226195/index.m3u8
-
-
-/////// 香 港 ////////////////////////////////////////////////////////
-#EXTINF:0 tvg-logo="https://i.imgur.com/21SDGZM.png" group-title="香港",翡翠台
-http://live.tvfix.org/hls/jadehk.m3u8
-//http://iptv.tvfix.org/hls/jade2.m3u8
-//http://185.207.176.189:8080/channels/tv-81/playlist.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/eRNzNj9.png" group-title="香港",翡翠台海外
-http://iptv.tvfix.org/hls/jadenhk2.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="香港",J2
-http://iptv.tvfix.org/hls/j2.m3u8
-//http://185.207.176.189:8080/channels/tv-82/playlist.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/rZctO1p.png" group-title="香港",viuTV
-http://iptv.tvfix.org/hls/viutv.m3u8
-//http://185.207.176.189:8080/channels/tv-99/playlist.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/CWbBzPM.png" group-title="香港",viuTV6
+#EXTINF:-1 tvg-name="湖南卫视"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/cn_ws/hunan.png"group-title="卫视",湖南卫视
+http://117.169.121.162:6610/PLTV/88888910/224/3221225745/index.m3u8
+#EXTINF:-1 tvg-name="浙江卫视"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/cn_ws/zhejiang.png"group-title="卫视",浙江卫视
+http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
+#EXTINF:-1 tvg-name="江苏卫视"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/cn_ws/jiangsu.png"group-title="卫视",江苏卫视
+http://39.134.115.163:8080/PLTV/88888910/224/3221225743/index.m3u8
+#EXTINF:-1 tvg-name="北京卫视"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/cn_ws/beijing.png"group-title="卫视",北京卫视
+http://39.134.115.163:8080/PLTV/88888910/224/3221225673/index.m3u8
+#EXTINF:-1 tvg-name="东方卫视"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/cn_ws/dongfang.png"group-title="卫视",东方卫视
+http://39.134.115.163:8080/PLTV/88888910/224/3221225658/index.m3u8
+#EXTINF:-1 tvg-name="翡翠台"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/hk/jade.png"group-title="香港",翡翠台
+https://epg.pm/stream/0b98c84032eeb1fabc9ce874fdcf061b9f20b440f8ba8d649729aeae1ec3ec92.m3u8
+#EXTINF:-1 tvg-name="J2"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/hk/jadeHL.png"group-title="香港",J2
+http://50.7.220.74:8278/j2_twn/playlist.m3u8?tid=m22905da1d346&ct=18336&tsum=3b4998c4f5367bb820165f66b0caab0e
+#EXTINF:-1 tvg-name="viuTV"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/hk/viuTV.png"group-title="香港",viuTV
+http://50.7.220.74:8278/9ae6d37d9a/playlist.m3u8?tid=m7728dbb8abe7&ct=18336&tsum=6b7f957f06b7cfabd928653808a52514
+#EXTINF:-1 tvg-name="viuTV6"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/hk/viuTV6.png"group-title="香港",viuTV6
 http://iptv.tvfix.org/hls/viutv6.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E6%98%8E%E7%8F%A0%E5%8F%B0.png" group-title="香港",明珠台
+#EXTINF:-1 tvg-name="明珠台"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/hk/pearl.png"group-title="香港",明珠台
 http://iptv.tvfix.org/hls/pearl.m3u8
-//http://185.207.176.189:8080/channels/tv-84/playlist.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/E7aZYUy.png" group-title="香港",无线新闻台
-http://iptv.tvfix.org/hls/inews.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/2qp61l6.png" group-title="香港",TVB经典台
-http://iptv.tvfix.org/hls/tvbjd.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/lplFFhB.png" group-title="香港",TVB为食台
-http://iptv.tvfix.org/hls/tvbws.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/M1IYyUD.png" group-title="香港",TVB星河
-http://iptv.tvfix.org/hls/tvbxh.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/rvNKbfl.png" group-title="香港",TVB功夫台
-http://iptv.tvfix.org/hls/tvbkf.m3u8
-
-
-/////// 台 湾 ////////////////////////////////////////////////////////
-#EXTINF:0 tvg-logo="https://i.imgur.com/Rjci8g4.png" group-title="台湾",TVBS亚洲台
-http://iptv.tvfix.org/hls/tvbs.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/5RXRkPW.png" group-title="台湾",TVBS新闻台
-http://iptv.tvfix.org/hls/tvbsnews.m3u8
-#EXTINF:-1 tvg-id="6060" tvg-name="TVBS欢乐台" tvg-logo="https://i.imgur.com/TLUnUPG.png" group-title="台湾",TVBS欢乐
-http://211.23.114.106:8545/http/116.50.42.19:8081/hls/64/806/ch15.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/okfKWKl.png" group-title="台湾",中天新闻
-http://iptv.tvfix.org/hls/ztxw.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/rcVHQHn.png" group-title="台湾",东森新闻
-http://iptv.tvfix.org/hls/dsxw.m3u8
-#EXTINF:-1 tvg-id="6028" tvg-name="中视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视.png" group-title="台湾",中视
-http://211.23.114.106:8502/http/61.221.81.94:8088/hls/72/814/ch47.m3u8
-#EXTINF:-1 tvg-id="6030" tvg-name="华视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CTS.png" group-title="台湾",华视
-http://211.23.114.106:8503/http/61.221.81.94:8088/hls/72/814/ch48.m3u8
-#EXTINF:-1 tvg-id="6026" tvg-name="台视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/台视.png" group-title="台湾",台视
-http://211.23.114.106:8502/http/61.221.81.94:8088/hls/72/814/ch46.m3u8
-#EXTINF:-1 tvg-id="7135" tvg-name="民视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/民视.png" group-title="台湾",民视
-http://211.23.114.106:8504/http/61.221.81.94:8088/hls/73/815/ch49.m3u8
-#EXTINF:-1 tvg-id="6042" tvg-name="MAV Life" tvg-logo="" group-title="台湾",Mav Life 美丽人生
-http://58.99.33.16:1935/liveedge17/live_070_3.stream/chunklist.m3u8
-#EXTINF:-1 tvg-id="6042" tvg-name="MoMo综合" tvg-logo="" group-title="台湾",MoMo综合
-http://58.99.33.16:1935/liveedge17/live_075_3.stream/chunklist.m3u8
-#EXTINF:-1 tvg-id="6095" tvg-name="东森超视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCSuper.png" group-title="台湾",东森超视
-http://211.23.114.106:8525/http/60.251.39.91:8081/hls/64/806/ch14.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_zonghehd.png" group-title="台湾",爱尔达综合
-http://198.16.106.62:8278/streams/d/eltazonghe_zero/playlist.m3u8
-
-
-/////// 影 视 ////////////////////////////////////////////////////////
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/AXN.png" group-title="影视",AXN
-http://211.23.114.106:8558/http/116.50.42.19:8081/hls/71/813/ch43.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/V0pvUjj.png" group-title="影视",HBO
-http://211.23.114.106:8511/http/116.50.42.19:8081/hls/71/813/ch41.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HITS.png" group-title="影视",HITS
-http://93.190.139.35:8278/streams/d/Hits/playlist.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/sCh2JpW.png" group-title="影视",天映频道
-http://iptv.tvfix.org/hls/typd.m3u8
-//http://50.7.161.82:8278/streams/d/celestial_pye/playlist.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/vx5WtwZ.png" group-title="影视",天映经典
-http://iptv.tvfix.org/hls/tyjd.m3u8
-//http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/CmjmLrv.png" group-title="影视",美亚电影台
-http://iptv.tvfix.org/hls/mydy.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/xOeYbiZ.png" group-title="影视",Thrill
-http://iptv.tvfix.org/hls/thrill.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/tAghVHL.png" group-title="影视",星空卫视
-http://iptv.tvfix.org/hls/startv.m3u8
-
-
-/////// 新 马 ////////////////////////////////////////////////////////
-#EXTINF:0 tvg-logo="https://i.imgur.com/gMzAWbr.png" group-title="新马",Channel 5
+#EXTINF:-1 tvg-name="Channel 5"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/sg/ch5.png"group-title="新马",Channel 5
 https://dlau142f16b92.cloudfront.net/hls/clr4ctv_ch5/master.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/0o581Oq.png" group-title="新马",Channel 8
+#EXTINF:-1 tvg-name="Channel 8"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/sg/ch8.png"group-title="新马",Channel 8
 https://d34e90s3s13i7n.cloudfront.net/hls/clr4ctv_ch8/master.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/jmXADA7.png" group-title="新马",Channel U
-https://d3inlz9elsutjl.cloudfront.net/hls/clr4ctv_chu/master.m3u8|Referer=https://www.mewatch.sg/
-#EXTINF:0 tvg-logo="https://i.imgur.com/XDY0cqi.png" group-title="新马",ChannelNewsAsia
-http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
-
-#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/Astro_AOD_%28s17%29.png" group-title="新马",Astro AOD
-http://50.7.161.82:8277/streams/d/aod_pye/playlist.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/vieGKqd.png" group-title="新马",Astro 爱奇异
-http://50.7.161.82:8278/streams/d/iqiyi_pye/playlist.m3u8
-#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/Astro_SHX.png" group-title="新马",Astro 双星
-http://50.7.161.82:8278/streams/d/Shuangxing/playlist.m3u8
-#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/Astro_Quan_Jia.png" group-title="新马",Astro 全佳
-http://50.7.161.82:8278/streams/d/Quanjia/playlist.m3u8
-#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/61/Astro_HHD.png" group-title="新马",Astro 欢喜台
-http://198.16.106.62:8278/streams/d/Huahee/playlist.m3u8
-#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/07/Astro_XTY.png" group-title="新马",Astro 小太阳
-http://50.7.161.82:8278/streams/d/Xiaotaiyang/playlist.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/6jftmzA.png" group-title="新马",BOO
-http://50.7.161.82:8278/streams/d/Boo/playlist.m3u8
-
-
-/////// 实 时 ////////////////////////////////////////////////////////
-#EXTINF:0 tvg-logo="https://i.imgur.com/kBn8EkN.png" group-title="实时记录",Discovery
-http://iptv.tvfix.org/hls/discovery.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/OFSfnbM.png" group-title="实时记录",动物星球
-http://iptv.tvfix.org/hls/animal.m3u8
-//http://50.7.161.82:8278/streams/d/AnimalPlanet/playlist.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/4YJXZOx.png" group-title="实时记录",国家地理野生频道
-http://iptv.tvfix.org/hls/natlgeo.m3u8
-//http://50.7.161.82:8278/streams/d/Natgeowild/playlist.m3u8
-
-
-/////// 日 本 ////////////////////////////////////////////////////////
-#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Animax.png" group-title="日本",Animax
+#EXTINF:-1 tvg-name="Channel U"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/sg/chu.png"group-title="新马",Channel U
+https://d3inlz9elsutjl.cloudfront.net/hls/clr4ctv_chu/master.m3u8
+#EXTINF:-1 tvg-name="Animax"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/jp/animax.png"group-title="日本",Animax
 http://iptv.tvfix.org/hls/animax.m3u8
-//http://211.23.114.106:8516/http/61.221.81.94:8088/hls/70/812/ch39.m3u8
-#EXTINF:0 tvg-logo="https://www.at-x.com/favicon_android.png" group-title="日本",AT-X
+#EXTINF:-1 tvg-name="AT-X"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/jp/atx.png"group-title="日本",AT-X
 https://sub2.neetball.net/live/neet.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/lgnpkib.png" group-title="日本",Nippon TV
-https://ntv1.mov3.co/hls/ntv.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/7Zz1bLO.png" group-title="日本",TBS
-https://tbs.mov3.co/hls/tbs.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHK.png" group-title="日本",NHK
-http://58.99.33.16:1935/liveedge17/live_108_3.stream/chunklist.m3u8
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="日本",NHKWorld
-https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8
-#EXTINF:0 tvg-name="NHK新聞資訊台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="日本",NHK 华语
-https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
-#EXTINF:-1 tvg-id="6051" tvg-name="纬来日本" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandJapanese.png" group-title="日本",纬来日本
-http://50.7.61.147:30080/Entry/vljp
-#EXTINF:-1 tvg-id="6075" tvg-name="JET综合" tvg-logo="" group-title="日本",JET综合
+#EXTINF:-1 tvg-name="NHKWorld"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/jp/nhkworld.png"group-title="日本",NHKWorld
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-name="Aniplus"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/jp/aniplus.png"group-title="日本",Aniplus
+http://210.210.155.35/dr9445/h/h02/01.m3u8
+#EXTINF:-1 tvg-name="Tokyo-MX2"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/jp/tokyomx2.png"group-title="日本",Tokyo-MX2
+https://movie.mcas.jp/mcas/mx2_2/chunklist.m3u8
+#EXTINF:-1 tvg-name="JET综合"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/jp/jetZH.png"group-title="日本",JET综合
 http://50.7.61.147:30080/Entry/jet
-
- 
-#EXTINF:0 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/afc.png" group-title="test",test1
-http://foctv.xyz:25510/@alaqib/C9vOtBPfQ2/100
-#https://livecdn.fptplay.net/world/afchd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/tLShSaO.png" group-title="test",test2
-http://198.16.106.62:8278/streams/d/asiafood_zero/playlist.m3u8
-#EXTINF:0 tvg-logo="" group-title="test",test3
-http://iptv.tvmalaysia.cc:80/624850/624850/7067
-#EXTINF:0 tvg-logo="" group-title="test",test4
-http://live.tvfix.org/hls/thrill.m3u8|User-Agent="Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4"&Referer=http://live.tvfix.org/play/thrill
+#EXTINF:-1 tvg-name="纬来日本"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/jp/weilai_jap.png"group-title="日本",纬来日本
+http://50.7.61.147:30080/Entry/vljp
+#EXTINF:-1 tvg-name="国家地理"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/natgeo.png"group-title="实时记录",国家地理
+http://
+#EXTINF:-1 tvg-name="国家地理野生"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/natgeo_wild.png"group-title="实时记录",国家地理野生
+http://198.16.64.10:8278/Natgeowild/playlist.m3u8?tid=MB1B3860629238606292&ct=19225&tsum=315ac040bcdf094ccacd3f57a127d1bf
+#EXTINF:-1 tvg-name="探索频道"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/discovery.png"group-title="实时记录",探索频道
+http://198.16.64.10:8278/discoveryhd_twn/playlist.m3u8?tid=ME6E2405719624057196&ct=19225&tsum=57a7c421c65e00c1b8f68f67c30141dc
+#EXTINF:-1 tvg-name="探索亚洲"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/discovery_asia.png"group-title="实时记录",探索亚洲
+http://
+#EXTINF:-1 tvg-name="探索动力"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/discovery_turbo.png"group-title="实时记录",探索动力
+http://
+#EXTINF:-1 tvg-name="探索科学"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/discovery_science.png"group-title="实时记录",探索科学
+http://
+#EXTINF:-1 tvg-name="美食星球"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/food_planet.png"group-title="实时记录",美食星球
+http://
+#EXTINF:-1 tvg-name="亚洲美食"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/afc.png"group-title="实时记录",亚洲美食
+http://
+#EXTINF:-1 tvg-name="亚洲旅游"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/asia_travel.png"group-title="实时记录",亚洲旅游
+https://stream.naihe.cf/api/v2/channel3.m3u8?fid=litv-longturn17&hd=720&host=https://4gtvfreepc-cds.cdn.hinet.net
+// http://198.16.64.10:8278/asiatravel_twn/playlist.m3u8?tid=MF2F4967516549675165&ct=19225&tsum=3b56404a8f861c7fef6ac79a798e4a8c
+#EXTINF:-1 tvg-name="TLC旅游生活"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/tlc.png"group-title="实时记录",TLC旅游生活
+http://
+#EXTINF:-1 tvg-name="MTV音乐频道"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/mtv.png"group-title="实时记录",MTV音乐频道
+http://
+#EXTINF:-1 tvg-name="动物星球"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/animal_planet.png"group-title="实时记录",动物星球
+http://
+#EXTINF:-1 tvg-name="BBC Earth"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/bbc_earth.png"group-title="实时记录",BBC Earth
+http://
+#EXTINF:-1 tvg-name="BBC Lifestyle"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/bbc_lifestyle.png"group-title="实时记录",BBC Lifestyle
+http://198.16.64.10:8278/bbclifestyle_twn/playlist.m3u8?tid=MFCF4299842642998426&ct=19225&tsum=d9cac5a62e5c33574ac9c3e860e01623
+#EXTINF:-1 tvg-name="History"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/history.png"group-title="实时记录",History
+https://stream.naihe.cf/api/v2/channel3.m3u8?fid=4gtv-live026&hd=720&host=https://4gtvfree-cds.cdn.hinet.net
+#EXTINF:-1 tvg-name="H2"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/docu/h2.png"group-title="实时记录",H2
+http://
+#EXTINF:-1 tvg-name="AXN"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/movies/axn.png"group-title="影视",AXN
+http://50.7.220.74:8278/axn_twn/playlist.m3u8?tid=m1776995e9b3e16458394&ct=17874&tsum=b8a111d0b13c7761ce8b4e8f047adddb
+#EXTINF:-1 tvg-name="BOO"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/movies/boo.png"group-title="影视",BOO
+http://
+#EXTINF:-1 tvg-name="Cinemax"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/movies/cinemax.png"group-title="影视",Cinemax
+http://
+#EXTINF:-1 tvg-name="HBO"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/movies/hbo.png"group-title="影视",HBO
+http://
+#EXTINF:-1 tvg-name="HBO Hits"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/movies/hbo_hits.png"group-title="影视",HBO Hits
+http://
+#EXTINF:-1 tvg-name="HBO Signature"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/movies/hbo_sig.png"group-title="影视",HBO Signature
+http://
+#EXTINF:-1 tvg-name="好莱坞电影"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/movies/hollywood.png"group-title="影视",好莱坞电影
+http://
+#EXTINF:-1 tvg-name="天映频道"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/movies/celestial.png"group-title="影视",天映频道
+http://
+#EXTINF:-1 tvg-name="卫视电影台"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/movies/weishi.png"group-title="影视",卫视电影台
+http://50.7.220.74:8278/xingwei_movie/playlist.m3u8?tid=ME6E2875344228753442&ct=18392&tsum=c21fc395d9e540e48d429400b2fb0b05
+#EXTINF:-1 tvg-name="纬来电影台"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/movies/weilai.png"group-title="影视",纬来电影台
+http://
+#EXTINF:-1 tvg-name="东森电影台"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/movies/dongs_mov.png"group-title="影视",东森电影台
+http://50.7.220.74:8278/ettvmovie/playlist.m3u8?tid=MEDE1688528216885282&ct=19193&tsum=843fbd698e260c1fcda128dce85ead3b
+#EXTINF:-1 tvg-name="东森洋片"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/movies/dongs_eng.png"group-title="影视",东森洋片
+http://
+#EXTINF:-1 tvg-name="TVBS新闻台"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/news/tvbs_news.png"group-title="新闻",TVBS新闻台
+http://
+#EXTINF:-1 tvg-name="东森新闻台"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/news/dongs_news.png"group-title="新闻",东森新闻台
+http://
+#EXTINF:-1 tvg-name="CNA"tvg-id=""tvg-logo="https://raw.githubusercontent.com/takagen99/channel/master/logo/news/cna.png"group-title="新闻",CNA
+http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
