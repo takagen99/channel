@@ -18,9 +18,9 @@ J2,http://50.7.220.74:8278/j2_twn/playlist.m3u8?tid=m22905da1d346&ct=18336&tsum=
 J2,https://cdn.hklive.tv/xxxx/82/index.m3u8
 viuTV,http://50.7.220.74:8278/9ae6d37d9a/playlist.m3u8?tid=m7728dbb8abe7&ct=18336&tsum=6b7f957f06b7cfabd928653808a52514
 viuTV,https://cdn.hklive.tv/xxxx/99/index.m3u8
-viuTV 6,http://185.207.176.189:8080/channels/tv-96/playlist.m3u8
-viuTV 6,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH17/17
-viuTV 6,https://cdn.hklive.tv/xxxx/96/index.m3u8
+viuTV6,http://185.207.176.189:8080/channels/tv-96/playlist.m3u8
+viuTV6,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH17/17
+viuTV6,https://cdn.hklive.tv/xxxx/96/index.m3u8
 明珠台,http://pull-l3-cny.douyincdn.com/live/81c6196a626a87b4bc7a81d032b0bf7f.m3u8
 
 台湾,#genre#
@@ -73,12 +73,18 @@ Animax,http://iptv.tvfix.org/hls/animax.m3u8
 Animax,http://iptv.tvfix.org/hls/animax2.m3u8
 Animax,2p://ns2.hellotvvod.com:9906/cef0f0c485bd4cf7a7f101a971dff095.ts
 AT-X,https://sub2.neetball.net/live/neet.m3u8
-NHK,http://58.99.33.16:1935/liveedge17/live_108_3.stream/chunklist.m3u8
+NHK,http://redlabmcdn.s.llnwi.net/nv02/ryowa2hd/index.m3u8
 #NHKWorld-https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8
 NHKWorld,https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+Fuji TV,http://redlabmcdn.s.llnwi.net/nv02/ryowa7hd/index.m3u8
+TBS,http://redlabmcdn.s.llnwi.net/nv02/ryowa5hd/index.m3u8
+TBS,https://tbs2.mov3.co/hls/tbs.m3u8
+TV Asahi,http://redlabmcdn.s.llnwi.net/nv02/ryowa4hd/index.m3u8
+TV Tokyo,http://redlabmcdn.s.llnwi.net/nv02/ryowa6hd/index.m3u8
 纬来日本,rtmp://59.124.75.138/sat/tv771
 纬来日本,http://50.7.61.147:30080/Entry/vljp
 纬来日本,http://211.23.114.106:8537/http/60.251.39.91:8081/hls/69/811/ch34.m3u8
+纬来日本,http://50.7.220.74:8278/videolandjapan/playlist.m3u8?tid=MBEB7017910870179108&ct=19346&tsum=f7186077b9ae7cdb1970969bd90a4d0a
 WAKUWAKU JAPAN,http://211.23.114.106:8538/http/60.251.39.91:8081/hls/61/803/ch03.m3u8
 JET综合,http://198.16.64.10:8278/jettv_japan/playlist.m3u8?tid=MA7A4202687942026879&ct=19225&tsum=e84bc4851b9d6f6a18282c1efcb6ed1d
 Tokyo MX 1,https://movie.mcas.jp/mcas/mx1_2/chunklist.m3u8
@@ -87,6 +93,8 @@ Tokyo MX 2,https://movie.mcas.jp/mcas/mx2_2/chunklist.m3u8
 影视,#genre#
 AXN,P2p://ns2.hellotvvod.com:9906/b7285b85f2e040bfab9ef86c89e1e357.ts
 AXN,http://218.32.47.179:18558/http/192.168.1.9:8081/hls/71/813/ch43.m3u8
+AXN,http://pull-l3-cny.douyincdn.com/live/304b8e04a437299311112b7f4902c9dd.m3u8
+AXN,http://50.7.220.74:8278/axn_twn/playlist.m3u8?tid=MA1A8358225083582250&ct=19193&tsum=105511aaad1c3ff86d7489e83e18b209
 BOO,http://23.237.10.66:16420
 BOO,P2p://ns2.hellotvvod.com:9906/e5031f7bada04e3e963515d2fabbff67.ts
 HBO,P2p://ns2.hellotvvod.com:9906/94b11544b21e46efa1c31abd6f7c7d01.ts
@@ -126,6 +134,7 @@ Animal Planet,P2p://ns2.hellotvvod.com:9906/a882e17acbfa4d7c97b347673fc1be4e.ts
 BBC Earth,P2p://ns2.hellotvvod.com:9906/013e068b13b74a7eb8294fdd371cd1d0.ts
 BBC Earth,http://198.16.64.10:8278/bbcearth_twn/playlist.m3u8?tid=ME4E1221123312211233&ct=19225&tsum=6c7cae0711b757a53b43540bf40f93b0
 BBC Lifestyle,P2p://ns2.hellotvvod.com:9906/8433f4f630b44424a54d2c96339d4288.ts
+BBC Lifestyle,http://198.16.64.10:8278/bbclifestyle_twn/playlist.m3u8?tid=MFCF4299842642998426&ct=19225&tsum=d9cac5a62e5c33574ac9c3e860e01623
 Discovery,http://iptv.tvfix.org/hls/discovery.m3u8
 Discovery,P2p://ns2.hellotvvod.com:9906/4c71eae98a6e4a909e632a0a6ab99b3d.ts
 Love4KNature,http://177.20.208.58:8000/play/a03r/index.m3u8
