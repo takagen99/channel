@@ -1,12 +1,12 @@
 #https://bit.ly/diyp_live
 
 卫视,#genre#
-湖南卫视,http://124.220.17.172:1100/aas.php?id=20
-浙江卫视,http://124.220.17.172:1100/aas.php?id=21
+湖南卫视,http://223.109.123.15/liveplay-kk.rtxapp.com/live/program/live/hunanwshd8m/8000000/mnf.m3u8
+浙江卫视,http://223.109.123.15/liveplay-kk.rtxapp.com/live/program/live/zjwshd8m/8000000/mnf.m3u8
 浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
-江苏卫视,http://124.220.17.172:1100/aas.php?id=22
-东方卫视,http://124.220.17.172:1100/aas.php?id=23
-北京卫视,http://124.220.17.172:1100/aas.php?id=24
+江苏卫视,http://223.109.123.15/liveplay-kk.rtxapp.com/live/program/live/jswshd8m/8000000/mnf.m3u8
+东方卫视,http://223.109.123.15/liveplay-kk.rtxapp.com/live/program/live/dfwshd8m/8000000/mnf.m3u8
+北京卫视,http://223.109.123.15/liveplay-kk.rtxapp.com/live/program/live/bjwshd8m/8000000/mnf.m3u8
 
 香港,#genre#
 翡翠台,http://23.237.10.66:16106
@@ -61,8 +61,11 @@ TLC,http://198.16.64.10:8278/tlc_twn/playlist.m3u8?tid=MA0A5904082259040822&ct=1
 
 新马,#genre#
 Channel 5,https://dlau142f16b92.cloudfront.net/hls/clr4ctv_ch5/master.m3u8
+Channel 5,http://315600.xyz/a/ssmt.php?playurl=http://50.7.220.74:8278/Channel5HD/playlist.m3u8
 Channel 8,https://d34e90s3s13i7n.cloudfront.net/hls/clr4ctv_ch8/master.m3u8
+Channel 8,http://315600.xyz/a/ssmt.php?playurl=http://50.7.220.74:8278/Channel8HD/playlist.m3u8
 Channel U,https://d3inlz9elsutjl.cloudfront.net/hls/clr4ctv_chu/master.m3u8
+Channel U,http://315600.xyz/a/ssmt.php?playurl=http://50.7.220.74:8278/ChannelU/playlist.m3u8
 #CNA-http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 CNA,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 
