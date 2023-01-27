@@ -2,7 +2,7 @@
 // Old Logo             : https://i.imgur.com/dXWi9gd.png , https://i.imgur.com/laArUXs.png - v2
 
 {
-  "wallpaper": "https://takagen-wallpaper.herokuapp.com",
+  "wallpaper":"https://takkie.000webhostapp.com/img.php",
   "spider": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/20221013.jar?raw=true",
   "sites": [
     {

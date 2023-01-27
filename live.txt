@@ -49,12 +49,13 @@ TVBS欢乐台,http://198.16.64.10:8278/tvbshuanle_twn/playlist.m3u8?tid=MA9A4111
 国家地理,http://198.16.64.10:8278/natgeohd_twn/playlist.m3u8?tid=ME0E9332119893321198&ct=19225&tsum=86a42e161c519916f498348c3c672787
 国家地理,https://livecdn.fptplay.net/hda2/natgeohd_vhls.smil/chunklist_b5000000.m3u8
 国家地理野生,http://198.16.64.10:8278/natgeowild_twn/playlist.m3u8?tid=ME7E6122598161225981&ct=19225&tsum=c88897efa30d472128421acf3d4b62c8
+国家地理野生,https://epg.pw/stream/094279fa9715080fbb71998c532e48248c492f61790d8f226796972c0b224527.m3u8
 探索亚洲,http://198.16.64.10:8278/discoverytwn_twn/playlist.m3u8?tid=MCEC2689621926896219&ct=19225&tsum=1739c52807970a89c1c15d7afea86b26
 探索动力,http://198.16.64.10:8278/discoveryturbo_twn/playlist.m3u8?tid=MD5D5964869459648694&ct=19225&tsum=a21251b62069dff5c52601a3e4bc4a6d
 探索科学,http://198.16.64.10:8278/discoverysc_twn/playlist.m3u8?tid=MA9A4194864841948648&ct=19225&tsum=d87ede28c5152d8a730038fd5fb8207f
 探索频道,http://198.16.64.10:8278/discoveryhd_twn/playlist.m3u8?tid=ME6E2405719624057196&ct=19225&tsum=57a7c421c65e00c1b8f68f67c30141dc
 探索频道,https://livecdn.fptplay.net/hda2/discovery_vhls.smil/chunklist_b5000000.m3u8
-美食星球,http://198.16.64.10:8278/foodplanet_twn/playlist.m3u8?tid=MCCC8639507586395075&ct=19226&tsum=69f5a90ff21aa5f4f58667bcdd713353
+美食星球,http://198.16.106.155:8278/foodplanet_twn/playlist.m3u8?tid=MBEB9337207193372071&ct=19384&tsum=47d33a8b15f596f4424af8c3ff41a675
 亚洲美食,https://livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b5000000.m3u8
 TLC,http://198.16.64.10:8278/tlc_twn/playlist.m3u8?tid=MA0A5904082259040822&ct=19226&tsum=8fa7deead1d4b260825af15bc7378132
 
@@ -71,15 +72,21 @@ CNA,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index
 
 
 日本,#genre#
-Animax,https://livecdn.fptplay.net/hda3/animaxport_2000.stream/.m3u8?zgangd
-Animax,http://iptv.tvfix.org/hls/animax.m3u8
-Animax,http://iptv.tvfix.org/hls/animax2.m3u8
-Animax,2p://ns2.hellotvvod.com:9906/cef0f0c485bd4cf7a7f101a971dff095.ts
+Animax,https://epg.pw/stream/8c0d0a6437a7f61f0bd8f2a74727eec84a06fb590eef7f84eb07980313f8e2fb.m3u8
+Animax,https://epg.pw/stream/84dad25fd6e81b068e9473d142cbb376cbe6c94375c007ad2d8d51da9bc6cc01.m3u8
+Animax,https://epg.pw/stream/a2f5461fadaceb2f2562f6b09f4fb9351d240c67bdc7bc6b48f3a7371d388812.m3u8
+Animax,https://epg.pw/stream/1f00e5b77524efdac5b5a648c7bf4168950d587d008a5ad888d89b9aafb2bf93.m3u8
+Animax,p2p://ns2.hellotvvod.com:9906/cef0f0c485bd4cf7a7f101a971dff095.ts
 AT-X,https://sub2.neetball.net/live/neet.m3u8
 NHK,http://redlabmcdn.s.llnwi.net/nv02/ryowa2hd/index.m3u8
 #NHKWorld-https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8
 NHKWorld,https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
 Fuji TV,http://redlabmcdn.s.llnwi.net/nv02/ryowa7hd/index.m3u8
+BS-Asahi,https://epg.pw/stream/df8b5ed63e1318e411869ff6257719737176c7905ace25c40ef0fd9e86640971.m3u8
+BS-Fuji,http://redlabmcdn.s.llnwi.net/nv02/bs07hd/playlist.m3u8
+BS-Nippon TV,http://redlabmcdn.s.llnwi.net/nv02/bs03hd/playlist.m3u8
+BS-TBS,https://epg.pw/stream/c3acf08d10031bb21f2f958c4c479b6cc221393e497304f9664e5379746002f1.m3u8
+BS-TV Tokyo,http://redlabmcdn.s.llnwi.net/nv02/bs06hd/playlist.m3u8
 TBS,http://redlabmcdn.s.llnwi.net/nv02/ryowa5hd/index.m3u8
 TBS,https://tbs2.mov3.co/hls/tbs.m3u8
 TV Asahi,http://redlabmcdn.s.llnwi.net/nv02/ryowa4hd/index.m3u8
@@ -89,7 +96,10 @@ TV Tokyo,http://redlabmcdn.s.llnwi.net/nv02/ryowa6hd/index.m3u8
 纬来日本,http://211.23.114.106:8537/http/60.251.39.91:8081/hls/69/811/ch34.m3u8
 纬来日本,http://50.7.220.74:8278/videolandjapan/playlist.m3u8?tid=MBEB7017910870179108&ct=19346&tsum=f7186077b9ae7cdb1970969bd90a4d0a
 WAKUWAKU JAPAN,http://211.23.114.106:8538/http/60.251.39.91:8081/hls/61/803/ch03.m3u8
+WOWOW-Live,https://epg.pw/stream/2794600811f311094cb22449b2576e933af97cde6b3ecb9b954120aa97ad3a01.m3u8
+WOWOW-Prime,https://epg.pw/stream/1d06c2e1df26426021be35386381f328c06efa22d3637c9c13018f12332c8701.m3u8
 JET综合,http://198.16.64.10:8278/jettv_japan/playlist.m3u8?tid=MA7A4202687942026879&ct=19225&tsum=e84bc4851b9d6f6a18282c1efcb6ed1d
+JET综合,https://epg.pw/stream/b7e5ada6fda7faf4c03df18bed6204da174b1f99abdfc5addb4d3b71a70dcdfd.m3u8
 Tokyo MX 1,https://movie.mcas.jp/mcas/mx1_2/chunklist.m3u8
 Tokyo MX 2,https://movie.mcas.jp/mcas/mx2_2/chunklist.m3u8
 
@@ -108,7 +118,7 @@ HBO Hits,http://50.7.220.74:8278/hbohead_twn/playlist.m3u8?tid=MCDC6663932966639
 HBO Signature,P2p://ns2.hellotvvod.com:9906/4abbee6d3c1b4d549c4b2a7ad523f1f2.ts
 HBO Signature,http://198.16.64.10:8278/hbosignature_twn/playlist.m3u8?tid=MC5C5754321157543211&ct=19225&tsum=2b86077147813534b4cae6dd85bb3c4a
 Cinemax,P2p://ns2.hellotvvod.com:9906/d3a60ef0ff3646b286b421b528b75a41.ts
-Thrill,http://iptv.tvfix.org/hls/thrill.m3u8
+Thrill,https://epg.pw/stream/8822fc3b583da44a0fa923be5e461200e4530d731c80e79ac42abc20207cf5a9.m3u8
 FOX MOVIES,http://211.23.114.106:8560/http/116.50.42.19:8081/hls/62/804/ch08.m3u8
 FOX頻道,http://211.23.114.106:8561/http/116.50.42.19:8081/hls/61/803/ch02.m3u8
 卫视电影台,P2p://ns2.hellotvvod.com:9906/0c8695bb13dd46ccab6204aeb8d99660.ts
@@ -132,12 +142,14 @@ CINEMAX,http://50.7.220.74:8278/cinemax_twn/playlist.m3u8?tid=MCEC16145198161451
 纪录片,#genre#
 Asian Food Channel,P2p://ns2.hellotvvod.com:9906/c3c6af00613e456eac023ab2f1cbbe7c.ts
 Food Network,P2p://ns2.hellotvvod.com:9906/696ca7283f6042f19b0b302300e5d9ef.ts
+Animal Planet,https://epg.pw/stream/82d8a48ce25c71994dd0ed0828dbb754ec089840611b7d5c776f7cb6b573baf9.m3u8
 Animal Planet,rtmp://v3948069e.live.126.net/live/rN9gY7BW5dd2gO7zKoOV1tP8kU4cT8xH102/102
 Animal Planet,P2p://ns2.hellotvvod.com:9906/a882e17acbfa4d7c97b347673fc1be4e.ts
 BBC Earth,P2p://ns2.hellotvvod.com:9906/013e068b13b74a7eb8294fdd371cd1d0.ts
-BBC Earth,http://198.16.64.10:8278/bbcearth_twn/playlist.m3u8?tid=ME4E1221123312211233&ct=19225&tsum=6c7cae0711b757a53b43540bf40f93b0
+BBC Earth,http://198.16.106.155:8278/bbcearth_twn/playlist.m3u8?tid=MD8D8830395288303952&ct=19384&tsum=0d72fdcb9d5011263fbd9d1b4fe07562
 BBC Lifestyle,P2p://ns2.hellotvvod.com:9906/8433f4f630b44424a54d2c96339d4288.ts
 BBC Lifestyle,http://198.16.64.10:8278/bbclifestyle_twn/playlist.m3u8?tid=MFCF4299842642998426&ct=19225&tsum=d9cac5a62e5c33574ac9c3e860e01623
+BBC Lifestyle,http://198.16.106.155:8278/bbclifestyle_twn/playlist.m3u8?tid=MCBC4347701143477011&ct=19384&tsum=5190a04e973856082b7f3d405aa089a6
 Discovery,http://iptv.tvfix.org/hls/discovery.m3u8
 Discovery,P2p://ns2.hellotvvod.com:9906/4c71eae98a6e4a909e632a0a6ab99b3d.ts
 Love4KNature,http://177.20.208.58:8000/play/a03r/index.m3u8
