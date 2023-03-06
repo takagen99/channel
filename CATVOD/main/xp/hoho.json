@@ -59,7 +59,7 @@
   "dtActorR": "",
   "dtDirector": "//span[@class='video-info-itemtitle' and contains(text(), '导演')]/parent::*/div/a/text()",
   "dtDirectorR": "",
-  "dtDesc": "//div[contains(@class,'vod_content')]/text()",
+  "dtDesc": "//div[contains(@class,'vod_content')]/a/text()",
   "dtDescR": "",
 
   // Playlist =========================================================

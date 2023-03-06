@@ -1,20 +1,20 @@
 {
   "ua": "",
-  "homeUrl": "https://www.czspp.com",
-  
-// Manual Category =================================================
+  "homeUrl": "https://czzy01.com/",
+
+  // Manual Category =================================================
   "cateManual": {
     "CN": "movie_bt/movie_bt_series/guochanju",
     "JP":"movie_bt/movie_bt_series/rj",
     "KR": "movie_bt/movie_bt_series/hj",
     "US": "movie_bt/movie_bt_series/mj",
-    "Drama": "dsj",	
+    "Drama": "dsj",
     "Movies": "movie_bt/movie_bt_series/dyy",
     "Anime": "dm",
     "Documentaries":"movie_bt/movie_bt_tags/jlpp"
   },
 
-// Home Summary =====================================================
+  // Home Summary =====================================================
   "homeVodNode": "//div[contains(@class,'bt_img mi_ne_kd')]/ul/li/a",
   "homeVodName": "/following-sibling::h3/a/text()",
   "homeVodId": "/@href",
@@ -22,8 +22,8 @@
   "homeVodImg": "/img/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/div/span/text()",
-  
-// Category Summary =================================================
+
+  // Category Summary =================================================
   "cateUrl": "https://www.czspp.com/{cateId}/page/{catePg}",
   "cateVodNode": "//div[@class='bt_img mi_ne_kd mrb']/ul/li/a",
   "cateVodName": "/following-sibling::h3/a/text()",
@@ -33,47 +33,47 @@
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "/div/span/text()",
 
-// Category Details =================================================
+  // Category Details =================================================
   "dtUrl": "https://www.czspp.com/movie/{vid}.html",
-  "dtNode": "//div[@class='mi_ne_kd dypre']",
-  "dtName": "/div[@class='dytext fl']/div/h1/text()",
+  "dtNode": "//body[contains(@class,'movie_bt')]",
+  "dtName": "//div[@class='dytext fl']/div/h1/text()",
   "dtNameR": "/movie/(\\w+).html",
-  "dtImg": "/div[@class='dyimg fl']/img/@src",
+  "dtImg": "//div[@class='dyimg fl']/img/@src",
   "dtImgR": "\\S+(http\\S+)",
-  "dtCate": "/div[@class='dytext fl']/ul/li[contains(text(),'类型')]/a/text()",
+  "dtCate": "//div[@class='dytext fl']/ul/li[contains(text(),'类型')]/a/text()",
   "dtCateR": "",
-  "dtYear": "/div[@class='dytext fl']/ul/li[contains(text(),'年份')]/a/text()",
+  "dtYear": "//div[@class='dytext fl']/ul/li[contains(text(),'年份')]/a/text()",
   "dtYearR": "",
-  "dtArea": "/div[@class='dytext fl']/ul/li[contains(text(),'地区')]/a/text()",
+  "dtArea": "//div[@class='dytext fl']/ul/li[contains(text(),'地区')]/a/text()",
   "dtAreaR": "",
   "dtMark": "",
   "dtMarkR": "",
-  "dtActor": "/div[@class='dytext fl']/ul/li[contains(text(),'主演')]/a/text()",
+  "dtActor": "//div[@class='dytext fl']/ul/li[contains(text(),'主演')]/a/text()",
   "dtActorR": "",
-  "dtDirector": "/div[@class='dytext fl']/ul/li[contains(text(),'导演')/a/text()",
+  "dtDirector": "//div[@class='dytext fl']/ul/li[contains(text(),'导演')/a/text()",
   "dtDirectorR": "",
-  "dtDesc": "//div[@class='yp_context']/text()",
+  "dtDesc": "//p[1]/text()[1]",
   "dtDescR": "",
 
-// Playlist =========================================================
+  // Playlist =========================================================
   "dtFromNode": "//div[@class='mi_paly_box']/div[@class='mi_ne_kd']",
   "dtFromName": "/div[@class='ypxingq_t']/text()",
   "dtFromNameR": "",
   "dtUrlNode": "//div[@class='paly_list_btn']",
   "dtUrlSubNode": "/a",
-  "dtUrlId": "@href",
+  "dtUrlId": "/@href",
   "dtUrlIdR": "/v_play/(\\S+).html",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
-  "playUrl": "https://www.czspp.com/v_play/{playUrl}.html",
+  "playUrl": "https://czzy01.com/v_play/{playUrl}.html",
   "playUa": ""
-  
-// Search Results ===================================================
-//  "searchUrl": "https://www.czspp.com/xssearch?q={wd}",
-//  "scVodNode": "//div[@class='bt_img mi_ne_kd search_list']/ul/li/a",
-//  "scVodName": "/img/@alt",
-//  "scVodId": "/@href",
-//  "scVodIdR": "/movie/(\\w+).html",
-//  "scVodImg": "/img/@src",
-//  "scVodMark": "/div[@class='jidi']/span/text()"
+
+  // Search Results ===================================================
+  //  "searchUrl": "https://www.czspp.com/xssearch?q={wd}",
+  //  "scVodNode": "//div[@class='bt_img mi_ne_kd search_list']/ul/li/a",
+  //  "scVodName": "/img/@alt",
+  //  "scVodId": "/@href",
+  //  "scVodIdR": "/movie/(\\w+).html",
+  //  "scVodImg": "/img/@src",
+  //  "scVodMark": "/div[@class='jidi']/span/text()"
 }

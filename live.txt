@@ -9,12 +9,11 @@
 北京卫视,http://223.109.123.15/liveplay-kk.rtxapp.com/live/program/live/bjwshd8m/8000000/mnf.m3u8
 
 香港,#genre#
-翡翠台,http://23.237.10.66:16106
 翡翠台,http://r.jdshipin.com/62WM7
+翡翠台,https://epg.pw/stream/af0079cc64cb1c7e0c7021a67a8a3835e3ce2cd9b86161b0af693bb122c3c434.m3u8
 翡翠华丽台,https://pull-l3-cny.douyincdn.com/live/8f0f5b53f8ad921929fc9ac8771cbd82.m3u8
 J2,http://baidu.douyincdn.freetvtv.com/j2/index.m3u8
 J2,http://r.jdshipin.com/Nr5jq
-J2,http://50.7.220.74:8278/j2_twn/playlist.m3u8?tid=m22905da1d346&ct=18336&tsum=3b4998c4f5367bb820165f66b0caab0e
 J2,https://cdn.hklive.tv/xxxx/82/index.m3u8
 viuTV,http://50.7.220.74:8278/9ae6d37d9a/playlist.m3u8?tid=m7728dbb8abe7&ct=18336&tsum=6b7f957f06b7cfabd928653808a52514
 viuTV,https://cdn.hklive.tv/xxxx/99/index.m3u8
