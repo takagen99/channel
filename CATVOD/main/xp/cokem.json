@@ -1,11 +1,11 @@
 {
-  "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+  "ua": "Mozilla/5.0 (X11; CrOS x86_64 10066.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
   "homeUrl": "https://cokemv.me/",
   "dcVipFlag": "true",
-  "dcPlayUrl": "true",
-  "dcShow2Vip": {},
-  //  "pCfgJs": "https://cokemv.me/static/js/playerconfig.js",
+  //  "pCfgJs": "https://www.hoho.tv/static/js/playerconfig.js",
   //  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+  "dcShow2Vip": {},
+  "dcPlayUrl": "true",
   "cateManual": {
     "CN": "13",
     "HK": "16",
@@ -18,34 +18,34 @@
   },
 
   // Home Summary ====================================================
-  "homeVodNode": "//div[@class='module-main scroll-box']/div/a",
-  "homeVodName": "/@title",
-  "homeVodId": "/@href",
+  "homeVodNode": "//div[@class='main']",
+  "homeVodName": "//div[@class='v-title']/span/text()",
+  "homeVodId": "//div[@class='swiper-slide']/a/@href",
   "homeVodIdR": "/voddetail/(\\w+).html",
   "homeVodImg": "/div[1]/div[2]/img/@data-original",
   "homeVodMark": "/div[1]/div[1]/text()",
 
   // Category Summary ================================================
-  "cateUrl": "https://cokemv.me/index.php/vod/show/id/{cateId}.html",
+  "cateUrl": "https://cokemv.me/vodshow/{cateId}-----------.html",
   "cateVodNode": "//a[@class='module-poster-item module-item']",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
-  "cateVodIdR": "/index.php/vod/detail/id/(\\w+).html",
+  "cateVodIdR": "/voddetail/(\\w+).html",
   "cateVodImg": "/div[1]/div[2]/img/@data-original",
   "cateVodMark": "/div[1]/div[1]/text()",
 
   // Category Details ================================================
-  "dtUrl": "https://cokemv.me//index.php/vod/detail/id/{vid}.html",
+  "dtUrl": "https://cokemv.me/voddetail/{vid}.html",
   "dtNode": "//div[@class='module module-info']",    // must be unique
   "dtName": "//div/h1/text()",
   "dtNameR": "",
   "dtImg": "//div[1]/div[1]/div/div/img/@data-original",
-  "dtCate": "//p[@class='data'][1]/a[1]/text()",
-  "dtYear": "//div[@class='module-info-tag']/div[1]/a/text()",
-  "dtArea": "//div[@class='module-info-tag']/div[2]/a/text()",
-  "dtDirector": "//div[@class='module-info-item'][1]/div/a/text()",
+  "dtCate": "//div[@class='module-info-tag-link'][3]/a/text()",
+  "dtYear": "//div[@class='module-info-tag-link'][1]/a/@title",
+  "dtArea": "//div[@class='module-info-tag-link'][2]/a/@title",
+  "dtDirector": "//div[@class='module-info-item'][1]/div[@class='module-info-item-content']/a/text()",
   "dtActor": "//div[@class='module-info-item'][3]/div/a/text()",
-  "dtDesc": "//div[@class='module-info-introduction-content']/p/text()",
+  "dtDesc": "//div[@class='module-info-introduction-content show-desc']/p/text()",
 
   // Playlist ========================================================
   "dtFromNode": "//div[@class='module-tab-items-box hisSwiper']/div/span",
@@ -53,9 +53,10 @@
   "dtUrlNode": "//div[@class='module-list sort-list tab-list his-tab-list']/div/div",
   "dtUrlSubNode": "/a",
   "dtUrlId": "/@href",
+  "dtUrlIdR": "/vodplay/(\\S+).html",
   "dtUrlName": "/span/text()",
   "dtUrlNameR": "",
-  "playUrl": "https://cokemv.me/{playUrl}.html",
+  "playUrl": "https://cokemv.me/vodplay/{playUrl}.html",
   "playUa": "",
 
   // Search Results ==================================================

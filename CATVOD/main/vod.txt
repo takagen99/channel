@@ -24,16 +24,16 @@
       "filterable": 1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/sp/alist.json"
     },
-//    {
-//      "key": "py_alist",
-//      "name": "Alist-PY",
-//      "type": 3,
-//      "api": "py_alist",
-//      "searchable": 1,
-//      "quickSearch": 1,
-//      "filterable": 0,
-//      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/py/py_alist.py"
-//    },
+    {
+      "key": "py_alist",
+      "name": "Alist-PY",
+      "type": 3,
+      "api": "py_alist",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/py/py_alist.py"
+    },
     /////////////////////////// 1. Category XP ///////////////////////////
     {
       "key": "Type1",
@@ -143,37 +143,26 @@
       "filterable": 1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/auete.json"
     },
-    {
-      // ok
-      "key": "xp_ctv",
-      "name": "冲tmTV",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/chongtmtv.json"
-    },
     //    {
-    //      // to fix
-    //      "key": "xp_cokemv",
-    //      "name": "Cokemv",
+    //      // site down
+    //      "key": "xp_ctv",
+    //      "name": "冲tmTV",
     //      "type": 3,
     //      "api": "csp_XPathMacFilter",
     //      "searchable": 1,
     //      "quickSearch": 1,
     //      "filterable": 1,
-    //      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/cokem.json"
+    //      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/chongtmtv.json"
     //    },
     {
-      "key": "xbpq_cokemv",
+      "key": "xp_cokemv",
       "name": "Cokemv",
       "type": 3,
-      "api": "csp_xBPQ",
+      "api": "csp_XPathMacFilter",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xbpq/cokem.json"
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/cokem.json"
     },
     //    {
     //      "key": "xp_dgg",
@@ -230,17 +219,17 @@
     //      "filterable": 1,
     //      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/lezhu.json"
     //    },
-    {
-      // to fix
-      "key": "xp_libv",
-      "name": "Libvio",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/libv.json"
-    },
+    //    {
+    //      // to fix
+    //      "key": "xp_libv",
+    //      "name": "Libvio",
+    //      "type": 3,
+    //      "api": "csp_XPathMacFilter",
+    //      "searchable": 1,
+    //      "quickSearch": 1,
+    //      "filterable": 1,
+    //      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/libv.json"
+    //    },
     //    {
     //      // site down
     //      "key": "xp_mjc",
@@ -326,17 +315,17 @@
       "categories": [
       ]
     },
-//    {
-//      "key": "xp_pianba",
-//      // site down
-//      "name": "片吧",
-//      "type": 3,
-//      "api": "csp_XPath",
-//      "searchable": 1,
-//      "quickSearch": 1,
-//      "filterable": 0,
-//      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/pianba.json"
-//    },
+    //    {
+    //      "key": "xp_pianba",
+    //      // site down
+    //      "name": "片吧",
+    //      "type": 3,
+    //      "api": "csp_XPath",
+    //      "searchable": 1,
+    //      "quickSearch": 1,
+    //      "filterable": 0,
+    //      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/pianba.json"
+    //    },
     //////////////////////// 1. Category XP - Anime ////////////////////////
     {
       "key": "xp_age",
