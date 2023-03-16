@@ -371,6 +371,16 @@
       "filterable": 1,
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/sakura.json"
     },
+    {
+      "key": "xp_ysj",
+      "name": "异世界动漫",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/ysj.json"
+    },
     /////////////////////////// 2. Category XB ///////////////////////////
     {
       "key": "Type2",
