@@ -3,7 +3,7 @@
     "homeUrl": "https://www.duboku.tv/",
     "dcVipFlag": "true",
     "dcPlayUrl": "true",
-//  "cateNode": "//ul[contains(@class,'nav-menu')]/li/a[contains(@href, 'vodtype')and not(contains(@href,'20'))]",    
+//  "cateNode": "//ul[contains(@class,'nav-menu')]/li/a[contains(@href, 'vodtype')and not(contains(@href,'20'))]",
     "cateNode": "//ul[contains(@class,'nav-menu')]/li/a[contains(@href, 'vodtype')]",
     "cateName": "/text()",
     "cateId": "/@href",
@@ -11,14 +11,14 @@
     "cateManual": {
       "国产剧": "13",
       "香港剧": "20",
-      "台湾剧": "14",	
+      "台湾剧": "14",
       "欧美剧": "16",
       "日韩剧": "15",
       "综艺": "3",
       "动漫": "4"
     },
-    
-// Home Summary ================================================      
+
+// Home Summary ================================================
     "homeVodNode": "//ul[contains(@class,'myui-vodlist')]/li/div/a",
     "homeVodName": "/@title",
     "homeVodId": "/@href",
@@ -26,8 +26,8 @@
     "homeVodImg": "/@data-original",
     "homeVodImgR": "\\S+(http\\S+)",
     "homeVodMark": "//span[contains(@class,'pic-text')]/text()",
-    
-// Category Summary ================================================      
+
+// Category Summary ================================================
     "cateUrl": "https://www.duboku.tv/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
     "cateVodNode": "//ul[contains(@class,'myui-vodlist')]/li/div/a",
     "cateVodName": "/@title",
@@ -36,8 +36,8 @@
     "cateVodImg": "/@data-original",
     "cateVodImgR": "\\S+(http\\S+)",
     "cateVodMark": "//span[contains(@class,'pic-text')]/text()",
-    
-// Category Details ================================================        
+
+// Category Details ================================================
     "dtUrl": "https://my.duboku.vip/voddetail/{vid}.html",
     "dtNode": "//body",
     "dtName": "//div[contains(@class,'myui-content__thumb')]/a/@title",
@@ -50,9 +50,10 @@
     "dtMark": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '更新')]/following-sibling::a/text()",
     "dtDirector": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '导演')]/following-sibling::a/text()",
     "dtActor": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '主演')]/following-sibling::a/text()",
-    "dtDesc": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '简介')]/following-sibling::a/text()",
-    
-// Playlist =====================================================       
+    "dtDesc": "//span[@class='data'][1]/p[1]/text()",
+    "dtDescR": "substring-after(.,'介：')",
+
+// Playlist =====================================================
     "dtFromNode": "//ul[contains(@class,'nav-tabs')]/li/a",
     "dtFromName": "/text()",
     "dtFromNameR": "",
@@ -64,8 +65,8 @@
     "dtUrlNameR": "",
     "playUrl": "https://my.duboku.vip/vodplay/{playUrl}.html",
     "playUa": "",
-    
-// Search Results ================================================         
+
+// Search Results ================================================
     "searchUrl": "https://my.duboku.vip/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
     "scVodNode": "json:list",
     "scVodName": "name",
@@ -73,8 +74,8 @@
     "scVodIdR": "",
     "scVodImg": "pic",
     "scVodMark": "",
-    
-// Filters =======================================================    
+
+// Filters =======================================================
     "filter": {
       "13": [
         {
@@ -82,7 +83,8 @@
           "name": "年份",
           "value": [
             {"n": "全部","v": ""},
-            {"n": "2022","v": "2022"},              
+            {"n": "2023","v": "2023"},
+            {"n": "2022","v": "2022"},
             {"n": "2021","v": "2021"},
             {"n": "2020","v": "2020"},
             {"n": "2019","v": "2019"},
@@ -97,7 +99,8 @@
           "name": "年份",
           "value": [
             {"n": "全部","v": ""},
-            {"n": "2022","v": "2022"},              
+            {"n": "2023","v": "2023"},
+            {"n": "2022","v": "2022"},
             {"n": "2021","v": "2021"},
             {"n": "2020","v": "2020"},
             {"n": "2019","v": "2019"},
@@ -112,7 +115,8 @@
           "name": "年份",
           "value": [
             {"n": "全部","v": ""},
-            {"n": "2022","v": "2022"},              
+            {"n": "2023","v": "2023"},
+            {"n": "2022","v": "2022"},
             {"n": "2021","v": "2021"},
             {"n": "2020","v": "2020"},
             {"n": "2019","v": "2019"},
@@ -127,7 +131,8 @@
           "name": "年份",
           "value": [
             {"n": "全部","v": ""},
-            {"n": "2022","v": "2022"},              
+            {"n": "2023","v": "2023"},
+            {"n": "2022","v": "2022"},
             {"n": "2021","v": "2021"},
             {"n": "2020","v": "2020"},
             {"n": "2019","v": "2019"},
@@ -142,7 +147,8 @@
           "name": "年份",
           "value": [
             {"n": "全部","v": ""},
-            {"n": "2022","v": "2022"},              
+            {"n": "2023","v": "2023"},
+            {"n": "2022","v": "2022"},
             {"n": "2021","v": "2021"},
             {"n": "2020","v": "2020"},
             {"n": "2019","v": "2019"},
@@ -184,7 +190,8 @@
           "name": "年份",
           "value": [
             {"n": "全部","v": ""},
-            {"n": "2022","v": "2022"},              
+            {"n": "2023","v": "2023"},
+            {"n": "2022","v": "2022"},
             {"n": "2021","v": "2021"},
             {"n": "2020","v": "2020"},
             {"n": "2019","v": "2019"},
@@ -220,7 +227,8 @@
           "name": "年份",
           "value": [
             {"n": "全部","v": ""},
-            {"n": "2022","v": "2022"},              
+            {"n": "2023","v": "2023"},
+            {"n": "2022","v": "2022"},
             {"n": "2021","v": "2021"},
             {"n": "2020","v": "2020"},
             {"n": "2019","v": "2019"}
@@ -230,7 +238,7 @@
           "key": "by",
           "name": "排序",
           "value": [
-            {"n": "排序","v": ""},              
+            {"n": "排序","v": ""},
             {"n": "更新","v": "time"},
             {"n": "人气","v": "hits"},
             {"n": "评分","v": "score"}
@@ -254,7 +262,8 @@
           "name": "年份",
           "value": [
             {"n": "全部","v": ""},
-            {"n": "2022","v": "2022"},              
+            {"n": "2023","v": "2023"},
+            {"n": "2022","v": "2022"},
             {"n": "2021","v": "2021"},
             {"n": "2020","v": "2020"},
             {"n": "2019","v": "2019"},
@@ -266,7 +275,7 @@
           "key": "by",
           "name": "排序",
           "value": [
-            {"n": "排序","v": ""},              
+            {"n": "排序","v": ""},
             {"n": "更新","v": "time"},
             {"n": "人气","v": "hits"},
             {"n": "评分","v": "score"}
@@ -287,7 +296,8 @@
           "name": "年份",
           "value": [
             {"n": "全部","v": ""},
-            {"n": "2022","v": "2022"},              
+            {"n": "2023","v": "2023"},
+            {"n": "2022","v": "2022"},
             {"n": "2021","v": "2021"},
             {"n": "2020","v": "2020"},
             {"n": "2019","v": "2019"},
@@ -299,12 +309,12 @@
           "key": "by",
           "name": "排序",
           "value": [
-            {"n": "排序","v": ""},              
+            {"n": "排序","v": ""},
             {"n": "更新","v": "time"},
             {"n": "人气","v": "hits"},
             {"n": "评分","v": "score"}
           ]
-        }          
-      ]        
+        }
+      ]
     }
   }
