@@ -241,19 +241,19 @@
     //      "filterable": 1,
     //      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/meijuchong.json"
     //    },
+    //    {
+    //      // site down
+    //      "key": "xp_nfm",
+    //      "name": "Netflix MOM",
+    //      "type": 3,
+    //      "api": "csp_XPathFilter",
+    //      "searchable": 1,
+    //      "quickSearch": 1,
+    //      "filterable": 1,
+    //      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/nfm.json"
+    //    },
     {
-      // to fix
-      "key": "xp_nfm",
-      "name": "Netflix MOM",
-      "type": 3,
-      "api": "csp_XPathFilter",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/nfm.json"
-    },
-    {
-      // to fix
+      // to fix : geo-location
       "key": "xp_saohuotv",
       "name": "骚火电影",
       "type": 3,
@@ -339,8 +339,8 @@
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/agefans.json"
     },
     {
+      // ok
       "key": "xp_dm84",
-      // to fix
       "name": "动漫巴士",
       "type": 3,
       "api": "csp_XPath",
