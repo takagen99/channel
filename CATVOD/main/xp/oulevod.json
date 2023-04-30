@@ -59,8 +59,8 @@
   "dtActorR": "",
   "dtDirector": "//span[@class='video-info-itemtitle' and contains(text(), '导演')]/parent::*/div/a/text()",
   "dtDirectorR": "",
-  "dtDesc": "//li[@class='hl-col-xs-12 blurb']",
-  "dtDescR": "[substring-before(.,'(')]", // "substring-after(.,'介：')",
+  "dtDesc": "//li[@class='hl-col-xs-12 blurb']/text()",
+  // "dtDescR": "[substring-before(.,'(')]", // "substring-after(.,'介：')",
 
   // Playlist =========================================================
   "dtFromNode": "//div[@class='hl-play-source hl-hidden']/div/div/a",
