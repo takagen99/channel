@@ -186,17 +186,17 @@
       "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/duboku.json",
       "jar": "https://github.com/takagen99/channel/blob/master/CATVOD/jar/20220424.jar?raw=true"
     },
-    {
-      // ok
-      "key": "xp_gimy",
-      "name": "Gimy剧迷",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/gimy.json"
-    },
+    //    {
+    //      // ok
+    //      "key": "xp_gimy",
+    //      "name": "Gimy剧迷",
+    //      "type": 3,
+    //      "api": "csp_XPathMacFilter",
+    //      "searchable": 1,
+    //      "quickSearch": 1,
+    //      "filterable": 1,
+    //      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/xp/gimy.json"
+    //    },
     //    {
     //      // site down
     //      "key": "xp_jh",
