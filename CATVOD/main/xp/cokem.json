@@ -18,11 +18,11 @@
   },
 
   // Home Summary ====================================================
-  "homeVodNode": "//div[@class='main']",
-  "homeVodName": "//div[@class='v-title']/span/text()",
-  "homeVodId": "//div[@class='swiper-slide']/a/@href",
+  "homeVodNode": "//a[@class='module-poster-item module-item']",
+  "homeVodName": "/@title",
+  "homeVodId": "/@href",
   "homeVodIdR": "/voddetail/(\\w+).html",
-  "homeVodImg": "/div[1]/div[2]/img/@data-original",
+  "homeVodImg": "//img[@class='lazy lazyload']/@data-original",
   "homeVodMark": "/div[1]/div[1]/text()",
 
   // Category Summary ================================================

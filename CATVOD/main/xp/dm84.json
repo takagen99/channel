@@ -8,19 +8,19 @@
   "cateManual": {
     "日本": "2",
     "欧美": "3",
-    "中国": "1", 
+    "中国": "1",
     "电影": "4"
   },
 
-// Home Summary ================================================  
-  "homeVodNode": "//ul[@class='v_list']/li/div[@class='item']",
-  "homeVodName": "/a[@class='title']/@title",
+  // Home Summary ================================================
+  "homeVodNode": "//div[@class='item']",
+  "homeVodName": "/a[@class='title']/text()",
   "homeVodId": "/a[@class='title']/@href",
   "homeVodIdR": "/v/(\\w+).html",
   "homeVodImg": "/a/@data-bg",
   "homeVodMark": "/span[@class='desc']/text()",
 
-// Category Summary ================================================  
+  // Category Summary ================================================
   "cateUrl": "https://dm84.tv/show-{cateId}-----{year}-{catePg}.html", //"https://dm84.tv/show-{cateId}-----{year}-{catePg}.html",
   "cateVodNode": "//ul[@class='v_list']/li/div[@class='item']",
   "cateVodName": "/a[@class='title']/@title",
@@ -29,7 +29,7 @@
   "cateVodImg": "/a/@data-bg",
   "cateVodMark": "/span[@class='desc']/text()",
 
-// Category Details ================================================ 
+  // Category Details ================================================
   "dtUrl": "https://dm84.tv/v/{vid}.html",
   "dtNode": "//body",
   "dtName": "//h1[@class='v_title']/a/text()",
@@ -49,7 +49,7 @@
   "dtDesc": "//p[contains(text(),'剧情')]/text()",
   "dtDescR": "\\S+：(\\S+)",
 
-// Playlist =====================================================	
+  // Playlist =====================================================
   "dtFromNode": "//ul[contains(@class,'play_from')]/li",
   "dtFromName": "/text()",
   "dtUrlNode": "//ul[contains(@class,'play_list')]",
@@ -59,7 +59,7 @@
   "dtUrlName": "/text()",
   "playUrl": "https://dm84.tv/p/{playUrl}.html",
 
-// Search Results ================================================ 
+  // Search Results ================================================
   "searchUrl": "https://dm84.tv/s----------.html?wd={wd}",
   "scVodNode": "//ul[@class='v_list']/li/div[@class='item']",
   "scVodName": "/a[@class='title']/@title",
@@ -68,7 +68,7 @@
   "scVodImg": "/a/@data-bg",
   "scVodMark": "/span[@class='desc']/text()",
 
-// Filters =======================================================
+  // Filters =======================================================
   "filter": {
     "1": [
       {

@@ -1,14 +1,15 @@
 {
   "ua": "",
-  "homeUrl": "http://www.yinghuacd.com",
+  "homeUrl": "http://www.yinghuavideo.com/",
   "cateManual": {
     "日本": "japan",
-    "国漫": "china", 
+    "韩国": "korea",
+    "国漫": "china",
     "美国": "american"
-//    "电影": "movie"
+    //    "电影": "movie"
   },
 
-// Home Summary ====================================================
+  // Home Summary ====================================================
   "homeVodNode": "//div[@class='img']/ul/li",
   "homeVodName": "/p[@class='tname']/a/text()",
   "homeVodNameR": "",
@@ -18,17 +19,17 @@
   "homeVodImgR": "",
   "homeVodMark": "/p[contains(text(),'最新')]/a/text()",
   "homeVodMarkR": "",
-  
-// Category Summary ================================================
-  "cateUrl": "http://www.yinghuacd.com/{cateId}/{catePg}.html",
+
+  // Category Summary ================================================
+  "cateUrl": "http://www.yinghuavideo.com/{cateId}/{catePg}.html",
   "cateVodNode": "//div[@class='lpic']/ul/li",
   "cateVodName": "/h2/a/text()",
   "cateVodId": "/a/@href",
   "cateVodIdR": "/show/(\\w+).html",
   "cateVodImg": "/a/img/@src",
   "cateVodMark": "/span/font/text()",
-  
-// Category Details ================================================
+
+  // Category Details ================================================
   "dtUrl": "http://www.yinghuacd.com/show/{vid}.html",
   "dtNode": "//div[@class='fire l']",
   "dtName": "//div[@class='thumb l']/img/@alt",
@@ -45,21 +46,21 @@
   "dtMarkR": "",
   "dtDesc": "//div[@class='info']/text()",
   "dtDescR": "",
-  
-// Playlist ========================================================
+
+  // Playlist ========================================================
   "dtFromNode": "//div[contains(@class,'tabs')]/ul[@class='menu0']/li",
   "dtFromName": "/text()",
   "dtUrlNode": "//div[contains(@class,'movurl')]/ul",
   "dtUrlSubNode": "/li/a",
-  "dtUrlId": "@href",
+  "dtUrlId": "/@href",
   "dtUrlIdR": "/v/(\\S+).html",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
-  "playUrl": "http://www.yinghuacd.com/v/{playUrl}.html",
+  "playUrl": "http://www.yinghuavideo.com/v/{playUrl}.html",
   "playUa": "",
-  
-// Search Results ==================================================
-  "searchUrl": "http://www.yinghuacd.com/search/{wd}",
+
+  // Search Results ==================================================
+  "searchUrl": "http://www.yinghuavideo.com/search/{wd}",
   "scVodNode": "//div[@class='lpic']/ul/li",
   "scVodName": "/a/img/@alt",
   "scVodId": "/a/@href",

@@ -1,6 +1,6 @@
 {
   "ua": "Mozilla/5.0 (X11; CrOS x86_64 10066.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
-  "homeUrl": "https://oulevod.tv/",
+  "homeUrl": "https://olevod1.com/",
   "dcVipFlag": "true",
   //  "pCfgJs": "https://www.hoho.tv/static/js/playerconfig.js",
   //  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
@@ -22,7 +22,7 @@
   },
 
   // Home Summary =====================================================
-  "homeVodNode": "//div[contains(@class,'hl-list-wrap')]/ul/li[contains(@class,'hl-list-item')]",
+  "homeVodNode": "//div[@class='hl-list-wrap hl-list-rk hl-list-vn hl-list-swiper']/ul/li[contains(@class,'hl-list-item')]",
   "homeVodName": "/a/@title",
   "homeVodId": "/a/@href",
   "homeVodIdR": "/index.php/vod/detail/id/(\\S+).html",
