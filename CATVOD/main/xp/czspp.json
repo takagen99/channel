@@ -1,6 +1,6 @@
 {
   "ua": "",
-  "homeUrl": "https://czzy03.com/",  // "https://czzy01.com/",
+  "homeUrl": "https://cz01.cc/",  // "https://czzy01.com/",
 
   // Manual Category =================================================
   "cateManual": {
@@ -24,7 +24,7 @@
   "homeVodMark": "/div/span/text()",
 
   // Category Summary =================================================
-  "cateUrl": "https://czzy03.com/{cateId}/page/{catePg}",
+  "cateUrl": "https://cz01.cc/{cateId}/page/{catePg}",
   "cateVodNode": "//div[@class='bt_img mi_ne_kd mrb']/ul/li/a",
   "cateVodName": "/following-sibling::h3/a/text()",
   "cateVodId": "/@href",
@@ -34,7 +34,7 @@
   "cateVodMark": "/div/span/text()",
 
   // Category Details =================================================
-  "dtUrl": "https://czzy03.com/movie/{vid}.html",
+  "dtUrl": "https://cz01.cc/movie/{vid}.html",
   "dtNode": "//body[contains(@class,'movie_bt')]",
   "dtName": "//div[@class='dytext fl']/div/h1/text()",
   "dtNameR": "/movie/(\\w+).html",
@@ -65,11 +65,11 @@
   "dtUrlIdR": "/v_play/(\\S+).html",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
-  "playUrl": "https://czzy03.com/v_play/{playUrl}.html",
+  "playUrl": "https://cz01.cc/v_play/{playUrl}.html",
   "playUa": ""
 
   // Search Results ===================================================
-  //  "searchUrl": "https://czzy03.com/xssearch?q={wd}",
+  //  "searchUrl": "https://cz01.cc/xssearch?q={wd}",
   //  "scVodNode": "//div[@class='bt_img mi_ne_kd search_list']/ul/li/a",
   //  "scVodName": "/img/@alt",
   //  "scVodId": "/@href",
