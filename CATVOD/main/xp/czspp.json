@@ -1,6 +1,6 @@
 {
   "ua": "",
-  "homeUrl": "https://cz01.cc/",  // "https://czzy01.com/",
+  "homeUrl": "https://www.czzy88.com/",  // "https://czzy01.com/",
 
   // Manual Category =================================================
   "cateManual": {
@@ -24,7 +24,7 @@
   "homeVodMark": "/div/span/text()",
 
   // Category Summary =================================================
-  "cateUrl": "https://cz01.cc/{cateId}/page/{catePg}",
+  "cateUrl": "https://www.czzy88.com/{cateId}/page/{catePg}",
   "cateVodNode": "//div[@class='bt_img mi_ne_kd mrb']/ul/li/a",
   "cateVodName": "/following-sibling::h3/a/text()",
   "cateVodId": "/@href",
@@ -34,7 +34,7 @@
   "cateVodMark": "/div/span/text()",
 
   // Category Details =================================================
-  "dtUrl": "https://cz01.cc/movie/{vid}.html",
+  "dtUrl": "https://www.czzy88.com/movie/{vid}.html",
   "dtNode": "//body[contains(@class,'movie_bt')]",
   "dtName": "//div[@class='dytext fl']/div/h1/text()",
   "dtNameR": "/movie/(\\w+).html",
@@ -65,7 +65,7 @@
   "dtUrlIdR": "/v_play/(\\S+).html",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
-  "playUrl": "https://cz01.cc/v_play/{playUrl}.html",
+  "playUrl": "https://www.czzy88.com/v_play/{playUrl}.html",
   "playUa": ""
 
   // Search Results ===================================================
