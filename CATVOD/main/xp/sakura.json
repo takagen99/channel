@@ -1,6 +1,9 @@
 {
-  "ua": "",
-  "homeUrl": "http://www.yinghuavideo.com/",
+  "ua": "Mozilla/5.0 (X11; CrOS x86_64 10066.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
+  "homeUrl": "http://www.iyinghua.io/",
+  "dcVipFlag": "true",
+  "dcShow2Vip": {},
+  "dcPlayUrl": "true",
   "cateManual": {
     "日本": "japan",
     "韩国": "korea",
@@ -21,7 +24,7 @@
   "homeVodMarkR": "",
 
   // Category Summary ================================================
-  "cateUrl": "http://www.yinghuavideo.com/{cateId}/{catePg}.html",
+  "cateUrl": "http://www.iyinghua.io/{cateId}/{catePg}.html",
   "cateVodNode": "//div[@class='lpic']/ul/li",
   "cateVodName": "/h2/a/text()",
   "cateVodId": "/a/@href",
@@ -30,7 +33,7 @@
   "cateVodMark": "/span/font/text()",
 
   // Category Details ================================================
-  "dtUrl": "http://www.yinghuacd.com/show/{vid}.html",
+  "dtUrl": "http://www.iyinghua.io/show/{vid}.html",
   "dtNode": "//div[@class='fire l']",
   "dtName": "//div[@class='thumb l']/img/@alt",
   "dtNameR": "",
@@ -56,11 +59,11 @@
   "dtUrlIdR": "/v/(\\S+).html",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
-  "playUrl": "http://www.yinghuavideo.com/v/{playUrl}.html",
+  "playUrl": "http://www.iyinghua.io/v/{playUrl}.html",
   "playUa": "",
 
   // Search Results ==================================================
-  "searchUrl": "http://www.yinghuavideo.com/search/{wd}",
+  "searchUrl": "http://www.iyinghua.io/search/{wd}",
   "scVodNode": "//div[@class='lpic']/ul/li",
   "scVodName": "/a/img/@alt",
   "scVodId": "/a/@href",
