@@ -24,7 +24,7 @@
   "homeVodMark": "/a/button/text()",
 
   // Category Summary ================================================
-  "cateUrl": "https://auete.com/{cateId}/index.html",
+  "cateUrl": "https://auete.pro/{cateId}/index{catePg}.html",
   "cateVodNode": "//div[contains(@class,'picture_list_container')]/ul/li",
   "cateVodName": "/a/img/@title",
   "cateVodId": "/h2/a/@href",
@@ -32,7 +32,7 @@
   "cateVodMark": "/a/button/text()",
 
   // Category Details ================================================
-  "dtUrl": "https://auete.com/{vid}",
+  "dtUrl": "https://auete.pro/{vid}",
   "dtNode": "//div[@class='card-body']",
   "dtName": "//h1[contains(@class,'title break-all')]/text()",
   "dtImg":  "//div[@class='cover']/a/@href",
@@ -51,11 +51,11 @@
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "/@href",
   "dtUrlName": "/text()",
-  "playUrl": "https://auete.com/{playUrl}",
+  "playUrl": "https://auete.pro/{playUrl}",
   "playUa": "",
 
   // Search Results ================================================
-  "searchUrl": "https://auete.com/search.php?searchword={wd}",
+  "searchUrl": "https://auete.pro/search.php?searchword={wd}",
   "scVodNode": "json:list",
   "scVodName": "name",
   "scVodId": "id",
