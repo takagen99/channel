@@ -1,6 +1,6 @@
 {
   "ua": "",
-  "homeUrl": "https://dm84.tv",
+  "homeUrl": "https://dm84.net",
   "cateNode": "//ul[contains(@class,'nav_row')]/li/a[contains(@href, '.html')]",
   "cateName": "/text()",
   "cateId": "/@href",
@@ -21,7 +21,7 @@
   "homeVodMark": "/span[@class='desc']/text()",
 
   // Category Summary ================================================
-  "cateUrl": "https://dm84.tv/show-{cateId}-----{year}-{catePg}.html", //"https://dm84.tv/show-{cateId}-----{year}-{catePg}.html",
+  "cateUrl": "https://dm84.net/show-{cateId}-----{year}-{catePg}.html", //"https://dm84.net/show-{cateId}-----{year}-{catePg}.html",
   "cateVodNode": "//ul[@class='v_list']/li/div[@class='item']",
   "cateVodName": "/a[@class='title']/@title",
   "cateVodId": "/a[@class='title']/@href",
@@ -30,7 +30,7 @@
   "cateVodMark": "/span[@class='desc']/text()",
 
   // Category Details ================================================
-  "dtUrl": "https://dm84.tv/v/{vid}.html",
+  "dtUrl": "https://dm84.net/v/{vid}.html",
   "dtNode": "//body",
   "dtName": "//h1[@class='v_title']/a/text()",
   "dtImg": "//div[@class='cover']/img/@src",
@@ -57,10 +57,10 @@
   "dtUrlId": "@href",
   "dtUrlIdR": "/p/(\\S+).html",
   "dtUrlName": "/text()",
-  "playUrl": "https://dm84.tv/p/{playUrl}.html",
+  "playUrl": "https://dm84.net/p/{playUrl}.html",
 
   // Search Results ================================================
-  "searchUrl": "https://dm84.tv/s----------.html?wd={wd}",
+  "searchUrl": "https://dm84.net/s----------.html?wd={wd}",
   "scVodNode": "//ul[@class='v_list']/li/div[@class='item']",
   "scVodName": "/a[@class='title']/@title",
   "scVodId": "/a[@class='title']/@href",
@@ -76,6 +76,8 @@
         "name": "年份",
         "value": [
           {"n": "全部","v": ""},
+          {"n": "2025","v": "2025"},
+          {"n": "2024","v": "2024"},          
           {"n": "2023","v": "2023"},
           {"n": "2022","v": "2022"},
           {"n": "2021","v": "2021"},
@@ -99,6 +101,8 @@
         "name": "年份",
         "value": [
           {"n": "全部","v": ""},
+          {"n": "2025","v": "2025"},
+          {"n": "2024","v": "2024"},           
           {"n": "2023","v": "2023"},
           {"n": "2022","v": "2022"},
           {"n": "2021","v": "2021"},
@@ -122,6 +126,8 @@
         "name": "年份",
         "value": [
           {"n": "全部","v": ""},
+          {"n": "2025","v": "2025"},
+          {"n": "2024","v": "2024"},           
           {"n": "2023","v": "2023"},
           {"n": "2022","v": "2022"},
           {"n": "2021","v": "2021"},
@@ -145,6 +151,8 @@
         "name": "年份",
         "value": [
           {"n": "全部","v": ""},
+          {"n": "2025","v": "2025"},
+          {"n": "2024","v": "2024"},           
           {"n": "2023","v": "2023"},
           {"n": "2022","v": "2022"},
           {"n": "2021","v": "2021"},
